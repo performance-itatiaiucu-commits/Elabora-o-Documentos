@@ -1,0 +1,5005 @@
+<div class="page"><img class="cover-brand" src="assets/logo.png" alt="Grupo Performance">
+
+<h1 class="cover-title">PGRTR</h1>
+
+<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS NO TRABALHO RURAL</p>
+
+<p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
+
+<div class="cover-info">
+<div class="cover-empresa">{{NOME_EMPRESA}}<img class="cover-client" src="{{LOGO_IMG}}" alt="Logo do cliente"></div>
+<div class="cover-meta">CIDADE: {{CIDADE}} / {{UF}}<br>VIGÊNCIA DO PGRTR: {{VIGENCIA_INICIO}} À {{VIGENCIA_FINAL}}</div>
+</div>
+
+<table class="cover-hist"><thead><tr><th>REV.</th><th>DATA</th><th>HISTÓRICO</th><th>ELABORADO</th></tr></thead><tbody><tr><td>00</td><td>{{DATA_ELABORACAO}}</td><td>Elaboração PGRTR(NR-31).</td><td>{{ELABORADOR}}</td></tr></tbody></table>
+
+</div>
+<div class="page"><h2 class="idx-title">ÍNDICE ANALÍTICO</h2>
+
+<table class="cover-hist idx-table"><thead><tr><th class="idx-n">Item</th><th>TÍTULO</th><th class="idx-p">PÁGINA</th></tr></thead><tbody>
+<tr><td class="idx-n">1.</td><td class="idx-t">IDENTIFICAÇÃO DA EMPRESA</td><td class="idx-p">5</td></tr>
+<tr><td class="idx-n">2.</td><td class="idx-t">IDENTIFICAÇÃO DA EMPRESA ELABORADORA DO PGRTR</td><td class="idx-p">6</td></tr>
+<tr><td class="idx-n">3.</td><td class="idx-t">INTRODUÇÃO</td><td class="idx-p">7</td></tr>
+<tr><td class="idx-n">4.</td><td class="idx-t">ORGANIZAÇÃO</td><td class="idx-p">7</td></tr>
+<tr><td class="idx-n">5.</td><td class="idx-t">TERMOS E DEFINIÇÕES</td><td class="idx-p">8</td></tr>
+<tr><td class="idx-n">6.</td><td class="idx-t">OBJETIVO</td><td class="idx-p">11</td></tr>
+<tr><td class="idx-n">7.</td><td class="idx-t">CONSIDERAÇÕES PRELIMINARES</td><td class="idx-p">12</td></tr>
+<tr><td class="idx-n">8.</td><td class="idx-t">POLÍTICA DE SEGURANÇA, SAÚDE E MEIO AMBIENTE</td><td class="idx-p">12</td></tr>
+<tr><td class="idx-n">9.</td><td class="idx-t">CAMPO DE APLICAÇÃO</td><td class="idx-p">12</td></tr>
+<tr><td class="idx-n">10.</td><td class="idx-t">ABRANGENCIA</td><td class="idx-p">13</td></tr>
+<tr><td class="idx-n">11.</td><td class="idx-t">ELABORAÇÃO DO PGRTR</td><td class="idx-p">13</td></tr>
+<tr><td class="idx-n">12.</td><td class="idx-t">LEVANTAMENTO PRELIMIAR DE PERIGOS</td><td class="idx-p">14</td></tr>
+<tr><td class="idx-n">13.</td><td class="idx-t">IDENTIFICAÇÃO DE PERIGOS</td><td class="idx-p">14</td></tr>
+<tr><td class="idx-n">14.</td><td class="idx-t">AVALIAÇÃO DE RISCOS OCUPACIONAIS</td><td class="idx-p">14</td></tr>
+<tr><td class="idx-n">15.</td><td class="idx-t">ETAPAS DO GERENCIAMENTO DE RISCOS OCUPACIONAIS</td><td class="idx-p">15</td></tr>
+<tr><td class="idx-n">16.</td><td class="idx-t">GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</td><td class="idx-p">17</td></tr>
+<tr><td class="idx-n">17.</td><td class="idx-t">METAS E PRIORIDADES</td><td class="idx-p">25</td></tr>
+<tr><td class="idx-n">18.</td><td class="idx-t">ESTRATÉGIA PARA IMPLANTAÇÃO DO PGRTR</td><td class="idx-p">26</td></tr>
+<tr><td class="idx-n">19.</td><td class="idx-t">RISCOS AMBIENTAIS</td><td class="idx-p">27</td></tr>
+<tr><td class="idx-n">20.</td><td class="idx-t">CATEGORIAS DOS RISCOS</td><td class="idx-p">28</td></tr>
+<tr><td class="idx-n">21.</td><td class="idx-t">PRIORIDADES</td><td class="idx-p">28</td></tr>
+<tr><td class="idx-n">22.</td><td class="idx-t">ESTRATÉGIA E METODOLOGIA DE AÇÃO</td><td class="idx-p">30</td></tr>
+<tr><td class="idx-n">23.</td><td class="idx-t">AVALIAÇÕES</td><td class="idx-p">33</td></tr>
+<tr><td class="idx-n">24.</td><td class="idx-t">FORMA DE DIVULGAÇÃO</td><td class="idx-p">34</td></tr>
+<tr><td class="idx-n">25.</td><td class="idx-t">RESPONSABILIDADE DO EMPREGADOR</td><td class="idx-p">35</td></tr>
+<tr><td class="idx-n">26.</td><td class="idx-t">RESPONSABILIDADES DOS EMPREGADOS</td><td class="idx-p">36</td></tr>
+<tr><td class="idx-n">27.</td><td class="idx-t">SERVIÇO ESPECIALIZADO EM SEGURANÇA E SAÚDE DO TRABALHO - SESTR</td><td class="idx-p">37</td></tr>
+<tr><td class="idx-n">28.</td><td class="idx-t">APLICABILIDADE DA NR-</td><td class="idx-p">37</td></tr>
+<tr><td class="idx-n">29.</td><td class="idx-t">PRODUTOS QUÍMICOS</td><td class="idx-p">38</td></tr>
+<tr><td class="idx-n">30.</td><td class="idx-t">VACINAÇÃO DOS TRABALHADORES</td><td class="idx-p">38</td></tr>
+<tr><td class="idx-n">31.</td><td class="idx-t">MEIO AMBIENTE E RESÍDUOS</td><td class="idx-p">39</td></tr>
+<tr><td class="idx-n">32.</td><td class="idx-t">RAZÕES DAS PAUSAS PARA DESCANSO DURANTE O DIA</td><td class="idx-p">40</td></tr>
+<tr><td class="idx-n">33.</td><td class="idx-t">CONDIÇÕES SEGURAS DE TRÂNSITO EM VIAS INTERNAS</td><td class="idx-p">40</td></tr>
+<tr><td class="idx-n">34.</td><td class="idx-t">ERGONOMIA E ORGANIZAÇÃO DO TRABALHO</td><td class="idx-p">41</td></tr>
+<tr><td class="idx-n">35.</td><td class="idx-t">FERRAMENTAS MANUAIS</td><td class="idx-p">43</td></tr>
+<tr><td class="idx-n">36.</td><td class="idx-t">MÁQUINAS, EQUIPAMENTOS E IMPLEMENTOS</td><td class="idx-p">44</td></tr>
+<tr><td class="idx-n">37.</td><td class="idx-t">ACESSOS E VIAS DE CIRCULAÇÃO</td><td class="idx-p">47</td></tr>
+<tr><td class="idx-n">38.</td><td class="idx-t">ÁREAS DE VIVÊNCIA</td><td class="idx-p">47</td></tr>
+<tr><td class="idx-n">39.</td><td class="idx-t">INSTALAÇÕES SANITÁRIAS</td><td class="idx-p">48</td></tr>
+<tr><td class="idx-n">40.</td><td class="idx-t">LOCAIS PARA REFEIÇÃO</td><td class="idx-p">48</td></tr>
+<tr><td class="idx-n">41.</td><td class="idx-t">INTEMPÉRIES E CONDIÇÕES CLIMÁTICAS</td><td class="idx-p">49</td></tr>
+<tr><td class="idx-n">42.</td><td class="idx-t">EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL – NR</td><td class="idx-p">50</td></tr>
+<tr><td class="idx-n">43.</td><td class="idx-t">INSTALAÇÕES ELÉTRICAS</td><td class="idx-p">52</td></tr>
+<tr><td class="idx-n">44.</td><td class="idx-t">INSTALAÇÕES PROVISÓRIAS CONTRA INCÊNDIO</td><td class="idx-p">53</td></tr>
+<tr><td class="idx-n">45.</td><td class="idx-t">AGROTÓXICPS, ADJUVANTES E PRODUTOS AFINS</td><td class="idx-p">53</td></tr>
+<tr><td class="idx-n">46.</td><td class="idx-t">TIPOS DE TRABALHADORES EM RELAÇÃO A EXPOSIÇÃO</td><td class="idx-p">54</td></tr>
+<tr><td class="idx-n">47.</td><td class="idx-t">FATORES CLIMÁTICOS E TOPOGRÁFICOS</td><td class="idx-p">54</td></tr>
+<tr><td class="idx-n">48.</td><td class="idx-t">MATRIZ DE RISCOS</td><td class="idx-p">55</td></tr>
+<tr><td class="idx-n">49.</td><td class="idx-t">REGISTRO, MANUTENÇÃO, DIVULGAÇÃO E PLANEJAMENTO DE DADOS DO PGRTR</td><td class="idx-p">58</td></tr>
+<tr><td class="idx-n">50.</td><td class="idx-t">PLANEJAMENTO ANUAL DO PGRTR (METAS, PRIORIDADES E CRONOGRAMA DE AÇÕES).</td><td class="idx-p">59</td></tr>
+<tr><td class="idx-n">51.</td><td class="idx-t">CRONOGRAMA DAS ATIVIDADES/AÇÕES DO PGRTR</td><td class="idx-p">60</td></tr>
+<tr><td class="idx-n">52.</td><td class="idx-t">ASPECTOS LEGAIS</td><td class="idx-p">63</td></tr>
+<tr><td class="idx-n">53.</td><td class="idx-t">DISPOSIÇÕES FINAIS</td><td class="idx-p">64</td></tr>
+<tr><td class="idx-n">54.</td><td class="idx-t">TERMO DE COMPROMISSO</td><td class="idx-p">65</td></tr>
+<tr><td class="idx-n">55.</td><td class="idx-t">ANEXOS</td><td class="idx-p">66</td></tr>
+</tbody></table>
+
+</div>
+<div class="page">{{BLOCK:empresa}}
+
+</div>
+<div class="page">{{BLOCK:elaboradora}}
+
+</div>
+<div class="page"><b>3. INTRODUÇÃO</b>
+
+O gerenciamento de riscos ocupacionais deve seguir os preceitos normativos definidos da NR 01, NR 09,
+NR 17, NR 31 e demais normas regulamentadoras constantes na Portaria 3.214/78, que define as
+responsabilidades do empregador e empregados na elaboração do Programa de Gerenciamento de Riscos
+(PGR), que deve seguir as prioridades de eliminar, minimizar os fatores de riscos, adoção de medidas
+administrativas ou de organização do trabalho, adoção de proteção individual. O Programa de
+Gerenciamento de Riscos (PGR) foi instituído pela Norma Regulamentadora n.º 01, publicada na Portaria
+SEPRT 8.873 de 23/07/2021, republicada no dia 03 de janeiro de 2022 Secretaria Especial de Previdência e
+Trabalho.
+
+O Programa de Gerenciamento de Riscos no Trabalho Rural (PGRTR) foi instituído pela Norma
+Regulamentadora Nº 31, publicada na Portaria MTP nº 4.371 de 28/12/2022, republicada no dia 03 de
+janeiro de 2022 Secretaria Especial de Previdência e Trabalho.
+
+A {{NOME_EMPRESA}}, entende que o PGRTR é parte conjunta das iniciativas de
+prevenção da saúde e integridade física dos trabalhadores que atuam nas atividades da Fazenda, devendo
+estar integrado com os demais programas de segurança da Fazenda e com as Normas Regulamentadoras.
+
+<b>4. ORGANIZAÇÃO</b>
+
+A organização deve:
+
+a) evitar os riscos ocupacionais que possam ser originados no trabalho;
+
+b) identificar os perigos e possíveis lesões ou agravos à saúde;
+
+c) avaliar os riscos ocupacionais indicando o nível de risco;
+
+d) classificar os riscos ocupacionais para determinar a necessidade de adoção de medidas de prevenção;
+
+e) implementar medidas de prevenção, de acordo com a classificação de risco e na ordem de prioridade
+
+f) acompanhar o controle dos riscos ocupacionais.
+
+A organização deve adotar mecanismos para:
+
+a) consultar os trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas
+as manifestações da Comissão Interna de Prevenção de Acidentes - CIPA, quando houver; e
+
+b) comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de
+prevenção do plano de ação do PGR.
+
+A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
+
+</div>
+<div class="page"><b>5. TERMOS E DEFINIÇÕES</b>
+
+ASO: Atestado de Saúde Ocupacional.
+
+Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
+de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais,
+temperaturas extremas, radiações ionizantes, radiações não ionizantes.
+Observação: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem
+agente físico para fins da NR-09.
+
+Agente químico: Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja
+produzida, utilizada ou gerada no processo de trabalho, que em função de sua natureza, concentração e
+exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: fumos de cádmio, poeira
+mineral contendo sílica cristalina, vapores de tolueno, névoas de ácido sulfúrico.
+
+ACGIH: Conferência (Norte) Americana de Higienistas Industriais Governamentais (American Conference
+of Governmental Industrial Hygienists), uma organização voluntária de profissionais em higiene industrial
+de instituições governamentais ou educacionais dos EUA. A ACGIH desenvolve e publica anualmente
+limites recomendados de exposição ocupacional chamados Valores Limites de Exposição: Threshold Limit
+Values (TLV 's) para centenas de substâncias químicas, agentes físicos, e inclui Índices de Exposição a
+agentes Biológicos: Biological Exposure Indices (BEI).
+
+Acidente de trabalho: Aquele que acontece no exercício do trabalho a serviço da empresa, provocando
+lesão corporal ou perturbação funcional podendo causar morte, perda ou redução permanente ou temporária,
+da capacidade para o trabalho.
+Equiparam-se aos acidentes de trabalho:
+<div class="plist">
+1. O acidente que acontece quando você está prestando serviços por ordem da empresa fora do local de
+trabalho;
+2. O acidente que acontece quando você estiver em viagem a serviço da empresa;
+3. O acidente que ocorre no trajeto entre a casa e o trabalho ou do trabalho para casa;
+4. Doença profissional (as doenças provocadas pelo tipo de trabalho);
+5. Doença do trabalho (as doenças causadas pelas condições do trabalho);
+</div>
+
+Adicional de Insalubridade: Adicional que deve ser pago ao trabalhador que trabalha em condições de
+insalubridade.
+O exercício de trabalho em condições de insalubridade assegura ao trabalhador a percepção de adicional
+incidente sobre o salário mínimo da região, equivalente à: 40% para insalubridade de grau máximo; 20%
+para insalubridade de grau médio; 10% para insalubridade grau mínimo.
+Obs.: Deve-se sempre consultar o LTCAT para que hajam as definições nos termos da lei.
+
+Adicional de Periculosidade: Adicional que deve ser pago ao trabalhador que trabalha em condições de
+periculosidade. O exercício de trabalho em condições de periculosidade assegura ao trabalhador a percepção
+de 30% sobre o salário, sem acréscimos resultantes de gratificações, prêmios ou participação nos lucros da
+empresa.
+
+</div>
+<div class="page">Obs.: Deve-se sempre consultar o Laudo de Periculosidade para que hajam as definições nos termos da lei.
+ART (CREA): Anotação de Responsabilidade Técnica, segundo as normas vigentes no sistema
+CONFEA/CREA.
+
+ART (Análise de Risco da Tarefa): Método para análise de risco de atividades com o foco na prevenção de
+acidentes.
+
+Agente biológico: Microrganismos, parasitas ou materiais originados de organismos que, em função de sua
+natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à saúde do trabalhador. Exemplos:
+bactéria Bacillus anthracis, vírus linfotrópico da célula T humana, príon agente de doença de Creutzfeldt-
+Jakob, fungo Coccidioides immitis.
+
+Canteiro de obra: área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução
+à construção, demolição ou reforma de uma obra.
+
+CAT: Comunicação de Acidente do Trabalho.
+
+DORT: Distúrbio Osteomuscular Relacionado ao Trabalho.
+
+EPI: Equipamento de Proteção Individual (Qualquer dispositivo ou vestimenta usado pelo trabalhador para
+se proteger contra riscos ambientais. Exemplos: respiradores, máscaras, luvas, botas, óculos de proteção,
+etc.).
+
+EPC: Equipamento de Proteção Coletiva (É todo dispositivo, sistema, ou meio, fixo ou móvel de
+abrangência coletiva, destinado a preservar a integridade física e a saúde dos trabalhadores, usuários e
+terceiros).
+
+Ergonomia: Ergonomia é o conjunto de conhecimentos científicos relativos ao homem e necessários à
+concepção de instrumentos, máquinas e dispositivos que possam ser utilizados com o máximo de conforto e
+eficácia. A ergonomia tem por objetivo adaptar o trabalho ao homem, bem como melhorar as condições de
+trabalho e as relações homem-máquina. A Ergonomia pode ser construtiva, corretiva e cognitiva.
+
+Empregado: a pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência
+deste e mediante salário.
+
+Empregador: a empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite,
+assalaria e dirige a prestação pessoal de serviços. Equiparam-se ao empregador as organizações, os
+profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem
+fins lucrativos, que admitam trabalhadores como empregados.
+
+Estabelecimento: local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros,
+onde a empresa ou a organização exerce suas atividades em caráter temporário ou permanente.
+
+Evento perigoso: Ocorrência ou acontecimento com o potencial de causar lesões ou agravos à saúde.
+
+</div>
+<div class="page">FUNDACENTRO: Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho.
+
+Frente de trabalho: área de trabalho móvel e temporária.
+
+LTCAT: Laudo Técnico das Condições Ambientais do Trabalho (previsto da Lei 8213/91).
+
+Local de trabalho: área onde são executados os trabalhos.
+
+NR: Norma Regulamentadora.
+
+OIT: Organização Internacional do Trabalho.
+
+Obra: todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma.
+Ordem de serviço de segurança e saúde no trabalho: instruções por escrito quanto às precauções para evitar
+acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em
+procedimentos de trabalho e outras instruções de SST.
+
+Organização: pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e
+relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a
+empresa, a empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria,
+organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou
+privada.
+
+Pneumoconiose: Doença do pulmão, causada pela contaminação por algum tipo de mineral ou poeira. A
+pneumoconiose recebe diversas designações de acordo com o tipo de poeira causadora da doença. A
+asbestose, a silicose são os exemplos de pneumoconiose.
+
+PPP: O Perfil Profissiográfico Previdenciário é um documento individual do funcionário que relata todo o
+seu histórico laboral na empresa, destinado a fornecer ao INSS informações relativas à efetiva exposição,
+por parte do funcionário, à agentes nocivos a saúde. Ele utiliza informações provenientes do LTCAT e do
+PCMSO, além de informações administrativas do RH da empresa. Foi criado para fornecer dados para a
+aposentadoria especial, mas será solicitado em todas as homologações de funcionários a partir de 1. de
+Julho.
+
+PGR: Programa de Gerenciamento de Riscos (previsto da Norma Regulamentadora Nº 1, Portaria 3218/78,
+Lei 6514/77).
+
+PCMSO: Programa de Controle Médico de Saúde Ocupacional (previsto da Norma Regulamentadora Nº 7,
+Portaria 3218/78, Lei 6514/77).
+
+Perigo ou fator de risco ocupacional/ Perigo ou fonte de risco ocupacional: Fonte com o potencial de
+causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros tem o potencial
+intrínseco de dar origem a lesões ou agravos à saúde.
+
+</div>
+<div class="page">Prevenção: o conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da
+organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais.
+
+Risco: Possibilidade real ou potencial capaz de causar lesão e ou morte, danos ou perdas patrimoniais,
+interrupção de processo de produção ou de afetar a comunidade ou o meio ambiente.
+
+Responsável técnico pela capacitação: profissional legalmente habilitado ou trabalhador qualificado,
+conforme disposto em NR específica, responsável pela elaboração das capacitações e treinamentos.
+
+Risco ocupacional: Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados por um
+evento perigoso, exposição a agente nocivo ou exigência da atividade de trabalho e da severidade dessa
+lesão ou agravo à saúde.
+
+Setor de serviço: a menor unidade administrativa ou operacional compreendida no mesmo estabelecimento.
+
+Segurança do Trabalho: Conjuntos de medidas que são adotadas visando minimizar os acidentes de
+trabalho, doenças ocupacionais, bem como proteger a integridade e a capacidade de trabalho do trabalhador.
+
+Trabalhador: pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como
+os empregados e outros sem vínculo de emprego.
+
+<b>5. OBJETIVO</b>
+
+O PGRTR - Programa de Gerenciamento de Riscos no Trabalho Rural tem por objetivo levantar as
+condições técnicas dos ambientes de trabalho rural, implementar ações em saúde e segurança do trabalho
+que visam a prevenção de acidentes e doenças decorrentes do trabalho.
+
+O PGRTR - Programa de Gerenciamento de Riscos no Trabalho Rural tem por princípio:
+
+✓ Atender as exigências da NR 31;
+
+✓ Antecipar, reconhecer e avaliar os riscos ambientais;
+
+✓ Preservar a saúde e a integridade física dos trabalhadores;
+
+✓ Prevenir os riscos ocupacionais capazes de provocar doenças profissionais;
+
+✓ Controlar os riscos ambientais capazes de causar danos à saúde dos trabalhadores;
+
+✓ Assegurar aos trabalhadores padrões adequados de saúde e bem-estar no ambiente de trabalho.
+
+</div>
+<div class="page"><b>6. CONSIDERAÇÕES PRELIMINARES</b>
+
+O PGRTR - Programa de Gerenciamento de Riscos no Trabalho Rural tem por objetivo levantar as
+condições técnicas dos ambientes de trabalho rural, implementar ações em saúde e segurança do trabalho
+que visam a prevenção de acidentes e doenças decorrentes do trabalho.
+
+Faz-se um diagnóstico completo da atual situação, de maneira a gerar informações suficientes para
+futuras tomadas de decisões, que venham a culminar na máxima condição de higiene e conforto dos
+trabalhadores.
+
+O PGRTR - Programa de Gerenciamento de Riscos no Trabalho Rural foi instituído pela Norma
+Regulamentadora n.º 31 (NR-31), publicada na portaria n.º 86 de 03 de março de 2005, item 31.5
+(Alterado pela Portaria MTb n.º 1.086, de 18 de dezembro de 2018).
+
+<b>7. POLÍTICA DE SEGURANÇA, SAÚDE E MEIO AMBIENTE</b>
+
+A empresa EDILSON GERALDO OTONI DE MELO reconhece a Segurança, Saúde e Meio
+ambiente como parte integrante de seu desempenho de negócios, para tanto, aplica a prática sistemática da
+elevação do nível de desempenho, através do atendimento dos requisitos legais com contínuo
+aperfeiçoamento e economicidade.
+
+Proporcionar recursos adequados e apropriados ao implemento desta política.
+
+Assegurar a implementação do Segurança, Saúde e Meio Ambiente através da compreensão,
+
+envolvimento de interesse em todos os níveis da organização.
+
+Promover o conhecimento através de informações e treinamentos para todos os envolvidos.
+
+Entender que a sua política de Segurança, Saúde e Meio Ambiente é extensiva aos seus empregados
+
+terceiros e parceiros.
+
+<b>8. CAMPO DE APLICAÇÃO</b>
+
+A NR-31 estabelece a obrigatoriedade dos empregadores rurais ou equiparados de elaborarem o
+PGRTR para implantação, acompanhamento e avaliação das condições de trabalho afim de promover ações
+
+que visem a prevenção de acidentes e doenças decorrentes do trabalho na unidade de produção rural,
+atendendo a seguinte ordem de prioridade:
+
+a) Eliminação de riscos através da substituição ou adequação dos processos produtivos, máquinas e
+
+equipamentos;
+
+b) Adoção de medidas de proteção coletiva para controle dos riscos na fonte;
+c) Adoção de medidas de proteção pessoal.
+
+As ações de segurança e saúde devem contemplar os seguintes aspectos:
+
+a) Melhoria das condições e do meio ambiente de trabalho;
+b) Promoção da saúde e da integridade física dos trabalhadores rurais;
+c) Campanhas educativas de prevenção de acidentes e doenças decorrentes do trabalho.
+
+<b>9. ABRANGÊNCIA</b>
+
+As ações do PGRTR devem ser aplicadas e desenvolvidas no âmbito da empresa sob a
+responsabilidade do empregador, com o envolvimento e participação dos trabalhadores e articulado com as
+demais Normas Regulamentadores (NRs).
+
+<b>10. ELABORAÇÃO DO PGRTR</b>
+
+O documento-base do PGRTR foi elaborado pela equipe técnica, com a finalidade de melhoria da
+qualidade das condições de trabalho para preservação da integridade física e mental dos trabalhadores da
+empresa.
+
+</div>
+<div class="page"><b>11. LEVANTAMENTO PRELIMIAR DE PERIGOS</b>
+
+O Levantamento Preliminar de Perigos deve ser realizado considerando:
+
+a) Antes do início do funcionamento do estabelecimento ou novas instalações;
+b) Para as atividades existentes; e
+c) Nas mudanças e introdução de novos processos ou atividades de trabalho.
+
+<b>12. IDENTIFICAÇÃO DE PERIGOS</b>
+
+Pode ser realizado junto ao “Levantamento Preliminar de Perigos” conforme item 1.5.4.2.1.2 da NR-1.
+
+Etapas da identificação de Perigos:
+
+a) Descrição dos perigos e possíveis lesões ou agravos à saúde;
+b) Identificação das fontes ou circunstâncias; e
+c) Indicação do grupo de trabalhadores sujeitos aos riscos.
+
+<b>13. AVALIAÇÃO DE RISCOS OCUPACIONAIS</b>
+
+A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seus
+estabelecimentos, de forma a manter informações para adoção de medidas de prevenção.
+
+A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da
+ocorrência das seguintes situações:
+
+a) Após implementação das medidas de prevenção, para avaliação de riscos residuais;
+b) Após alterações na empresa que impliquem em novos riscos ou modifiquem os existentes;
+c) Quando houverem problemas nas medidas de prevenção;
+d) Na ocorrência de acidentes ou doenças relacionadas ao trabalho;
+e) Quando houver mudança nos requisitos legais aplicáveis.
+
+Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade
+das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência. A organização
+deve adotar medidas de prevenção para eliminar, reduzir ou controlar os riscos sempre que:
+
+a) Exigências previstas em Normas Regulamentadoras e nos dispositivos legais determinarem;
+
+b) A classificação dos riscos ocupacionais assim determinar, conforme subitem que diz: Após a
+avaliação, os riscos ocupacionais devem ser classificados, observado para fins de identificar a
+necessidade de adoção de medidas de prevenção e elaboração do plano de ação.
+
+Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade
+das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência.
+
+c) Houver evidências de associação, por meio do controle médico da saúde, entre as lesões e os agravos
+
+à saúde dos trabalhadores com os riscos e as situações de trabalho identificados.
+
+<b>14. ETAPAS DO GERENCIAMENTO DE RISCOS OCUPACIONAIS</b>
+
+O Programa de Gerenciamento de Riscos no Trabalho Rural (PGRTR) deverá ser desenvolvido nas
+seguintes etapas:
+
+- Levantamento preliminar de perigos.
+
+- Identificação de perigos.
+
+- Avaliação de riscos ocupacionais.
+
+- Controle dos riscos.
+
+- Planos de ações.
+
+Os dados da identificação dos perigos e das avaliações dos riscos ocupacionais serão consolidados em um
+inventário de riscos ocupacionais, e a implementação e acompanhamento das medidas de prevenção devem
+constar no plano de ações.
+
+Conforme o Item 31.3.3 O PGRTR deve incluir, no mínimo, as seguintes etapas:
+
+a) levantamento preliminar dos perigos e sua eliminação, quando possível;
+
+b) avaliação dos riscos ocupacionais que não puderem ser completamente eliminados;
+
+c) estabelecimento de medidas de prevenção, com prioridades e cronograma;
+
+</div>
+<div class="page">d) implementação de medidas de prevenção, de acordo com a seguinte ordem de prioridade:
+
+I. eliminação dos fatores de risco;
+
+II. minimização e controle dos fatores de risco com a adoção de medidas de proteção coletiva;
+
+III. minimização e controle dos fatores de risco com a adoção de medidas administrativas ou de organização
+do trabalho; e IV. adoção de medidas de proteção individual;
+
+e) acompanhamento do controle dos riscos ocupacionais; e
+
+f) investigação e análise de acidentes e doenças ocupacionais
+
+31.3.3.1 Os parâmetros para avaliações dos riscos e da exposição dos trabalhadores aos agentes físicos,
+químicos e biológicos e os critérios para a prevenção dos riscos à saúde dos trabalhadores decorrentes das
+exposições ocupacionais devem ser realizados conforme os Anexos da Norma Regulamentadora nº 9 -
+Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos. (Retificado
+pela Portaria MTP nº 698, de 04 de abril de 2022)
+
+31.3.3.2 O PGRTR deve conter, no mínimo, os seguintes documentos:
+
+a) inventário de riscos ocupacionais; e
+
+b) plano de ação.
+
+31.3.3.2.1 O Inventário de Riscos Ocupacionais deve contemplar, no mínimo, as seguintes informações:
+
+a) caracterização dos processos e ambientes de trabalho;
+
+b) caracterização das atividades;
+
+c) descrição de perigos e de possíveis lesões ou agravos à saúde dos trabalhadores, com a identificação das
+fontes ou circunstâncias, descrição de riscos gerados pelos perigos, com a indicação dos grupos de
+trabalhadores sujeitos a esses riscos, e descrição de medidas de prevenção implementadas;
+
+d) dados da análise preliminar ou do monitoramento das exposições a agentes físicos, químicos e biológicos,
+e os resultados da avaliação de ergonomia, nos termos do item 31.8 desta Norma;
+
+e) avaliação dos riscos, incluindo a classificação para fins de elaboração do plano de ação; e
+
+f) critérios adotados para avaliação dos riscos e tomada de decisão.
+
+</div>
+<div class="page"><b>15. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b>
+
+A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
+fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.
+
+O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
+biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
+psicossociais relacionados ao trabalho.
+
+A organização considera as condições de trabalho, nos termos da NR-17, incluindo os fatores de risco
+psicossociais relacionados ao trabalho.
+
+Sobre a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de fatores ergonômicos,
+incluindo os fatores de riscos psicossociais relacionados ao trabalho, a avaliação de risco considera as
+exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas.
+
+Os agravos a saúde relacionados aos fatores psicossociais devem considerar os fatores de riscos e o ambiente
+ocupacional, existem situações e/ou atividades que são “estressantes” para algumas pessoas e “não
+estressantes” para outras, que fazem parte das atribuições e do desenvolvimento das atividades da empresa
+de forma regulamentada e positivada em lei, veja abaixo:
+
+Um Líder retorna para casa desanimado pois precisou demitir determinado colaborador da sua empresa, por
+motivo justificável e regulamentado em lei (ou por liberdade de escolha da empresa), porém a atividade de
+sua atribuição lhe causou o sentimento de tristeza;
+
+O colaborador que foi desligado da empresa, neste mesmo exemplo, retorna para casa feliz, por ter um viés
+de visualizar que o término de seu contrato de trabalho como uma oportunidade para sua carreira e para
+novas rotas.
+
+Importante: Os fatores psicossociais “relacionados ao
+trabalho”, conforme consta na Norma
+Regulamentadora Nº1 em seu item 1.5.3.1, especifica que existem outros aspectos relacionados ao tema
+“psicossocial” que estão fora do campo do trabalho, que não estão relacionados ao trabalho desenvolvido e,
+portanto, não estão incluídos no Gerenciamento de Riscos Ocupacionais (GRO).
+
+É importante identificar que na avaliação dos fatores de risco psicossociais relacionados ao trabalho, trata-se
+de considerar quais os fatores da atividade de trabalho são estressores, que podem levar à ocorrência de
+lesões ou agravos à saúde do trabalhador. Não se trata de verificar sintomas individuais ou sensação do que
+está ocorrendo no trabalhador, ou de medir algum sinal biológico, por exemplo, mas de verificar as
+condições de trabalho a que ele está submetido.
+
+Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
+modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não
+aconteça.
+
+A <b>{{RAZAO_SOCIAL}}</b> será responsável pela organização deste atendimento,
+devendo contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo
+GRUPO PERFORMANCE OCUPACIONAL.
+
+</div>
+<div class="page">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS
+
+A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
+promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de
+satisfação e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais
+podem prejudicar o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o
+número de acidentes, afastamento e faltas ao trabalho.
+
+Em síntese, os fatores psicossociais podem ser tantos fatores de proteção como fatores de risco para a saúde
+e segurança no trabalho.
+
+Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao
+resolver um problema ou se adaptar a um ambiente.
+
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
+
+CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)
+
+O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
+doença, seja por lesão ou acidente de trabalho.
+
+A concepção de risco se vincula, neste caso, ao adoecimento em si.
+
+IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:
+
+A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
+ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
+emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho
+da empresa.
+
+A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito
+mútuo e o reconhecimento das conquistas dos colaboradores.
+
+O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:
+
+Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
+trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
+físico e social (OSHA, 2023).
+
+Os fatores psicossociais são aqueles aspectos do ambiente de trabalho que influenciam o bem-estar
+psicológico, emocional e social dos colaboradores. Eles incluem tanto as características do próprio trabalho
+quanto as relações interpessoais e organizacionais. Podem ser divididos principalmente em três categorias:
+
+Ambientais: São aqueles relacionados ao ambiente de trabalho no geral. É o caso de situações de trabalho
+com ruído acima do comum, ferramentas inadequadas, máquinas que não funcionam, trabalho em altura ou
+em espaços confinados, falta de Equipamentos de Proteção Individual (EPI), entre outros.
+
+Atividades: Se relacionam diretamente com a execução do trabalho desenvolvido pelo colaborador, e no
+PGR podem aparecer junto com outros fatores. Envolvem temas como: pressão, sobrecarga, falta de
+autonomia, ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobre as funções que
+desempenha.
+
+Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional,
+relações com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre
+vida pessoal e profissional, situações de assédio (inclusive do público externo).
+
+</div>
+<div class="page">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS
+AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:
+
+Os fatores de risco psicossociais podem ser classificados em várias categorias:
+
+PERIGO (FATOR DE RISCO)
+
+Assédio de qualquer natureza no trabalho
+
+Má gestão de mudanças organizacionais
+
+Baixa clareza de papel / função
+
+Baixas recompensas e reconhecimento
+
+Falta de suporte / apoio no trabalho
+
+Baixo controle no trabalho / falta de autonomia
+
+Baixa justiça organizacional
+
+Eventos violentos ou traumáticos
+
+Baixa demanda no trabalho (subcarga)
+
+Excesso de demandas no trabalho (sobrecarga)
+
+Más relacionamentos no local de trabalho
+
+Trabalho em condições de difícil comunicação
+
+Trabalho remoto e isolado
+
+Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do
+Ministério do Trabalho, de Abril de 2025).
+
+RESPONSABILIDADES DA EMPRESA:
+
+É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os
+fatores psicossociais.
+
+É necessário implementar as medidas de controle, inclusive para os fatores psicossociais.
+
+A empresa incentivará a participação ativa dos trabalhadores na identificação e gestão dos riscos, inclusive
+para os fatores psicossociais.
+
+Sendo assim, além das estratégias para minimizar os riscos psicossociais, é preciso focar em ações
+direcionadas à identificação, controle e monitoramento dos mesmos.
+
+IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:
+
+Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
+
+Observações diretas (visita-técnica):
+
+Realizar a avaliação in loco do ambiente de trabalho para identificar fatores de risco visíveis e conhecer o
+ambiente laboral.
+
+Entrevistas diagnósticas:
+
+Essa etapa tem como objetivo conhecer o trabalho real executado pelo público avaliado a fim de acessar
+aspectos que possibilitam aprofundar na execução da atividade, escutando o trabalhador sobre suas
+percepções e experiências no ambiente de trabalho.
+
+Será aplicado Formulário Anônimo de Entrevista sobre Fatores Psicossociais considerando o
+dimensionamento da empresa.
+
+Conceitos sobre Pesquisa de Clima Organizacional e Pesquisa de Identificação dos Riscos
+Psicossociais:
+
+A Pesquisa de Clima Organizacional avalia aspectos gerais do ambiente de trabalho e satisfação dos
+colaboradores com diversos fatores organizacionais.
+
+A Pesquisa de Identificação dos Riscos Psicossociais foca em identificar fatores específicos de risco que
+afetam a saúde mental e emocional dos colaboradores, sendo esta formalizada através do “Formulário
+Anônimo de Entrevista sobre Fatores Psicossociais em anexo” na gestão de riscos ocupacionais (GRO) da
+empresa.
+
+ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS
+OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:
+
+Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:
+
+• Grupos de discussão, através de reuniões com pequenos grupos de colaboradores para discutir
+
+abertamente os fatores de risco percebidos;
+
+• Workshops interativos, com sessões de treinamento onde os trabalhadores aprendem sobre riscos
+psicossociais, recebem capacitação para gestão do estresse e melhoria de sua resiliência, e também o
+compartilhamento de suas experiências.
+
+• Pesquisas anônimas, através de questionários anônimos que permitem aos colaboradores expressar
+
+preocupações sem medo de retaliação.
+
+</div>
+<div class="page">Aplicação de instrumentos de avaliação psicossocial:
+
+Realizar aplicação do Inventário Psicossocial para mensurar quais são e a gravidade dos riscos psicossociais
+percebidos pelo trabalhador no contexto de trabalho.
+
+Análise de dados e indicadores de saúde:
+
+Realizar a análise dos resultados levantados por meio das etapas anteriores e dos indicadores de saúde
+ocupacional, como taxas de absenteísmo e relatório de incidentes a fim de mapear os riscos e estabelecer
+ações baseada em dados.
+
+QUAL A
+IDENTIFICAÇÃO DOS RISCOS?
+
+IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA
+
+Envolver os trabalhadores no processo de identificação dos riscos é crucial para garantir a precisão e a
+relevância das informações coletadas. Isso porque ao contrário dos riscos físicos, que são mais visíveis e
+mensuráveis, os riscos psicossociais são mais subjetivos e variam conforme as percepções dos trabalhadores.
+
+Cardoso (2015) enfatiza que, se o objetivo é investigar de que maneira o trabalho afeta a saúde dos
+trabalhadores, é essencial que se lhes conceda a oportunidade de expressar suas percepções acerca das suas
+vivências laborais. Escutar os trabalhadores atentamente possibilita que relatem como estão enfrentando as
+demandas impostas, bem como as respostas que conseguem ou não dar às tarefas e às dificuldades
+cotidianas, além de considerar como as organizações, por exemplo, proporcionam ou não condições para a
+realização das tarefas exigidas.
+
+Entender o trabalho real auxilia no conhecimento da diversidade de ações dos trabalhadores para manter a
+produção esperada, como a regulação de incidentes, a escolha de informações relevantes, a antecipação e
+controle das ações, e o uso de raciocínios apropriados. Ainda, permite compreender como a atividade, apesar
+de não aparente, influencia gestos, esforços, posturas, deslocamentos e comunicações. (Guérin et al., 2001).
+
+COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:
+
+A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos
+riscos.
+
+Desenvolvimento e Plano de Ação
+
+O desenvolvimento do plano de ação deve ser específico, mensurável, alcançável, relevante e com prazo
+definido.
+
+</div>
+<div class="page">Cada plano de ação deve incluir:
+
+Identificação e descrição dos fatores de riscos;
+
+•
+• Objetivo da ação, o que se pretende alcançar com a intervenção;
+• Responsáveis, quem será responsável pela implementação da ação;
+• Recursos necessários, orçamento, tempo e outros recursos;
+• Cronograma, prazos para a execução das etapas do plano.
+
+COMUNICAÇÃO
+
+A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
+
+• Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os
+colaboradores. Estimular um ambiente onde os trabalhadores se sintam valorizados e apoiados é
+crucial. Políticas de bem-estar e espaços de diálogo que funcionam podem fazer a diferença.
+
+• Feedback (Retorno) contínuo: Criar canais para que os colaboradores possam fornecer feedback
+
+sobre as ações implementadas e sugerir melhorias.
+
+• Campanhas de conscientização: Realizar
+
+treinamentos e campanhas para aumentar a
+conscientização sobre os riscos psicossociais e a importância de um ambiente de trabalho saudável.
+Oferecer treinamentos para gestores e colaboradores sobre gestão de estresse, inteligência emocional
+e resolução de conflitos pode ser algo muito interessante e que trará ganhos muito além do ambiente
+organizacional.
+
+METODOLOGIA DE CONTROLE DOS RISCOS:
+
+Além de promover mudanças organizacionais necessárias, é essencial implementar programas de apoio
+psicológico e investir em treinamento e capacitação para que os trabalhadores desenvolvem habilidades para
+lidar com o estresse e outras pressões, contribuindo para um ambiente mais inclusivo. Além disso, no
+contexto de ações de controle, é importante adotar práticas eficientes, como o aprimoramento do formato de
+armazenamento e gestão das informações levantadas.
+
+DOCUMENTAÇÃO E RELATÓRIOS
+
+A documentação para identificação das análises realizadas é fundamental para a gestão contínua.
+Recomenda-se:
+
+• Registro detalhado, criar fichas de risco que documentem a natureza do risco, sua avaliação e as
+
+medidas corretivas planejadas;
+
+• Relatórios periódicos, preparar relatórios que resumem os achados e as ações recomendadas, e
+
+compartilhe-os com a alta gestão e outras partes interessadas.
+
+MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:
+
+A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam
+monitoradas e ajustadas conforme necessário, isso pode ser feito através de:
+
+Revisões periódicas, reavaliar os riscos e as estratégias de controle regularmente;
+
+Feedback (Retorno) dos trabalhadores, incentivar os trabalhadores a darem retorno constante sobre o
+ambiente de trabalho e as medidas implementadas;
+
+Ajustes conforme necessário, estar disposto a modificar políticas e práticas em resposta a novas informações
+ou mudanças no ambiente de trabalho;
+
+Avaliações contínuas, realizar de forma periódica a avaliação de risco psicossocial, através de instrumentos
+validados e normatizados para a mensuração de fatores psicossociais;
+
+Análise de dados, implementar a análise de dados, através dos indicadores de saúde e segurança com o
+resultado das avaliações individuais e de grupos.
+
+</div>
+<div class="page"><b>16. METAS E PRIORIDADES</b>
+
+METAS
+
+➢ Eliminação dos acidentes do trabalho e doenças ocupacionais bem como a melhoria das condições do
+
+ambiente de trabalho;
+
+➢ Treinar e capacitar os empregados;
+➢ Realizar avaliação dos agentes ambientais (podendo ser definido também por GHE – Grupo
+
+Homogêneo de Exposição).
+
+PRIORIDADES
+
+As ações e medidas de controles a serem implementadas terão as seguintes prioridades:
+
+➢ Quando a situação na fase de antecipação ou reconhecimento estiver gerando risco grave e iminente
+
+para a segurança e saúde dos trabalhadores.
+
+➢ Quando a situação na fase de avaliação apresentar índices superiores aos limites de tolerância
+
+estabelecidos pela NR-15 da Portaria 3214/78, ou da ACGIH na ausência destes;
+
+➢ Quando a situação na fase de avaliação apresentar índices entre o nível de ação e os limites de
+
+tolerância.
+
+<b>17. ESTRATÉGIA PARA IMPLANTAÇÃO DO PGRTR</b>
+
+a) Nome do responsável pela implantação do PGRTR: Edilson Geraldo Otoni De Melo.
+
+b) Conscientização e comprometimento por parte de todos os gerentes da empresa com a implantação do
+
+PGRTR;
+
+c) Envolvimento de todos os trabalhadores;
+
+d) Estabelecimento de metas e prioridades;
+
+e) Redução dos níveis dos agentes físicos, químicos e biológicos enquadrados nas categorias de risco
+grave e crítico à categoria de risco moderado;
+
+f) Viabilização de recursos materiais e financeiros necessários ao desenvolvimento do PGRTR;
+
+g) Elaboração de cronograma de implantação;
+
+h) Reuniões periódicas com as equipes para avaliação do PGRTR;
+
+i) Divulgação periódica do PGRTR, junto aos funcionários.
+
+<b>18. RISCOS AMBIENTAIS</b>
+
+Os riscos ambientais são aqueles existentes nos ambientes de trabalho, originados por agentes físicos,
+químicos ou biológicos, capazes de causar danos à saúde do trabalhador, em função da natureza,
+concentração ou intensidade do agente e do tempo de exposição do trabalhador.
+
+PORTARIA SSST N. 25 DE 29 DE DEZEMBRO DE 1994 – TABELA I
+
+Classificação dos principais riscos ocupacionais em grupos, de acordo com a sua natureza e a padronização
+das cores correspondentes:
+
+<b>19. CATEGORIAS DOS RISCOS</b>
+
+I – GRAVE
+
+II – CRÍTICO
+
+• Exposição ocupacional a substâncias carcinogênicas;
+• Presença de agentes cujos valores de concentração ou intensidade
+
+encontram-se acima do valor máximo ou do valor teto;
+
+• Teor de oxigênio inferior a 18%, em volume, para asfixiantes
+
+simples;
+
+• Registros médicos indicando ocorrência generalizada de patologias
+
+em razão do agente.
+
+• Referências técnicas indicando que o agente pode causar sérios danos
+
+à saúde;
+
+• Presença de agentes cujos valores de concentração ou intensidade
+encontram-se entre o nível de ação e o limite de tolerância ou valor
+teto;
+
+• Substâncias que possam ser absorvidas também pela pele.
+
+• Referências
+
+técnicas
+
+indicando que o agente apresenta risco
+
+moderado à saúde;
+
+III – MODERADO
+
+• Presença de agentes cujos valores de concentração ou intensidade
+
+encontram-se abaixo do nível de ação;
+
+• Presença de agentes que não possuem limites de tolerância ou valor
+
+IV – LEVE
+
+teto.
+
+<b>20. PRIORIDADES</b>
+
+I
+
+II
+
+Situações classificadas na categoria de risco grave;
+
+Situações classificadas na categoria de risco crítico;
+
+III
+
+Situações classificadas na categoria de risco moderado;
+
+IV
+
+Situações classificadas na categoria de risco leve.
+
+</div>
+<div class="page"><b>21. ESTABELECIMENTO DE PRIORIDADES E METAS DE AVALIAÇÃO E</b>
+
+CONTROLE
+
+Avaliação dos riscos e da exposição dos trabalhadores:
+
+Comprovar o controle da exposição ou a inexistência dos riscos identificados na etapa de reconhecimento,
+dimensionar a exposição dos trabalhadores, subsidiar o equacionamento das medidas de controle.
+
+Implantação de medidas de controle:
+
+Deverão ser adotadas as medidas necessárias e suficientes para a eliminação, minimização ou o controle
+dos riscos ambientais, conforme cada agente nocivo;
+
+O estudo, desenvolvimento e implantação de medidas de proteção coletiva deverão obedecer a seguinte
+hierarquia:
+
+1. Medidas que eliminem ou reduzam a utilização ou a formação de agentes prejudiciais à saúde;
+2. Medidas que previnam a liberação ou disseminação desses agentes no ambiente de trabalho;
+3. Medidas que reduzam os níveis ou a concentração desses agentes no ambiente de trabalho;
+
+A implantação de medidas de caráter coletivo deverá ser acompanhada de treinamentos quanto aos
+procedimentos que assegurem a sua eficiência e de informação sobre as eventuais limitações de proteção
+que oferecem.
+
+Quando comprovado pelo empregador ou instituição a inviabilidade técnica da adoção de medidas de
+proteção coletiva, ou quando estas não forem suficientes ou encontrar-se em fase de estudo, planejamento
+ou implantação, ou ainda em caráter emergencial, deverão ser adotadas outras medidas, obedecendo-se a
+seguinte hierarquia:
+
+<b>1. Medidas de caráter administrativo ou de organização de trabalho;</b>
+<b>2. Utilização de equipamento de proteção individual (EPI)</b>
+
+Avaliação da eficácia das medidas:
+
+Estabelecer critérios e mecanismos de avaliação da eficácia das medidas de proteção implantadas,
+considerando os dados obtidos nas avaliações realizadas e no controle médico de saúde ocupacional.
+
+Monitoramento da exposição aos riscos:
+
+Avaliação repetida e sistemática da exposição a cada risco, visando introduzir ou modificar as medidas de
+controle, sempre que necessário.
+
+Registro e divulgação dos dados:
+
+Histórico técnico e administrativo, mantidos por 20 (vinte) anos, devendo estar disponíveis aos
+trabalhadores, seus representantes e para as autoridades competentes. Deverá ser efetuada, pelo menos uma
+vez por ano, uma análise global do PGRTR para a avaliação de seu desenvolvimento e realização dos
+ajustes necessários e estabelecimento de novas metas e prioridades.
+
+<b>22. ESTRATÉGIA E METODOLOGIA DE AÇÃO</b>
+
+A metodologia de desenvolvimento do documento de gestão leva em consideração os levantamentos
+
+realizados “in loco” no estabelecimento.
+
+As ações de segurança e saúde devem contemplar os seguintes aspectos:
+<b>1. Melhoria das condições e do meio ambiente de trabalho;</b>
+<b>2. Promoção da saúde e da integridade física dos trabalhadores rurais;</b>
+<b>3. Campanhas educativas de prevenção de acidentes e doenças decorrentes do trabalho;</b>
+
+As ações de melhoria das condições e meio ambiente de trabalho devem abranger os aspectos
+
+relacionados a:
+
+<b>1. Riscos químicos, físicos, mecânicos e biológicos;</b>
+<b>2. Investigação e análise dos acidentes e das situações de trabalho que os geraram;</b>
+<b>3. Organização do trabalho;</b>
+
+As ações de preservação da saúde ocupacional dos trabalhadores, prevenção e controle dos agravos
+decorrentes do trabalho, devem ser planejadas e implementadas com base na identificação dos riscos e
+custeadas pelo empregador rural ou equiparado.
+
+Antecipação de Riscos
+
+Deve-se analisar:
+
+a) Análise de projeto de novas instalações;
+
+b) Análise de novos métodos ou processos de trabalho;
+
+c) Análise de modificações de instalações, métodos ou processos de trabalho existentes.
+
+</div>
+<div class="page">Reconhecimento de Riscos
+
+Deve-se identificar:
+
+a) Identificação;
+
+b) Possíveis fontes geradoras;
+
+c) Trajetórias e meios de propagação;
+
+d) Funções e número de trabalhadores;
+
+e) Atividades e tipos de exposição;
+
+f) Dados indicativos de comprometimento à saúde existentes na empresa;
+
+g) Danos à saúde relatados em literatura técnica;
+
+h) Medidas de controle já existentes.
+
+Avaliação de Riscos
+
+A avaliação será feita com base na metodologia definida na NR-31 da Portaria 3.214/78, do
+Ministério do Trabalho, e em normas técnicas existentes. Envolve a avaliação qualitativa e quantitativa dos
+riscos ambientais, através da avaliação das prioridades e das medições de curto ou longo prazo nos
+ambientes de trabalho, comparando os resultados encontrados com os limites de tolerância, entre outras
+considerações.
+
+A avaliação dos riscos envolve três passos básicos:
+
+<b>1. Identificar os perigos;</b>
+<b>2. Estimar o risco a partir de cada perigo (probabilidade e gravidade do perigo);</b>
+<b>3. Decidir se o risco é tolerável.</b>
+
+Devem atender a seguinte ordem de prioridade:
+
+1. Eliminação de riscos através da substituição ou adequação dos processos produtivos, máquinas e
+
+equipamentos;
+
+<b>2. Adoção de medidas de proteção coletiva para controle dos riscos na fonte;</b>
+<b>3. Adoção de medidas de proteção pessoal.</b>
+
+Deve ser dimensionado levando-se em consideração os recursos técnicos e financeiros da empresa,
+sendo, preferencialmente recomendados os controles de engenharia, ou seja, na fonte dos riscos, caso
+não seja viável este controle, passa-se ao meio de propagação dos riscos e, por último, controle no
+trabalhador, através dos EPI’s.
+
+Serão adotadas, como medidas de controle, as seguintes fases:
+
+FASE
+
+MEDIDA
+
+Antecipação
+
+Identificação de riscos potenciais à saúde.
+
+Reconhecimento
+
+Constatação de risco evidente.
+
+Avaliação
+
+Controle
+
+Monitoramento quantitativo e qualitativo dos agentes
+ambientais constatados
+
+Procedimentos e ações que mantém os riscos e agentes
+ambientais dentro dos limites permissíveis e aceitáveis para
+desenvolvimento das atividades laborais
+
+Será observada a seguinte hierarquia:
+
+ELIMINAÇÃO DO RISCO
+
+REDUÇÃO DO RISCO
+
+MEDIDAS DE ORDEM COLETIVA
+
+MEDIDAS DE ORDEM ADMINISTRATIVA
+
+MEDIDAS DE ORDEM INDIVIDUAL ( EPI )
+
+</div>
+<div class="page">A utilização de EPI (Equipamento de Proteção Individual) observará as disposições da NR-6, da
+
+Portaria 3.214/78, do Ministério do Trabalho, além dos seguintes aspectos:
+
+a) Seleção do EPI adequado ao risco, considerando-se a eficiência e o conforto do mesmo, segundo
+avaliação do trabalhador;
+
+b) Treinamento dos trabalhadores quanto à correta utilização e as limitações dos EPI’s;
+
+c) Estabelecimento de normas para fornecimento, uso, guarda, higienização, conservação, manutenção e
+reposição do EPI.
+
+Monitoramento dos Riscos
+
+a) Periodicamente será avaliada eficácia das medidas de controle com base nas avaliações ambientais e no
+
+controle médico;
+
+b) Periodicamente será avaliado o desenvolvimento do PGRTR.
+
+<b>23. AVALIAÇÕES</b>
+
+As avaliações serão realizadas com base na NR-15 da Portaria 3.214/78 do Ministério do Trabalho e
+Emprego, de forma qualitativa e deverão estar registradas em documento próprio ficando este documento à
+disposição de todos os trabalhadores; ou conforme normas técnicas da ABNT; e ainda conforme as portarias,
+decretos e Instruções Normativas do INSS.
+
+<b>24. FORMA DE DIVULGAÇÃO</b>
+
+Sempre que houver treinamentos, laudos técnicos, investigação de acidentes, comunicação de acidentes
+(CAT), monitoramento de agentes de riscos, registros e resultados deverão ser arquivados na empresa e os
+resultados de monitoramento divulgados através de “Boletins” fixados em local de acesso de todos
+trabalhadores. A divulgação poderá ser através de:
+
+a) Treinamento específicos;
+
+b) Quadro de avisos;
+
+c) Palestras;
+
+d) Reuniões com funcionários (inclusive reuniões de membros da CIPATR – Comissão Interna de
+Prevenção de Acidentes do Trabalho Rural).
+
+<b>25. RESPONSABILIDADE DO EMPREGADOR</b>
+
+✓ Estabelecer, implementar e assegurar o cumprimento do PGRTR como atividade Permanente da
+
+empresa;
+
+✓ Informar aos trabalhadores, de maneira apropriada e suficiente, sobre os riscos ambientais em seus
+
+locais de trabalho e sobre as formas adequadas de se prevenir tais riscos;
+
+✓ Garantir aos trabalhadores a interrupção imediata de suas atividades, com a comunicação do fato ao
+superior hierárquico, em caso de situação de risco grave e iminente ou de agravos à saúde, por
+agentes ambientais;
+
+✓ Programar e aplicar treinamentos com o objetivo de instruir os trabalhadores;
+
+✓ Propor soluções para eliminar/reduzir os riscos ambientais;
+
+✓ Desenvolver o monitoramento de saúde ocupacional;
+
+✓ Implantar a Comissão Interna de Prevenção de Acidentes no Trabalho Rural – CIPATR ou designar
+
+o representante da empresa (conforme NR 31);
+
+✓ Treinar o trabalhador sobre o uso correto dos EPIs;
+
+✓ Tornar obrigatório o uso dos EPIs substituindo-o quando necessário;
+
+✓ Abrir Comunicação de Acidente de Trabalho – CAT, quando necessário;
+
+✓ Complementar o PGRTR sempre que surgirem novos riscos que não estejam contemplados neste
+
+programa.
+
+<b>26. RESPONSABILIDADES DOS EMPREGADOS</b>
+
+✓ Colaborar e participar da implantação e execução do PGRTR;
+
+✓ Seguir as orientações recebidas nos treinamentos do PGRTR;
+
+✓ Informar aos superiores hierárquicos às ocorrências que, a seu julgamento, que possam implicar em
+
+riscos à saúde dos trabalhadores;
+
+✓ Apresentar propostas e se empenhar em receber informações/orientações como forma de prevenção
+
+dos riscos ambientais identificados;
+
+✓ Usar o EPI apenas para a finalidade a que se destina;
+
+✓ Responsabilizar-se pela guarda e conservação do EPI comunicando à empresa qualquer alteração que
+
+o torne impróprio para uso;
+
+✓ Atender as normas e ordens de segurança do trabalho sob pena de não cumprimento das mesmas;
+
+✓ Seguir as orientações recebidas nos treinamentos oferecidos dentro do PGRTR;
+
+✓ Informar ao seu superior hierárquico direto, ocorrências que, a seu julgamento, possam implicar
+
+riscos à saúde dos trabalhadores;
+
+</div>
+<div class="page"><b>27. SERVIÇO ESPECIALIZADO EM SEGURANÇA E SAÚDE DO TRABALHO - SESTR</b>
+
+Serviço Especializado Em Segurança e Saúde do Trabalho – SESTR:
+O SESTR consiste em um serviço destinado ao desenvolvimento de ações técnicas, integradas às
+práticas de gestão de segurança, saúde e meio ambiente de trabalho, para tornar o ambiente de trabalho
+compatível com a promoção da segurança e saúde e a preservação da integridade física do trabalhador rural.
+
+Constituição:
+
+O dimensionamento do SESTR vincula-se ao número de empregados contratados por prazo
+
+indeterminado.
+
+O estabelecimento com mais de 10 (dez) até 50 (Cinquenta) empregados fica dispensado de
+constituir SESTR desde que o empregador rural ou preposto tenha capacitação sobre prevenção de acidentes
+e doenças
+trabalho, necessária ao cumprimento dos objetivos desta Norma
+Regulamentadora.
+
+relacionadas ao
+
+O não atendimento ao item anterior obriga o empregador rural ou equiparado a contratar 1 (um)
+
+técnico de segurança do trabalho ou SESTR Externo, observando o disposto no subitem 31.6.12 da NR -31;
+
+<b>28. APLICABILIDADE DA NR-31</b>
+
+Fonte Exposição e Reservatório
+
+As fontes de exposição incluem pessoas, animais, objetos ou substâncias que abrigam agentes biológicos, a
+partir dos quais torna-se possível a transmissão a um hospedeiro ou a um reservatório.
+
+Reservatório é a pessoa, animal, objeto ou substância no qual um agente biológico pode persistir, manter sua
+viabilidade, crescer ou multiplicar-se, de modo a poder ser transmitido a um hospedeiro.
+
+Vias de Transmissão e de Entrada
+
+Via de transmissão é o percurso feito pelo agente biológico a partir da fonte de exposição até o hospedeiro.
+A transmissão pode ocorrer das seguintes formas:
+
+Direta: transmissão do agente biológico sem a intermediação de vetores ou veículos. Exemplos: transmissão
+aérea por bioaerossóis, transmissão por gotículas e contato com a mucosa dos olhos;
+
+Indireta - transmissão do agente biológico por meio de veículos ou vetores. Exemplos: transmissão por meio
+de mãos, roupas, instrumentos, água, alimentos e superfícies.
+
+</div>
+<div class="page">Vias de entrada são os tecidos ou órgãos por onde um agente penetra em um organismo, podendo ocasionar
+uma doença. A entrada pode ser por via cutânea (por contato direto com a pele), parenteral (por inoculação
+intravenosa, intramuscular, subcutânea), por contato direto com as mucosas, por via respiratória (por
+inalação) e por via oral (por ingestão).
+
+<b>29. PRODUTOS QUÍMICOS</b>
+
+O PGRTR irá abranger todas as atividades relacionadas a aplicação, manipulação, armazenagem e
+
+descarte de produtos químicos, substâncias ou misturas de natureza química.
+
+A empresa não possui atividades com manipulação de produtos químicos realizada por seus
+
+funcionários.
+
+<b>30. VACINAÇÃO DOS TRABALHADORES</b>
+
+Conforme define o Item 31.3.5 todo trabalhador dos serviços de saúde deve ser fornecido, gratuitamente,
+programa de imunização ativa como no caso da vacina antitetânica, brucelose.
+
+DT (Dupla Adulto/ toxoíde diftérico + tetânico):
+
+Indicado a profissionais da área da saúde, os que lidam com alimentos e bebida, serviço de manutenção e
+limpeza ou que lidam frequentemente ou ocasionalmente com animais. Aplicação de três doses com
+intervalo de 60 dias entre as doses e reforço a cada 10 anos.
+
+Hepatite B:
+
+Indicado a profissionais da área da saúde e que trabalham com limpeza. Realizada em três doses com
+intervalos de 30 dias da primeira para a segunda dose e 180 dias da primeira para a terceira dose.
+
+Influenza Sazonal:
+
+Indicada para todos os profissionais é aplicada em dose única anual.
+
+Raiva:
+
+Indicado a profissionais que lidam frequentemente ou ocasionalmente com animais. O esquema vacinal pré-
+exposição ao agente etiológico é de três doses, realizados em dias alternados obedecendo ao esquema 0, 7 e
+21, segundo a Coordenação de Imunização do Município de Seropédica (RJ).
+
+Vacina COVID-19
+
+Esquema primário: duas doses ou dose única, com ou sem dose adicional (imunocomprometidos com alto
+grau de imunossupressão).
+
+Reforço: dois reforços com intervalo mínimo de quatro meses.
+
+Alerta: esquema dinâmico, podendo sofrer alterações conforme o Programa Nacional de Imunizações do
+MS.
+
+</div>
+<div class="page"><b>31. MEIO AMBIENTE E RESÍDUOS</b>
+
+Os resíduos provenientes dos processos produtivos devem ser eliminados dos locais de trabalho,
+segundo métodos e procedimentos adequados que não provoquem contaminação ambiental. Deverá ser
+considerado:
+
+➢ Prevenção da poluição ou redução na fonte: o uso de processos, práticas, materiais ou energia com o
+
+objetivo de diminuir o volume de poluentes ou de resíduos na geração de produtos e serviços;
+
+➢ Minimização dos resíduos gerados: Redução, ao menor volume, da quantidade e preciosidade
+
+possíveis, dos materiais e substâncias, antes de descarta-los no meio ambiente.
+
+Os resíduos sólidos ou líquidos de alta toxicidade, periculosidade, alto risco biológico e os resíduos
+radioativos deverão ser dispostos com o conhecimento e a orientação dos órgãos competentes e mantidos
+sob monitoramento.
+
+Os resíduos podem ser considerados:
+
+Resíduos sólidos: qualquer forma de matéria ou substância, no estado sólido e semi- sólido, que resulte de
+atividade industrial, domiciliar, hospitalar, comercial, agrícola, de serviços, de varrição e de outras
+atividades humanas, capazes de causar poluição ou contaminação ambiental.
+
+Resíduos Perigosos: aqueles que, em função de suas propriedades físicas, químicas ou infectastes, possam
+apresentar riscos à saúde pública ou à qualidade do meio ambiente.
+
+Os resíduos obedecerão a seguinte classificação:
+
+a) Resíduos urbanos;
+b) Resídos de serviços de saúde;
+c) Resíduos especiais;
+d) Resíduos de atividades rurais;
+e) Resíduos de serviços de transporte;
+f) Rejeitos radioativos.
+
+Os resíduos obedecerão a seguinte identificação de natureza:
+
+1. Resíduos classe I: perigosos são aqueles que, em função de suas características intrínsecas de
+inflamabilidade, corrosividade, reatividade, toxidade ou patogenicidade, apresentam riscos á saúde
+ou ao meio ambiente;
+
+</div>
+<div class="page"><b>2. Resíduos classe</b>
+
+II: não
+
+inertes, são aqueles que podem apresentar características de
+combustibilidade, biodegradabilidade ou solubilidade, com possibilidade de acarretar riscos à saúde
+ou ao meio ambiente, não se enquadrando nas classificações de resíduos classe I - perigosos ou
+classe III inertes.
+
+3. Resíduos classe III: não inertes, são aqueles que, por suas características intrínsecas, não oferecem
+riscos à saúde e que apresentam constituintes solúveis em água e em concentrações superiores aos
+padrões de potabilidade.
+
+A determinação da classe dos resíduos, segundo a sua natureza, deverá ser feita conforme norma
+
+estabelecida pelo organismo normalizador federal competente.
+
+Quando um resíduo não puder ser classificado nos termos da norma específica o órgão ambiental
+
+estadual poderá estabelecer.
+
+<b>32. RAZÕES DAS PAUSAS PARA DESCANSO DURANTE O DIA</b>
+
+Trabalho físico pesado - para recuperar a respiração e a circulação; para restaurar a energia e evitar um nível
+baixo de açúcar no sangue através da distribuição da ingestão de comida; também para remover ácido lático
+ou compensar a queima de oxigênio;
+
+Trabalho em pé - para restaurar a concentração de sangue nas pernas e nos pés e diminuir a pressão nas
+veias;
+
+Trabalho em clima quente - para resfriar o corpo e repor as perdas de água regularmente;
+
+<b>33. CONDIÇÕES SEGURAS DE TRÂNSITO EM VIAS INTERNAS</b>
+
+Devem ser garantidos todas as vias de acesso e de circulação internos da fazenda em condições adequadas
+para os trabalhadores e veículos.
+
+Medidas especiais de proteção da circulação de veículos e trabalhadores nas vias devem ser tomadas nas
+circunstâncias de chuvas que gerem alagamento e escorregamento.
+
+As vias de acesso e de circulação internos das fazendas devem ser sinalizadas de forma visível durante o dia
+e a noite.
+
+As laterais das vias de acesso e de circulação internos da fazenda devem ser protegidas com barreiras que
+impeçam a queda de veículos.
+
+Além das condições de projeto e conservação das vias de circulação, especial atenção deve ser dada ás
+frentes de trabalho, onde é maior o fluxo de veículos e máquinas. Nestes locais devem ser estabelecidas e
+sinalizadas as mãos e fluxos preferenciais de trânsito.
+
+</div>
+<div class="page"><b>34. ERGONOMIA E ORGANIZAÇÃO DO TRABALHO</b>
+
+Deverá ser adotado princípios ergonômicos que visem a adaptação das condições de trabalho as
+
+características psicofisiológicas dos trabalhadores, de modo a proporcionar melhorias nas condições de
+conforto e segurança no trabalho.
+
+Transporte de carga manual
+É vedado o levantamento e o transporte manual de carga com peso suscetível de comprometer a saúde
+
+do trabalhador.
+
+Deverá ser elaborado manuais/procedimentos para orientação e conscientização dos trabalhadores
+
+quanto as formas e métodos corretos de transporte manual de peso.
+
+Transporte de carga por impulsão
+O transporte e a descarga de materiais feitos por impulsão ou tração de vagonetes sobre trilhos, carros
+de mão ou qualquer outro aparelho mecânico deverão ser executados de forma que o esforço físico realizado
+pelo trabalhador seja compatível com sua saúde, segurança e capacidade de força.
+
+Todas as máquinas, equipamentos, implementos, mobiliários e ferramentas devem proporcionar ao
+
+trabalhador condições de boa postura, visualização, movimentação e operação.
+
+Treinamento
+Todo trabalhador designado para o transporte manual regular de cargas deve receber treinamento ou
+
+instruções quanto aos métodos de trabalho que deverá utilizar, com vistas a salvaguardar sua saúde e
+prevenir acidentes.
+
+As instruções devem constar de documento escrito e ilustrado, na forma de manual ou procedimento.
+
+A comprovação de que o treinamento foi realizado pelo empregador pode ser feita através de lista de
+presença, contendo datas, conteúdo programático, carga horária e assinatura dos participantes e instrutores.
+
+Organização do local de trabalho
+
+A organização do trabalho deve ser adequada ás características psicofisiológicas dos trabalhadores e à
+
+natureza do trabalho a ser executado. Deverá ser observado:
+
+a) As normas de produção;
+b) O modo operatório
+c) A exigência de tempo;
+d) A determinação do conteúdo de tempo;
+e) O ritmo de trabalho;
+f) O conteúdo das tarefas.
+
+Nas atividades que exijam sobrecarga muscular estática ou dinâmica devem ser incluídas para descanso e
+outras medidas que preservem a saúde do trabalhador.
+
+Nas operações que necessitem também da utilização dos pés, os pedais e outros comandos devem ter
+posicionamento e dimensões que possibilitem fácil alcance e ângulos adequados entre as diversas partes do
+corpo do trabalhador, em função das características e peculiaridades do trabalho a ser executado.
+
+Para as atividades que forem realizadas necessariamente em pé, devem ser garantidas pausas para
+
+descanso.
+
+<b>35. FERRAMENTAS MANUAIS</b>
+
+Deverá ser disponibilizada ferramentas adequadas ao trabalho e às características físicas do
+
+trabalhador, substituindo-as sempre que necessário e gratuitamente. As ferramentas devem ser:
+
+<b>1. Seguras e eficientes;</b>
+<b>2. Utilizadas exclusivamente para os fins a que se destinam;</b>
+<b>3. Mantidas em perfeito estado de uso.</b>
+
+Os cabos das ferramentas devem permitir boa aderência em qualquer situação de manuseio, possuir
+formato que favoreça a adaptação a mão do trabalhador, e ser fixados de forma a não se soltar
+acidentalmente da lâmina.
+
+As ferramentas de corte devem ser:
+
+<b>1. Guardadas e transportadas em bainha;</b>
+<b>2. Mantidas afiadas;</b>
+3. Quando do fornecimento de limas para afiação das ferramentas, as mesmas deverão possuir
+
+protetores
+
+Transporte de ferramentas
+
+Não poderão ser transportadas as ferramentas em compartimentos junto com os trabalhadores.
+
+</div>
+<div class="page"><b>36. MÁQUINAS, EQUIPAMENTOS E IMPLEMENTOS</b>
+
+As máquinas, equipamentos e implementos devem atender aos seguintes requisitos:
+
+<b>1. Utilizados unicamente para os fins concebidos, segundo as especificações técnicas do</b>
+
+fabricante;
+
+<b>2. Operados somente por trabalhadores capacitados e qualificados para tais funções;</b>
+<b>3. Utilizados dentro dos limites operacionais e restrições indicados pelos fabricantes.</b>
+
+Proteções Coletivas (EPC)
+
+Só devem ser utilizadas máquinas, equipamentos e implementos cujas transmissões de força estejam
+
+protegidas.
+
+As máquinas equipamentos e implementos que ofereçam risco de ruptura de suas partes, projeção de
+
+peças ou de material em
+
+Processamento só devem ser utilizadas se dispuserem de proteções efetivas.
+
+Os protetores removíveis só podem ser retirados para execução de limpeza lubrificação, reparos e
+
+ajustes, ao fim dos quais devem ser, obrigatoriamente, recolocados.
+
+Só devem ser utilizadas máquinas e equipamentos móveis motorizados que tenham estrutura de
+
+proteção do operador em caso de tombamento e dispor de cinto de segurança.
+
+As máquinas e equipamentos, estacionários ou não, que possuem plataformas de trabalho só devem ser
+
+utilizadas quando dotadas escadas de acesso e dispositivos de proteção contra quedas.
+
+Só devem ser utilizadas máquinas de cortar, picar, triturar, moer. desfibrar e similares que possuírem
+
+dispositivos de proteção, que impossibilitem contato do operador ou demais pessoas com suas partes
+móveis.
+
+As aberturas para alimentação de máquinas, que estiverem situadas ao nível do solo ou abaixo deste,
+
+devem ter proteção que impeça a queda de pessoas no interior das mesmas.
+
+Só devem ser utilizadas roçadeiras que possuam dispositivos de proteção que impossibilitem o
+
+arremesso de materiais sólidos.
+
+</div>
+<div class="page">É vedada a execução de serviços de limpeza, de lubrificação, de abastecimento e de manutenção com
+
+as máquinas, equipamentos e implementos em funcionamento salvo se o movimento for indispensável à
+realização dessas operações, quando deverão ser tomadas medidas especiais de proteção e sinalização contra
+acidentes de trabalho.
+
+Deve haver substituição ou reparo de equipamentos e implementos sempre que apresentem defeitos
+
+que impeçam a operação de forma segura.
+
+Nas paradas temporárias ou prolongadas o operador deve colocar os controles em posição neutra,
+acionar os freios e adotar todas as medidas necessárias para eliminar riscos provenientes de deslocamento ou
+movimentação de implementos.
+
+Operação de máquinas e implementos
+
+Só devem ser utilizados máquinas e equipamentos que apresentem dispositivos de acionamento e
+
+parada localizados de modo que:
+
+✓ Possam ser acionados ou desligados pelo operador na sua posição de trabalho;
+✓ Não se localizem na zona perigosa da máquina ou equipamento;
+✓ Possam ser acionados ou desligados, em caso de emergência, por outra pessoa que não seja o
+
+operador;
+
+✓ Não possam ser acionados ou desligados involuntariamente pelo operador ou de qualquer outra forma
+
+acidental;
+
+✓ Não acarretem riscos adicionais.
+
+É vedado o trabalho de máquinas e equipamentos acionados por motores de combustão interna, em
+
+locais fechados ou sem ventilação suficiente, salvo quando for assegurada a eliminação de gases do
+ambiente.
+
+Só devem ser utilizados máquinas e equipamentos motorizados móveis que possuam faróis luzes e
+
+sinais sonoros de ré acoplados ao sistema de câmbio de marchas, buzina e espelho retrovisor.
+
+Só devem ser utilizadas as correias transportadoras que possuam:
+
+✓ Sistema de frenagem ao longo dos trechos onde possa haver acesso de trabalhadores;
+✓ Dispositivo que interrompa seu acionamento quando necessário;
+✓ Partida precedida de sinal sonoro audível que indique seu acionamento;
+✓ Transmissões de força protegidas com grade contra contato acidental;
+✓ Sistema de proteção contra quedas de materiais, quando instaladas em altura superior a dois metros;
+✓ Sistemas e passarelas que permitam que os trabalhos de manutenção sejam desenvolvidos de forma
+
+segura;
+
+✓ Passarelas com guarda-corpo e rodapé ao longo de toda a extensão elevada onde possa haver
+
+circulação de trabalhadores;
+
+</div>
+<div class="page">✓ Sistema de travamento para ser utilizado quando dos serviços de manutenção.
+
+Nos locais de movimentação de máquinas, equipamentos e veículos, o empregador rural ou equiparado
+
+deve estabelecer medidas que complementem:
+
+✓ Regras de preferência de movimentação;
+✓ Distância mínima entre máquinas, equipamentos e veículos;
+✓ Velocidades máximas permitidas de acordo com as condições das pistas de rolamento.
+
+É vedado, em qualquer circunstância, o transporte de pessoas em máquinas e equipamentos
+
+motorizados e nos seus implementos acoplados.
+
+Só podem ser utilizadas motosserras que atendam os seguintes dispositivos:
+
+✓ Freio manual de corrente;
+✓ Pino pega corrente;
+✓ Protetor da mão direita;
+✓ Protetor da mão esquerda;
+✓ Trava de segurança do acelerador.
+
+Treinamento
+
+Os manuais das máquinas, equipamentos e implementos devem ser mantidos no estabelecimento,
+
+devendo o empregador dar conhecimento aos operadores do seu conteúdo e disponibiliza-los sempre que
+necessário.
+
+O empregador rural ou equiparado se responsabilizará pela capacitação dos operadores de máquinas e
+
+equipamentos, visando o manuseio e a operação segura.
+
+O treinamento mínimo exigido é o de direção defensiva e primeiros socorros. Para casos específicos
+
+devem ser incluídos nos treinamentos aspectos relativos á atividade do trabalhador. A comprovação do
+cumprimento desta exigência pode ser feita através de ficha de controle de treinamento contendo datas,
+conteúdo e nomes e assinaturas do treinando e do instrutor. Para os cursos realizados por entidades
+reconhecidas e credenciadas, o certificado de conclusão atende a exigência.
+
+NOTA: Por tratar-se de exigência de "capacitação", quando o treinamento for realizado pela empresa,
+
+devem ser feitos testes de verificação, com índice de 100% de acerto de resposta. Os testes devem ser
+guardados por tempo indeterminado.
+
+O empregador rural ou equiparado deve promover a todos os operadores de motosserra treinamento
+
+para utilização segura da máquina, com carga horária mínima de oito horas com conteúdo programático
+relativo à utilização segura da motosserra, constante no Manual de Instruções.
+
+<b>37. ACESSOS E VIAS DE CIRCULAÇÃO</b>
+
+Devem ser garantidos todas as vias de acesso e de circulação internos da fazenda em condições
+
+adequadas para os trabalhadores e veículos.
+
+Medidas especiais de proteção da circulação de veículos e trabalhadores nas vias devem ser tomadas
+
+nas circunstâncias de chuvas que gerem alagamento e escorregamento.
+
+As vias de acesso e de circulação internos das fazendas devem ser sinalizadas de forma visível durante
+
+o dia e a noite.
+
+As laterais das vias de acesso e de circulação internos da fazenda devem ser protegidas com barreiras
+
+que impeçam a queda de veículos.
+
+Ao longo das estradas principais deverá ser colocado sinalizadores/bonecos para que possa ser
+
+indicado o fluxo de veículos, bem como nas entradas dos carreadores principais.
+
+Além das condições de projeto e conservação das vias de circulação, especial atenção deve ser dada ás
+
+frentes de trabalho, onde é maior o fluxo de veículos e máquinas. Nestes locais devem ser estabelecidas e
+sinalizadas as mãos e fluxos preferenciais de trânsito.
+
+<b>38. ÁREAS DE VIVÊNCIA</b>
+
+Deverá ser disponibilizado aos trabalhadores áreas de vivência compostas de:
+
+✓ Instalações sanitárias;
+✓ Local adequado para refeições.
+
+As áreas de vivência devem atender aos seguintes requisitos:
+
+✓ Condições adequadas de conservação, asseio e higiene;
+✓ Paredes de alvenaria, madeira ou material equivalente;
+✓ Cobertura que proteja contra as intempéries;
+✓ Iluminação e ventilação adequadas.
+
+É vedada a utilização das áreas de vivência para fins diversos daqueles a que se destinam.
+
+</div>
+<div class="page"><b>39. INSTALAÇÕES SANITÁRIAS</b>
+
+Nas frentes de trabalho, devem ser disponibilizadas instalações sanitárias fixas ou móveis compostos
+
+de vasos sanitários e lavatórios, na proporção de um conjunto para cada grupo de quarenta trabalha dores ou
+fração, atendidos os requisitos da NR-31, item 31.23.3.2, sendo permitida a utilização de fossa seca.
+
+As instalações sanitárias devem:
+
+✓ Ter portas de acesso que impeçam o devassamento e ser construídas de modo a manter o resguardo
+
+conveniente;
+
+✓ Ser separadas por sexo;
+✓ Estar situadas em locais de fácil e seguro acesso;
+✓ Dispor de água limpa e papel higiênico;
+✓ Estar ligadas a sistema de esgoto, fossa séptica ou sistema equivalente;
+✓ Possuir recipiente para coleta de lixo.
+
+<b>40. LOCAIS PARA REFEIÇÃO</b>
+
+Os locais para refeição devem atender aos seguintes requisitos:
+
+✓ Boas condições de higiene e conforto;
+✓ Capacidade para atender a todos os trabalhadores;
+✓ Água limpa para higienização;
+✓ Mesas com tampos lisos e laváveis;
+✓ Assentos em número suficiente;
+✓ Água potável, em condições higiênicas;
+✓ Depósitos de lixo com tampas.
+
+<b>41. INTEMPÉRIES E CONDIÇÕES CLIMÁTICAS</b>
+
+Nas frentes de trabalho devem ser disponibilizados abrigos, fixos ou moveis, que protejam os
+
+trabalhadores contra as intempéries, durante as refeições.
+
+Condições Climáticas Desfavoráveis
+
+Fatores climáticos são imprevisíveis, por isso, é essencial que os trabalhadores recebam as orientações
+adequadas sobre o que fazer em caso de condições climáticas desfavoráveis. Por exemplo, medidas de como
+interromper o trabalho imediatamente, principalmente se realizados próximos às cercas, e se deslocar para
+áreas seguras, evitando árvores e áreas descampadas, devem ser seguidas.
+
+O empregador rural deve:
+a)
+
+orientar os seus empregados quanto aos procedimentos a serem adotados na ocorrência de
+
+condições climáticas desfavoráveis;
+
+b)
+
+interromper as atividades na ocorrência de condições climáticas que comprometam a
+
+segurança do trabalhador;
+
+c)
+
+organizar o trabalho de forma que as atividades que exijam maior esforço físico, quando
+
+possível, sejam desenvolvidas no período da manhã ou no final da tarde.
+
+Tempo chuvoso com possibilidade de descargas elétricas
+
+Cabe ao empregador adotar procedimentos orientativos ao trabalhador tal como um plano de fuga,
+
+instruindo-os a:
+
+• Não operar tratores ou máquinas, especialmente para rebocar equipamentos metálicos;
+• Afastar-se das árvores e terrenos abertos;
+• Não permanecer em piscinas, rios e lagos;
+• Evitar ficar em morros e terrenos elevados;
+• Se estiver dirigindo, permanecer no carro;
+• Não permanecer perto de cercas e redes elétricas;
+• Afastar-se de cercas de arame, varais metálicos e trilhos.
+
+Exposição ao sol
+
+Essa exposição, pode vir a acometer diversos agravos à saúde, como queimaduras, câimbras, síncope
+
+(desmaio), insolação e câncer de pele.
+
+Importante que desenvolva suas tarefas devidamente protegido, organizando as atividades de forma
+
+que aquelas que demandem maior esforço físico sejam desenvolvidas em horários de climas mais ameno. O
+esforço físico aliado ao calor excessivo possibilita a ocorrência de perda abundante de líquidos,
+principalmente através do suor, necessitando de sua reposição imediata através da ingestão de solução
+balanceada de água e sais, ficando desta forma atento o coordenador ou supervisor aos períodos muito
+quentes do dia para quando necessário interromper o trabalho.
+
+</div>
+<div class="page">No caso de ambiente de trabalho rural com condições climáticas inadequadas e que possam causar o
+
+desconforto, algumas medidas ergonômicas podem ser adotadas, propiciando o maior conforto dos
+trabalhadores, tais como:
+
+• Uso de vestuários adequados e confortáveis, devendo ser de algodão de modo a permitir a evaporação do
+suor e a troca de calor do corpo com o meio externo; • uso de equipamentos de proteção individual
+apropriado e confortáveis;
+
+• Estabelecimento de trabalho segundo as horas do dia, de forma a minimizar a exposição dos
+
+trabalhadores nas horas mais quentes do dia;
+
+• O uso de protetores solares e uma adequada hidratação dos trabalhadores durante a jornada de trabalho.
+
+<b>42. EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL – NR 6</b>
+
+Os EPIs são equipamentos, de uso estritamente pessoal, utilizados para prevenir e/ou minimizar acidentes
+(botas, luvas, protetores faciais, etc.), cuja finalidade é neutralizar a ação de certos acidentes que poderiam
+causar lesões ao trabalhador e protegê-lo contra possíveis danos à saúde, causados pelas condições de
+trabalho.
+
+É regulamentado pela Portaria 3.214 – NR - 6 do Ministério do Trabalho de 08/06/78, que prevê a
+distribuição gratuita desses equipamentos, competindo ao trabalhador usá-los e conservá-los.
+
+O EPI deve ser usado como medida de proteção quando:
+
+➢ Não for possível eliminar o risco através da utilização de equipamentos de proteção coletiva;
+➢ For necessária complementar a proteção individual;
+➢ Em trabalhos eventuais e em exposições de curto período.
+
+De qualquer forma, o uso de EPI deve ser limitado, procurando-se primeiro, eliminar ou diminuir o risco
+com a adoção de medidas de proteção geral.
+
+Quando seu uso for inevitável, faz-se necessário tomar certas medidas quanto à sua seleção e indicação, pois
+o uso e fornecimento dos EPIs são disciplinados pela NR-6.
+
+A seleção deve ser feita por pessoal competente, conhecedor não só do equipamento, como também das
+condições em que o trabalho é executado.
+
+É preciso conhecer as características, qualidades técnicas e, principalmente, o grau de proteção que o
+equipamento deverá proporcionar.
+
+GUARDA E CONSERVAÇÃO DOS EPI’S
+
+De um modo geral, os EPI’s devem ser limpos e desinfetados a cada vez em que há troca de usuário.
+
+É necessário que se ajude o operário a conservar o seu equipamento de proteção individual, não só
+conscientizando-o de que, com a conservação, ele estará protegendo-se, como também, oferecendo-lhe lugar
+próprio para guardar o EPI após o seu uso.
+
+Sempre que possível à verificação e a limpeza desses equipamentos devem ser confiadas a uma pessoa
+habilitada para este fim.
+
+Dependendo do caso, o próprio trabalhador pode se ocupar dessa tarefa, desde que receba orientação para
+isso.
+
+UTILIZAÇÕES ADEQUADAS DOS EPI’S
+
+É muito importante que todos dentro da empresa tenham consciência de quando e como usar os EPIs. Essa
+utilização deve atender as primeiras necessidades específicas, não deve acontecer desnecessariamente ou ser
+feita de forma incorreta.
+
+DE ACORDO COM A NORMA REGULAMENTADORA - NR 6
+
+A empresa é obrigada a fornecer aos empregados, gratuitamente, EPI adequado ao risco e em perfeito estado
+de conservação e funcionamento, nas seguintes circunstâncias:
+
+a) sempre que as medidas de proteção coletiva forem tecnicamente inviáveis ou não oferecerem completa
+proteção contra os riscos de acidentes do trabalho e/ou doenças profissionais e do trabalho;
+b) enquanto as medidas de proteção coletiva estiverem sendo implantadas;
+c) para atender as situações de emergência.
+
+</div>
+<div class="page"><b>43. INSTALAÇÕES ELÉTRICAS</b>
+
+Todas as partes das instalações elétricas são projetadas, executadas e mantidas de modo que seja possível
+prevenir, por meios seguros, os perigos de choque elétrico e outros tipos de acidentes.
+
+Os componentes das instalações elétricas são protegidos por material isolante, as partes baixas das
+instalações elétricas, onde pode ser alcançado pelo colaborador, são protegidos por caixas de passagens de
+interruptor, em conduíte revestido em paredes de alvenaria rebocada.
+
+As partes condutoras de energia que estejam em local acessível a contatos e que não faça parte dos circuitos
+elétricos são aterrados.
+
+Os colaboradores destinados executar correções quando necessário são devidamente qualificados tendo
+concluído curso da NR-10;
+
+As edificações devem ser protegidas contra descargas elétricas atmosféricas.
+
+A Norma da Associação Brasileira de Normas Técnicas – ABNT – NBR 5.419 – “Proteção de edificações
+contra descargas atmosféricas” é a referência nacional para este tipo de proteção
+
+As cercas elétricas devem ser instaladas de acordo com as instruções fornecidas pelo fabricante;
+
+Características mínimas:
+
+A entrada de energia na obra será através do padrão do cliente.
+
+O quadro geral deve permanecer constantemente aterrado, além de dispor de terminal neutro para alimentar
+o sistema monofásico. As portas do quadro devem permanecer fechadas para evitar que os trabalhadores
+encostem nas partes energizadas (“vivas”). Roupas, garrafas ou outros objetos não devem de forma alguma
+serem colocados no interior do quadro de energia elétrica.
+
+Os fios e cabos serão estendidos de forma aérea e por locais que não atrapalhem a passagem de pessoas
+máquinas e materiais.
+
+Sempre que se realizarem trabalhos próximo da rede externa elétrica, os trabalhadores devem ser
+acompanhados por pessoa experiente para avisar quando houver risco de acidente.
+
+A rede de distribuição nas instalações de apoio será protegida por eletrodutos de PVC.
+
+Não será permitido o uso de gambiarras. Todas as conexões dos equipamentos serão pelo conjunto
+“Plug/Tomada”.
+
+Todos os eletricistas receberão Ordens de Serviço específicas conforme especifica a NR-10.
+
+</div>
+<div class="page"><b>44. INSTALAÇÕES PROVISÓRIAS CONTRA INCÊNDIO</b>
+
+Para prevenir incêndios no canteiro de obra, deverão ser adotadas as seguintes medidas:
+
+• Todos os colaboradores passaram por treinamento de combate a inicio de incêndio no treinamento de
+
+integração.
+
+•
+
+Identificar todos os materiais estocados;
+
+• As saídas deverão estar livres de obstáculos (importância de ordem e limpeza em todos os locais);
+
+•
+
+Instalar os extintores de incêndio adequadamente e fazer as inspeções periódicas conforme normativa
+mensal e manutenção diária de limpeza;
+
+• Treinar os trabalhadores para o correto uso dos extintores;
+
+• Retirar sobras de serragem das proximidades da serra circular, no final do expediente, para evitar
+
+incêndios;
+
+Todas estas medidas serão consideradas para que o incêndio não ocorra ou para que os trabalhadores
+apaguem o princípio de incêndio, ou diminua seus efeitos até chegada do corpo de bombeiros militares, os
+quais, em todos os casos, deverão ser avisados imediatamente.
+
+<b>45. AGROTÓXICPS, ADJUVANTES E PRODUTOS AFINS</b>
+
+Trabalhos realizados:
+
+• Auxiliar nas tarefas de regulagens da vazão das mangueiras e canos dos pulverizadores de todos
+
+equipamentos e dispositivos de aplicação de herbicidas;
+
+• Auxiliar no transporte dos equipamentos para aplicar herbicida no campo, verificando os trabalhos
+dos operadores de máquinas, etc., esclarecendo dúvidas a respeito das operações de aplicações de
+insumos e herbicidas;
+
+• Realizar o preparo dos herbicidas para que o aplicador possa utilizá-lo segundo as normas e
+
+especificações de segurança e técnicas.
+
+• Realizar a aplicação de herbicidas com uso de bomba costal nas plantações de cana-de-açúcar, e
+
+outros;
+
+<b>46. TIPOS DE TRABALHADORES EM RELAÇÃO A EXPOSIÇÃO</b>
+
+Trabalhadores em exposição direta: são os que manipulam os agrotóxicos e produtos afins, em qualquer uma
+das etapas de armazenamento, transporte, preparo, aplicação, descarte, e descontaminação de equipamentos
+e vestimentas;
+
+Trabalhadores em exposição indireta: são os que não manipulam diretamente os agrotóxicos, adjuvantes e
+produtos afins, mas circulam e desempenham suas atividades de trabalho em áreas vizinhas aos locais onde
+se faz a manipulação dos agrotóxicos em qualquer uma das etapas de armazenamento, transporte, preparo,
+aplicação e descarte, e descontaminação de equipamentos e vestimentas, e ou ainda os que desempenham
+atividades de trabalho em áreas recém-tratadas.
+
+Não houve registro de uso de agrotóxicos adjuvantes e produtos afins nas dependências da fazenda, até a
+elaboração deste Programa.
+
+<b>47. FATORES CLIMÁTICOS E TOPOGRÁFICOS</b>
+
+A Fazenda:
+
+a) orienta os seus colaboradores quanto aos procedimentos a serem adotados na ocorrência de condições
+climáticas desfavoráveis, mantendo ainda abrigo ou suporte para os colaboradores em eventuais situações
+desfavoráveis;
+
+b) interrompe as atividades na ocorrência de condições climáticas que comprometam a saúde e a segurança
+dos trabalhadores.
+
+c) organiza o trabalho de forma que as atividades que exijam maior esforço físico, quando possível, sejam
+desenvolvidas no período da manhã ou no final da tarde e com as pausas previstas na NR 31.
+
+A Fazenda busca adotar medidas de proteção, para minimizar os impactos sobre a segurança e saúde do
+trabalhador, nas atividades em terrenos acidentados.
+
+</div>
+<div class="page"><b>48. MATRIZ DE RISCOS</b>
+
+Objetivo: Identificar os perigos e analisar os riscos das áreas, das tarefas (processos) e dos equipamentos na
+
+{{NOME_EMPRESA}}, incluindo as realizadas por terceiros.
+
+Aplicação: Toda a empresa.
+
+Reponsabilidade: Gerente de equipe; líderes de equipes; diretoria/ administração; engenheira de segurança
+
+do trabalho; técnicos de segurança do trabalho.
+
+Descrição das atividades:
+
+- Definir o que será avaliado: Área, Tarefa (Processo) e/ou Equipamento;
+
+- Agendar o evento com a equipe multidisciplinar que participará da avaliação;
+
+- Ir a campo munido do material necessário;
+
+- Reunir com a equipe multidisciplinar, fazer uma breve explanação do que está sendo feito, dos
+
+procedimentos adotados, de como serão conduzidos os trabalhos e os benefícios advindos da implantação de
+
+um Sistema de Gestão de SST, bem como, registrar a participação dos membros da equipe na Lista de
+
+presença;
+
+- Anotar e registrar através de fotos os perigos significativos, estejam eles presentes na área, nas tarefas
+
+(processo) e/ou nos equipamentos
+
+- Concluir o levantamento de campo comunicando à equipe que poderão ocorrer visitas adicionais ao local
+
+para saneamento de dúvidas ou complementações de informações. Também, deixar aberto o canal de
+
+comunicação para que a equipe, caso se lembre ou identifique outros perigos, possa complementar as
+
+referidas informações;
+
+Matriz de Riscos:
+
+- A matriz de riscos deverá ser considerada para classificação e definição do nível de risco do agente nocivo.
+
+MATRIZ DE
+RISCOS
+
+PESO
+
+PROBABILIDADE / FREQUÊNCIA
+
+2
+
+3
+
+5
+
+8
+
+13
+
+E
+D
+A
+D
+I
+V
+A
+R
+G
+
+/
+
+E
+D
+A
+D
+I
+R
+E
+V
+E
+S
+
+PESO
+
+REMOTA
+
+POUCO PROVÁVEL OCASIONAL
+
+PROVÁVEL FREQUENTE
+
+32
+
+CATASTRÓFICA
+
+64
+
+16
+
+CRÍTICA
+
+8
+
+GRAVE
+
+4
+
+MODERADA
+
+2
+
+LEVE
+
+32
+
+16
+
+8
+
+4
+
+96
+
+48
+
+24
+
+12
+
+6
+
+160
+
+80
+
+40
+
+20
+
+10
+
+256
+
+128
+
+64
+
+32
+
+16
+
+416
+
+208
+
+104
+
+52
+
+26
+
+Obs.: As classificações dos riscos foram definidas e baseadas no histórico de atividades similares.
+
+NÍVEL DE
+RISCO
+
+MUITO ALTO
+(igual ou maior
+que 160)
+
+ALTO
+(80 a 128)
+
+MÉDIO
+(26 a 64)
+
+BAIXO
+(10 a 24)
+
+MUITO BAIXO
+(4 a 8)
+
+</div>
+<div class="page">SEVERIDADE / GRAVIDADE (CLASSIFICAÇÃO)
+
+Leve
+(Normal)
+
+Moderada
+(Tolerável)
+
+Grave
+(Moderado)
+
+Crítica
+(Substancial)
+
+Catastrófica
+(Intolerável)
+
+Remota
+Pouco
+provável
+
+Ocasional
+
+Não causa lesão ao trabalhador
+
+Pode causar lesão leve sem
+afastamento ao trabalho. Algum
+caso pode apresentar apenas um
+aspecto de desconhecido.
+Pode causar lesão física
+reversível ou doença
+ocupacional com incapacidade
+parcial temporária para o
+trabalho
+Pode causar lesão física grave,
+perda de membro ou doenças
+ocupacionais com incapacidade
+parcial permanente para o
+trabalho
+
+Podem causar lesão física
+grave, doenças ocupacionais
+severas causando incapacidade
+total permanente para o
+trabalho ou morte
+
+O agente é desprezível desnecessário a sua
+quantificação conforme literaturas usuais
+
+O agente identificado e avaliado está abaixo
+do nível de ação
+
+O agente identificado e avaliado está acima do
+nível de ação porém abaixo do limite de
+tolerância
+
+2
+
+4
+
+8
+
+O agente identificado e avaliado está acima do
+limite de tolerância
+
+16
+
+O agente identificado envolve exposição a
+cancerígenos, aparece nas situações aparentes
+de risco grave e eminente, há risco aparente de
+deficiência de oxigênio e quando o agente
+possui efeitos agudos todos LT e IDLH
+(concentração imediatamente perigosa à vida /
+saúde) e está acima do limite de tolerância
+
+PROBABILIDADE / FREQUÊNCIA (CLASSIFICAÇÃO)
+
+Menor que 20 horas / mês ou máximo 02 horas por mês
+
+Menor que 40 horas / mês ou máximo 1 vez por semana
+
+Entre 41 horas / mês a 140 horas / mês ou no máximo que a exposição ao dia
+limitado a 4 por semana
+
+Provável Maior que 140 horas / mês ou exposição diária ou mais de uma vez ao dia
+Frequente
+
+Nenhuma atividade poderá ser realizada nestas condições
+
+NÍVEL DE RISCO (AÇÕES A SEREM TOMADAS)
+
+Muito baixo Nenhuma ação é requerida e nenhum registro documental precisa ser atendido
+
+Baixo
+
+Médio
+
+Alto
+
+Muito alto
+
+Nenhum controle adicional é necessário. Pode-se considerar uma solução mais econômica ou
+aperfeiçoamento que não imponham custos extras. A monitoração é recomendável para
+assegurar que os controles são mantidos
+Controle adicional é necessário. Recursos deverão ser alocados para controlar o risco. A
+monitoração é obrigatória para definir quais os controles que deverão ser mantidos
+O trabalho não deve ser iniciado até que o risco tenha sido reduzido ou neutralizado. Recursos
+consideráveis devem ser alocados para reduzir o risco. Quando o risco envolver trabalho em
+execução, ação urgente deve ser tomada. A monitoração é obrigatória para quantificar o risco
+evitando alcançar o nível de intolerável.
+O trabalho não deve ser iniciado nem continuar até que o risco tenha sido reduzido. Se não for
+possível reduzir o risco, nem com recursos ilimitados, o trabalho tem de permanecer proibido
+
+Grupo Performance
+Praça Antônio Quirino da Silva, 28 - Centro – Itatiaiuçu – MG
+www.performanceocupacional.com.br – (31) 3572-1818 / 3572-1221
+
+32
+
+2
+
+3
+
+5
+
+8
+13
+
+</div>
+<div class="page"><b>49. REGISTRO, MANUTENÇÃO, DIVULGAÇÃO E PLANEJAMENTO DE DADOS DO</b>
+
+PGRTR
+
+REGISTRO
+
+Todos os dados deste documento deverão ser mantidos arquivados durante, no mínimo, vinte anos,
+constituindo-se no banco de dados com o histórico administrativo e técnico do desenvolvimento do PGRTR.
+
+MANUTENÇÃO
+
+a) Avaliação periódica para verificar o andamento dos trabalhos e o cumprimento das metas estipuladas no
+cronograma;
+
+b) Monitoramento periódico para avaliar a eficiência do programa e as medidas de controle implantadas;
+
+c) Controle médico, através dos resultados dos exames, para avaliar a eficácia do programa.
+
+DIVULGAÇÃO DOS DADOS E RESULTADOS
+
+As ações propostas no PGRTR, a serem desenvolvidas na empresa, devem ser amplamente divulgadas de
+maneira a informar os trabalhadores sobre os riscos nos locais de trabalho e sobre os meios disponíveis para
+a prevenção e/ou atenuação dos mesmos. Todos os dados estarão à disposição dos empregados, seus
+representantes legais e órgãos competentes, em arquivo da empresa.
+
+PLANEJAMENTO
+
+De acordo com o planejamento anual, as metas e as prioridades da empresa, serão delimitadas no
+cronograma de atividades do PGRTR.
+
+<b>50. PLANEJAMENTO ANUAL DO</b>
+
+PGRTR
+
+(METAS,
+
+PRIORIDADES E
+
+CRONOGRAMA DE AÇÕES).
+
+METAS ESTABELECIDAS PARA ESTE PROGRAMA
+
+a. Preservar a saúde e integridade física dos trabalhadores;
+b. Proteger o meio ambiente e os recursos naturais;
+c. Controlar os riscos provenientes dos processos de trabalho;
+d. Cumprir o cronograma anual.
+
+METAS, PRIORIDADES E AVALIAÇÃO DE CONTROLE
+
+1º Meta: Evitar ocorrência de acidentes do trabalho.
+
+Prioridade: Orientação a todos colaboradores quanto aos riscos de acidentes;
+
+Prioridade: Inspeções de segurança para verificação das condições de trabalho;
+
+2º Meta: Monitoramentos ambientais.
+
+Prioridade: Identificação de todos os agentes de riscos existentes nas atividades;
+
+Prioridade: Monitoramento dos agentes de risco identificados;
+
+Prioridade: De acordo com os resultados obtidos implementar medidas de controle;
+
+Prioridade: Manter atualizado os registros ambientais através de monitoramento contínuo;
+
+3º Meta: Evitar a ocorrência de doenças ocupacionais;
+
+Prioridade: Identificação de todos os agentes de riscos existentes nas atividades;
+
+Prioridade: Exames médicos específicos por função;
+
+Prioridade: De acordo com os resultados obtidos implementar medidas de controle;
+
+Observação: Outras metas serão definidas a partir de identificação de situações que vierem a ser levantadas
+no ambiente de trabalho durante a execução das atividades.
+
+CRONOGRAMA DE AÇÕES ANUAL DO PGRTR
+
+O cronograma com ações prevencionistas tem como objetivo ações que venham eliminar ou amenizar
+
+condições de riscos de acidentes.
+
+De acordo com o planejamento anual, as metas e as prioridades da empresa, o cronograma de execução
+
+está definido a seguir:
+
+{{BLOCK:cronograma}}52. ASPECTOS LEGAIS
+
+A NR-31 estabelece a obrigatoriedade da elaboração e implementação, por parte de todos os empregadores e
+instituições que adotam trabalhadores como empregados, do PGRTR visando a preservação da saúde e da
+integridade dos trabalhadores, através da antecipação, reconhecimento, avaliação e consequentemente
+controle da ocorrência de riscos ambientais existentes ou que venham a existir no ambiente de trabalho,
+tendo em consideração a proteção do meio ambiente e dos recursos naturais.
+
+</div>
+<div class="page"><b>53. DISPOSIÇÕES FINAIS</b>
+
+Este Programa de Programa de Gestão de Segurança, Saúde e Meio Ambiente do Trabalho Rural - PGRTR,
+deverá ser realizada análise global, sempre que necessário e pelo menos uma vez ao ano, para avaliação do
+seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.
+Portanto, no mínimo, é necessária sua revisão a cada ano.
+
+A implantação do PGRTR será de responsabilidade única e exclusiva do empregador, que deverá inclusive,
+atualizar o levantamento ambiental e anexá-lo ao PGRTR.
+
+Este PGRTR foi elaborado e aprovado por:
+
+{{CIDADE}}, {{DATA_ASSINATURA}}.
+
+Elaboração:
+
+{{RESP_NOME}}
+
+{{RESP_TITULO}}
+
+{{RESP_REGISTRO}}
+
+Responsável por estabelecer, implementar e assegurar o cumprimento do PGRTR
+
+{{NOME_EMPRESA}}
+
+<b>54. TERMO DE COMPROMISSO</b>
+
+Os signatários do PGRTR foram contratados pela empresa EDILSON GERALDO OTONI DE
+MELO para desenvolvimento dos trabalhos conforme determinam a Portaria 3.214/78 do Ministério do
+Trabalho e suas Normas Regulamentadores.
+
+A análise ambiental aqui exposta refere-se única e exclusivamente as condições encontradas nas datas
+
+da perícia, sendo que, qualquer outra alteração após a avaliação não foi considerada.
+
+Para melhoria das condições de trabalho, produtividade e vida dos trabalhadores, deve haver
+necessariamente a boa vontade e solidariedade entre os envolvidos, observando também as obrigações de
+cada parte (empregador e empregado), para o sucesso da implantação de medidas preventivas é importante
+que todos acreditem nelas.
+
+A empresa EDILSON GERALDO OTONI DE MELO compromete-se a corrigir as possíveis
+irregularidades que possam existir, responsabilizando-se quanto à adequação das medidas necessárias e
+suficientes para a eliminação, minimização ou o controle dos riscos ambientais existentes.
+
+PGRTR (NR-31)
+
+<b>55. ANEXOS</b>
+
+ANEXO I – QUADRO DE DISTRIBUIÇÃO DE EPI.
+
+ANEXO II – AVALIAÇÕES AMBIENTAIS, SETORES/LOCAIS DE TRABALHO E ATIVIDADES.
+
+ANEXO III – PLANO DE AÇÃO
+
+ANEXO IV – RECOMENDAÇÃO DE MATERIAL DE PRIMEIROS SOCORROS
+
+ANEXO V – FICHA DE EPI (MODELO).
+
+ANEXO VI – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO
+PLANO DE AÇÃO DO PGR.
+
+ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO
+DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
+
+ANEXO VIII – LISTA DE PRESENÇA PARA DIVULGAÇÃO DO PGRTR(NR-31) E PCMSO
+
+ANEXO IX – LISTA DE PRESENÇA PARA CAPACITAÇÃO
+
+ANEXO X – IDENTIFICAÇÃO DOS PROFISSIONAIS ELABORADORES DO PGRTR.
+
+ANEXO XI – PREPARAÇÃO PARA EMERGÊNCIAS
+
+ANEXO XII – TABELA DE DEFINIÇÕES DOS AGENTES AMBIENTAIS
+
+ANEXO XIII – REGISTROS E INFORMAÇÕES RELATIVAS AO LEVANTAMENTO E
+MAPEAMENTO DOS FATORES PSICOSSOCIAIS RELACIONADOS AO TRABALHO COM
+PARTICIPAÇÃO DOS EMPREGADOS.
+
+FUNÇÕES
+
+Trabalhador Agropecuário em Geral
+Auxiliar de Escritório
+Contínuo
+
+LEGENDA
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+a
+n
+i
+t
+o
+B
+
+P
+-
+-
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+s
+o
+l
+u
+c
+Ó
+
+E
+-
+-
+
+o
+v
+i
+t
+i
+d
+u
+a
+r
+o
+t
+e
+t
+o
+r
+P
+
+E
+-
+-
+
+C
+V
+P
+e
+d
+a
+t
+o
+B
+
+E
+-
+-
+
+-
+NÃO SE APLICA
+
+P
+PERMANENTE
+
+E
+ESPECIFICO PARA DETERMINADAS ATIVIDADES
+
+</div>
+
+ANEXO II – AVALIAÇÕES AMBIENTAIS, SETORES/LOCAIS DE TRABALHO E ATIVIDADES.
+
+</div>
+<div class="page">INVENTÁRIO DE RISCOS
+
+Setor Administrativo
+
+Função Assistente técnico
+
+Local
+
+Matriz
+
+DESCRIÇÃO DO AMBIENTE
+
+Edificação com paredes de alvenaria, cobertura em laje, iluminação natural
+e artificial, ventilação natural.
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DAS ATIVIDADES
+Planejam a execução do trabalho e supervisionam equipes de trabalhadores de
+construção de obras de
+engenheiros no
+desenvolvimento de projetos, no levantamento e tabulação de dados e na
+vistoria técnica. Estruturam o serviço de coleta de resíduos sólidos das obras,
+controlando os procedimentos de preservação do meio ambiente. Realizam
+trabalhos de laboratório, vendas e compras de materiais e equipamentos.
+Padronizam procedimentos técnicos.
+
+infraestrutura. Auxiliam
+
+Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Ausência de
+o
+c
+i
+s
+í
+F
+
+Fator de
+Risco
+
+o
+c
+i
+m
+í
+u
+Q
+
+Ausência de
+Fator de
+Risco
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Controles
+Existentes
+
+Exposição Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Queda de
+mesmo nível
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Análise de risco;
+Organização e
+limpeza;
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+INVENTÁRIO DE RISCOS
+
+Setor Operacional
+
+Função Auxiliar de frota
+
+Local
+
+Matriz
+
+DESCRIÇÃO DO AMBIENTE
+
+Edificação com paredes de alvenaria, cobertura em laje, iluminação natural
+e artificial, ventilação natural.
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DAS ATIVIDADES
+Preparam cargas e descargas de mercadorias; entregam e coletam encomendas
+e controlam a qualidade dos serviços prestados. Estabelecem comunicação,
+emitindo, recebendo e verificando mensagens, notificando e solicitando
+informações, autorizações e orientações de
+transporte, embarque e
+desembarque de mercadorias.
+
+Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+o
+c
+i
+m
+í
+u
+Q
+
+Ausência de
+Fator de
+Risco
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Queda de
+mesmo nível
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Análise de risco;
+Organização e
+limpeza;
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+</div>
+<div class="page">INVENTÁRIO DE RISCOS
+
+Setor Operacional
+
+Função Motorista
+
+Local
+
+Matriz
+
+DESCRIÇÃO DO AMBIENTE
+
+Edificação com paredes de alvenaria, cobertura em laje, iluminação natural
+e artificial, ventilação natural.
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DAS ATIVIDADES
+Preparam cargas e descargas de mercadorias; entregam e coletam encomendas
+e controlam a qualidade dos serviços prestados. Estabelecem comunicação,
+emitindo, recebendo e verificando mensagens, notificando e solicitando
+informações, autorizações e orientações de
+transporte, embarque e
+desembarque de mercadorias.
+
+Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Pausas regulares
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Vibração de
+corpo inteiro
+(AREN /
+VDVR)
+
+Ausência de
+Fator de
+Risco
+
+Ausência de
+Fator de
+Risco
+
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Acidente de
+trânsito
+
+Traumas,
+fraturas ou
+óbito
+
+Condução
+veicular
+
+Orientações sobre
+direção defensiva
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+5 – Ocasional
+
+8 – Grave
+
+40 - Médio
+
+INVENTÁRIO DE RISCOS
+
+Setor Operacional
+
+Função Mecânico
+
+Local
+
+Matriz
+
+DESCRIÇÃO DO AMBIENTE
+
+Edificação com paredes de alvenaria, cobertura em laje, iluminação natural
+e artificial, ventilação natural.
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DAS ATIVIDADES
+Elaboram planos de manutenção; realizam manutenções de motores, sistemas e
+partes de veículos automotores. Substituem peças, reparam e
+testam
+desempenho de componentes e sistemas de veículos. Trabalham em
+conformidade com normas e procedimentos técnicos, de qualidade, de
+segurança e de preservação do meio ambiente.
+
+Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Controles
+Existentes
+
+Exposição Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Pausas regulares
+
+Intermitente A ser avaliada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Respirador PFF1
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Luva de látex ou
+creme protetor com
+resistência química
+grupo 3
+Luva de látex ou
+creme protetor com
+resistência química
+grupo 3
+Luva de látex ou
+creme protetor com
+resistência química
+grupo 3
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+</div>
+<div class="page">o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Queda de
+mesmo nível
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Análise de risco;
+Organização e
+limpeza;
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Setor Operacional
+
+Função Eletricista
+
+Local
+
+Matriz
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+
+DESCRIÇÃO DAS ATIVIDADES
+
+INVENTÁRIO DE RISCOS
+
+Edificação com paredes de alvenaria, cobertura em laje, iluminação natural
+e artificial, ventilação natural.
+
+Planejam serviços de manutenção e instalação eletroeletrônica e realizam
+manutenções preventiva, preditiva e corretiva.
+sistemas e
+componentes eletroeletrônicos e realizam medições e testes. Elaboram
+trabalham em conformidade com normas e
+documentação
+procedimentos técnicos e de qualidade, segurança, higiene, saúde e preservação
+ambiental.
+
+técnica e
+
+Instalam
+
+Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+o
+c
+i
+s
+í
+F
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+Radiação
+ultravioleta
+
+Queimaduras
+
+Raios solares
+
+Protetor solar
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Respirador PFF1
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+</div>
+<div class="page">o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Trabalho em
+altura
+
+Traumas,
+fraturas ou
+óbito
+
+Atividades
+desenvolvidas
+sob andaimes
+
+Cinto de segurança
+tipo para-quedista e
+talabarte em Y
+
+Choque
+elétrico
+
+Traumas,
+fraturas ou
+óbito
+
+Atividades com
+energia elétrica
+
+Bloqueio de
+equipamentos e
+desenergizarão;
+Equipamentos e
+Ferramentas
+isolantes, Luva com
+resistência a
+eletricidade
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+5 – Ocasional
+
+16 – Crítica
+
+80 - Alto
+
+Intermitente Qualitativo
+
+5 – Ocasional
+
+8 – Grave
+
+40 - Médio
+
+Setor Operacional
+
+INVENTÁRIO DE RISCOS
+
+Nº de empregados
+previstos na função
+
+Grupo Performance
+Praça Antônio Quirino da Silva, 28 - Centro – Itatiaiuçu – MG
+www.performanceocupacional.com.br – (31) 3572-1818 / 3572-1221
+
+01 Masculino
+
+Função Auxiliar de limpeza
+
+Local
+
+Matriz
+
+Horário de
+trabalho
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+
+DESCRIÇÃO DAS ATIVIDADES
+
+Edificação com paredes de alvenaria, cobertura em laje, iluminação natural
+e artificial, ventilação natural.
+
+Conservam a limpeza por meio de coleta de lixo, varreções, lavagens, etc.
+Lavam vidros de janelas e fachadas de estabelecimentos e limpam recintos e
+acessórios dos mesmos.
+
+Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+Saponáceos
+comuns
+
+Alergias
+
+Produtos de
+limpeza
+doméstica
+
+Bota de PVC e Luva
+de látex
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+</div>
+<div class="page">o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Postura
+inadequada
+
+Análise
+específica
+
+Queda de
+mesmo nível
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Análise de risco;
+Organização e
+limpeza;
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+INVENTÁRIO DE RISCOS
+
+Setor Operacional
+
+Função Pintor
+
+Local
+
+Matriz
+
+DESCRIÇÃO DO AMBIENTE
+
+Edificação com paredes de alvenaria, cobertura em laje, iluminação natural
+e artificial, ventilação natural.
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DAS ATIVIDADES
+Pintam as superfícies externas e internas de edifícios e outras obras civis,
+raspando-as, amassando-as e cobrindo-as com uma ou várias camadas de tinta;
+revestem tetos, paredes e outras partes de edificações com papel e materiais
+plásticos e para tanto, entre outras atividades, preparam as superfícies a
+revestir, combinam materiais etc.
+
+Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+o
+c
+i
+s
+í
+F
+
+o
+c
+i
+m
+í
+u
+Q
+
+Radiação
+ultravioleta
+
+Queimaduras
+
+Raios solares
+
+Protetor solar
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Respirador PFF1
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+</div>
+<div class="page">Respirador PFF2(S)
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Respirador PFF2(S)
+
+Intermitente A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Trabalho em
+Altura
+
+Traumas,
+fraturas ou
+óbito
+
+Atividades
+desenvolvidas
+sob andaimes
+
+Cinto de segurança
+tipo para-quedista e
+talabarte em Y
+
+Intermitente Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente Qualitativo
+
+5 – Ocasional
+
+16 – Crítica
+
+80 - Alto
+
+Ação
+
+Meta
+
+Responsável
+(Setor)
+
+Prazo
+
+Treinamento sobre a importância e o uso correto de
+EPIs (conforme Anexo I)
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Treinamento sobre Ficha FDS (Ficha de Dados de
+Segurança)
+
+Conscientizar todos os trabalhadores
+que possuam atividades com
+manipulação de produtos químicos
+
+Treinamento sobre direção defensiva
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Ciclano - Dono do
+Posto (sócio 1)
+
+DD/MM/AAAA
+
+Treinamento de NR 35 (8 horas)
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Realizar o preenchimento da Ficha de EPI
+conforme entrega e substituição dos mesmos
+(conforme Anexo I)
+Divulgação do inventário de riscos e as medidas de
+prevenção do plano de ação do PGR (conforme
+Anexo VII)
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Divulgação do formulário de contribuição dos
+empregados quanto a percepção de riscos,
+implantação das medidas de prevenção (conforme
+Anexo VI)
+
+AGUARDA DEFINIÇÕES PSICOSSOCIAIS
+
+Com base no mapeamento de fatores psicossociais,
+verificou-se que a empresa obteve índice ICQ 5,00
+em todas as questões avaliadas, classificando o
+ambiente como saudável. Diante desse resultado,
+não foram identificados riscos psicossociais que
+demandem a implementação de plano de ação
+específico neste momento.
+(Empresa com índice ICQ 5.00 para todas as
+respostas)
+
+</div>
+<div class="page">ANEXO IV – RECOMENDAÇÃO DE MATERIAL DE PRIMEIROS SOCORROS
+
+O que diz a NR-31:
+
+31.5.1.3.6 Todo estabelecimento rural, deverá estar equipado com material necessário à prestação de
+
+primeiros socorros, considerando-se as características da atividade desenvolvida.
+
+3.5.1.3.6 Sempre que no estabelecimento rural houver dez ou mais trabalhadores o material referido no
+
+subitem anterior ficará sob cuidado da pessoa treinada para esse fim.
+
+3.5.1.3.8 O empregador deve garantir remoção do acidentado em caso de urgência, sem ônus para o
+
+trabalhador.
+
+31.5.1.3.9 Deve ser possibilitado o acesso dos trabalhadores aos órgãos de saúde com fins a:
+
+a) Prevenção e a profilaxia de doenças endêmicas;
+b) Aplicação de vacina antitetânica.
+
+31.5.1.3.10 Quando constatada a ocorrência ou agravamento de doenças ocupacionais, através dos
+exames médicos, ou sendo verificadas alterações em indicador biológico com significado clínico,
+mesmo sem sintomatologia, caberá ao empregador rural ou equiparado, mediante a orientação formal,
+através de laudo ou atestado médico encarregado dos exames:
+
+a) Emitir a comunicação de acidentes do trabalho (CAT);
+b) Afastar o trabalhador da exposição ao risco, ou do trabalho;
+c) Encaminhar o trabalhador à previdência social para estabelecimento de nexo causal, avaliação
+
+de incapacidade e definição da conduta previdenciária em relação ao trabalho.
+
+A Caixa de primeiros socorros deve conter:
+
+✓ Atadura;
+✓ Tesoura sem ponta;
+✓ Gaze;
+✓ Esparadrapo;
+✓ Curativo autocolante;
+✓ Alcool iodado ou povidine tópico;
+✓ Agua oxigenada;
+✓ Soro fisiológico a 5%;
+✓ Termometro;
+✓ Pinça.
+
+MAPA MENTAL DOS PRIMEIROS SOCORROS NA ÁREA RURAL
+
+MEDIDAS DE PREVENÇÃO CONTRA A DENGUE
+
+ANEXO V – FICHA DE EPI (MODELO).
+
+PL da Silva Edificações ME (Azulpis)
+
+FICHA INDIVIDUAL DE CONTROLE DE FORNECIMENTO DE EPI´S
+
+NOME:
+Recebi o(s) Equipamento(s) Individual abaixo discriminados para serem usados no exercício de minhas funções, de acordo com a portaria nº 3214 - NR-
+06, tendo sido devidamente treinado para usar os mesmo. Estou ciente de que o uso incorreto ou não uso, implicará em insurbodinação sujeita às sanções
+disciplinares conforme normas estabelecidas na CLT. A perda, destruição precoce, por mau uso ou falta de cuidado do EPI, fica a Empresa com o direito a
+efetuar o desconto em seu salário na forma estabelecida do art. 462 da CLT. Minhas assinaturas apostas ou rubrica no local indicado nesta ficha conforme
+minha concordância.
+
+FUNÇÃO:
+
+Data: _______/_______/__________
+
+_____________________________________________________
+Assinatura do Colaborador
+
+TIPO DE EPI
+
+CA
+
+QUANT.
+
+DATA
+
+ENTREGA
+
+DEVOLUÇÃO
+
+ASSINATURA
+
+ANEXO VI – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO
+PLANO DE AÇÃO DO PGR.
+
+{{NOME_EMPRESA}}
+
+___ / ____ / ______ - DDS – Diálogo Diário de Segurança
+
+DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO PLANO
+DE AÇÃO DO PGR (PROGRAMA DE GERENCIAMENTO DE RISCOS)
+
+Comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de prevenção
+do plano de ação do PGRTR (Programa de Gerenciamento de Riscos no Trabalho Rural) conforme NR 31 –
+Segurança e Saúde no Trabalho na Agricultura, Pecuária, Silvicultura, Exploração Florestal e na
+Aquicultura.
+
+Palestrante:
+
+Convidados:
+
+</div>
+<div class="page">Caso tenha alguma dúvida ou pergunta sobre o tema, solicitar ao palestrante antes de assinar;
+
+NOME
+
+RG / CPF
+
+ASSINATURA
+
+ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO
+DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
+
+Todo trabalhador da {{NOME_EMPRESA}} pode contribuir com sua percepção
+
+de riscos e/ou sugerir medidas de prevenção conforme seu conhecimento pessoal de modo que as
+informações serão analisadas pelo SESMT (Serviço Especializado em Engenharia de Segurança e em
+Medicina do Trabalho) ou na ausência do mesmo será analisado pela administração responsável pela
+empresa no estabelecimento.
+
+O formulário que estará disponível na empresa para contribuição de informações quanto a percepção
+
+de riscos e/ou medidas de prevenção, cujo qual deverá ser entregue ao SESMT ou administração da empresa
+no estabelecimento.
+
+FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO DE
+
+RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
+
+NOME DA EMPRESA
+
+CNPJ DA EMPRESA
+
+NOME DO EMPREGADO
+
+DATA
+
+LOCALIDADE / OBRA
+
+IDENTIFICAÇÃO DE RISCOS (PERCEPÇÃO
+
+DE RISCOS)
+
+IMPLANTAÇÃO DE MEDIDAS DE
+
+PREVENÇÃO E FORMULÁRIO
+
+ANEXO VIII – LISTA DE PRESENÇA PARA DIVULGAÇÃO DO PGRTR(NR-31) E PCMSO
+
+LISTA DE PRESENÇA
+
+Carga Horária:
+
+Nome do Instrutor (a):
+
+Evento: Divulgação do PGRTR (Programa de Gerenciamento de Riscos no
+Trabalho Rural) e PCMSO (Programa de Controle Médico de Saúde Ocupacional)
+Período:
+Entidade/Unidade:
+{{NOME_EMPRESA}}
+Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os programas de prevenção considerados como base de referência na área de saúde e
+segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 1 (PGR).
+Conteúdo: NR 1 – Disposições Gerais; NR 31 Segurança e saúde no trabalho na agricultura, pecuária silvicultura, exploração florestal e aquicultura; NR 7 -
+Programa de Controle Médico de Saúde Ocupacional.
+Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
+atentem contra a honra e a dignidade humana.
+
+Assinatura do Instrutor (a):
+Local:
+
+Nome
+
+CPF
+
+Assinaturas Participantes
+
+Horário:
+Dia:
+
+Nº
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+ANEXO IX – LISTA DE PRESENÇA PARA CAPACITAÇÃO
+
+</div>
+<div class="page">LISTA DE PRESENÇA
+
+Carga Horária:
+
+Nome do Instrutor (a):
+
+Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
+Norma Regulamentadora Nº 1 (item 1.7)
+Período:
+Entidade/Unidade:
+{{NOME_EMPRESA}}
+Objetivo: Apresentação da empresa e sua infraestrutura; Informações sobre hierarquia da empresa; Orientação sobre atividades laborais que irá executar e
+processos de trabalho que envolvem a atividade; orientações sobre procedimentos de trabalho com o foco na segurança, saúde, qualidade e preservação do
+meio ambiente; Orientação em serviço (supervisão e orientações ao trabalhador no decorrer de sua experiência profissional na empresa ou até que haja
+aptidão do mesmo para execução de suas atividades).
+Conteúdo: NR 1 – Disposições Gerais (item 1.7).
+Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
+atentem contra a honra e a dignidade humana.
+
+Assinatura do Instrutor (a):
+Local:
+
+Nº
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Nome
+
+CPF
+
+Assinaturas Participantes
+
+Horário:
+Dia:
+
+ANEXO X – IDENTIFICAÇÃO DOS PROFISSIONAIS ELABORADORES DO PGRTR.
+
+ANEXO XI – PREPARAÇÃO PARA EMERGÊNCIAS
+
+Todo trabalhador da EDILSON GERALDO OTONI DE MELO será treinado na preparação para
+emergências, principalmente no tocante as atribuições dos transeuntes. Será observado no mínimo os
+seguintes procedimentos, conforme o Plano de Emergência.
+
+ACIONAMENTO INICIAL DE EMERGÊNCIA
+
+O acionamento interno da situação de emergência se dará através dos recursos de comunicação, como:
+telefones fixos, celulares, via rádio e/ou pessoalmente, sendo ideal o meio que esteja mais acessível e de
+forma mais rápida possível.
+
+Para tanto, segue abaixo a relação atual dos telefones de emergência das unidades operacionais:
+
+CONTATO DA EMPRESA PARA EMERGÊNCIA:
+EMPREGADO/FUNÇÃO
+
+TELEFONES DE EMERGÊNCIA
+
+{{NOME_EMPRESA}}
+
+--
+
+HOSPITAIS E PRONTO ATENDIMENTO CONVENIADO PARA ATENDIMENTOS ÀS
+
+EMERGÊNCIAS
+
+Hospital Manoel Gonçalves (24 horas)
+Av. Dr. Miguel Augusto Gonçalves, 1902 - Centro – Itaúna /
+MG
+Hospital João XXIII (24 horas)
+Av. Prof. Alfredo Balena, 400 – Centro – Belo Horizonte /
+MG
+Corpo de Bombeiros Militar
+
+(37) 3249-5300
+
+(31) 3239-9200
+
+193
+
+CEMIG
+
+Defesa Civil
+
+Policia Militar
+
+116 ou (99) 08003-10196
+
+199
+
+190
+
+</div>
+
+ANEXO XII – TABELA DE DEFINIÇÕES DOS AGENTES AMBIENTAIS
+
+AGENTES
+
+DEFINIÇÕES
+
+RISCOS
+AMBIENTAIS
+
+Ruído
+
+Vibrações VCI
+/ VMB
+
+Físicos
+
+São as diversas formas
+de energia a que
+possam estar expostos
+os trabalhadores.
+
+Temperaturas
+extremas
+(calor / frio)
+
+Radiações
+ionizantes
+
+Radiações não
+ionizantes
+(Micro ondas,
+Infra vermelho,
+Ultra violeta,
+Laser)
+
+EFEITOS NO ORGANISMO
+
+· Distúrbios Gastro – Intestinais
+· Distúrbios no Sistema Nervoso
+· Alteração Cardiovascular
+· Ruptura do Tímpano
+· Surdez por Trauma Sonoro
+· Problemas na Coluna Vertebral
+· Dores lombares
+· Pequenas Lesões no Rins
+· Alteração neuro-vasculares nas mãos
+· Alteração nas Articulações das mãos e braços
+· Osteoporose (perda de substancia óssea)
+· Vasodilatação Periférica
+· Internação ou Isolação
+· Câimbras e Dor
+· Desidratação e Erupções na pele
+· Aumento da sudorese
+· Prostração térmica
+· Catarata
+· Vasoconstrição Periférica
+· Hipotermia
+· Enregelamento dos membros
+· Ulcerações do frio
+· Anemia
+· Câncer
+· Infertilidade
+· Leucemia
+· Alteração Genética
+· Catarata
+· Alteração no SNC
+· Câncer de pele
+· Queimaduras
+· Conjuntivite e Queratite
+· Leucemia
+· Alterações Genéticas
+· Sobrecargas térmicas
+· Superaquecimento dos órgãos internos
+
+</div>
+<div class="page">AGENTES
+
+DEFINIÇÕES
+
+RISCOS
+AMBIENTAIS
+
+EFEITOS NO ORGANISMO
+
+de
+
+absorção
+
+· Inflamação no Tecido
+· Asfixia através de redução
+de oxigênio no ar
+· Asfixia por Interferência no
+de
+processo
+Oxigênio no Sangue ou nos
+tecidos.
+· Depressão Sobre o Sistema
+nervoso Central
+· Lesões nos órgãos
+· Lesão no sistema formador
+de sangue
+· Dermatose e câncer
+· Febre dos metais
+· Afeta o SNC
+· Pneumoconioses
+· Alergia e irritação na Pele e
+Pulmão
+· Brucelose
+· Tuberculose
+· Tétano
+· Malária
+· Febre amarela
+· Carbúnculo, etc.
+· Desvio do eixo da coluna
+
+· Distúrbios Ósseos – Músculo
+– Ligamentares
+
+Irritantes
+Asfixiantes
+(Simples e
+Químico)
+narcóticos
+
+Tóxicos Sistêmico
+
+Material
+Particulado
+
+Bactérias, Fungos,
+Bacilos, Parasitas,
+Protozoários,
+Vírus, entre
+outros.
+
+Postura
+Inadequada,
+Repetitividade,
+Esforço Físico,
+Monotonia
+
+Químicos
+
+Biológicos
+
+Ergonomia
+
+as
+
+São
+substâncias
+compostos ou produtos que
+no
+possam
+via
+organismo
+respiratória
+ser
+absorvidos através da pele
+ou por ingestão.
+
+penetrar
+pela
+ou
+
+de
+
+em
+
+contato,
+
+São
+microrganismos
+causadores de doenças, com
+os quais pode o trabalhador
+no
+entrar
+exercício
+diversas
+atividades profissionais.
+são
+Riscos ergonômicos
+todas as condições que
+afetam o bem-estar, sejam
+elas
+físicas, mentais ou
+organizacionais. Podem ser
+compreendidas como fatores
+que
+nas
+interferem
+características
+do
+psicofisiológicas
+profissional,
+provocando
+desconfortos e problemas de
+saúde.
+
+AGENTES
+
+DEFINIÇÕES
+
+Riscos de
+Acidente
+
+os
+
+fatores
+
+Riscos de Acidentes são
+todos
+que
+o
+em
+colocam
+trabalhador ou afetam sua
+integridade física ou moral.
+
+perigo
+
+RISCOS
+AMBIENTAIS
+Arranjo Físico
+deficiente,
+Máquina sem
+Proteção, EPI`s
+inadequados ou
+Defeituosos,
+Ferramentas
+Inadequadas ou
+Defeituosas, Etc.
+
+EFEITOS NO ORGANISMO
+
+- Choques, Colisões, cortes,
+perfurações,
+Quedas,
+Escoriações diversas, Luxações,
+Entorses,
+Queimaduras,
+Prensamentos, Fraturas etc.
+
+</div>
+<div class="page">ANEXO XIII – REGISTROS E
+INFORMAÇÕES RELATIVAS AO LEVANTAMENTO E
+MAPEAMENTO DOS FATORES PSICOSSOCIAIS RELACIONADOS AO TRABALHO COM
+PARTICIPAÇÃO DOS EMPREGADOS.
+
+Foi realizado pesquisa anônima com o objetivo de entender melhor o ambiente de trabalho e identificar
+possíveis fatores que possam afetar o bem-estar mental e emocional dos colaboradores.
+
+Através deste levantamento / mapeamento foi realizado um estudo estatístico, reconhecimento de riscos e
+analise junto a empresa dos planos de ações pertinentes.
+
+O questionário apresentado aos colaboradores possui escala de pontuação entre os níveis:
+
+Escala de Respostas e Pontuação:
+
+Resposta
+
+Pontuação
+
+Sempre
+
+Frequentemente
+
+Às vezes
+
+Raramente
+
+Nunca
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Nesta escala de pontuação o Sempre possuirá peso de maior penosidade na percepção do colaborador e o
+Nunca possuirá peso de menor penosidade.
+
+Conforme apuração de respostas será definido o “Índice de Desempenho de Risco Psicossocial (IDRP)” para
+mapear a penosidade segundo a percepção dos colaboradores.
+
+Cálculo do Índice de Desempenho de Risco Psicossocial – IDRP
+
+Para cada questão respondida calcula-se o percentual de respondentes em cada alternativa:
+
+Alternativa
+
+Fórmula
+
+% Sempre
+
+(nº de respostas "Sempre" ÷ N total) × 100
+
+% Frequentemente
+
+(nº de respostas "Frequentemente" ÷ N total) × 100
+
+% Às vezes
+
+% Raramente
+
+% Nunca
+
+(nº de respostas "Às vezes" ÷ N total) × 100
+
+(nº de respostas "Raramente" ÷ N total) × 100
+
+(nº de respostas "Nunca" ÷ N total) × 100
+
+Obs.: Nº total = Número total de respondentes válidos.
+
+Cálculo de Índice de Desempenho de Criticidade por Questão – IDCQ
+
+Fundamentação: Para atribuir um valor numérico único a cada questão, utiliza-se a média ponderada das
+respostas, considerando o peso de penosidade de cada alternativa:
+
+Alternativa
+
+Sempre
+
+Frequentemente
+
+Às vezes
+
+Raramente
+
+Nunca
+
+Peso
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Fórmula do IDCQ
+
+IDCQ = (Peso 5 x % de respostas sempre) + (Peso 4 x % de respostas frequentemente) + (Peso 3 x % de
+respostas às vezes) + (Peso 2 x % de respostas raramente) + (Peso 1 x % de respostas nunca) / 100
+
+O IDCQ varia de 1,00 (todos responderam sempre) a 5,00 (todos responderam nunca).
+
+Faixas de classificação do IDCQ
+
+ICQ
+
+Alternativas
+
+agrupadas
+
+Significado
+
+4,01 a 5,00
+
+Muito Baixo
+
+Ambiente saudável, manter e reforçar ações
+
+3,01 a 4,00
+
+Baixo
+
+Situação sob controle, manter boas práticas
+
+2,01 a 3,00
+
+Moderado
+
+Atenção pontual e medidas preventivas
+
+1,51 a 2,00
+
+1,00 a 1,50
+
+Alto
+
+Situação preocupante, ações corretivas imediatas
+
+Crítico
+
+Risco elevado e difuso, exige intervenção urgente
+
+AÇÕES PROPORCIONAIS POR NÍVEL DE RISCO
+
+NÍVEL
+
+Crítico
+
+Alto
+
+Moderado
+
+Baixo
+
+Muito Baixo
+
+AÇÕES (RECOMENDAÇÃO)
+
+Intervenção sistêmica imediata. Auditoria de processos,
+apoio psicológico coletivo, revisão de políticas de gestão,
+comunicação institucional de crise.
+
+Plano de ação por dimensão. Capacitação de lideranças,
+revisão de carga e metas, implantação de canais de escuta,
+monitoramento mensal.
+
+Ações preventivas focalizadas nas dimensões com ICQ
+mais elevado. Rodas de conversa, pesquisas de clima,
+campanhas de bem-estar.
+
+Manutenção e reforço. Reconhecimento de boas práticas,
+comunicação positiva, avaliação semestral.
+
+Compartilhar práticas
+monitoramento periódico, celebrar resultados.
+
+com outras
+
+áreas, manter
+
+Obs.: As ações citadas acima devem ser consideradas como referência proporcional a cada nível de risco
+identificado pelo método, havendo oportunidade também para inclusão de ações não citadas anteriormente.
+
+</div>
+
+INSERIR GRAFICO DOS FATORES PSICOSSOCIAIS
+
+</div>

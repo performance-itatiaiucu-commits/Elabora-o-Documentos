@@ -1,0 +1,8942 @@
+<div class="page">
+<img class="cover-brand" src="assets/logo.png" alt="Grupo Performance">
+
+<h1 class="cover-title">PGR</h1>
+
+<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS<br>(Portaria SEPRT Nº 3.733, de 10 de fevereiro de 2020)</p>
+
+<p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
+
+<div class="cover-info">
+<div class="cover-empresa">{{NOME_EMPRESA}}<img class="cover-client" src="{{LOGO_IMG}}" alt="Logo do cliente"></div>
+<div class="cover-meta">UNIDADE: {{UNIDADE}}<br>ELABORAÇÃO: {{DATA_ELABORACAO}}<br>PRAZO PARA REVISÃO: {{VIGENCIA_FINAL}}</div>
+</div>
+
+<table class="cover-hist"><thead><tr><th>REV.</th><th>DATA</th><th>HISTÓRICO</th><th>ELABORADO</th></tr></thead><tbody><tr><td>00</td><td>{{DATA_ELABORACAO}}</td><td>Elaboração.</td><td>{{ELABORADOR}}</td></tr></tbody></table>
+
+</div>
+<div class="page"><h2 class="idx-title">ÍNDICE ANALÍTICO</h2>
+
+<table class="cover-hist idx-table"><thead><tr><th class="idx-n">Item</th><th>TÍTULO</th><th class="idx-p">PÁGINA</th></tr></thead><tbody>
+<tr><td class="idx-n">1.</td><td class="idx-t">PLANILHA DE APRESENTAÇÃO DA EMPRESA</td><td class="idx-p">4</td></tr>
+<tr><td class="idx-n">2.</td><td class="idx-t">IDENTIFICAÇÃO DA EMPRESA ELABORADORA DO PGR</td><td class="idx-p">4</td></tr>
+<tr><td class="idx-n">3.</td><td class="idx-t">OBJETIVO</td><td class="idx-p">5</td></tr>
+<tr><td class="idx-n">4.</td><td class="idx-t">POLÍTICA DE SEGURANÇA E SAÚDE OCUPACIONAL</td><td class="idx-p">6</td></tr>
+<tr><td class="idx-n">5.</td><td class="idx-t">DESCRIÇÃO DE ATIVIDADES</td><td class="idx-p">6</td></tr>
+<tr><td class="idx-n">6.</td><td class="idx-t">CONSIDERAÇÕES PRELIMINARES</td><td class="idx-p">6</td></tr>
+<tr><td class="idx-n">7.</td><td class="idx-t">INTRODUÇÃO</td><td class="idx-p">6</td></tr>
+<tr><td class="idx-n">8.</td><td class="idx-t">TERMOS E DEFINIÇÕES</td><td class="idx-p">7</td></tr>
+<tr><td class="idx-n">9.</td><td class="idx-t">OBJETIVO</td><td class="idx-p">10</td></tr>
+<tr><td class="idx-n">10.</td><td class="idx-t">ATRIBUIÇÕES E RESPONSABILIDADE</td><td class="idx-p">11</td></tr>
+<tr><td class="idx-n">11.</td><td class="idx-t">PROGRAMA DE GERENCIAMENTO DE RISCOS (PGR)</td><td class="idx-p">13</td></tr>
+<tr><td class="idx-n">12.</td><td class="idx-t">ESTRATÉGIA PARA IMPLANTAÇÃO DO PGR</td><td class="idx-p">15</td></tr>
+<tr><td class="idx-n">13.</td><td class="idx-t">RISCOS AMBIENTAIS</td><td class="idx-p">16</td></tr>
+<tr><td class="idx-n">14.</td><td class="idx-t">CATEGORIA DOS RISCOS</td><td class="idx-p">17</td></tr>
+<tr><td class="idx-n">15.</td><td class="idx-t">PRIORIDADES</td><td class="idx-p">17</td></tr>
+<tr><td class="idx-n">16.</td><td class="idx-t">GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</td><td class="idx-p">18</td></tr>
+<tr><td class="idx-n">17.</td><td class="idx-t">ESTRATÉGIA E METODOLOGIA DE AÇÃO</td><td class="idx-p">25</td></tr>
+<tr><td class="idx-n">18.</td><td class="idx-t">AVALIAÇÕES</td><td class="idx-p">27</td></tr>
+<tr><td class="idx-n">19.</td><td class="idx-t">FORMA DE DIVULGAÇÃO</td><td class="idx-p">27</td></tr>
+<tr><td class="idx-n">20.</td><td class="idx-t">REGISTRO, MANUTENÇÃO, DIVULGAÇÃO E PLANEJAMENTO DE DADOS DO PGR</td><td class="idx-p">28</td></tr>
+<tr><td class="idx-n">21.</td><td class="idx-t">MEMORIAL SOBRE CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NAS ATIVIDADES E OPERAÇÕES (RISCOS DE ACIDENTES E DOENÇAS OCUPACIONAIS E SUAS RESPECTIVAS MEDIDAS PREVENTIVAS)</td><td class="idx-p">29</td></tr>
+<tr><td class="idx-n">22.</td><td class="idx-t">ESPECIFICAÇÃO TÉCNICA DAS PROTEÇÕES COLETIVAS</td><td class="idx-p">43</td></tr>
+<tr><td class="idx-n">23.</td><td class="idx-t">ESPECIFICAÇÃO TÉCNICA DAS PROTEÇÕES INDIVIDUAIS</td><td class="idx-p">48</td></tr>
+<tr><td class="idx-n">24.</td><td class="idx-t">CRONOGRAMA DE IMPLANTAÇÃO DAS MEDIDAS PREVENTIVAS DEFINIDAS NO PGR</td><td class="idx-p">53</td></tr>
+<tr><td class="idx-n">25.</td><td class="idx-t">LAYOUT INICIAL DO CANTEIRO DE OBRAS</td><td class="idx-p">55</td></tr>
+<tr><td class="idx-n">26.</td><td class="idx-t">PREVISÃO DE DIMENSIONAMENTO DAS ÁREAS DE VIVÊNCIA</td><td class="idx-p">56</td></tr>
+<tr><td class="idx-n">27.</td><td class="idx-t">CANTEIRO DE OBRAS</td><td class="idx-p">57</td></tr>
+<tr><td class="idx-n">28.</td><td class="idx-t">MEIO AMBIENTE</td><td class="idx-p">60</td></tr>
+<tr><td class="idx-n">29.</td><td class="idx-t">MÁQUINAS E EQUIPAMENTOS MANUAIS</td><td class="idx-p">61</td></tr>
+<tr><td class="idx-n">30.</td><td class="idx-t">MÁQUINAS E EQUIPAMENTOS PREVISTOS PARA O EMPREENDIMENTO</td><td class="idx-p">62</td></tr>
+<tr><td class="idx-n">31.</td><td class="idx-t">MEDIDAS DE PROTEÇÃO PARA TRABALHOS EM ALTURA</td><td class="idx-p">65</td></tr>
+<tr><td class="idx-n">32.</td><td class="idx-t">ESTRUTURAS EM CONCRETO</td><td class="idx-p">77</td></tr>
+<tr><td class="idx-n">33.</td><td class="idx-t">ESCADAS, RAMPAS E PASSARELAS</td><td class="idx-p">79</td></tr>
+<tr><td class="idx-n">34.</td><td class="idx-t">ORDEM E LIMPEZA</td><td class="idx-p">85</td></tr>
+<tr><td class="idx-n">35.</td><td class="idx-t">TRANSPORTE DE PESSOAL</td><td class="idx-p">86</td></tr>
+<tr><td class="idx-n">36.</td><td class="idx-t">OPERAÇÕES MANUAIS</td><td class="idx-p">86</td></tr>
+<tr><td class="idx-n">37.</td><td class="idx-t">SINALIZAÇÕES</td><td class="idx-p">94</td></tr>
+<tr><td class="idx-n">38.</td><td class="idx-t">PROTEÇÃO CONTRA INCÊNDIO</td><td class="idx-p">96</td></tr>
+<tr><td class="idx-n">39.</td><td class="idx-t">EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL - EPI</td><td class="idx-p">97</td></tr>
+<tr><td class="idx-n">40.</td><td class="idx-t">PROCEDIMENTOS DE EMERGÊNCIA</td><td class="idx-p">104</td></tr>
+<tr><td class="idx-n">41.</td><td class="idx-t">PROGRAMA DE TREINAMENTO</td><td class="idx-p">107</td></tr>
+<tr><td class="idx-n">42.</td><td class="idx-t">RECONHECIMENTO, AVALIAÇÃO E CONTROLE DOS RISCOS</td><td class="idx-p">108</td></tr>
+<tr><td class="idx-n">43.</td><td class="idx-t">PROGRAMA EDUCATIVO CONTEMPLANDO A TEMÁTICA DE PREVENÇÃO DE ACIDENTES E DOENÇAS OCUPACIONAIS, COM SUA CARGA HORÁRIA</td><td class="idx-p">109</td></tr>
+<tr><td class="idx-n">44.</td><td class="idx-t">PLANEJAMENTO ANUAL DO PGR (METAS, PRIORIDADES E CRONOGRAMA DE AÇÕES)</td><td class="idx-p">113</td></tr>
+<tr><td class="idx-n">45.</td><td class="idx-t">CRONOGRAMA DAS ATIVIDADES / AÇÕES DO PGR</td><td class="idx-p">114</td></tr>
+<tr><td class="idx-n">46.</td><td class="idx-t">BIBLIOGRAFIA</td><td class="idx-p">116</td></tr>
+<tr><td class="idx-n">47.</td><td class="idx-t">RESPONSÁVEL TÉCNICO</td><td class="idx-p">117</td></tr>
+<tr><td class="idx-n">48.</td><td class="idx-t">ANEXOS</td><td class="idx-p">119</td></tr>
+</tbody></table>
+
+</div>
+<div class="page">
+{{BLOCK:empresa}}{{BLOCK:elaboradora}}3.  OBJETIVO
+</div>
+<div class="page">
+O Programa de Gerenciamento de Riscos – PGR tem por objetivo preservar a saúde e integridade física dos
+trabalhadores, bem como o patrimônio da {{NOME_EMPRESA}}., através
+de ações que proporcionem melhorias nas condições dos ambientes, nos métodos e organização do trabalho.
+
+    Atender às exigências contidas na NR-1, bem como os procedimentos da Contratante.
+
+DIRETRIZES DO PGR:
+
+➢  Coordenar as ações e procedimentos estabelecidos pela empresa;
+➢  Neutralizar ou eliminas os possíveis riscos existentes;
+➢  Definir  procedimentos  e  padrões  de  SST,  para  consulta  e  treinamento,  com  o  objetivo  de  treinar  e
+capacitar  todos  os  empregados  quanto  às  suas  responsabilidades  na  prevenção  de  acidentes  ou  de
+doenças ocupacionais.
+
+➢  Conscientizar todos os empregados dos riscos a que estão expostos e como evitá-los.
+
+4.  POLÍTICA DE SEGURANÇA E SAÚDE OCUPACIONAL
+
+A {{NOME_EMPRESA}}., tem como política de saúde e segurança,
+atender com qualidade e segurança, oferecendo solução ao cliente quanto ao cumprimento de prazos e normas
+estabelecidas, mantendo o ZERO ACIDENTE.
+
+5.  DESCRIÇÃO DE ATIVIDADES
+
+A descrição das atividades se resume em atividades de obra civil em geral na construção comercial salas
+e lojas de alvenaria, tendo como utilização de escadas, rampas, passarelas, movimentação e transportes de
+materiais, alvenaria, revestimento e concretagem, limpeza e organização do canteiro de obras.
+
+6.  CONSIDERAÇÕES PRELIMINARES
+
+Este PGR, sendo um programa de gerenciamento integrado com o planejamento da obra, poderá sofrer
+alterações  à  medida  que  o  planejamento  da  obra  vier  a  ser  alterado.  Desta  mesma  forma,  à  medida  que
+ocorrerem  modificações  no planejamento  as  quais  alterem  processos  ou  métodos  construtivos,  também o
+PGR  será  alterado,  sempre  visando  melhores  condições  de  segurança,  higiene  e  ergonomia  para  os
+funcionários da empresa.
+
+Todos os projetos e informações técnicas estão disponíveis, sob responsabilidade do engenheiro
+
+responsável técnico da obra.
+
+7.  INTRODUÇÃO
+</div>
+<div class="page">
+Com base na Norma Regulamentadora NR-18, Portaria SEPRT Nº 3.733, de 10 de fevereiro de 2020,
+que instituiu o PGR - Programa de Gerenciamento de Riscos, A {{NOME_EMPRESA}}
+entende que o cumprimento desta norma é parte conjunta das iniciativas da empresa visando a preservação da
+saúde e integridade física dos trabalhadores. Portanto, desenvolveu o PGR buscando a qualidade de vida e
+condições seguras de trabalho para todos os seus funcionários e meio ambiente.
+
+8.  TERMOS E DEFINIÇÕES
+
+ASO: Atestado de Saúde Ocupacional.
+
+Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
+de  causar  lesão  ou  agravo  à  saúde  do  trabalhador.  Exemplos:  ruído,  vibrações,  pressões  anormais,
+temperaturas extremas, radiações ionizantes, radiações não ionizantes.
+Observação: Critérios sobre iluminamento, conforto térmico e conforto  acústico da NR-17 não constituem
+agente físico para fins da NR-09.
+
+Agente químico: Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja
+produzida,  utilizada  ou  gerada  no  processo  de  trabalho,  que  em  função  de  sua  natureza,  concentração  e
+exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: fumos de cádmio, poeira
+mineral contendo sílica cristalina, vapores de tolueno, névoas de ácido sulfúrico.
+
+ACGIH: Conferência (Norte) Americana de Higienistas Industriais Governamentais (American Conference
+of Governmental Industrial Hygienists), uma organização voluntária de profissionais em higiene industrial de
+instituições governamentais ou educacionais dos EUA. A ACGIH desenvolve e publica anualmente limites
+recomendados de exposição ocupacional chamados Valores Limites de Exposição: Threshold Limit Values
+(TLV  's)  para  centenas  de  substâncias  químicas,  agentes  físicos,  e  inclui  Índices  de  Exposição  a  agentes
+Biológicos: Biological Exposure Indices (BEI).
+
+Acidente de trabalho: Aquele que acontece no exercício do trabalho a serviço da empresa, provocando lesão
+corporal  ou  perturbação  funcional  podendo  causar  morte,  perda  ou  redução  permanente  ou  temporária,  da
+capacidade para o trabalho.
+Equiparam-se aos acidentes de trabalho:
+1.  O  acidente  que  acontece  quando  você  está  prestando  serviços  por  ordem  da  empresa  fora  do  local  de
+trabalho;
+2. O acidente que acontece quando você estiver em viagem a serviço da empresa;
+3. O acidente que ocorre no trajeto entre a casa e o trabalho ou do trabalho para casa;
+4. Doença profissional (as doenças provocadas pelo tipo de trabalho);
+5. Doença do trabalho (as doenças causadas pelas condições do trabalho);
+
+Adicional  de  Insalubridade:  Adicional  que  deve  ser  pago  ao  trabalhador  que  trabalha  em  condições  de
+insalubridade.
+</div>
+<div class="page">
+O  exercício  de  trabalho  em  condições  de  insalubridade  assegura  ao  trabalhador  a  percepção  de  adicional
+incidente sobre o salário mínimo da região, equivalente à: 40% para insalubridade de grau máximo; 20% para
+insalubridade de grau médio; 10% para insalubridade grau mínimo.
+Obs.: Deve-se sempre consultar o LTCAT para que hajam as definições nos termos da lei.
+
+Adicional  de  Periculosidade:  Adicional  que  deve  ser  pago  ao  trabalhador  que  trabalha  em  condições  de
+periculosidade. O exercício de trabalho em condições de periculosidade assegura ao trabalhador a percepção
+de 30% sobre o salário, sem acréscimos resultantes de gratificações, prêmios ou participação nos lucros da
+empresa.
+Obs.: Deve-se sempre consultar o Laudo de Periculosidade para que hajam as definições nos termos da lei.
+ART  (CREA):  Anotação  de  Responsabilidade  Técnica,  segundo  as  normas  vigentes  no  sistema
+CONFEA/CREA.
+
+ART (Análise de Risco da Tarefa): Método para análise de risco de atividades com o foco na prevenção de
+acidentes.
+
+Agente biológico: Microrganismos, parasitas ou materiais originados de organismos que, em função de sua
+natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à saúde do trabalhador. Exemplos:
+bactéria Bacillus  anthracis,  vírus linfotrópico da  célula T humana, príon  agente de doença de Creutzfeldt-
+Jakob, fungo Coccidioides immitis.
+
+Canteiro de obra: área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução à
+construção, demolição ou reforma de uma obra.
+
+CAT: Comunicação de Acidente do Trabalho.
+
+DORT: Distúrbio Osteomuscular Relacionado ao Trabalho.
+
+EPI: Equipamento de Proteção Individual (Qualquer dispositivo ou vestimenta usado pelo trabalhador para
+se proteger contra riscos ambientais. Exemplos: respiradores, máscaras, luvas, botas, óculos de proteção, etc.).
+
+EPC: Equipamento de Proteção Coletiva (É todo dispositivo, sistema, ou meio, fixo ou móvel de abrangência
+coletiva, destinado a preservar a integridade física e a saúde dos trabalhadores, usuários e terceiros).
+
+Ergonomia:  Ergonomia  é  o  conjunto  de  conhecimentos  científicos  relativos  ao  homem  e  necessários  à
+concepção de instrumentos, máquinas e dispositivos que possam ser utilizados com o máximo de conforto e
+eficácia. A ergonomia tem por objetivo adaptar o trabalho ao homem, bem como melhorar as condições de
+trabalho e as relações homem-máquina. A Ergonomia pode ser construtiva, corretiva e cognitiva.
+
+Empregado: a pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência
+deste e mediante salário.
+
+Empregador: a empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite,
+assalaria  e  dirige  a  prestação  pessoal  de  serviços.  Equiparam-se  ao  empregador  as  organizações,  os
+</div>
+<div class="page">
+profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins
+lucrativos, que admitam trabalhadores como empregados.
+
+Estabelecimento: local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros, onde
+a empresa ou a organização exerce suas atividades em caráter temporário ou permanente.
+
+Evento perigoso: Ocorrência ou acontecimento com o potencial de causar lesões ou agravos à saúde.
+
+FUNDACENTRO: Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho.
+
+Frente de trabalho: área de trabalho móvel e temporária.
+
+LTCAT: Laudo Técnico das Condições Ambientais do Trabalho (previsto da Lei 8213/91).
+
+Local de trabalho: área onde são executados os trabalhos.
+
+NR: Norma Regulamentadora.
+
+OIT: Organização Internacional do Trabalho.
+
+Obra: todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma.
+Ordem de serviço de segurança e saúde no trabalho: instruções por escrito quanto às precauções para evitar
+acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em procedimentos
+de trabalho e outras instruções de SST.
+
+Organização: pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e
+relações  para  alcançar  seus  objetivos.  Inclui,  mas  não  é  limitado  a  empregador,  a  tomador  de  serviços,  a
+empresa,  a  empreendedor  individual,  produtor  rural,  companhia,  corporação,  firma,  autoridade,  parceria,
+organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou
+privada.
+
+Pneumoconiose:  Doença  do  pulmão,  causada  pela  contaminação  por  algum  tipo  de  mineral  ou  poeira.  A
+pneumoconiose recebe diversas designações de acordo com o tipo de poeira causadora da doença. A asbestose,
+a silicose são os exemplos de pneumoconiose.
+
+PPP: O Perfil Profissiográfico Previdenciário é um documento individual do funcionário que relata todo o
+seu histórico laboral na empresa, destinado a fornecer ao INSS informações relativas à efetiva exposição, por
+parte do funcionário, à agentes nocivos a saúde. Ele utiliza informações provenientes do LTCAT e do PCMSO,
+além de informações administrativas do RH da empresa. Foi criado para fornecer dados para a aposentadoria
+especial, mas será solicitado em todas as homologações de funcionários a partir de 1. de Julho.
+
+PGR: Programa de Gerenciamento de Riscos (previsto da Norma Regulamentadora Nº 1, Portaria 3218/78,
+Lei 6514/77).
+</div>
+<div class="page">
+PCMSO: Programa de Controle Médico de Saúde Ocupacional (previsto da Norma Regulamentadora Nº 7,
+Portaria 3218/78, Lei 6514/77).
+
+Perigo  ou fator de risco ocupacional/ Perigo  ou fonte de risco ocupacional: Fonte com  o potencial  de
+causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros tem o potencial
+intrínseco de dar origem a lesões ou agravos à saúde.
+
+Prevenção: o conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da
+organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais.
+
+Risco:  Possibilidade  real  ou  potencial  capaz  de  causar  lesão  e  ou  morte,  danos  ou  perdas  patrimoniais,
+interrupção de processo de produção ou de afetar a comunidade ou o meio ambiente.
+
+Responsável  técnico  pela  capacitação:  profissional  legalmente  habilitado  ou  trabalhador  qualificado,
+conforme disposto em NR específica, responsável pela elaboração das capacitações e treinamentos.
+
+Risco ocupacional: Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados por um evento
+perigoso, exposição  a  agente nocivo  ou exigência da atividade de trabalho  e da severidade dessa  lesão ou
+agravo à saúde.
+
+Setor de serviço: a menor unidade administrativa ou operacional compreendida no mesmo estabelecimento.
+
+Segurança do Trabalho: Conjuntos de medidas que são adotadas visando minimizar os acidentes de trabalho,
+doenças ocupacionais, bem como proteger a integridade e a capacidade de trabalho do trabalhador.
+
+Trabalhador: pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como
+os empregados e outros sem vínculo de emprego.
+
+9.  OBJETIVO
+
+Tem o objetivo de estabelecer diretrizes de ordem administrativa, de planejamento e de organização,
+que visam à implementação de medidas de controle e sistemas preventivos de segurança nos processos, nas
+condições e no meio ambiente de trabalho na indústria da construção.
+
+Fornecer parâmetros legais e técnicos considerando a preservação da saúde e da integridade dos trabalhadores
+através da antecipação, reconhecimento, avaliação e controle da ocorrência de riscos existentes ou que venham
+a existir no ambiente de trabalho tendo em consideração a proteção do meio ambiente e dos recursos naturais.
+
+Esta norma se aplica às atividades da indústria da construção constantes da seção “F” do Código Nacional de
+Atividades  Econômicas  -  CNAE  e  às  atividades  e  serviços  de  demolição,  reparo,  pintura,  limpeza  e
+manutenção de edifícios em geral e de manutenção de obras de urbanização.
+</div>
+<div class="page">
+10. ATRIBUIÇÕES E RESPONSABILIDADE
+
+A organização da obra deve:
+
+a) vedar o ingresso ou a permanência de trabalhadores no canteiro de obras sem que estejam resguardados
+pelas medidas previstas nesta NR;
+
+b) fazer a Comunicação Prévia de Obras em sistema informatizado da Subsecretaria de Inspeção do Trabalho
+- SIT, antes do início das atividades, de acordo com a legislação vigente.
+
+Engenheiro de Obra:
+•  Cumprir e fazer cumprir as normas regulamentadora da Portaria SEPRT Nº 3.733, de 10 de fevereiro
+
+de 2020, bem como, os procedimentos internos da Empresa.
+
+•  Exigir de seus subordinados o uso obrigatório dos equipamentos de proteção individual.
+•
+
+Instruir sua equipe de trabalho sobre as normas e regulamentos de segurança para cada serviço a ser
+executado.
+
+•  Cumprir e fazer cumprir, rigorosamente, procedimentos de segurança estabelecidos pela Empresa.
+•  Providenciar correção das situações de riscos verificadas na sua área de atuação.
+•  Comunicar a ocorrência de acidentes ou incidentes, ocorridos no canteiro de obra.
+•  Planejar  a  execução  das  tarefas,  de  modo  a  prevenir  falhas  que  possam  causar  perdas  humanas,
+
+materiais / e ou financeiras.
+
+•  Divulgar este documento a todos os funcionários envolvidos direta ou indiretamente com as diversas
+atividades do canteiro de obra, bem como zelar e obrigar o cumprimento das normas estabelecidas.
+•  Providenciar tudo o que for necessário para o cumprimento das normas estabelecidas neste manual.
+•  Solicitar treinamento ao Departamento de Segurança da Empresa para todos os funcionários.
+
+Mestres e Encarregados:
+•  Exigir de seus subordinados o uso obrigatório dos equipamentos de proteção individual.
+•
+
+Instruir sua equipe de trabalho sobre as Normas e procedimentos de Segurança para cada serviço a ser
+executado.
+
+•  Cumprir e fazer cumprir, rigorosamente, procedimentos de segurança estabelecidos pela Empresa.
+•
+
+Inspecionar  as  instalações,  equipamentos  e  ferramentas  de  serviço,  providenciando  correção  das
+situações irregulares.
+
+•  Comunicar a ocorrência de acidentes e incidentes, sucedidos na sua área, ao Serviço de Segurança do
+
+Trabalho. Investigar suas causas e propor medidas corretivas e preventivas.
+•  Garantir o perfeito funcionamento dos dispositivos de proteção coletivos.
+</div>
+<div class="page">
+•  Usar obrigatoriamente os equipamentos de proteção individual, de maneira correta, e zelar pela sua
+
+conservação.
+
+•  Executar  as  diversas  tarefas,  de  maneira  correta  e  segura,  de  acordo  com  as  recomendações  da
+
+Empresa.
+
+•  Zelar pela guarda e conservação adequada dos equipamentos e ferramentas de trabalho.
+•  Eliminar situações de risco ou, na impossibilidade, comunicar ao seu chefe imediato.
+•  Alertar seus colegas de trabalho quanto ao uso dos equipamentos de segurança e à prática de segurança
+
+do trabalho.
+
+•  Cumprir as orientações dadas durante os treinamentos.
+
+Departamento de Segurança do Trabalho da Empresa:
+
+•  Acompanhar e controlar os programas de prevenção de acidentes do trabalho, bem como, avaliar os
+
+resultados.
+
+•  Promover a realização de atividades de conscientização, educação e orientação dos recursos humanos
+
+da empresa, com relação à prevenção de acidentes.
+
+•  Manter cadastro de acidentes do trabalho.
+•  Analisar os acidentes, investigando suas causas e propondo medidas corretivas.
+•  Especificar equipamentos de proteção individual.
+•  Analisar os riscos de acidentes e propor medidas preventivas e / ou corretivas.
+•  Treinar os trabalhadores quanto aos riscos existentes no canteiro de obra, através da ordem de serviço.
+
+As tarefas a serem executadas mediante a adoção de soluções alternativas devem estar expressamente previstas
+em procedimentos de segurança do trabalho, nos quais devem constar:
+
+ a) os riscos ocupacionais aos quais os trabalhadores estarão expostos;
+
+b) a descrição dos equipamentos e das medidas de proteção coletiva a serem implementadas;
+
+c) a identificação e a indicação dos EPI a serem utilizados;
+
+d) a descrição de uso e a indicação de procedimentos quanto aos Equipamentos de Proteção Coletiva (EPC) e
+EPI, conforme as etapas das tarefas a serem realizadas;
+
+e) a descrição das medidas de prevenção a serem observadas durante a execução dos serviços, dentre outras
+medidas a serem previstas e prescritas por profissional legalmente habilitado em segurança do trabalho.
+</div>
+<div class="page">
+11. PROGRAMA DE GERENCIAMENTO DE RISCOS (PGR)
+
+O PGR deve ser elaborado por profissional legalmente habilitado em segurança do trabalho e implementado
+sob responsabilidade da organização.
+
+Em canteiros de obras com até 7 m (sete metros) de altura e com, no máximo, 10 (dez) trabalhadores, o PGR
+pode  ser  elaborado  por  profissional  qualificado  em  segurança  do  trabalho  e  implementado  sob
+responsabilidade da organização.
+
+O PGR, além de contemplar as exigências previstas na NR-01, deve conter os seguintes documentos:
+
+a) projeto da área de vivência do canteiro de obras e de eventual frente de trabalho, em conformidade com o
+item 18.5 desta NR, elaborado por profissional legalmente habilitado;
+
+ b) projeto elétrico das instalações temporárias, elaborado por profissional legalmente habilitado;
+
+ c) projetos dos sistemas de proteção coletiva elaborados por profissional legalmente habilitado
+
+d)  projetos  dos  Sistemas  de  Proteção  Individual  Contra  Quedas  (SPIQ),  quando  aplicável,  elaborados  por
+profissional legalmente habilitado;
+
+e)  relação  dos  Equipamentos  de  Proteção  Individual  (EPI)  e  suas  respectivas  especificações  técnicas,  de
+acordo com os riscos ocupacionais existentes.
+
+O PGR deve estar atualizado de acordo com a etapa em que se encontra o canteiro de obras.
+</div>
+<div class="page">
+➢  Eliminação dos acidentes do trabalho e doenças ocupacionais bem como a melhoria das condições do
+
+ambiente de trabalho;
+
+➢  Treinar 100% dos empregados nas ferramentas de SSO próprias e da contratante;
+➢  Realizar avaliação dos agentes ambientais em 100% dos Grupos Homogêneos de Exposição.
+
+PRIORIDADES
+
+As ações e medidas de controles a serem implementadas terão as seguintes prioridades:
+
+➢  Quando a situação na fase de antecipação ou reconhecimento estiver gerando risco grave e iminente
+
+para a segurança e saúde dos trabalhadores.
+
+➢  Quando  a  situação  na  fase  de  avaliação  apresentar  índices  superiores  aos  limites  de  tolerância
+
+estabelecidos pela NR-15 da Portaria 3214/78, ou da ACGIH na ausência destes;
+
+➢  Quando  a  situação  na  fase  de  avaliação  apresentar  índices  entre  o  nível  de  ação  e  os  limites  de
+
+tolerância.
+</div>
+<div class="page">
+12. ESTRATÉGIA PARA IMPLANTAÇÃO DO PGR
+
+a)  Nome do coordenador pela implantação do PGR: Nome do Responsável pela empresa.
+
+b)  Conscientização e comprometimento por parte de todos os gerentes da empresa com a implantação do
+
+PGR (termo de compromisso);
+
+c) Envolvimento de todos os trabalhadores;
+
+d) Estabelecimento de metas e prioridades;
+
+e) Redução dos níveis dos agentes físicos, químicos e biológicos enquadrados nas categorias de risco grave
+e crítico à categoria de risco moderado;
+
+f) Viabilização de recursos materiais e financeiros necessários ao desenvolvimento do PGR;
+
+g) Elaboração de cronograma de implantação;
+
+h) Reuniões periódicas com as equipes para avaliação do PGR;
+
+i)  Divulgação periódica do PGR, junto aos funcionários.
+
+O PGR deve conter, no mínimo, os seguintes documentos:
+
+a) inventário de riscos; e
+
+b) plano de ação.
+
+Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da organização, respeitado
+o disposto nas demais Normas Regulamentadoras, datados e assinados. Os documentos integrantes do PGR
+devem  estar  sempre  disponíveis  aos  trabalhadores  interessados  ou  seus  representantes  e  à  Inspeção  do
+Trabalho.
+</div>
+<div class="page">
+13. RISCOS AMBIENTAIS
+
+Para fins da NR-9 da Portaria 3.214/78 – MTE, riscos ambientais são aqueles existentes nos ambientes de
+trabalho,  originados  por  agentes  físicos,  químicos  ou  biológicos,  capazes  de  causar  danos  à  saúde  do
+trabalhador,  em  função  da  natureza,  concentração  ou  intensidade  do  agente  e  do  tempo  de  exposição  do
+trabalhador.
+
+Agentes Físicos
+
+São  as  diversas  formas  de  energia  a  que  possam
+
+Temperaturas extremas
+
+estar expostos os trabalhadores.
+
+Radiações ionizantes e
+
+Ruído
+
+Vibração
+
+Pressões anormais
+
+Agentes
+
+Químicos
+
+São  as  substâncias  compostos  ou  produtos  que
+
+possam penetrar no organismo pela via respiratória
+
+ou ser absorvidos através da pele ou por ingestão.
+
+Agentes
+
+Biológicos
+
+São microorganismos causadores de doenças, com
+
+os quais pode o trabalhador entrar em contato, no
+
+exercício de diversas atividades profissionais.
+
+não ionizantes
+
+Ultra-som e infra-som
+
+Umidade
+
+Poeira
+
+Fumos
+
+Névoas
+
+Neblinas
+
+Gases
+
+Vapores
+
+Bactérias
+
+Fungos
+
+Bacilos
+
+Parasitas
+
+Protozoários
+
+Vírus, entre outros.
+</div>
+<div class="page">
+14. CATEGORIA DOS RISCOS
+
+I – GRAVE
+
+II – CRÍTICO
+
+•  Exposição ocupacional a substâncias carcinogênicas;
+•  Presença  de  agentes  cujos  valores  de  concentração  ou  intensidade
+
+encontram-se acima do valor máximo ou do valor teto;
+
+•  Teor de oxigênio inferior a 18%, em volume, para asfixiantes simples;
+•  Registros médicos indicando ocorrência generalizada de patologias em
+
+razão do agente.
+
+•  Referências técnicas indicando que o agente pode causar sérios danos
+
+à saúde;
+
+•  Presença  de  agentes  cujos  valores  de  concentração  ou  intensidade
+encontram-se entre o nível  de  ação e o limite de  tolerância ou valor
+teto;
+
+•  Substâncias que possam ser absorvidas também pela pele.
+
+•  Referências técnicas indicando que o agente apresenta risco moderado
+
+à saúde;
+
+III – MODERADO
+
+•  Presença  de  agentes  cujos  valores  de  concentração  ou  intensidade
+
+encontram-se abaixo do nível de ação;
+
+•  Presença  de  agentes  que  não  possuem  limites  de  tolerância  ou  valor
+
+IV – LEVE
+
+teto.
+
+15. PRIORIDADES
+
+I
+
+II
+
+Situações classificadas na categoria de risco grave;
+
+Situações classificadas na categoria de risco crítico;
+
+III
+
+Situações classificadas na categoria de risco moderado;
+
+IV
+
+Situações classificadas na categoria de risco leve.
+</div>
+<div class="page">
+6.
+
+GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO
+
+A  empresa  RAZÃO  SOCIAL  EMPRESA  CLIENTE  possui  o  compromisso  com  o  gerenciamento  dos
+fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.
+
+O  gerenciamento  de  riscos  ocupacionais  abrange  os  riscos  que  decorrem  dos  agentes  físicos,  químicos,
+biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
+psicossociais relacionados ao trabalho.
+
+A  organização  considera  as  condições  de  trabalho,  nos  termos  da  NR-17,  incluindo  os  fatores  de  risco
+psicossociais relacionados ao trabalho.
+
+Sobre  a  probabilidade  de  ocorrência  das  lesões  ou  agravos  à  saúde  decorrentes  de  fatores  ergonômicos,
+incluindo  os  fatores  de  riscos  psicossociais  relacionados  ao  trabalho,  a  avaliação  de  risco  considera  as
+exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas.
+
+Os agravos a saúde relacionados aos fatores psicossociais devem considerar os fatores de riscos e o ambiente
+ocupacional,  existem  situações  e/ou  atividades  que  são  “estressantes”  para  algumas  pessoas  e  “não
+estressantes” para outras, que fazem parte das atribuições e do desenvolvimento das atividades da empresa de
+forma regulamentada e positivada em lei, veja abaixo:
+
+Um Líder retorna para casa desanimado pois precisou demitir determinado colaborador da sua empresa, por
+motivo justificável e regulamentado em lei (ou por liberdade de escolha da empresa), porém a atividade de
+sua atribuição lhe causou o sentimento de tristeza;
+
+O colaborador que foi desligado da empresa, neste mesmo exemplo, retorna para casa feliz, por ter um viés
+de visualizar que o término de seu contrato de trabalho como uma oportunidade para sua carreira e para novas
+rotas.
+
+Importante:  Os  fatores  psicossociais  “relacionados  ao
+trabalho”,  conforme  consta  na  Norma
+Regulamentadora  Nº1  em  seu  item  1.5.3.1,  especifica  que  existem  outros  aspectos  relacionados  ao  tema
+“psicossocial” que estão fora do campo do trabalho, que não estão relacionados ao trabalho desenvolvido e,
+portanto, não estão incluídos no Gerenciamento de Riscos Ocupacionais (GRO).
+
+É importante identificar que na avaliação dos fatores de risco psicossociais relacionados ao trabalho, trata-se
+de considerar quais os fatores da atividade de trabalho são estressores, que podem levar à ocorrência de lesões
+ou agravos  à saúde do trabalhador. Não se trata de verificar sintomas individuais ou sensação do que está
+ocorrendo no trabalhador, ou de medir algum sinal biológico, por exemplo, mas de verificar as condições de
+trabalho a que ele está submetido.
+
+Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
+modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
+
+A  {{NOME_EMPRESA}} será responsável pela organização deste atendimento, devendo
+contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo GRUPO
+PERFORMANCE OCUPACIONAL.
+</div>
+<div class="page">
+FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS
+
+A interação de  elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho  e
+promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
+e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
+o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
+afastamento e faltas ao trabalho.
+
+Em síntese, os fatores psicossociais podem ser tantos fatores de proteção como fatores de risco para a saúde e
+segurança no trabalho.
+
+Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
+um problema ou se adaptar a um ambiente.
+
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
+
+CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)
+
+O dano  a integridade física ou mental  de um  trabalhador (OIT, 1984), seja na forma de um  transtorno ou
+doença, seja por lesão ou acidente de trabalho.
+
+A concepção de risco se vincula, neste caso, ao adoecimento em si.
+
+IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:
+
+A  gestão  dos  riscos  psicossociais  é  um  elemento-chave  para  promover  a  saúde  mental  e  o  bem-estar  no
+ambiente  de  trabalho.  Esses  riscos,  que  incluem  estresse,  ansiedade,  sobrecarga  e  outros  problemas
+emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
+empresa.
+
+A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
+e o reconhecimento das conquistas dos colaboradores.
+
+O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:
+
+Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
+trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
+físico e social (OSHA, 2023).
+</div>
+<div class="page">
+Os  fatores  psicossociais  são  aqueles  aspectos  do  ambiente  de  trabalho  que  influenciam  o  bem-estar
+psicológico, emocional e social dos colaboradores. Eles incluem tanto as características do próprio trabalho
+quanto as relações interpessoais e organizacionais. Podem ser divididos principalmente em três categorias:
+
+Ambientais: São aqueles relacionados ao ambiente de trabalho no geral. É o caso de situações de trabalho
+com ruído acima do comum, ferramentas inadequadas, máquinas que não funcionam, trabalho em altura ou
+em espaços confinados, falta de Equipamentos de Proteção Individual (EPI), entre outros.
+
+Atividades: Se relacionam diretamente com a execução do trabalho desenvolvido pelo colaborador, e no PGR
+podem aparecer junto com outros fatores. Envolvem temas como: pressão, sobrecarga, falta de autonomia,
+ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobre as funções que desempenha.
+
+Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
+com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
+e profissional, situações de assédio (inclusive do público externo).
+
+LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS
+AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:
+
+Os fatores de risco psicossociais podem ser classificados em várias categorias:
+
+PERIGO (FATOR DE RISCO)
+
+Assédio de qualquer natureza no trabalho
+
+Má gestão de mudanças organizacionais
+
+Baixa clareza de papel / função
+
+Baixas recompensas e reconhecimento
+
+Falta de suporte / apoio no trabalho
+
+Baixo controle no trabalho / falta de autonomia
+
+Baixa justiça organizacional
+
+Eventos violentos ou traumáticos
+
+Baixa demanda no trabalho (subcarga)
+
+Excesso de demandas no trabalho (sobrecarga)
+
+Más relacionamentos no local de trabalho
+
+Trabalho em condições de difícil comunicação
+
+Trabalho remoto e isolado
+
+Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério
+do Trabalho, de Abril de 2025).
+</div>
+<div class="page">
+RESPONSABILIDADES DA EMPRESA:
+
+É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os
+fatores psicossociais.
+
+É necessário implementar as medidas de controle, inclusive para os fatores psicossociais.
+
+A empresa incentivará a participação ativa dos trabalhadores na identificação e gestão dos riscos, inclusive
+para os fatores psicossociais.
+
+Sendo  assim,  além  das  estratégias  para  minimizar  os  riscos  psicossociais,  é  preciso  focar  em  ações
+direcionadas à identificação, controle e monitoramento dos mesmos.
+
+IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:
+
+Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
+
+Observações diretas (visita-técnica):
+
+Realizar a avaliação in loco do ambiente de trabalho para identificar fatores de risco visíveis e conhecer o
+ambiente laboral.
+
+Entrevistas diagnósticas:
+
+Essa  etapa  tem  como  objetivo  conhecer  o  trabalho  real  executado  pelo  público  avaliado  a  fim  de  acessar
+aspectos que possibilitam aprofundar na execução da atividade, escutando o trabalhador sobre suas percepções
+e experiências no ambiente de trabalho.
+
+Será  aplicado  Formulário  Anônimo  de  Entrevista  sobre  Fatores  Psicossociais  considerando  o
+dimensionamento da empresa.
+
+Conceitos sobre Pesquisa de Clima Organizacional e Pesquisa de Identificação dos Riscos Psicossociais:
+
+A  Pesquisa  de  Clima  Organizacional  avalia  aspectos  gerais  do  ambiente  de  trabalho  e  satisfação  dos
+colaboradores com diversos fatores organizacionais.
+
+A  Pesquisa  de  Identificação  dos  Riscos  Psicossociais  foca  em  identificar  fatores  específicos  de  risco  que
+afetam  a  saúde  mental  e  emocional  dos  colaboradores,  sendo  esta  formalizada  através  do  “Formulário
+Anônimo de Entrevista sobre Fatores Psicossociais em anexo” na gestão de riscos ocupacionais (GRO) da
+empresa.
+</div>
+<div class="page">
+ESTRATÉGIAS  PARA  AMPLIAR  OS  RESULTADOS  NA  GESTÃO  DOS  RISCOS
+OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:
+
+Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:
+
+•  Grupos  de  discussão,  através  de  reuniões  com  pequenos  grupos  de  colaboradores  para  discutir
+
+abertamente os fatores de risco percebidos;
+
+•  Workshops  interativos,  com  sessões  de  treinamento  onde  os  trabalhadores  aprendem  sobre  riscos
+psicossociais, recebem capacitação para gestão do estresse e melhoria de sua resiliência, e também o
+compartilhamento de suas experiências.
+
+•  Pesquisas  anônimas,  através  de  questionários  anônimos  que  permitem  aos  colaboradores  expressar
+
+preocupações sem medo de retaliação.
+
+Aplicação de instrumentos de avaliação psicossocial:
+
+Realizar aplicação do Inventário Psicossocial para mensurar quais são e a gravidade dos riscos psicossociais
+percebidos pelo trabalhador no contexto de trabalho.
+
+Análise de dados e indicadores de saúde:
+
+Realizar  a  análise  dos  resultados  levantados  por  meio  das  etapas  anteriores  e  dos  indicadores  de  saúde
+ocupacional, como taxas de absenteísmo e relatório de incidentes a fim de mapear os riscos e estabelecer ações
+baseada em dados.
+
+QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO
+DOS RISCOS?
+
+Envolver  os  trabalhadores  no  processo  de  identificação  dos  riscos  é  crucial  para  garantir  a  precisão  e  a
+relevância  das  informações  coletadas.  Isso  porque  ao  contrário  dos  riscos  físicos,  que  são  mais  visíveis  e
+mensuráveis, os riscos psicossociais são mais subjetivos e variam conforme as percepções dos trabalhadores.
+
+Cardoso  (2015)  enfatiza  que,  se  o  objetivo  é  investigar  de  que  maneira  o  trabalho  afeta  a  saúde  dos
+trabalhadores, é essencial que se lhes conceda a oportunidade de expressar suas percepções acerca das suas
+vivências laborais. Escutar os trabalhadores atentamente possibilita que relatem como estão enfrentando as
+demandas impostas, bem como as respostas que conseguem ou não dar às tarefas e às dificuldades cotidianas,
+além de considerar como as organizações, por exemplo, proporcionam ou não condições para a realização das
+tarefas exigidas.
+
+Entender o trabalho real auxilia no conhecimento da diversidade de ações dos trabalhadores para manter a
+produção  esperada,  como  a  regulação  de  incidentes,  a  escolha  de  informações  relevantes,  a  antecipação  e
+controle das ações, e o uso de raciocínios apropriados. Ainda, permite compreender como a atividade, apesar
+de não aparente, influencia gestos, esforços, posturas, deslocamentos e comunicações. (Guérin et al., 2001).
+</div>
+<div class="page">
+COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:
+
+A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.
+
+Desenvolvimento e Plano de Ação
+
+O  desenvolvimento  do  plano  de  ação  deve  ser  específico,  mensurável,  alcançável,  relevante  e  com  prazo
+definido.
+
+Cada plano de ação deve incluir:
+
+Identificação e descrição dos fatores de riscos;
+
+•
+•  Objetivo da ação, o que se pretende alcançar com a intervenção;
+•  Responsáveis, quem será responsável pela implementação da ação;
+•  Recursos necessários, orçamento, tempo e outros recursos;
+•  Cronograma, prazos para a execução das etapas do plano.
+
+COMUNICAÇÃO
+
+A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
+
+•  Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os
+colaboradores.  Estimular  um  ambiente  onde  os  trabalhadores  se  sintam  valorizados  e  apoiados  é
+crucial. Políticas de bem-estar e espaços de diálogo que funcionam podem fazer a diferença.
+
+•  Feedback  (Retorno)  contínuo:  Criar  canais  para  que  os  colaboradores  possam  fornecer  feedback
+
+sobre as ações implementadas e sugerir melhorias.
+
+•  Campanhas de conscientização: Realizar treinamentos e campanhas para aumentar a conscientização
+sobre  os  riscos  psicossociais  e  a  importância  de  um  ambiente  de  trabalho  saudável.  Oferecer
+treinamentos para gestores e colaboradores sobre gestão de estresse, inteligência emocional e resolução
+de  conflitos  pode  ser  algo  muito  interessante  e  que  trará  ganhos  muito  além  do  ambiente
+organizacional.
+
+METODOLOGIA DE CONTROLE DOS RISCOS:
+
+Além  de  promover  mudanças  organizacionais  necessárias,  é  essencial  implementar  programas  de  apoio
+psicológico e investir em treinamento e capacitação para que os trabalhadores desenvolvem habilidades para
+lidar com o estresse e outras pressões, contribuindo para um ambiente mais inclusivo. Além disso, no contexto
+de  ações  de  controle,  é  importante  adotar  práticas  eficientes,  como  o  aprimoramento  do  formato  de
+armazenamento e gestão das informações levantadas.
+</div>
+<div class="page">
+DOCUMENTAÇÃO E RELATÓRIOS
+
+A documentação para identificação das análises realizadas é fundamental para a gestão contínua.
+Recomenda-se:
+
+•  Registro detalhado, criar fichas de risco que documentem a natureza do risco, sua avaliação e as
+
+medidas corretivas planejadas;
+
+•  Relatórios periódicos, preparar relatórios que resumem os achados e as ações recomendadas, e
+
+compartilhe-os com a alta gestão e outras partes interessadas.
+
+MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:
+
+A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam monitoradas
+e ajustadas conforme necessário, isso pode ser feito através de:
+
+Revisões periódicas, reavaliar os riscos e as estratégias de controle regularmente;
+
+Feedback (Retorno) dos trabalhadores, incentivar os trabalhadores a darem retorno constante sobre o ambiente
+de trabalho e as medidas implementadas;
+
+Ajustes conforme necessário, estar disposto a modificar políticas e práticas em resposta a novas informações
+ou mudanças no ambiente de trabalho;
+
+Avaliações contínuas, realizar de forma periódica a avaliação de risco psicossocial, através de instrumentos
+validados e normatizados para a mensuração de fatores psicossociais;
+
+Análise  de  dados,  implementar  a  análise  de  dados,  através  dos  indicadores  de  saúde  e  segurança  com  o
+resultado das avaliações individuais e de grupos.
+</div>
+<div class="page">
+16. ESTRATÉGIA E METODOLOGIA DE AÇÃO
+
+Antecipação de Riscos
+
+Deve-se analisar:
+
+a) Análise de projeto de novas instalações;
+b) Análise de novos métodos ou processos de trabalho;
+c) Análise de modificações de instalações, métodos ou processos de trabalho existentes.
+
+Reconhecimento de Riscos
+
+Deve-se identificar:
+
+a) Identificação;
+b) Possíveis fontes geradoras;
+c) Trajetórias e meios de propagação;
+d) Funções e número de trabalhadores;
+e) Atividades e tipos de exposição;
+f) Dados indicativos de comprometimento à saúde existentes na empresa;
+g) Danos à saúde relatados em literatura técnica;
+h) Medidas de controle já existentes.
+
+Avaliação de Riscos
+
+A avaliação será feita com base na metodologia definida na NR-9 da Portaria 3.214/78, do Ministério
+do  Trabalho,  e  em  normas  técnicas  existentes.  Envolve  a  avaliação  qualitativa  e  quantitativa  dos  riscos
+ambientais, através da avaliação das prioridades e das medições de curto ou longo prazo nos ambientes de
+trabalho, comparando os resultados encontrados com os limites de tolerância, entre outras considerações.
+
+Controle de Riscos
+
+Deve  ser  dimensionado  levando-se  em  consideração  os  recursos  técnicos  e  financeiros  da  empresa,  sendo
+preferencialmente recomendados os controles de engenharia, ou seja, na fonte dos riscos, caso não seja viável
+este controle, passa-se ao meio de propagação dos riscos e, por último, controle no trabalhador, através dos
+EPI’s.
+</div>
+<div class="page">
+Serão adotadas, como medidas de controle, as seguintes fases:
+
+FASE
+
+MEDIDA
+
+Antecipação
+
+Identificação de riscos potenciais à saúde.
+
+Reconhecimento
+
+Constatação de risco evidente.
+
+Avaliação
+
+Controle
+
+Monitoramento  quantitativo  e  qualitativo  dos  agentes
+ambientais constatados
+
+Procedimentos e ações que mantém os riscos e agentes
+ambientais dentro dos limites permissíveis e aceitáveis
+para desenvolvimento das atividades laborais
+
+Será observada a seguinte hierarquia:
+
+ELIMINAÇÃO DO RISCO
+
+REDUÇÃO DO RISCO
+
+MEDIDAS DE ORDEM COLETIVA
+
+MEDIDAS DE ORDEM ADMINISTRATIVA
+
+MEDIDAS DE ORDEM INDIVIDUAL ( EPI )
+</div>
+<div class="page">
+A utilização de EPI (Equipamento de Proteção Individual) observará as disposições da NR-6, da Portaria
+
+3.214/78, do Ministério do Trabalho, além dos seguintes aspectos:
+
+a) Seleção do EPI adequado ao risco, considerando-se a eficiência e o conforto do mesmo, segundo avaliação
+do trabalhador;
+b) Treinamento dos trabalhadores quanto à correta utilização e as limitações dos EPI’s;
+c)  Estabelecimento  de  normas  para  fornecimento,  uso,  guarda,  higienização,  conservação,  manutenção  e
+reposição do EPI.
+
+Monitoramento dos Riscos
+
+a) Periodicamente será avaliada eficácia das medidas de controle com base nas avaliações ambientais e no
+controle médico (PCMSO);
+b) Periodicamente será avaliado o desenvolvimento do PGR.
+
+17. AVALIAÇÕES
+
+As avaliações serão realizadas com base na NR-15 da Portaria 3.214/78 do Ministério do Trabalho e
+Emprego, de forma qualitativa e deverão estar registradas em documento próprio ficando este documento à
+disposição de todos os trabalhadores; ou conforme normas técnicas da ABNT; e ainda conforme as portarias,
+decretos e Instruções Normativas do INSS.
+
+18. FORMA DE DIVULGAÇÃO
+
+a) Treinamento introdutório;
+
+b) Treinamento específico;
+
+c) Informativos através do Quadro de Avisos;
+
+d) Reuniões com funcionários.
+</div>
+<div class="page">
+19. REGISTRO, MANUTENÇÃO, DIVULGAÇÃO E PLANEJAMENTO DE DADOS DO PGR
+
+REGISTRO
+
+Todos  os  dados  deste  documento  deverão  ser  mantidos  arquivados  durante,  no  mínimo,  vinte  anos,
+
+constituindo-se no banco de dados com o histórico administrativo e técnica do desenvolvimento do PGR.
+
+MANUTENÇÃO
+
+a) Avaliação periódica para verificar o andamento dos trabalhos e o cumprimento das metas estipuladas
+
+no cronograma;
+
+b) Monitoramento periódico para avaliar a eficiência do programa e as medidas de controle implantadas;
+
+c) Controle médico, através dos resultados dos exames, para avaliar a eficácia do programa.
+
+DIVULGAÇÃO DOS DADOS E RESULTADOS
+
+As ações propostas no PGR, a serem desenvolvidas na empresa, devem ser amplamente divulgadas de
+maneira a informar os trabalhadores sobre os riscos nos locais de trabalho e sobre os meios disponíveis para
+a  prevenção  e/ou  atenuação  dos  mesmos.  Todos  os  dados  estarão  à  disposição  dos  empregados,  seus
+representantes legais e órgãos competentes, em arquivo da empresa.
+
+GERENCIAMENTO
+
+De acordo com o Inventário de Risco, as metas e as prioridades da empresa, serão delimitados no e o
+
+Plano de Ação do PGR.
+</div>
+<div class="page">
+{{BLOCK:cargos}}21. ESPECIFICAÇÃO TÉCNICA DAS PROTEÇÕES COLETIVAS
+
+Plataforma  de  trabalho  revestimento,  com
+altura  de  0,60  a  0,80  metros,  devidamente
+disposta  com  guarda  corpo  com  travessão
+superior  de  1,20  metros  e  intermediário  de
+0,70 metros.
+
+Produzida  em  material  resistente  para  até
+duas pessoas.
+
+Cone  de  sinalização  nas  cores  preto  com
+amarelo,  ou  laranja  com  branco,  sendo
+refletivo  para  casos  onde  seja  necessária  a
+sinalização em horário noturno.
+
+Os meios de Acesso devem ser escolhidos
+de acordo com a condição de instalação do
+acesso sendo:
+
+A: rampa sem travamento;
+
+B: rampa com peças transversais para evitar
+o escorregamento;
+
+C: escada com espelho;
+
+D: escada sem espelho;
+
+E: escada do tipo marinheiro.
+</div>
+<div class="page">
+travessão
+
+Altura  mínima  de  1,20  m  para  o  travessão
+superior;
+Altura  de  0,70  m  para  o
+intermediário;
+Rodapé com altura mínima de 0,20 m;
+Vãos entre o travessão superior e os rodapés
+fechados  com  tela  metálica  ou  qualquer
+outro material de resistência e características
+equivalentes;
+Sistema de fixação à estrutura que impeça a
+sua movimentação;
+Podem  ser  construídos  de  metal,  madeira,
+redes e sistemas combinados.
+Pranchas de madeira para proteção de cabos
+elétricos expostos.
+
+Cavalete  para  suspenção  de  cabos  elétricos
+de  forma  que  não  fiquem  em  contato  com
+água.
+
+sinalização
+
+refletivas  para
+Placas  de
+identificação  dos  pontos  de  colocação  dos
+extintores  conforme  a  IT  20  do  corpo  de
+bombeiro.
+
+Iluminação  de  emergência,  com  bateria  de
+carga com suporte para pelo menos 7 horas
+locais  de
+devidamente  dispostas  nos
+alojamentos.
+</div>
+<div class="page">
+Extintor  ABC  de  acordo  com  a  colocação,
+sendo  previstos  extintores  de  2kg  para
+máquinas  e  equipamentos  e  6  kg  proteção
+das  estruturas  prediais.  Em  casos  especiais
+podem  ser  adotados  extintores  a  base  de
+água de acordo com a definição do SESMT
+da obra.
+ATERRAMENTO ELÉTRICO
+a - cinto metálico;
+b - chapa metálica;
+c - tela metálica;
+d - haste metálica
+
+terrenos
+
+rochosos  em  que
+
+Devem  –  se  obter  valores  de  resistência
+suficientemente  reduzidos  (5  ohms  no
+máximo);
+Deve  –  se  utilizar  o  número  de  eletrodos
+necessário para se obter a resistência elétrica
+adequada;
+Os  eletrodos  não  devem  ser  pintados,
+esmaltados ou revestidos; se forem de ferro
+ou aço, devem ser zincados;
+Os  eletrodos  devem  ser  cravados  ou
+aterrados  preferencialmente  em
+locais
+úmidos  ou  com  profundidades  que  atinjam
+terrenos permanentemente úmidos;
+Em
+seja
+impossível cravar eletrodos, esses devem ser
+enterrados  em  valas  e  recobertos  por  solo
+capaz de reter umidade;
+Os eletrodos não devem ser cravados dentro
+de rios, poços ou lagoas;
+que
+utilize
+Nunca
+apresentem  aparentes  como  eletrodos  de
+aterramento.
+Para  ter  certeza  de  que  o  sistema  de
+aterramento  é  eficiente,  deve  –  se  medir  a
+resistência elétrica do solo com equipamento
+adequado.
+Caso  não  tenha  como  fazer  esta  medição,
+convém que o solo seja preparado, a fim de
+diminuir sua resistência.
+
+canos  metálicos
+</div>
+<div class="page">
+Todas  as  lâmpadas  em  locais  com  risco  de
+estar
+projeção  de  materiais,  devem
+protegidas
+ou
+policarbonato,  de  forma  que  não  permita  o
+choque que provoque quebra.
+
+tela  metálica
+
+com
+
+Cerquite,  que  trata  de  uma  tela  vazada
+fabricada
+em  polietileno,  de  média
+densidade, com altura de 1,20mts.
+
+Construídos com material plástico resistente,
+em  diferentes  diâmetros  de  aplicação,  e
+modelos.
+
+Proteção  de  correias,  polias  e  parte  móveis
+de  máquinas  e  equipamentos,  pode  ser
+produzidas  em  metal,  ou  policarbonato,  de
+forma que impeça totalmente o contato com
+partes móveis.
+
+Gaiola  de  aço  para  contenção  de  material
+durante o processo de instalação do sistema
+de drenagem.
+</div>
+<div class="page">
+Telhado de cobertura para posto de trabalho,
+ou  ponto  de  hidratação,  produzido  em
+metalão.
+
+Placa  de  sinalização  de  vias  com  contraste
+das  cores  preta  com  laranja,  e  material
+refletivo.
+
+de  Leira
+
+Produção
+e
+distanciamento  conforme  a  NR  18,  e
+disposição  de  balizas  refletivas  para  locais
+com fluxo de veículo.
+
+altura
+
+com
+
+Placas  de  orientação  de  segurança  e  aviso
+com coloração de acordo com a NBR 7195.
+
+LINHA DE VIDA DE ACORDO COM PROJETO EM ANEXO
+</div>
+<div class="page">
+22. ESPECIFICAÇÃO TÉCNICA DAS PROTEÇÕES INDIVIDUAIS
+
+A Lista de EPI abaixo deve ser adotada para Funcionários e Prestadores de serviço nas
+
+dependências do canteiro de obras.
+
+EPI, EPC E OUTROS
+
+FINALIDADE
+
+ÁREAS OU
+
+ANOTAÇÃO DE
+
+ATIVIDADES
+
+CA
+
+Proteção  do  corpo  contra
+
+Serviços
+
+com
+
+Avental de PVC
+
+projeção
+
+de
+
+produtos
+
+substâncias  químicas  ou
+
+A ser anexado.
+
+químicos, ou partículas.
+
+peças úmidas.
+
+Avental de Raspa
+
+projeção  de  partículas  ou
+
+Proteção  do  corpo  contra
+
+fagulhas.
+
+Serviços  de  Solda  e
+
+outros em campo.
+
+A ser anexado.
+
+Abafador  de  ruído  tipo
+
+plug
+
+Atenuação do ruído
+
+Compactação de solo
+
+Atividades  com  uso  de
+
+lixadeiras,  máquinas,
+
+outros equipamentos
+
+Martelete, serra circular,
+
+A ser anexado.
+
+Abafador  de  ruído  tipo
+
+concha
+
+Atenuação do ruído
+
+perfuração
+
+martelo
+
+A ser anexado.
+
+Proteção  dos  pés  contra
+
+Serviços  diversos  em
+
+pneumático.
+
+Bota de PVC
+
+serviços
+
+feitos  em  áreas
+
+áreas alagadas / úmidas /
+
+A ser anexado.
+
+alagadas
+
+ou limpeza de áreas.
+
+Bota de Segurança com
+
+Proteção  dos  pés  contra
+
+Biqueira  de  PVC  e
+
+serviços  feitos  com  redes
+
+isolamento elétrico.
+
+elétricas.
+
+Serviços
+
+com
+
+redes
+
+elétricas.
+
+A ser anexado.
+</div>
+<div class="page">
+Bota de Segurança com
+
+Biqueira de Aço.
+
+Proteção  dos  pés  contra
+
+projeção  de  materiais
+
+e
+
+equipamentos.
+
+Serviços  diversos  na
+
+área.
+
+A ser anexado.
+
+Proteção  das  pernas  contra
+
+Serviços
+
+em
+
+áreas
+
+Calça de PVC
+
+água
+
+ou
+
+substancias
+
+alagadas,  lã  de  vidro  e
+
+A ser anexado.
+
+Capa de Chuva
+
+Capacete  Plástico  aba
+
+inteira com jugular.
+
+corrosivas
+
+cerâmica, concreto.
+
+Proteção  do  corpo  contra
+
+Serviços
+
+gerais
+
+em
+
+chuva.
+
+campo.
+
+Proteção  da  cabeça  contra
+
+A ser anexado.
+
+impactos  de  materiais,  e
+
+Serviços elétricos.
+
+A ser anexado.
+
+contato com superfícies.
+
+Capacete  plástico  meia
+
+Proteção  da  cabeça  contra
+
+aba com jugular.
+
+impactos de materiais.
+
+Canteiro de obras.
+
+A ser anexado.
+
+Casaco de raspa
+
+Cinto de segurança tipo
+
+pára-quedista
+
+Proteção  do  corpo  contra
+
+fagulhas e, cavacos.
+
+Proteção  do  corpo  contra
+
+Serviços de solda.
+
+A ser anexado.
+
+impactos  oriundos  de  queda
+
+Trabalho em altura
+
+A ser anexado.
+
+em altura
+
+Cinto
+
+lombar
+
+para
+
+Proteção  do  corpo  contra
+
+Serviços  em  altura  nos
+
+eletricista
+
+impactos de queda em altura
+
+postes.
+
+A ser anexado.
+
+Luva  borracha  para
+
+Proteção  das  mãos  contra
+
+eletricista
+
+choques elétricos
+
+Serviços
+
+com
+
+rede
+
+elétrica,
+
+transformadores,
+
+A ser anexado.
+
+abertura  ou  fechamento
+
+de circuito energizado.
+</div>
+<div class="page">
+Luva Pigmentada
+
+Proteção  das  mãos  para
+
+Serviços
+
+gerais
+
+no
+
+serviços de pega.
+
+campo e forma.
+
+A ser anexado.
+
+Proteção das mãos em contato
+
+civis,
+
+limpeza
+
+de
+
+Serviços de acabamentos
+
+Luva PVC
+
+com  argamassa  ou  produtos
+
+banheiros,  refeitório  e
+
+A ser anexado.
+
+de limpeza.
+
+escritório,
+
+pintura,
+
+contato com produtos.
+
+Luva  raspa  couro  cano
+
+Proteção  das  mãos  contra
+
+Serviços  com  armação,
+
+longo
+
+serviços de corte e desbaste.
+
+maçarico e solda.
+
+A ser anexado.
+
+Luva de cobertura
+
+Proteção da luva de borracha
+
+Serviços
+
+com
+
+evitando danificar.
+
+eletricidade.
+
+A ser anexado.
+
+Proteção  das  mãos  contra
+
+Luva de Latex
+
+produtos
+
+químicos
+
+ou
+
+substancias.
+
+Proteção  das  mãos  contra
+
+Serviços  diversos
+
+tais
+
+como  manuseio
+
+de
+
+produtos  e  Limpeza  de
+
+área.
+
+A ser anexado.
+
+Luva de vaqueta
+
+impactos
+
+de
+
+partículas,
+
+Serviços  diversos  com
+
+fagulhas  e  materiais  em
+
+riscos mecânicos.
+
+A ser anexado.
+
+projeção.
+
+Serviços  diversos
+
+tais
+
+Luva nitrílica
+
+Proteção  das  mãos  contra
+
+como  manuseio
+
+de
+
+substancias liquidas.
+
+produtos  e  Limpeza  de
+
+A ser anexado.
+
+Proteção  do  braço  e  ante
+
+área.
+
+Mangote de Raspa
+
+braço
+
+contra
+
+fumos
+
+Serviços de solda.
+
+A ser anexado.
+
+metálicos.
+</div>
+<div class="page">
+Proteção
+
+do
+
+sistema
+
+respiratório  contra  a  inalação
+
+Serviços  com  produtos
+
+de  poeiras,  névoas,  gases  ou
+
+específicos.
+
+A ser anexado.
+
+vapores.
+
+Proteção  da
+
+face  contra
+
+Mascara descartável
+
+agentes  intempéries,  poeira,
+
+limpeza, fumos de solda.
+
+Proteção  da  face  e  olhos
+
+Serviços
+
+com
+
+corte,
+
+lixadeiras,  lã  de  vidro  e
+
+cerâmica,
+
+limpeza,
+
+solda, carpintaria.
+
+A ser anexado.
+
+Mascara  de  Solda  com
+
+Lente 12.
+
+contra  partículas,  calor  e
+
+Serviços de solda.
+
+A ser anexado.
+
+luminosidade.
+
+Macacão Tyvek
+
+Proteção  do  corpo  contra  o
+
+Serviços  com  produtos
+
+contato direto.
+
+químicos e similares.
+
+A ser anexado.
+
+Proteção  dos  olhos  contra
+
+Óculos  de  proteção
+
+impactos
+
+de
+
+partículas,
+
+incolor
+
+fagulhas,  materiais
+
+em
+
+projeção.
+
+Proteção  dos  olhos  contra
+
+Óculos  de  proteção
+
+impactos
+
+de
+
+partículas,
+
+fumê
+
+fagulhas,  materiais
+
+em
+
+projeção, raios UV.
+
+Serviços
+
+com
+
+corte,
+
+lixadeiras,  serviços  com
+
+eletricidade,  serviços  de
+
+A ser anexado.
+
+acabamento,
+
+serviços
+
+diversos.
+
+Serviços
+
+com
+
+corte,
+
+lixadeiras,  serviços  com
+
+eletricidade,  serviços  de
+
+A ser anexado.
+
+acabamento,
+
+serviços
+
+diversos.
+
+Perneira de Raspa
+
+Proteção  das  pernas  contra
+
+fumos metálicos.
+
+Serviços de Solda.
+
+A ser anexado.
+</div>
+<div class="page">
+Protetor facial
+
+Proteção  contra  projeção  de
+
+particulados.
+
+Serviços  em  carpintaria,
+
+corte  com
+
+lixadeiras,
+
+limpeza de concreto com
+
+A ser anexado.
+
+uso  de  ar  comprimido,
+
+armação.
+
+Luva  raspa  couro  cano
+
+Proteção  das  mãos  contra
+
+Serviços  com  armação,
+
+curto
+
+serviços de corte e desbaste.
+
+maçarico e solda.
+
+A ser anexado.
+
+Capuz ou Balaclava
+
+Proteção do crânio e pescoço
+
+do  usuário  contra
+
+riscos
+
+provenientes
+
+de
+
+fontes
+
+geradoras
+
+de
+
+calor  nos
+
+trabalhadores  de  combate  a
+
+incêndio.
+
+Proteção das mãos do usuário
+
+Serviços em geral.
+
+A ser anexado.
+
+Luva  de  Proteção    EN
+
+contra
+
+agentes
+
+abrasivos,
+
+388: 4131
+
+escoriantes,
+
+cortantes
+
+e
+
+Serviços em geral.
+
+A ser anexado.
+
+perfurantes.
+
+Proteção das mãos do usuário
+
+Luva  de  Proteção  EN
+
+contra
+
+agentes
+
+abrasivos,
+
+388: 1242
+
+escoriantes,
+
+cortantes
+
+e
+
+Serviços em geral.
+
+A ser anexado.
+
+perfurantes.
+</div>
+<div class="page">
+23. CRONOGRAMA  DE  IMPLANTAÇÃO  DAS  MEDIDAS  PREVENTIVAS  DEFINIDAS  NO
+
+PGR
+
+ATIVIDADES
+
+EQUIPAMENTOS DE
+PROTEÇÃO
+INDIVIDUAL
+
+INSTALAÇÃO DE
+ANDAIMES
+
+PROTETOR DE
+VERGALHÃO
+
+HUMIDIFICAÇÃO DE
+VIAS
+
+EXTINTORES DE
+INCÊNDIO
+
+O
+N
+E
+R
+R
+E
+T
+E
+D
+
+.
+
+G
+E
+R
+
+.
+
+P
+M
+I
+L
+
+A
+R
+R
+E
+T
+E
+D
+
+.
+
+V
+O
+M
+E
+O
+Ã
+Ç
+A
+V
+A
+C
+S
+E
+
+M
+E
+G
+A
+N
+E
+R
+D
+
+.
+
+T
+S
+I
+S
+
+.
+
+T
+N
+I
+
+R
+E
+I
+D
+A
+R
+
+/
+
+A
+C
+I
+R
+T
+É
+L
+E
+A
+C
+I
+L
+U
+Á
+R
+D
+I
+H
+A
+I
+R
+A
+N
+E
+V
+L
+A
+
+/
+
+E
+G
+A
+L
+E
+D
+M
+E
+G
+A
+T
+E
+R
+C
+N
+O
+C
+
+.
+
+T
+S
+N
+I
+
+O
+Ã
+T
+I
+E
+E
+D
+O
+Ã
+Ç
+U
+D
+O
+R
+P
+
+A
+C
+I
+L
+Á
+T
+E
+M
+
+.
+
+T
+S
+E
+E
+D
+
+.
+
+T
+S
+N
+I
+
+A
+R
+I
+E
+I
+M
+U
+C
+E
+O
+T
+N
+E
+M
+A
+H
+L
+E
+T
+
+S
+A
+Ç
+U
+O
+L
+E
+D
+
+.
+
+T
+S
+N
+I
+
+S
+A
+I
+R
+D
+A
+U
+Q
+S
+E
+E
+D
+T
+S
+N
+I
+
+.
+
+O
+T
+N
+E
+M
+A
+B
+A
+C
+A
+E
+O
+T
+N
+E
+M
+I
+T
+S
+E
+V
+E
+R
+
+O
+R
+I
+E
+V
+U
+H
+C
+/
+S
+A
+R
+I
+E
+N
+R
+O
+T
+E
+D
+
+.
+
+T
+S
+N
+I
+
+O
+M
+S
+I
+G
+A
+S
+I
+A
+P
+
+A
+Z
+E
+P
+M
+I
+L
+
+O
+C
+I
+R
+T
+É
+L
+E
+E
+T
+S
+E
+T
+
+O
+Ã
+Ç
+A
+T
+N
+E
+M
+I
+V
+A
+P
+
+ESTARÁ PRESENTE EM TODAS AS ETAPAS DA OBRA
+
+ESTARÁ PRESENTE EM TODAS AS ETAPAS DA OBRA
+
+ESTARÁ PRESENTE EM TODAS AS ETAPAS DA OBRA
+
+TREINAMENTOS
+
+ESTARÁ PRESENTE EM TODAS AS ETAPAS DA OBRA
+
+ANÁLISE PRELIMINAR
+DE RISCOS
+
+PERMISSÃO DE
+TRABALHO DE RISCO
+
+CONES DE
+SINALIZAÇÃO
+
+ESTARÁ PRESENTE EM TODAS AS ETAPAS DA OBRA
+</div>
+<div class="page">
+PLACAS ORIENTATIVAS
+
+ESTARÁ PRESENTE EM TODAS AS ETAPAS DA OBRA
+
+LEIRAS
+
+GAIOLA DE CONTENÇÃO
+
+DISPOSITIVO DE LINHA DE
+VIDA
+
+ATERRAMENTO
+
+ESTARÁ PRESENTE EM TODAS AS ETAPAS DA OBRA
+
+PLATAFORMA DE
+TRABALHO
+
+BALISAS REFLETIVAS
+
+ESCADAS E RAMPAS DE
+ACESSO
+</div>
+<div class="page">
+24. LAYOUT INICIAL DO CANTEIRO DE OBRAS
+
+A SER ANEXADO PELA EMPRESA.
+</div>
+<div class="page">
+25. PREVISÃO DE DIMENSIONAMENTO DAS ÁREAS DE VIVÊNCIA
+
+A SER ANEXADO PELA EMPRESA.
+</div>
+<div class="page">
+26. CANTEIRO DE OBRAS
+
+Área de Vivência
+
+Canteiro
+
+A instalação do canteiro de obra deve atender as disposições da NR-18, em especial aos seguintes
+
+itens:
+
+Áreas de vivência – Instalações Sanitárias
+
+As  instalações  sanitárias  serão  dimensionadas  adequadamente  para  atender  ao  número  máximo
+
+previsto  de  trabalhadores.  Os  sistemas  construtivos  serão  padronizados,  assegurando  a  durabilidade  às
+
+instalações.
+
+As instalações sanitárias serão localizadas a menos de 150 metros dos postos de trabalho, utilizando
+
+a locação de banheiros químicos quando necessário.
+
+Os sanitários serão dimensionados, seguindo o estipulado na NR-18.4.2.4, na proporção de 1 conjunto
+
+para cada grupo de 20 trabalhadores.
+
+Cada compartimento contará com recipiente para papéis usados e tampa.
+
+O papel higiênico ficará à disposição no almoxarifado, em compartimento específico e ao alcance de
+
+todos os trabalhadores.
+
+Vestiário
+
+Características mínimas:
+
+Devem possuir armários e bancos em número suficiente.
+
+Os  armários  são  confeccionados  em  chapa  de  aço,  numeradas  e  com  fechadura  e  cadeado.  Não  é
+
+permitida a guarda de bebida alcoólica e nem armas de qualquer natureza.
+
+A iluminação natural e artificial adequada.
+
+Local de refeições
+
+As refeições serão sempre servidas em ambientes apropriados.
+
+Mesas terão tampo, forrado com material impermeável.
+
+Será disponibilizada água potável na proporção mínima de 2,00 litros por dia para cada funcionário,
+
+no refeitório e nas frentes de trabalho.
+
+Lixeiras para resíduos com tampas.
+</div>
+<div class="page">
+Limpeza realizada após o café da manhã e após o almoço, diariamente.
+
+Alojamento
+
+Os alojamentos dos canteiros de obra devem:
+
+a) ter paredes de alvenaria, madeira ou material equivalente;
+
+b) ter piso de concreto, cimentado, madeira ou material equivalente;
+
+c) ter cobertura que proteja das intempéries;
+
+d) ter área de ventilação de no mínimo 1/10 (um décimo) da área do piso;
+
+e) ter iluminação natural e/ou artificial;
+
+f) ter área mínima de 3,00m2 (três metros) quadrados por módulo cama/armário, incluindo a área de
+
+circulação;
+
+g) ter pé-direito de 2,50m (dois metros e cinquenta centímetros) para cama simples e de 3,00m (três
+
+metros) paracamas duplas;
+
+h) não estar situados em subsolos ou porões das edificações;
+
+i) ter instalações elétricas adequadamente protegidas.
+
+É proibido o uso de 3 (três) ou mais camas na mesma vertical.
+
+Armazenagem e estocagem de materiais (almoxarifado)
+
+Os materiais devem ser armazenados e estocados de modo a não prejudicar o trânsito de pessoas e
+
+trabalhadores,  a  circulação  de  materiais,  o  acesso  aos  equipamentos  de  combate  a  incêndio,  não  obstruir
+
+portas ou saídas de emergência e não provocar empuxos ou sobrecargas nas paredes, lajes ou estrutura de
+
+sustentação, além do previsto em seu dimensionamento.
+
+As  pilhas  de  materiais,  a  granel  ou  embalados,  devem  ter  forma  e  altura  que  garantam  a  sua
+
+estabilidade e facilitem o seu manuseio.
+
+Em pisos elevados, os materiais não podem ser empilhados a uma distância de suas bordas menor que
+
+a equivalente à altura da pilha. Exceção feita quando da existência de elementos protetores dimensionados
+
+para tal fim.
+
+Tubos, vergalhões, perfis, barras, pranchas e outros materiais de grande comprimento ou dimensão
+
+devem ser arrumados em camadas, com espaçadores e peças de retenção, separados de acordo com o tipo de
+
+material e a bitola das peças.
+</div>
+<div class="page">
+O armazenamento deve ser feito de modo a permitir que os materiais sejam retirados obedecendo a
+
+sequência de utilização planejada, de forma a não prejudicar a estabilidade das pilhas.
+
+Os materiais não podem ser empilhados diretamente sobre piso instável, úmido ou desnivelado.
+
+O cimento e a cal devem ser armazenados em local seco e arejado.
+
+Os  materiais  tóxicos,  corrosivos,  inflamáveis  ou  explosivos  devem  ser  armazenados  em  locais
+
+isolados, apropriados, sinalizados e de acesso permitido somente a pessoas devidamente autorizadas. Estas
+
+devem ter conhecimento prévio do procedimento a ser adotado em caso de eventual acidente.
+
+As  madeiras  retiradas  de  tapumes  e  escoramentos  devem  ser  empilhadas,  depois  de  retirados  ou
+
+rebatidos os pregos, arames e fitas de amarração.
+
+Os  recipientes  de  gases  para  solda  devem  ser  transportados  e  armazenados  adequadamente,
+
+obedecendo-se as prescrições quanto ao transporte e armazenamento de produtos inflamáveis.
+</div>
+<div class="page">
+{{NOME_EMPRESA}}
+
+PGR(NR18)
+
+27. MEIO AMBIENTE
+
+Coleta Seletiva
+
+Contaremos com cinco recipientes plásticos, em todos os pontos de coleta. Utilizaremos os recipientes,
+
+com cores diferenciadas, da seguinte forma:
+
+✓  Um recipiente na cor marrom para lixo comum (restos de alimentos)
+✓  Um recipiente, de cor azul, para coleta de papel, papelão e embalagens;
+✓  Um recipiente, de cor vermelha, para coleta de plásticos, garrafas frascos de embalagens e sacolas;
+✓  Um recipiente, de cor amarela, para coleta de metais, sucatas de alumínio. Latas de tinta, solventes,
+
+óleos lubrificantes não poderão ser descartadas nestes recipientes;
+
+✓  Um recipiente, de cor verde, para coleta de vidros.
+
+Depois  de  coletado  seletivamente  o  material  será  recolhido  pela  contratante  e/ou  empresa
+
+especializada.
+
+Como devem ser armazenados os materiais:
+
+✓  Secos e limpos, sem quaisquer resíduos sólidos ou líquidos que reduzam seu valor de mercado;
+✓  Amassados ou prensados, para reduzir o volume e facilitar o manuseio e armazenamento até a coleta;
+✓  Lembrar sempre que os materiais devem ser separados por categoria.
+
+Com estes procedimentos procuramos os seguintes benefícios trazidos pela coleta seletiva:
+
+✓  O lixo que é encaminhado para reciclagem deixa de ir para o aterro sanitário, diminuindo o volume de
+
+lixo depositado neste local;
+
+✓  Ajuda a manter a higiene, a saúde e a limpeza dos locais onde trabalhamos e da comunidade;
+✓  Economiza recursos naturais e diminui os níveis de poluição;
+✓  Aumenta a qualidade de vida da comunidade;
+✓  Contribui para a preservação ambiental;
+✓  A reciclagem de materiais gera empregos e arrecadação para o município.
+
+Para implantação do sistema de coleta seletiva utilizaremos treinamentos de nossos funcionários.
+
+Resíduos líquidos
+
+A  obra  não  fará  geração  de  nenhum  resíduo  líquido  que  necessite  de  qualquer  procedimento  para
+
+controle.
+
+Resíduos gasosos
+
+A  obra  não  fará  geração  de  nenhum  resíduo  gasoso  que  necessite  de  qualquer  procedimento  para
+
+controle.
+</div>
+<div class="page">
+28. MÁQUINAS E EQUIPAMENTOS MANUAIS
+
+Importantes instrumentos para a realização das diferentes atividades no canteiro de obra, as máquinas
+e  equipamentos  exigem  constante  manutenção  preventiva.  Estas  máquinas  se  tornam  perigosas,  podendo
+causar acidentes ou doenças ocupacionais.
+
+Os  equipamentos  devem  sempre  ser  vistoriados  antes  da  saída  do  almoxarifado  ou  liberação  para
+
+operação.
+
+As máquinas e equipamentos elétricos serão aterrados adequadamente, a anel de aterramento.
+
+Todos os operadores de máquinas e equipamentos receberão instruções do encarregado e técnico de
+
+segurança do trabalho sobre os métodos mais seguros para cada operação.
+
+Todas as máquinas, equipamentos e ferramentas deverão ter um programa de manutenção preventiva
+que deve incluir  a inspeção dos  equipamentos  no local,  por pessoal  especializado  e regularmente devem
+abranger a verificação de sistemas elétricos, hidráulico, verificação e proteção contra incêndios. È importante
+a previsão de um almoxarifado bem organizado.
+
+O almoxarifado disporá de todas as ferramentas necessárias à etapa da obra. Caso algumas ferramentas,
+equipamentos, instrumentos ou similares precisem ser alugados os mesmos deverão acompanhar garantia
+explicitada  em  documento  próprio,  de  funcionamento  e  de  manutenção  realizada  nos  equipamentos,  não
+sendo permitidas gambiarras principalmente nos cabos elétricos.
+
+Serão  periodicamente  vistoriadas  as  cabeças  das  entalhadoras,  cabos  de  ferramentas  diversas  e
+
+orientado para a não utilização das ferramentas para outros fins que não os destinados.
+
+•
+
+Antes da saída (das ferramentas) do almoxarifado será realizada uma Verificação visual;
+
+•
+
+Serão  periodicamente  vistoriados  todas  as  ferramentas  e  equipamentos  de  apoio:  suas
+proteções,  estado  de  uso,  fiação  elétrica  e  outros  itens  considerados  necessários  e  recomendados  pelos
+fabricantes;
+
+•
+
+Se  a  ferramenta  requerer  uso  de  EPI  específico,  o  responsável  do  almoxarifado  entregará  a
+
+ferramenta e o EPI obrigatoriamente de acordo com a orientação da equipe de Segurança do Trabalho.
+</div>
+<div class="page">
+29. MÁQUINAS E EQUIPAMENTOS PREVISTOS PARA O EMPREENDIMENTO
+
+Máquinas e Equipamentos
+➢  Andaime Suspenso Manual
+➢  Bate-estaca
+➢  Betoneira (Elétrica)
+➢  Bomba elétrica
+➢  Bomba lameira
+➢  Caminhão bascula/caçamba
+➢  Caminhão betoneira
+➢  Caminhão carroceria
+➢  Caminhão com bomba lança e estacionária
+➢  Caminhão comboio/melosa
+➢  Caminhão munck
+➢  Caminhão pipa
+➢  Caminhão prancha
+➢  Compactador manual vibratório
+➢  Dumper
+➢  Elevador
+➢  Escavadeira Hidráulica
+➢  Furadeira
+➢  Grua
+➢  Guincho Elétrico de Coluna
+➢  Guindaste
+➢  Lixadeira elétrica
+➢  Martelete elétrico
+➢  Mini Pá Carregadeira (Bob Cat)
+➢  Misturador de Concreto
+➢  Motoniveladora (Patrol)
+➢  Motor a gasolina e mangote para vibrador (concreto)
+➢  Nível a laser
+➢  Pá Carregadeira
+➢  Placa vibratória
+➢  Policorte
+➢  Retroescavadeira
+➢  Rolo compactador (pé de carneiro ou liso)
+➢  Rompedor elétrico
+➢  Serra Circular de Bancada
+➢  Serra Circular Manual
+➢  Serra marmore
+➢  Serra Tico-Tico
+➢  Trator agrícola
+➢  Vibrador de concreto
+➢  Vibro acabadora / mesa acabadora
+</div>
+<div class="page">
+Ferramentas
+
+➢  Alavanca
+➢  Alicate
+➢  Carrinho de Mão
+➢  Cavadeira
+➢  Chave de fenda e philips
+➢  Chave inglesa
+➢  Chibanca
+➢  Colher de Pedreiro
+➢  Cortador de cerâmica
+➢  Desempenadeira
+➢  Enxada
+➢  Espátula
+➢  Esquadro
+➢  Estilete
+➢  Formão
+➢  Grifo
+➢  Lápis de carpinteiro
+➢  Linha de nylon
+➢  Marreta
+➢  Martelo
+➢  Nível (bolha, mangueira)
+➢  Pá (quadrada e de bico)
+➢  Pé de Cabra
+➢  Picareta
+➢  Ponteiro
+➢  Pregos
+➢  Prumo
+➢  Régua
+➢  Serra de arco (Segueta)
+➢  Serrote
+➢  Talhadeira
+➢  Trena
+➢  Turquesa
+➢  Vassoura
+</div>
+<div class="page">
+Os equipamentos locados na obra terão os seguintes procedimentos:
+
+✓  Todos  os  operadores  serão  qualificados  e  devidamente  treinados  e  orientados  para  operar,  com  os
+
+devidos equipamentos de proteção individual;
+
+✓  Todos os operadores receberão instruções dos Mestres de Obra e/ou Técnicos de Segurança sobre os
+
+métodos mais seguros para cada operação;
+
+✓  Os equipamentos serão inspecionados periodicamente;
+✓  É  proibido  ajustes  mecânicos  reparos  e  lubrificações  nos  equipamentos  em  operação,  deverão  ser
+desligados na fonte de energia (tomada, disjuntor, padrão de energia), devendo haver comunicação e
+identificação eficiente sobre manutenções ou interdições evitando que acidentes por mau uso ou ligar
+máquinas e equipamentos em manutenções;
+
+✓  Somente  estão  liberados  para  funcionamento  os  equipamentos  que  estiverem  providos  de  todos  os
+
+dispositivos de segurança inclusive extintores de incêndio.
+
+✓  Especial  atenção  para  a  pistola  de  fixação  à  pólvora  caso  seja  utilizada.  Deve  ser  verificado
+principalmente o bocal protetor e seguir as instruções do fabricante. O operador obrigatoriamente usará
+abafador de ruído do tipo concha se possível combinado com protetor de inserção e será submetido a
+avaliações constantes de audiometria pelo serviço médico de medicina do trabalho. Deverá ser operada
+por um funcionário habilitado e credenciado pela Administração da Obra, deve ainda receber Ordem
+de Serviço.
+Elevador de carga
+O elevador para transporte de carga deve atender os seguintes requisitos:
+
+✓  Será operado por funcionário qualificado e devidamente identificado.
+✓  O posto de trabalho, do operador, será isolado com paredes de madeira compensada, inclusive com
+
+cobertura e porta com cadeado.
+
+✓  Todas as partes móveis de força motriz serão protegidas.
+✓   O  sistema  de  comunicação  será  provido  de  sinalizador  acústico,  para  ser  acionado  durante  sua
+
+movimentação.
+
+✓  A cabine será fechada nas laterais e na parte posterior, por painéis até a altura da cobertura basculante
+
+da mesa.
+
+✓  Na  altura  das  plataformas  em  contato  com  a  torre  do  elevador,  serão  colocados  anteparos  com  no
+
+mínimo 1,80m envolvendo a torre, principalmente nos locais de possíveis contatos acidentais.
+
+✓  Terá livro de manutenção periódica, assinado pelo responsável.
+✓  Será  feita  inspeção  diária  visual  pelo  operador  verificando  as  condições  do  cabo  de  aço,  mesa  do
+
+elevador, campainha, fim de curso e freios.
+
+✓  Toda e qualquer irregularidade será comunicada pelo operador imediatamente ao mestre de obra e ao
+
+responsável pela Administração da obra.
+
+✓  Será sinalizado com os avisos “capacidade máxima”, “proibido transporte de pessoas”.
+✓  “Não coloque a cabeça no Poço do elevador” em todas as lajes, próximo à torre.
+✓  A torre será afastada da beirada da laje no máximo 20cm.
+✓  O acesso à torre do elevador terá cancela, afastada a um metro da borda da laje.
+</div>
+<div class="page">
+30. MEDIDAS DE PROTEÇÃO PARA TRABALHOS EM ALTURA
+
+Manual para trabalhos em altura
+
+Montagem de andaimes
+
+O  trabalho  de  montagem  de  andaimes  possui  características  peculiares,  pois  em  geral,  os  pontos  de
+ancoragem são o próprio andaime, o que requer uma especial atenção a cada movimento pois o trabalhador só
+deverá se conectar a pontos que já estejam corretamente posicionados e travados.
+
+Anterior  a  montagem  devemos  informar  sobre  a  característica  do  andaime  e  a  forma  correta  para  a
+montagem do mesmo. A área deverá ser isolada a fim de evitarmos a queda de materiais e o içamento das
+peças deverá ser feito com auxílio de equipamentos especiais para este fim. A utilização dos EPIs necessários
+é imprescindível conforme demonstrado na figura abaixo.
+
+Obs.: O uso de cinto de segurança, talabarte duplos, trava quedas e conectores de grande abertura satisfazem
+perfeitamente a todos os requisitos de segurança.
+
+A movimentação com Talabartes
+
+Em todas as situações de trabalho em altura, onde não existam sistemas de proteção coletiva instalado,
+o  trabalhador  deverá  portar  e  utilizar  um  sistema  de  proteção  contra  quedas  individual,  isto  de  maneira
+constante  durante  todo  o  seu  deslocamento  pelas  estruturas  ou  escadas  tipo  marinheiro.  Uma  maneira  de
+cumprir este requisito de maneira segura e eficiente, é a utilização de “Talabartes de Progressão Duplos”, estes
+são utilizados conectando-se alternadamente cada uma das duas extremidades do talabarte, de maneira que o
+</div>
+<div class="page">
+trabalhador  tenha  sempre  um  dos  dois  conectores  de  grande  abertura,  conectado  a  estrutura,  protegendo-o
+contra qualquer possibilidade de queda. Este sistema deverá ter um absorvedor de energia, instalado entre os
+talabartes e o corpo do trabalhador, afim de minimizar o impacto causados a este último, em um caso de queda.
+É importante que os talabartes sejam sempre conectados a pontos acima da cabeça do trabalhador.
+</div>
+<div class="page">
+EPI para proteção contra quedas com diferença de nível
+
+Dispositivo trava-queda
+
+Dispositivo  trava-queda  de  segurança  para  proteção  do  usuário  contra  quedas  em  operações  com
+movimentação  vertical  ou  horizontal,  quando  utilizado  com  cinturão  de  segurança  para  proteção  contra
+quedas.
+
+Cintos de segurança tipo para-quedista
+
+Em atividades com risco de queda e altura superior a 2 m, deve ser usado cinto paraquedista, com ligação
+
+frontal (figura esquerda) ou dorsal (figura direita).
+
+Em  atividades  sem  risco  de  queda,  com  o  objetivo  de,  simplesmente,  limitar  a  movimentação  do
+
+trabalhador a um corredor de largura “L”, é permitido usar o talabarte ligado à linha da cintura.
+</div>
+<div class="page">
+Medidas de proteção contra quedas de altura
+
+É  obrigatória  a  instalação  de  proteção  coletiva  onde  houver  risco  de  queda  de  trabalhadores  ou  de
+
+projeção de materiais.
+
+As aberturas no piso devem ter fechamento provisório resistente.
+
+ É  obrigatória,  na  periferia  da  edificação,  a  instalação  de  proteção  contra  queda  de  trabalhadores  e
+projeção de materiais a partir do início dos serviços. Os tapumes deverão ser construídos de material resistente
+a projeção mecânica e queda de materiais, deverá também promover a segurança de toda população flutuante
+do local.
+
+Os materiais de trabalho deverão estar presos a suportes, evitando a queda dos mesmos.
+
+Utilização de escadas
+
+✓  Use somente escadas em boas condições e tamanho adequado.
+✓  Coloque a escada em ângulo correto, com a base a ¼ do comprimento da escada, utilize os degraus
+
+para facilitar a contagem.
+
+✓  Nunca coloque uma escada em frente à abertura de uma porta, ao menos que seja bem sinalizada ou
+
+tenha alguém vigiando.
+
+✓  Uma escada deve estar bem apoiada sendo segura na base ou amarrada no ponto de apoio.
+✓  Não coloque a escada por sobre qualquer equipamento ou máquina.
+✓  Suba ou desça de frente para as escadas, não suba além dos dois últimos degraus.
+✓  Materiais não podem ser transportados ao subir ou descer da escada, use equipamento apropriado
+
+para elevar ou descer materiais.
+</div>
+<div class="page">
+Modos e pontos de ancoragem
+
+Parafuso olhal PO-1: em paredes de alvenaria, utiliza-se o parafuso olhal passante, de aço forjado,
+
+galvanizado a fogo, tipo prisioneiro.
+
+Importante: deve ser feita a verificação estrutural civil, garantindo a resistência de 1500 kgf, nos pontos de
+ancoragem.
+
+Placa olhal PO-2: em paredes de concreto, utiliza-se a placa olhal de inox, com 2 chumbadores de 3/8”
+
+de diâmetro. Em superfícies metálicas, a placa olhal pode ser soldada ou fixada por parafusos
+</div>
+<div class="page">
+Acessos aos pontos de ancoragem
+
+Para instalação temporária de linha de segurança vertical ao Parafuso olhal PO-1 ou Placa olhal PO-2,
+
+situados a menos de 10 m do solo, usa-se a vara telescópica conectada ao gancho G-1
+
+Para instalação temporária de linha de segurança vertical em vigas com dimensões circunscritas em
+
+um círculo com diâmetro de até 15 cm, usa-se a vara telescópica conectada ao gancho G-2
+
+Vara telescópica
+
+Permite acessar pontos de ancoragem situados a menos de 10 m do solo. Fácil regulagem e ajuste do
+
+comprimento, de 2,5 a 7,5 m. É a mais leve vara telescópica do mercado: 2,6 kg.
+</div>
+<div class="page">
+Conexão da vara telescópica aos ganchos G-1 ou G-2, por simples rotação de 90º.
+
+Conexão do gancho G-2 à barra de ancoragem, por meio de pressão e rotação de 90º.
+
+         Conexão do gancho G-1 ao ponto de ancoragem e acionamento da trava de segurança por meio de fio
+de nylon.
+
+Para retirar a vara telescópica basta rotação inversa de 90º.
+</div>
+<div class="page">
+Segura  movimentação  em  escadas  móveis,  para  limpeza,  manutenção  de  luminárias,  exaustores  e
+
+equipamentos industriais.
+
+Segura movimentação em andaimes tubulares.
+
+Segura movimentação em escadas tipo marinheiro.
+</div>
+<div class="page">
+Dispositivo Trava-Quedas
+
+Funcionamento
+
+Não necessita das mãos para funcionar. O funcionário pode movimentar-se no plano horizontal, assim
+com o subir e descer de escadas e rampas sem risco de queda. O cabo retrátil nunca fica frouxo, devido a ação
+de  uma  mola  de  retorno.  Havendo  movimento  brusco,  tropeço,  desequilíbrio  do  funcionário  ou  quebra  de
+telha, o equipamento trava-se imediatamente e evita a queda da pessoa. Pode ser usado fixo num ponto acima
+do  local  de  trabalho  ou  deslocando-se  na  horizontal  por  um  trole.  Equipamento  testado  e  aprovado  pelo
+Ministério do Trabalho com o C.A. (Certificado de Aprovação). Deve ser usado com cinto tipo para-quedista,
+ancoragem dorsal ou frontal.
+
+Fixação do trava-quedas
+
+Deve  ser  fixado  sempre  acima  do  trabalhador  em  local  que  resista  a,  no  mínimo,  1500  kg.  O
+deslocamento horizontal do trabalhador, em relação ao prumo do aparelho (L), não deve ser superior a um
+terço da distância entre a argola dorsal do cinto e o solo (H).
+</div>
+<div class="page">
+Deslocamento vertical do trava-queda
+
+Para  aperfeiçoar  o  uso  de  qualquer  trava-queda,  seu  ponto  de  fixação  pode  ser  alterado  usando-se
+
+correntes de aço com elos de, no mínimo, 6mm de diâmetro.
+
+Os trava-quedas retráteis R-10 e R-20 podem ser montados em troles, para fácil movimentação.
+
+Em áreas internas, geralmente, utiliza-se o trava-queda R-10 conectado ao trole TR-1 e trilho. I
+
+Em telhados, usa-se o trava-queda R-10 ou R-20 conectado ao trole TR-2 e trilho. I
+
+Em áreas externas de carga, usa-se o trava-queda R-10 conectado ao trole TR-3 e cabo de aço.
+
+Modelo R-10
+
+Único  produto  no  mercado  com  resistente  carcaça  de  aço  inoxidável  e  opção  de  vedação  para  uso
+
+externo.
+
+Possui 10m de cabo retrátil em aço galvanizado, 4,8mm de diâmetro, resistência de 1500 kg e terminal
+
+tipo olhal com destorcedor. Peso: 6 kg. Pode ser fornecido com cabo inoxidável ou em kevlar.
+</div>
+<div class="page">
+Indicado para trabalho com pouco deslocamento em relação ao ponto de fixação do aparelho. Possui
+dois metros de fita de nylon retrátil  e dois mosquetões de aço inox. Peso de 0,8 kg pode ter seu ponto de
+fixação deslocado com uso de corrente com elos de aço.
+
+Modelo R-2 A
+
+Possui absorvedor de energia na extremidade da fita de nylon. Demais características são idênticas as
+
+do modelo R-2.
+
+Importante:  Para  seu  uso,  as  normas  internacionais  exigem  que  haja  distância  livre  de  queda  de  no
+mínimo 7 metros, abaixo do ponto de fixação do aparelho. Essa exigência visa compensar o eventual grande
+aumento do comprimento do absorvedor de energia no caso de seu funcionamento conforme mostra a figura
+ao abaixo.
+</div>
+<div class="page">
+Aplicações
+
+Telhados
+
+O  Ministério  do  Trabalho  exige  que  nos  telhados  sejam  instaladas  linhas  de  segurança,  para  segura
+
+movimentação do trabalhador (NR 18.7.8).
+
+Neste item, trataremos somente da forma de movimentação em toda a área do telhado, não considerando
+
+a necessária proteção contra quebra de telhas.
+
+Geralmente, a linha de segurança é constituída de trilho de aço I (4”x2 5/8”), instalado na cumeeira,
+
+conforme pode ser visto nas figuras 2 e 6.
+
+Para telhados com largura (L) de até 10 m, usa-se o trava-queda retrátil R-10. Para larguras de até 20 m,
+
+usa-se o modelo R-20.
+
+Para  telhados  com  largura  superior  a  20  m,  não  é  utilizado  trava-queda  retrátil,  devido  ao  peso  do
+
+aparelho e a dificuldade de locomoção do trabalhador.
+
+Andaime suspenso
+
+Sobre o aspecto técnico, o trava-queda retrátil R-10, usado com ancoragem dorsal, é indiscutivelmente
+o mais indicado para trabalho em andaimes suspensos, visto que, oferece ao trabalhador total mobilidade para
+execução do serviço. Na prática, por motivos puramente comerciais, usa-se o trava-queda para cabo de aço ou
+corda vertical  fixos e tenta-se aumentar um  pouco a mobilidade do trabalhador usando-se um  talabarte de
+comprimento maior que o indicado pelo fabricante. Tal procedimento é totalmente errado e pode provocar
+acidentes  graves,  pelo  fato  de  que  o  trava-queda  poderá  ser  submetido  a  cargas  dinâmicas  superiores  aos
+valores projetados e testados.
+</div>
+<div class="page">
+Manutenção
+
+Diariamente, antes do uso do trava-queda, verificar:
+
+✓  O perfeito estado do cabo retrátil.
+✓  Imediato travamento do cabo, após ser puxado com força para fora.
+✓  Retorno integral do cabo retrátil, após deixar de ser puxado.
+
+Anualmente ou após ter sido utilizado para deter massa superior a 40 kg, o trava-queda retrátil deve ser
+
+inspecionado pelo fabricante ou representante (PNB 32:004.01.03).
+
+Importante: para durabilidade da mola retrátil, jamais deixar o cabo retrair em alta velocidade.
+
+31. ESTRUTURAS EM CONCRETO
+
+Utilizaremos de concreto usinado fornecido por terceiros, mas na ocorrência de confecção de concreto
+
+no canteiro, utilizaremos dos seguintes procedimentos:
+
+Concreto feito dentro da caixa de concreto, misturado a mão.
+
+Caixa para fazer concreto
+</div>
+<div class="page">
+Concreto feito na betoneira, operada por profissional qualificado.
+
+Betoneira
+
+✓  Somente ser operada pôr funcionário qualificado;
+✓  Ao operador é obrigatório o uso dos seguintes EPI’s:
+✓  Protetor auricular;
+✓  Botas impermeáveis;
+✓  Óculos ampla visão;
+✓  Capacete;
+✓  Com o equipamento deverá ter os seguintes cuidados:
+✓  Isolar área de operação com cavaletes ou fitas;
+✓  Ter suas partes inspecionadas semanalmente;
+✓  Deverão ser limpos no final do expediente todos os componentes do equipamento;
+✓  Deve-se colocar um calço do suporte na caçamba, quando o equipamento não estiver operando;
+</div>
+<div class="page">
+32. ESCADAS, RAMPAS E PASSARELAS
+
+As escadas, rampas e passarelas provisórias utilizadas pelos trabalhadores no canteiro de obras, devem
+ser  projetadas  e  dimensionadas,  levando-se  em  consideração  as  proteções  necessárias,  guarda-corpo,  piso,
+pontos de fixação, detalhes construtivos, sempre observando as disposições da NR-18 e principalmente a RTP-
+04 – Norma da FUNDACENTRO.
+
+Os projetos também devem ser acompanhados de memoriais descritivos e de cálculo, a fim de informar
+
+quais os materiais a serem utilizados e as cargas admissíveis.
+
+Projeto da FUNDACENTRO de passarelas.
+
+Escadas
+Utilizadas  em  uso  temporário,  com  a  finalidade  de  facilitar  a  circulação  de  pessoas  entre  pisos  com
+
+diferença de nível e para serviços em altura.
+</div>
+<div class="page">
+Escadas portáteis
+Na utilização de escadas portáteis em local de frequente circulação de pessoas e/ou veículos, deve haver
+
+sinalização para alertar contra possíveis abalroamentos (choques, impactos, etc.).
+
+Os  montantes  –  são  elementos  verticais  para  fixação  das  travessas  (degraus)  da  escada,  capazes  de
+suportar o esforço solicitado, com comprimento máximo de 7 m (sete metros) e espaçamento entre eles de no
+mínimo 0,45 m (quarenta e cinco centímetros) e no máximo de 0,55 m (cinquenta e cinco centímetros).
+
+As travessas (degraus) – são elementos horizontais fixados nos montantes, capazes de suportar o esforço
+solicitado, com espaçamento entre eles de no mínimo 0,25 m (vinte e cinco centímetros) e no máximo de 0,30
+m  (trinta  centímetros),  de  forma  constante,  devendo  suportar  uma  carga  de  160  Kgf  (cento  e  sessenta
+quilogramas-força) em seu ponto mais desfavorável. As travessas deverão ser fixadas aos montantes por meio
+de cavilhas ou outros meios que garantam sua rigidez.
+</div>
+<div class="page">
+A escada deve ser firmemente apoiada e ultrapassar 1 m (um metro) o ponto de apoio superior.
+
+Os trabalhadores que utilizarem escadas de uso individual (de mão) devem usar sempre as duas mãos.
+
+Eventuais cargas (equipamentos e materiais leves) deverão ser içadas ou outros recipientes semelhantes
+
+.
+Não  é  permitida  a  união  de  duas  ou  mais  escadas,  bem  como  prolongar  seus  montantes,  visando
+
+aumentar o comprimento total da escada.
+
+Na impossibilidade de nivelar o piso sobre o qual a escada será apoiada, será permitido o prolongamento
+
+do pé por meio de sistemas automáticos ou mecânicos.
+
+A amarração da escada na parte superior deve ser por meio de sistema de fixação adequado.
+
+Escada de Uso Coletivo
+</div>
+<div class="page">
+A  escada  de  uso  coletivo  será  utilizada  quando  mais  de  20  trabalhadores  estiverem  realizando  um
+
+trabalho que necessite transpor diferenças de nível.
+
+A escada deve ser provida de um guarda-corpo com altura de 1,20 m (um metro e vinte centímetros)
+para o travessão superior, 0,70 m (setenta centímetros) para o travessão intermediário, com rodapé de 0,20 m
+(vinte centímetros) de altura.
+
+A largura da escada de uso coletivo será definida em função do número de trabalhadores que a utilizarão,
+
+conforme tabela abaixo:
+
+Escadas de uso coletivo com desnível superior a 2,90m devem possuir patamar intermediário, com a
+
+mesma largura da escada e comprimento mínimo igual à largura.
+</div>
+<div class="page">
+Rampas
+São planos inclinados, de usos temporários, utilizados para transpor pisos com diferença de nível.
+
+Passarelas
+São planos horizontais, de uso temporário, e destinam-se à transposição sobre escavações ou vãos
+
+cujas margens estejam no mesmo nível, pranchão com espessura igual ou superior a 0,8m.
+
+Rampa, Escada, Guarda Corpo e Passarela.
+
+Não é permitido construir rampas com mais de 30º de inclinação.
+
+Deve ultrapassar seus apoios de, pelo menos, 0,15m.
+
+Acima de 18º de inclinação, deve-se fixar peças transversais (sarrafo) espaçadas de 0,40m no máximo,
+
+para evitar acidentes.
+
+Os degraus deverão ter espaçamento variando entre 0,25m e 0,30m e as tábuas devem ter espessura
+
+mínima de 2,5cm.
+
+Ter base de, no mínimo, 0,35m entre os montantes (8 x 8 cm).
+
+O guarda-corpo deverá ser constituído de madeira resistente, sem nós ou rachaduras que
+
+comprometam sua resistência, sem pinturas que venham a encobrir imperfeições, com rodapé, devendo:
+
+✓  Ter altura de 1,20m para o travessão superior e 0,70m para o travessão intermediário. Travessão de
+
+10 x 2,5 cm.
+
+✓  Ter rodapé de 10 x 2,5 cm com altura de 0,20m
+✓  Ter vãos entre travessas preenchidos com tela ou outro dispositivo que garanta o fechamento seguro
+
+da abertura. Cuja resistência deve ser de 80 kgf./cm2.
+
+A largura da escada coletiva ou rampa será em função do efetivo, ou seja: até 45 pessoas – largura de
+
+0,80m; até 90 pessoas – largura de 1,20m; até 130 pessoas – largura de 1,50m
+</div>
+<div class="page">
+Proteção de Aberturas no Piso
+
+Dispositivos Protetores de Plano Horizontal
+
+Todas as aberturas nas lajes ou pisos, não utilizadas para transporte vertical de materiais e equipamentos,
+serão dotadas de proteção sólida, na forma de fechamento provisório fixo (assoalho com encaixe), de maneira
+a evitar seu desligamento.
+</div>
+<div class="page">
+33. ORDEM E LIMPEZA
+
+Durante todas as atividades dos funcionários os locais serão mantidos limpos e sem objetos para
+
+obstruir os locais de circulação.
+
+  Serão mantidos recipientes para coleta de lixo provido de tampas. Todos os recipientes de lixo serão
+
+esvaziados e o lixo levado para local apropriado para depósito diário.
+
+As áreas de trabalho devem ser mantidas limpas e organizadas o tempo todo. Use recipientes de lixo
+
+apropriado para deposição de resíduos;
+
+  Faça  uma  arrumação  pelo  menos  uma  vez  ao  dia  ou  mais  frequentemente  se  necessário
+
+procurando considerar os seguintes cuidados;
+
+  Manter as ferramentas e materiais de trabalho guardados em recipientes adequados e de forma segura
+
+para evitar que caiam ou desmoronem;
+
+GERAL
+
+✓  Beba água somente de bebedouros e recipientes de água potável aprovado.
+✓  Use sempre para beber copos de água descartáveis.
+✓  Obedeça todos os avisos de limite de velocidade.
+✓  Pedestres têm preferência.
+✓  Dê preferência a veículos de emergência.
+✓  É proibido fumar em certas áreas demarcadas.
+✓  É proibido andar de carona em máquinas e equipamentos móveis.
+✓  Não é permitido viajar na caçamba de picapes ou caminhões.
+✓  Os funcionários devem obedecer todas as placas e avisos de perigo.
+✓  Corrija imediatamente todas as condições inseguras, na medida do possível. Quando não  conseguir
+corrigi-las comunique ao seu supervisor imediato ou ao pessoal do Setor de Segurança da empresa.
+
+VESTUÁRIO
+
+✓  Em qualquer tipo de atividade no local de labor, os funcionários deverão apresentar-se uniformizados.
+✓  Os funcionários deverão trabalhar com uniforme completo;
+✓  Recomendamos a não utilização de colares, pulseiras e objetos pendurados ou inseridos no corpo;
+✓  Não serão permitidas camisas sem colarinho, nem camisetas.
+
+JÓIAS
+
+É proibido o uso de joias, como, brincos ou correntes que possam ficar presos em equipamentos. Anéis
+
+e pulseiras de relógio metálicas são desaconselháveis.
+
+OBS: Este conteúdo é parte integrante do Treinamento Introdutório e Treinamento de Segurança a nível
+
+Operacional e Gerencial.
+</div>
+<div class="page">
+34. TRANSPORTE DE PESSOAL
+
+O  transporte  dos  trabalhadores  será  através  de  ônibus  coletivo.  Seguindo  os  parâmetros  descritos  na
+
+Norma Regulamentadora NR-18 (Item 18.16.7).
+
+35. OPERAÇÕES MANUAIS
+
+As atividades manuais serão realizadas com procedimentos de segurança conforme descrição:
+
+✓  Respeitar as placas de sinalização;
+✓  Utilização de EPIs adequados;
+✓  Será proibida a execução de qualquer atividade para o qual não esteja treinado;
+✓  As  operações  manuais  serão  sempre  feitas  com  ferramentas  adequadas  e  em  perfeito  estado  de
+
+conservação.
+
+Levantamento de Carga
+
+O importante é manter a coluna vertebral em posição reta e, tanto quando possível vertical.
+
+A pressão exercida é repartida igualmente sobre cada disco.
+
+Posição Correta
+
+Levantar a carga como o faria um atleta:
+
+✓  Dorso plano, coluna vertebral reta.
+✓  Busto erguido.
+✓  De cócoras.
+✓  Apanhar a carga o mais perto possível do corpo, com pés debaixo do objeto ou de cada lado do mesmo.
+✓  A pressão é repartida por desigual, os discos podem sofrer aperto e deslocamento (hérnia de disco).
+</div>
+<div class="page">
+A coluna vertebral encurvada (“dorso arredondado”) impõe esforços suplementares durante o
+erguimento do corpo. Os acidentes lombais ou vertebrais são devidos essencialmente à inobservância das
+regras aqui indicadas.
+
+Carregamento no Ombro ou nas costas
+
+Aproveite a velocidade ascensional pelo esforço de levantamento para colocar-se rapidamente debaixo
+
+da carga. (1-2-3)
+
+A elasticidade de uma carga (barra metálica, viga de madeira) pode ser aproveitada para acelerar e
+
+minimizar o esforço.
+
+Em regime de trabalho contínuo, o carregamento de fardos (sacos, por exemplo), torna-se mais fácil,
+
+se for efetuado a partir de uma plataforma instalada à altura conveniente (A)
+
+Para cargas colocadas no chão, recomenda-se o auxílio de um ajudante para evitar fadiga excessiva.
+
+Levantar na frente à extremidade de uma carga comprida (viga, escada, cano) carregada por um só
+
+trabalhador, para garantir uma altura livre da capacidade de um homem. (B). Cuidado nas esquinas e
+cruzamentos.
+</div>
+<div class="page">
+Deslocamento de Carga
+
+Aproveitar tanto quanto possível todas as forças que agem sobre uma carga pesada (desequilíbrio,
+
+balanço).
+
+Aproveitar o impulso do corpo e sua ação como contrapeso da massa, para deslocá-la por manobras
+
+sucessivas. (C).
+
+Para manobras uma peça por tombamento, tombá-la, empurrando na parte superior do lado oposto à
+
+direção do tombamento. Não coloque os dedos na face que ficará encostada no chão, empurre com as
+palmas das mãos.
+
+Para deslocar uma peça comprida e pesada por meio de alavancas, coloque corretamente as mesmas
+
+(D).
+
+Rolagem
+
+Quando rolar e dirigir barris, manilhas, etc. tomar cuidado para não prensar as mãos contra paredes,
+
+postes, passagens estreitas e obstáculos diversos. Para evitar este acidente, rolar o cilindro, colocando as
+palmas das mãos sobre o mesmo. Se for preciso apanhá-lo depois pelos lados, use luvas grossas e tome
+muito cuidado (E).
+
+Os mesmos cuidados convêm para cargas colocadas em roletes, para evitar choques e pancadas.
+</div>
+<div class="page">
+Escolher os equipamentos leves de transporte os mais próprios para a operação a ser executada, e não
+
+sobrecarregá-los.
+
+Em certos casos convém utilizar equipamentos apropriados.
+
+Um carrinho de mão carregado sempre deve ser empurrado. A carga normal admitida é de 60 Kg. Em
+
+caso algum deve ultrapassar 100Kg.
+
+Instalar protetores de mão nos cabos de carrinhos e similares, como proteção contra golpes.
+
+No deslocamento de tonéis ou equipamentos com carga pesada, recomenda-se a assistência de um
+ajudante munido de um calço com cabo, para bloquear, em caso de necessidade, o objeto que pode tomar
+velocidade excessiva nas descidas.
+
+Como Depositar Cargas Pesadas
+
+Ao depositar uma carga pesada no chão, é absolutamente indispensável o uso de calços de altura
+suficiente, para evitar o esmagamento dos pés ou mãos colocadas sob carga. Ademais, esta precaução
+facilitará um novo levantamento da carga.
+
+O uso de sapatos de segurança e luvas é particularmente recomendado.
+</div>
+<div class="page">
+Estocagem de Materiais
+
+Dica: Depois de escolher cuidadosamente o local de estocagem:
+
+✓  Preparar uma base em nível, em solo resistente.
+✓  Construir um piso arejado, para isolar do solo os materiais sensíveis à umidade.
+
+Tábuas e Caibros
+
+Empilhar juntos somente tábuas ou caibros da mesma bitola.
+
+✓  Fazer pilhas por camas cruzadas e de altura limitada.
+✓  Deixar passagens suficientes entre as pilhas para facilitar a circulação.
+</div>
+<div class="page">
+Tijolos e Pedras Brutas
+
+✓  Não ultrapassar a altura de 2 metros para pilhas de faces verticais. Para maiores alturas, fazer pilhas
+de faces verticais. Para maiores alturas, fazer pilhas em forma de pirâmide pouco elevadas, embora
+suficiente para permitir as ligações necessárias por cruzamento das camadas.
+
+✓  Para as pedras brutas, compor as faces da pilha com blocos entrelaçadas uns nos outros. Para evitar
+
+desabamentos, retirar sempre os materiais do topo da pilha.
+
+Tubos, Canos e Manilhas.
+
+✓  Escolher um local apropriado para a estocagem.
+✓  Armazenar os materiais por categorias e de acordo com o seu uso.
+✓  Segurar as camadas de base com calços, para impedir o material de rolar e, se for preciso, colocar
+
+estacas de apoio com cabeça arredondada.
+
+✓  Para retirar materiais, começar sempre pelo topo da pilha.
+
+Ferros, Perfis e Tubulações de Andaimes.
+</div>
+<div class="page">
+✓  Classificá-los de acordo com suas características.
+✓  Proibir o uso de estacas de aço redondo, que representam um sério perigo em caso de queda de um
+
+trabalhador.
+
+✓  Instalar o estoque do aço para concreto perto dos trabalhos de modelagem.
+
+Sacos (Cimento, Cal, Gesso, etc.).
+
+✓  O empilhamento errado dos sacos provoca o risco de deslocamento, devido à compactação do conteúdo
+
+ou do deslizamento das camadas.
+
+✓  Cruzar cuidadosamente as camadas sucessivas.
+✓  Havendo relação simples entre as dimensões dos sacos, diminuir as camadas à altura do homem, para
+
+garantir as ligações necessárias.
+
+✓  Não empilhar sacos furados. Seu esvaziamento comprometerá o equilíbrio da pilha.
+</div>
+<div class="page">
+Obs: Todas as atividades que exigirem esforços e/ou qualquer tipo de repetição que cause prejuízo a
+saúde ocupacional do trabalhador serão avaliadas quanto a necessidade da aplicação de medidas corretivas ou
+orientativas.
+
+Todos  os  trabalhadores  serão  instruídos  sobre  postura  e  procedimentos  ergonômicos  corretos  para
+
+execução das tarefas nos diálogos diários de segurança.
+
+A empresa deverá elaborar um programa ou plano de ergonomia atendendo aos requisitos legais do item
+
+17.1.2 da NR – 17, da Portaria N.º 3214/78 do M.T.E.
+</div>
+<div class="page">
+Utilizaremos da seguinte sinalização:
+
+Sinalização educativa para utilização de EPI’s
+
+Tem  por  objetivo  advertir  aos  funcionários  quanto  a  necessidade  da  utilização  dos  equipamentos  de
+
+proteção individual e os locais em quem são proibidos a circulação sem utilização destes equipamentos.
+
+Sinalização de advertência de riscos
+
+Sinalização utilizada em locais com presença de risco iminente de acidentes, tais como: Perigo, Alta
+
+Tensão, Trabalhos em Altura, Rede Energizada, Piso Escorregadio, Explosivos etc.
+
+Sinalização indicativa
+
+Tem por objetivo fazer indicações dos locais de obras, canteiros de obras, vestiários e demais pontos
+
+específicos da obra.
+
+Sinalização de isolamento de área
+
+São  sinalizações  tipo  barreiras  para  impedir  acesso  de  veículos  ou  pessoal  a  um  determinado  local
+
+isolado pela presença de risco de acidentes. Utilizamos para isto de cavaletes e fitas zebradas.
+</div>
+<div class="page">
+Exemplo das principais placas de sinalização
+
+Colocação de placas de sinalização de obras
+</div>
+<div class="page">
+37. PROTEÇÃO CONTRA INCÊNDIO
+
+É  obrigatória  a  adoção  de  medidas  que  atendam,  de  forma  eficaz,  às  necessidades  de  prevenção  e
+
+combate a incêndio para os diversos setores, atividades, máquinas e equipamentos do canteiro de obras.
+
+Proibir fumar ou portar cigarros ou assemelhados acesos, ou qualquer outro material que possa produzir
+
+faísca ou chama em presença de materiais inflamáveis.
+
+Colocar nos locais de acesso onde haja risco de incêndio ou explosão placas de advertência e delimitar
+
+a área quando necessário.
+</div>
+<div class="page">
+38. EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL - EPI
+
+Todos dispositivos de uso individual, destinados a proteger à saúde e a integridade física do funcionário
+(EPI)  que  forem  usados  na  obra,  atenderão  as  determinações  da  NR-06,  Portaria  3.214,  de  03/06/78  do
+Ministério  do  Trabalho.  Somente  serão  adquiridos  de  fabricantes  idôneos  que  possuam  Certificado  de
+Aprovação (C. A.).
+
+Quando  não  for  viável  a  utilização  de  métodos  de  engenharia  ou  administrativos  para  o  controle  de
+riscos, será designado EPI, a ser fornecido pela {{NOME_EMPRESA}} para oferecer uma
+barreira eficaz entre a pessoa e os objetos, substâncias, processos, etc. potencialmente perigosos à saúde e/ou
+vida dos colaboradores objetivando eliminar, quando não for possível minimizar os acidentes de trabalho.
+
+A sua utilização será totalmente obrigatória e indiscutível por parte dos empregados.
+Será monitorado o uso e a eficácia de todos EPI’s e recomendado modificações onde julgar necessário.
+
+A implantação e utilização de EPI serão feitos  através  de ORDEM DE SERVIÇO conforme segue
+
+documento abaixo:
+
+Ordem de serviço
+Conforme determinação do item 1.4.1 da NR. 01, portaria 3.214 / 78 do item:
+IV. adoção de medidas de proteção individual.
+Assunto: normas e procedimentos para entrega e utilização de Epi’s.
+
+Objetivo
+
+Estabelecer os procedimentos relativos à aquisição, ao controle da utilização e os procedimentos a serem
+adotadas  no  caso  de  não  utilização  dos  EPI’s  pelos  funcionários  da  RAZÃO  SOCIAL  EMPRESA
+CLIENTE.
+
+Abrangência
+
+Todas as áreas, setores e locais de trabalho da obra.
+
+Classificação dos epi’s
+
+EPI’s básicos:
+
+São considerados  EPI’s  básicos:  calçado de  segurança, óculos  de segurança e capacete. A utilização
+destes EPI’s é obrigatória para todos os funcionários que transitam na obra e área de operação e manutenção
+de máquinas.
+</div>
+<div class="page">
+São  todos  os  EPI’s  definidos  de  acordo  com  o  cargo  e  a  função  do  empregado,  levando-se  em
+consideração os riscos e os agentes ambientais a que estiverem expostos. O setor de Segurança (técnico de
+segurança) é a responsável pelo estudo e definição destes EPI’s.
+
+Considerações gerais:
+
+A empresa distribui gratuitamente os EPI’s adequados ao risco, em perfeito estado de conservação e de
+
+acordo com a função de cada empregado.
+
+O EPI é de uso obrigatório por todos os empregados, conforme cronograma de distribuição por função
+
+e segundo as determinações do item 6.2 e item 6.61 da Portaria Nº 3214/78 do MTE.
+
+A  recusa  do  empregado  em  usar  o  EPI  fornecido  pela  empresa,  impera  em  ato  de  indisciplina  e
+
+insubordinação punível de conformidade com o artigo 482, letra H da CLT.
+
+Procedimentos
+
+Na solicitação e distribuição de EPI’s para empregados recém admitidos:
+
+Recebe os EPI’s referente ao cargo no Almoxarifado, após o encaminhamento do Setor de Pessoal.
+No  recebimento  dos  EPI’s,  o  encarregado  abre  a  ficha  de  Controle  Individual  de  EPI  e  colhe  sua
+assinatura. O empregado recebe treinamento e orientação sobre a sua utilização, bem como, pela guarda dos
+EPI’s e os procedimentos para troca.
+
+Na troca prevista:
+
+Fazer  o  procedimento  de  troca  no  Almoxarifado  ou  com  Técnico  de  Segurança  do  trabalho,  sendo
+necessária à devolução do equipamento usado. Sem esta devolução o funcionário terá descontado em folha, o
+valor do EPI extraviado.
+
+Na troca não prevista dos EPI’s:
+
+Ocorrendo  dano  acidental  do  equipamento  ou  dano  por  defeito  de  fabricação,  a  reposição  só  será
+efetuada mediante Comunicação Interna do Supervisor ou Chefe Imediato justificando a ocorrência do fato.
+Ocorrendo dano por uso indevido do equipamento, perda ou extravio do mesmo, o supervisor ou chefe
+imediato deverá  emitir Comunicação  Interna solicitando o débito referente ao equipamento.  O Técnico de
+Segurança verificará o custo do equipamento e encaminhará ao Setor de Pessoal o referido valor para desconto
+nos vencimentos do empregado.
+</div>
+<div class="page">
+Punições pelo não uso dos EPI’s
+
+O empregado que não fizer uso dos EPI’s está sujeito:
+
+1.
+2.
+3.
+4.
+
+Advertência verbal
+Advertência por escrito
+Suspensão
+Dispensa por justa causa
+
+A advertência é feita através do formulário “Aviso de Advertência”, a suspensão através do formulário
+
+“Aviso de Suspensão” e a dispensa através do formulário “Comunicado de Dispensa por Justa Causa”.
+
+Em todos os casos, a chefia deverá preencher os formulários em 3 vias, anotando data, matrícula e nome
+do empregado, dia e hora em que foi visto sem o EPI. No caso das suspensões a data de início e término da
+punição.
+
+Após preencher, deverá assinar e colher assinaturas do empregado nas 3 vias do documento. Caso o
+empregado  se  recuse  a  assinar,  providenciar  duas  testemunhas  para  comprovar  a  recusa  em  assinar  o
+recebimento da comunicação.
+
+A 1ª via é do empregado, a 2ª via deverá ser encaminhada ao Setor de Pessoal, para registro em sua ficha
+
+e providências cabíveis e arquivo no prontuário, a 3ª via fica na área.
+
+Todas  as  punições  devem  ocorrer  imediatamente  após  constatado  o  não  uso  do  EPI,  caso  contrário
+
+descaracterizará a punição (no mesmo dia da ocorrência).
+
+Responsabilidade
+
+Áreas de trabalho
+
+Emitir Avisos de Advertência, Avisos de Suspensão e Comunicados de Dispensa por Justa Causa, nesta
+
+sequência, caso um empregado seja flagrado sem o EPI.
+
+Solicitar estudo de EPI adequado para todos os cargos e funções de sua área.
+
+Segurança do trabalho
+
+Verificar custo dos equipamentos danificados e enviar valores ao Setor de Pessoal.
+Fazer estudos de viabilidade e especificação dos EPI’s.
+Ministrar treinamentos e orientações quanto à maneira correta de utilização dos EPI’s.
+Conferir, diariamente, a planilha de controle de distribuição de EPI`s fora do horário administrativo,
+
+com o estoque físico, providenciando sempre que necessário a sua reposição.
+</div>
+<div class="page">
+Efetuar a troca dos EPI`s na ausência do técnico de segurança do trabalho, recolhendo os equipamentos
+
+usados e anotando em planilha o nome do funcionário e o tipo de EPI trocado.
+
+Tornar obrigatório a utilização dos EPI`s exigindo seu uso e orientando os empregados.
+
+Setor de pessoal/escritório da obra
+
+Receber os avisos para registro e arquivo no prontuário do empregado.
+
+Vigência
+
+Esta Norma para aquisição e distribuição de Equipamentos de Proteção Individual e punição pelo não
+
+uso, entra em vigor nesta data, revogando-se todas as disposições em contrário.
+
+Ficha de controle individual de EPI’s
+
+A distribuição dos equipamentos de proteção individual será controlada através de fichas de controle
+
+individual para cada funcionário conforme modelo anexo.
+
+Segue abaixo tabela de dimensionamento de EPI;
+</div>
+<div class="page">
+DIMENSIONAMENTO DE DISTRIBUIÇÃO DE EPI’S
+
+FUNÇÕES
+
+Auxiliar de limpeza
+
+Administrativo de obras
+Almoxarife
+Apontador de obras
+Assistente administrativo
+Assistente de engenharia
+Auxiliar administrativo
+Auxiliar de almoxarifado
+Estagiário
+
+/
+c
+
+o
+ã
+ç
+e
+t
+o
+r
+p
+e
+d
+e
+t
+e
+c
+a
+p
+a
+C
+
+r
+a
+l
+u
+g
+u
+j
+
+E
+
+E
+E
+E
+E
+E
+E
+E
+E
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+a
+n
+i
+t
+o
+B
+
+P
+
+P
+P
+P
+P
+P
+P
+P
+P
+
+C
+V
+P
+e
+d
+a
+t
+o
+B
+
+E
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+s
+o
+l
+u
+c
+Ó
+
+a
+d
+l
+o
+s
+
+e
+d
+a
+r
+a
+c
+s
+á
+M
+
+a
+p
+s
+a
+r
+
+e
+d
+e
+t
+o
+g
+n
+a
+M
+
+a
+p
+s
+a
+r
+
+e
+d
+l
+a
+t
+n
+e
+v
+A
+
+o
+v
+i
+t
+i
+d
+u
+a
+r
+o
+t
+e
+t
+o
+r
+P
+
+a
+d
+a
+t
+n
+e
+m
+g
+i
+p
+a
+v
+u
+L
+
+a
+t
+e
+u
+q
+a
+v
+e
+d
+a
+v
+u
+L
+
+x
+e
+t
+á
+l
+
+e
+d
+a
+v
+u
+L
+
+SETOR ADMINISTRATIVO / ALOJAMENTO
+
+E
+
+E
+E
+E
+E
+E
+E
+E
+E
+
+-
+
+E
+SETOR ADMINISTRATIVO / OBRAS
+
+E
+
+-
+
+-
+
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+E
+E
+E
+E
+E
+E
+E
+E
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+LEGENDA
+
+E
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+l
+e
+v
+á
+e
+m
+r
+e
+p
+m
+
+i
+o
+ã
+c
+a
+c
+a
+M
+
+-
+
+-
+-
+
+-
+
+-
+-
+
+a
+p
+s
+a
+r
+
+e
+d
+a
+r
+i
+e
+n
+r
+e
+P
+
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+1
+F
+F
+P
+r
+o
+d
+a
+r
+i
+p
+s
+e
+R
+
+-
+
+-
+E
+E
+-
+E
+-
+E
+E
+
+r
+a
+l
+o
+s
+
+r
+o
+t
+e
+t
+o
+r
+P
+
+-
+
+-
+E
+E
+-
+E
+-
+E
+E
+
+s
+o
+c
+i
+n
+â
+g
+r
+o
+s
+e
+r
+o
+p
+a
+v
+a
+r
+t
+n
+o
+c
+
+o
+r
+t
+l
+i
+f
+
+e
+o
+ã
+ç
+n
+e
+t
+u
+n
+a
+m
+
+m
+o
+c
+
+r
+o
+d
+a
+r
+i
+p
+s
+e
+R
+
+o
+p
+i
+t
+a
+ç
+n
+a
+r
+u
+g
+e
+S
+e
+d
+o
+t
+n
+i
+C
+
+a
+t
+s
+i
+d
+e
+u
+q
+-
+a
+r
+a
+p
+
+m
+e
+g
+a
+r
+o
+c
+n
+a
+e
+d
+o
+v
+i
+t
+i
+s
+o
+p
+s
+i
+D
+
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+E
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+)
+s
+a
+d
+e
+u
+q
+-
+a
+v
+a
+r
+t
+
+u
+o
+Y
+m
+e
+
+e
+t
+r
+a
+b
+a
+l
+a
+T
+
+(
+
+E
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+NÃO SE APLICA
+
+P
+PERMANENTE
+
+E
+ESPECIFICO PARA DETERMINADAS ATIVIDADES
+</div>
+<div class="page">
+FUNÇÕES
+
+Engenheiro civil
+Engenheiro civil – trainee
+Engenheiro civil – residente
+Engenheiro civil - coordenador
+Engenheiro eletricista
+Mestre de obras
+Motorista
+Técnico em segurança do trabalho
+
+Ajudante de eletricista
+Ajudante de obras
+
+/
+c
+
+o
+ã
+ç
+e
+t
+o
+r
+p
+e
+d
+e
+t
+e
+c
+a
+p
+a
+C
+
+r
+a
+l
+u
+g
+u
+j
+
+E
+E
+E
+E
+E
+E
+E
+E
+
+E
+E
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+a
+n
+i
+t
+o
+B
+
+P
+P
+P
+P
+P
+P
+P
+P
+
+P
+P
+
+C
+V
+P
+e
+d
+a
+t
+o
+B
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+s
+o
+l
+u
+c
+Ó
+
+a
+d
+l
+o
+s
+
+e
+d
+a
+r
+a
+c
+s
+á
+M
+
+a
+p
+s
+a
+r
+
+e
+d
+e
+t
+o
+g
+n
+a
+M
+
+a
+p
+s
+a
+r
+
+e
+d
+l
+a
+t
+n
+e
+v
+A
+
+o
+v
+i
+t
+i
+d
+u
+a
+r
+o
+t
+e
+t
+o
+r
+P
+
+a
+d
+a
+t
+n
+e
+m
+g
+i
+p
+a
+v
+u
+L
+
+x
+e
+t
+á
+l
+
+e
+d
+a
+v
+u
+L
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+SETOR ADMINISTRATIVO / OBRAS
+-
+-
+E
+E
+-
+-
+E
+E
+-
+-
+E
+E
+-
+-
+E
+E
+-
+-
+E
+E
+-
+-
+E
+E
+-
+-
+E
+E
+-
+-
+E
+E
+SETOR OBRAS
+-
+E
+-
+E
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+E
+E
+
+-
+-
+
+-
+-
+
+-
+-
+
+-
+-
+
+a
+t
+e
+u
+q
+a
+v
+e
+d
+a
+v
+u
+L
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+E
+E
+
+1
+F
+F
+P
+r
+o
+d
+a
+r
+i
+p
+s
+e
+R
+
+E
+E
+E
+E
+E
+E
+-
+E
+
+E
+E
+
+r
+a
+l
+o
+s
+
+r
+o
+t
+e
+t
+o
+r
+P
+
+E
+E
+E
+E
+E
+E
+-
+E
+
+E
+E
+
+l
+e
+v
+á
+e
+m
+r
+e
+p
+m
+
+i
+o
+ã
+c
+a
+c
+a
+M
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+
+o
+ã
+ç
+a
+r
+b
+i
+v
+-
+i
+t
+n
+a
+a
+v
+u
+L
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+E
+
+s
+o
+c
+i
+n
+â
+g
+r
+o
+s
+e
+r
+o
+p
+a
+v
+a
+r
+t
+n
+o
+c
+
+o
+r
+t
+l
+i
+f
+
+e
+
+o
+ã
+ç
+n
+e
+t
+u
+n
+a
+m
+
+m
+o
+c
+
+r
+o
+d
+a
+r
+i
+p
+s
+e
+R
+
+o
+p
+i
+t
+a
+ç
+n
+a
+r
+u
+g
+e
+S
+e
+d
+o
+t
+n
+i
+C
+
+a
+t
+s
+i
+d
+e
+u
+q
+-
+a
+r
+a
+p
+
+m
+e
+g
+a
+r
+o
+c
+n
+a
+e
+d
+o
+v
+i
+t
+i
+s
+o
+p
+s
+i
+D
+
+u
+o
+Y
+m
+e
+
+e
+t
+r
+a
+b
+a
+l
+a
+T
+
+(
+
+)
+s
+a
+d
+e
+u
+q
+-
+a
+v
+a
+r
+t
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+
+E
+E
+E
+E
+E
+E
+-
+E
+
+E
+  E
+
+E
+E
+E
+E
+E
+E
+-
+E
+
+E
+E
+
+-
+NÃO SE APLICA
+
+P
+PERMANENTE
+
+E
+ESPECIFICO PARA DETERMINADAS ATIVIDADES
+
+LEGENDA
+</div>
+<div class="page">
+FUNÇÕES
+
+Ajudante de pintor
+Armador
+Carpinteiro
+Encarregado de obras
+Eletricista
+Motorista operador de guincho / munck
+Operador de betoneira
+Operador de máquinas
+Pedreiro
+Pintor
+Soldador
+
+/
+c
+
+o
+ã
+ç
+e
+t
+o
+r
+p
+e
+d
+e
+t
+e
+c
+a
+p
+a
+C
+
+r
+a
+l
+u
+g
+u
+j
+
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+a
+n
+i
+t
+o
+B
+
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+
+a
+ç
+n
+a
+r
+u
+g
+e
+s
+
+e
+d
+s
+o
+l
+u
+c
+Ó
+
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+
+C
+V
+P
+e
+d
+a
+t
+o
+B
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+a
+d
+l
+o
+s
+
+e
+d
+a
+r
+a
+c
+s
+á
+M
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+E
+
+a
+p
+s
+a
+r
+
+e
+d
+e
+t
+o
+g
+n
+a
+M
+
+a
+p
+s
+a
+r
+
+e
+d
+l
+a
+t
+n
+e
+v
+A
+
+o
+v
+i
+t
+i
+d
+u
+a
+r
+o
+t
+e
+t
+o
+r
+P
+
+SETOR OBRAS
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+E
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+E
+
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+
+LEGENDA
+
+a
+d
+a
+t
+n
+e
+m
+g
+i
+p
+a
+v
+u
+L
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+a
+t
+e
+u
+q
+a
+v
+e
+d
+a
+v
+u
+L
+
+E
+E
+E
+-
+E
+E
+E
+E
+E
+E
+E
+
+1
+F
+F
+P
+r
+o
+d
+a
+r
+i
+p
+s
+e
+R
+
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+
+r
+a
+l
+o
+s
+
+r
+o
+t
+e
+t
+o
+r
+P
+
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+
+x
+e
+t
+á
+l
+
+e
+d
+a
+v
+u
+L
+
+E
+E
+-
+-
+-
+-
+-
+-
+-
+E
+-
+
+l
+e
+v
+á
+e
+m
+r
+e
+p
+m
+
+i
+o
+ã
+c
+a
+c
+a
+M
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+a
+p
+s
+a
+r
+
+e
+d
+a
+r
+i
+e
+n
+r
+e
+P
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+E
+
+s
+o
+c
+i
+n
+â
+g
+r
+o
+s
+e
+r
+o
+p
+a
+v
+a
+r
+t
+n
+o
+c
+
+o
+r
+t
+l
+i
+f
+
+e
+
+o
+ã
+ç
+n
+e
+t
+u
+n
+a
+m
+
+m
+o
+c
+
+r
+o
+d
+a
+r
+i
+p
+s
+e
+R
+
+o
+p
+i
+t
+a
+ç
+n
+a
+r
+u
+g
+e
+S
+e
+d
+o
+t
+n
+i
+C
+
+a
+t
+s
+i
+d
+e
+u
+q
+-
+a
+r
+a
+p
+
+m
+e
+g
+a
+r
+o
+c
+n
+a
+e
+d
+o
+v
+i
+t
+i
+s
+o
+p
+s
+i
+D
+
+u
+o
+Y
+m
+e
+
+e
+t
+r
+a
+b
+a
+l
+a
+T
+
+(
+
+)
+s
+a
+d
+e
+u
+q
+-
+a
+v
+a
+r
+t
+
+E
+-
+-
+-
+-
+-
+-
+-
+-
+E
+-
+
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+
+-
+NÃO SE APLICA
+
+P
+PERMANENTE
+
+E
+ESPECIFICO PARA DETERMINADAS ATIVIDADES
+</div>
+<div class="page">
+39. PROCEDIMENTOS DE EMERGÊNCIA
+
+Objetivo
+
+Estabelecer os métodos e os critérios gerais para a preparação e o atendimento a emergências ambientais,
+com  base  na  identificação  e  na  avaliação  de  aspectos  e  impactos  potenciais  significativos  e  de  riscos
+significativos que impliquem incidentes e acidentes que exijam combate organizado imediato.
+
+Abrangências
+Este procedimento se aplica a todas as Unidades Operacionais da obra e sua área de atuação.
+Em  caso de ocorrência  de acidente, onde  a vítima precisa ser  removida para centro de  atendimento,
+
+devem ser tomadas as seguintes providências:
+
+A) Acidente de gravidade baixa (pequenas escoriações, contusões etc.).
+Encaminhar vítima para  o  Setor Administrativo, Enfermaria da obra, onde se encontram  material  de
+
+primeiros socorros, e funcionário treinado para atendimento.
+
+B) Acidente de gravidade média e alta.
+
+B.1) Sem óbito
+
+Procedimentos:
+
+✓  Prestar primeiros socorros
+✓  Comunicar ao Encarregado da obra.
+✓  Comunicar a empresa Contratante
+✓  Solicitar socorro SAMU – Fone: 192
+✓  Encaminhar a vítima ao um Hospital
+
+B.2) Com  óbito
+
+Procedimentos:
+
+✓  Isolar a área do acidente
+✓  Comunicar a empresa Contratante
+✓  Comunicar a Polícia Civil pelo telefone 197
+✓  Não mexer no local até liberação por parte da polícia.
+✓  Encaminhar a vítima ao um Hospital
+</div>
+<div class="page">
+O acionamento interno da situação de emergência se dará através dos recursos de comunicação, como:
+telefones fixos, celulares, via rádio e/ou pessoalmente, sendo ideal o meio que esteja mais acessível e de forma
+mais rápida possível.
+
+Para tanto, segue abaixo a relação atual dos telefones de emergência das unidades operacionais:
+
+CONTATO DA EMPRESA PARA EMERGÊNCIA:
+EMPREGADO/FUNÇÃO
+Nome do Responsável ou Preposto
+
+TELEFONES DE EMERGÊNCIA
+(XX) XXXX-XXXX
+
+HOSPITAIS E PRONTO ATENDIMENTO CONVENIADO PARA ATENDIMENTOS ÀS
+
+EMERGÊNCIAS
+
+Policlínica Municipal de Itatiaiuçu (24 horas)
+Av. José Francisco da Silva, 404 – Centro -  Itatiaiuçu/MG
+
+(31) 3572-1255
+
+Hospital Manoel Gonçalves (24 horas)
+Av. Dr. Miguel Augusto Gonçalves, 1902 - Centro – Itaúna / MG
+
+(37) 3249-5300
+
+Hospital João XXIII (24 horas)
+Av. Prof. Alfredo Balena, 400 – Centro – Belo Horizonte / MG
+
+(31) 3239-9200
+
+Corpo de Bombeiros Militar
+
+193
+
+CEMIG
+
+Prefeitura Municipal Itatiaiuçu
+Praça Antônio Quirino da Silva, 404 – Centro – Itatiaiuçu / MG
+FEAM (Fundação Estadual do Meio Ambiente)
+Rua Espirito Santo, 495 – Centro – Belo Horizonte / MG
+
+116 ou (99) 08003-10196
+
+(31) 3572-1244
+
+(31) 3228-7700 / 3228-7831
+
+CEATOX (Centro de Assistência Toxicológica)
+
+0800 0148 110
+
+Defesa Civil
+
+Policia Militar
+
+Policia Civil
+
+199
+
+190
+
+197
+</div>
+<div class="page">
+ACIDENTE
+
+PRIMEIROS SOCORROS NO LOCAL (FUNCIONÁRIOS)
+
+COMUNICAR O SUPERVISOR
+
+LESÃO
+GRAVE
+
+ENCAMINHAR PARA A O HOSPITAL
+
+LESÃO
+LEVE
+
+ENCAMINHAR  P/
+ATENDIMENTO
+MÉDICO EMP.
+
+VEÍCULO DA
+EMPRESA
+
+AMBULÂNCIA
+
+TRANSPORTE
+
+ACOMPANHAR O ACIDENTADO ATÉ O FINAL DO ATENDIMENTO
+(ACOMPANHANTE)
+</div>
+<div class="page">
+40. PROGRAMA DE TREINAMENTO
+
+Capacitação e treinamento em Segurança e Saúde no Trabalho de acordo com a NR01 item 1.7.1
+
+O empregador deve promover capacitação e treinamento dos trabalhadores, em conformidade com o disposto
+nas NR.
+
+Ao término dos treinamentos inicial, periódico ou eventual, previstos nas NR, deve ser emitido certificado
+contendo o nome e assinatura do trabalhador, conteúdo programático, carga horária, data, local de realização
+do treinamento, nome e qualificação dos instrutores e assinatura do responsável técnico do treinamento.
+
+A capacitação deve incluir:
+
+ a) treinamento inicial;
+
+b) treinamento periódico; e
+
+c) treinamento eventual.
+
+O  treinamento  inicial  deve  ocorrer  antes  de  o  trabalhador  iniciar  suas  funções  ou  de  acordo  com  o  prazo
+especificado em NR.
+
+O  treinamento  periódico  deve  ocorrer  de  acordo  com  periodicidade  estabelecida  nas  NR  ou,  quando  não
+estabelecido, em prazo determinado pelo empregador.
+
+ O treinamento eventual deve ocorrer:
+
+a)  quando  houver  mudança  nos  procedimentos,  condições  ou  operações  de  trabalho,  que  impliquem  em
+alteração dos riscos ocupacionais;
+
+b) na ocorrência de acidente grave ou fatal, que indique a necessidade de novo treinamento; ou
+
+c) após retorno de afastamento ao trabalho por período superior a 180 (cento e oitenta) dias.
+
+A carga horária, o prazo para sua realização e o conteúdo programático do treinamento eventual deve atender
+à situação que o motivou.
+
+A capacitação pode incluir:
+
+a) estágio prático, prática profissional supervisionada ou orientação em serviço;
+
+b) exercícios simulados; ou
+
+c) habilitação para operação de veículos, embarcações, máquinas ou equipamentos.
+
+O tempo despendido em treinamentos previstos nas NR é considerado como de trabalho efetivo. O certificado
+deve ser disponibilizado ao trabalhador e uma cópia arquivada na organização.
+
+A capacitação deve ser consignada nos documentos funcionais do empregado.
+
+Os  treinamentos  previstos  em  NR  podem  ser  ministrados  em  conjunto  com  outros  treinamentos  da
+organização, observados os conteúdos e a carga horária previstos na respectiva norma regulamentadora.
+</div>
+<div class="page">
+41. RECONHECIMENTO, AVALIAÇÃO E CONTROLE DOS RISCOS
+
+Vide anexo I.
+</div>
+<div class="page">
+42. PROGRAMA  EDUCATIVO  CONTEMPLANDO  A  TEMÁTICA  DE  PREVENÇÃO  DE
+
+ACIDENTES E DOENÇAS OCUPACIOAIS, COM SUA CARGA HORÁRIA
+
+AÇÕES
+
+5
+2
+0
+2
+N
+A
+J
+
+5
+2
+0
+2
+V
+E
+F
+
+5
+2
+0
+2
+R
+A
+M
+
+5
+2
+0
+2
+R
+B
+A
+
+5
+2
+0
+2
+I
+A
+M
+
+5
+2
+0
+2
+N
+U
+J
+
+5
+2
+0
+2
+L
+U
+J
+
+5
+2
+0
+2
+O
+G
+A
+
+5
+2
+0
+2
+T
+E
+S
+
+5
+2
+0
+2
+T
+U
+O
+
+5
+2
+0
+2
+V
+O
+N
+
+5
+2
+0
+2
+X
+R
+F
+
+A
+I
+R
+Á
+R
+O
+H
+A
+G
+R
+A
+C
+
+Integração
+
+NOVOS COLABORADORES ASSIM QUE
+ADIMITIDOS
+
+6 horas
+
+Campanha de Proteção Auditiva
+
+Campanha de Proteção Respiratória
+
+Produtos Químicos
+
+SEMPRE QUE NECESSÁRIO
+
+-
+
+Radiação Não Ionizantes
+
+Combate a Incêndio
+
+AIDS/DST
+
+Segurança no Trabalho com Máquinas e
+Equipamentos
+
+SEMPRE QUE NECESSÁRIO
+
+8 Horas
+
+Trabalho com Espaço Confinado
+
+SEMPRE QUE NECESSÁRIO
+
+Segurança Em Instalações E Serviços
+Com Eletricidade
+
+SEMPRE QUE NECESSÁRIO
+
+Trabalho em Altura
+
+SEMPRE QUE NECESSÁRIO
+
+Segurança no Transporte e
+Movimentação de Materiais
+
+SEMPRE QUE NECESSÁRIO
+
+16
+horas
+40
+horas
+
+8 horas
+
+4 horas
+</div>
+<div class="page">
+Treinamento Introdutório – Público Alvo – Todas as Funções
+
+O conteúdo deste treinamento obedecerá ao disposto na NR 18: informações sobre as condições e meio
+
+ambiente de trabalho; riscos inerentes à função de cada trabalhador; uso adequado de EPI's; informações sobre
+
+os EPC, proteção contra quedas, Equipamentos móveis e veículos industriais, Proteção das costas, Proteção
+
+auditiva,  Proteção  respiratória  e  Riscos  ambientais,  Informações  sobre  as  condições  e  meio  ambiente  de
+
+trabalho, Riscos inerentes a função de cada colaborador, Uso adequado dos EPI´s, Informações sobre EPC,
+
+Equipamentos  móveis  e  veículos  industriais,  Ergonomia,  Proteção  auditiva,  Proteção  respiratória,  Riscos
+
+Ambientais, Proteção e combate a incêndio.
+
+Treinamento sobre Ruído – Público Alvo – Colaboradores Expostos ao Agente
+
+Conceitos, Efeitos Danosos da Exposição ao Ruído, Como Combater o Ruído.
+
+Treinamento sobre Poeira – Público Alvo – Colaboradores Expostos ao Agente
+
+Conceito,  Danos  Relativos  à  Saúde  do  Trabalhador,  Tempo  de  Exposição,  Orientações  Básicas  de
+
+Segurança.
+
+Treinamento sobre Produtos Químicos – Público Alvo – Colaboradores Expostos ao Agente
+
+Conceito, Danos relativos à saúde do trabalhador, Orientações básicas de segurança.
+
+Treinamento sobre Radiação não Ionizante – Público Alvo – Colaboradores Expostos ao Agente
+
+Conceito, Danos relativos à saúde do trabalhador, Orientações básicas de segurança.
+
+Treinamento Sobre Combate a Incêndio – Público Alvo – Todas as Funções
+
+Teoria do Fogo, Propagação do Fogo, Classes de Incêndio, Prevenção de Incêndio, Métodos de Extinção,
+
+Agentes  Extintores,  EPI  (Equipamentos  de  Proteção  Individual),  Equipamentos  de  Combate  a  Incêndio,
+
+Equipamentos de Detecção, Alarme e Comunicações, Escape de Pessoal, Pessoas com mobilidade reduzida,
+
+Riscos específicos da Planta.
+</div>
+<div class="page">
+Treinamento sobre AIDS /DST – Público Alvo – Todas as Funções
+
+Conceitos Iniciais, DST: Prevenção, Contágio e Tratamento, Aids no Brasil, Sangue, Drogas e Seringas,
+
+Mitos e Preconceitos, Sexualidade com Responsabilidade.
+
+Treinamento sobre Trabalho em Altura
+
+O  que  é  trabalho  em  altura,  Por  que  prevenir,  Como  Prevenir,  Definições  e  Composição,  Cinturão
+
+Paraquedista, Cinturão Abdominal, Talabarte de segurança anti queda, Talabarte de posicionamento, Trava-
+
+queda  para  uso  em  linha  flexível,  Trava-queda  para  uso  em  linha  rígida,  Trava-queda  retrátil,  Conector,
+
+Marcação  do  EPI,  Sistemas  de  proteção  contra  quedas,  Riscos  relacionados  ao  uso  do  equipamento,
+
+Manutenção, Prepare-se antes de subir, Normas e regulamentos aplicáveis ao trabalho em altura, Análise de
+
+Risco e Condições Impeditivas, Riscos potencias inerentes ao trabalho em altura e medidas de prevenção e
+
+controle, Sistemas, equipamentos e procedimentos de proteção coletiva, Equipamentos de Proteção Individual
+
+de  proteção  coletiva,  Equipamentos  de  Proteção  individual  para  trabalho  em  altura:  seleção,  inspeção,
+
+conservação  e  limitação  de  uso,  Acidentes  típicos  em  trabalhos  em  altura,  Condutas  em  situações  de
+
+emergência, incluindo noções de técnicas de resgate e de primeiros socorros.
+
+Treinamento Segurança na Operação de Máquinas e Equipamentos
+
+A capacitação para operação segura de máquinas deve abranger as etapas teórica e prática, a fim de permitir
+
+habilitação adequada do operador para trabalho seguro, contendo no mínimo: a) descrição e identificação dos
+
+riscos  associados  com  cada  máquina  e  equipamento  e  as  proteções  específicas  contra  cada  um  deles;  b)
+
+funcionamento  das  proteções;  como  e  por  que  devem  ser  usadas;  c)  como  e  em  que  circunstâncias  uma
+
+proteção  pode  ser  removida,  e  por  quem,  sendo  na  maioria  dos  casos,  somente  o  pessoal  de  inspeção  ou
+
+manutenção; d) o que fazer, por exemplo, contatar o supervisor, se uma proteção foi danificada ou se perdeu
+
+sua  função,  deixando  de  garantir  uma  segurança  adequada;  e)  os  princípios  de  segurança  na  utilização  da
+
+máquina  ou  equipamento;  f)  segurança  para  riscos  mecânicos,  elétricos  e  outros  relevantes;  g)  método  de
+
+trabalho  seguro;  h)  permissão  de  trabalho;  e  i)  sistema  de  bloqueio  de  funcionamento  da  máquina  e
+
+equipamento durante operações de inspeção, limpeza, lubrificação e manutenção.
+
+A capacitação de operadores  de máquinas  automotrizes  ou autopropelidas,  deve ser  constituída das  etapas
+
+teórica e prática e possuir o conteúdo programático mínimo descrito nas alíneas do item 1 deste anexo e ainda:
+</div>
+<div class="page">
+a)  noções  sobre  legislação  de  trânsito  e  de  legislação  de  segurança  e  saúde  no  trabalho;  b)  noções  sobre
+
+acidentes e doenças decorrentes da exposição aos riscos existentes na máquina, equipamentos e implementos;
+
+c) medidas de controle dos riscos: EPC e EPI; d) operação com segurança da máquina ou equipamento; e)
+
+inspeção, regulagem e manutenção com segurança; f) sinalização de segurança; g) procedimentos em situação
+
+de emergência; e h) noções sobre prestação de primeiros socorros.
+
+A etapa prática deve ser supervisionada e documentada, podendo ser realizada na própria máquina que será
+
+operada.
+
+Treinamento Segurança no Transporte e Movimentação de Materiais
+
+Métodos  de  armazenamento  de  materiais,  ponto  cego,  estocagem,  tabela  de  armazenamento,  estrutura  de
+
+materiais, métodos de segurança para travamento de cargas, capacidade de máquinas e equipamentos.
+
+Treinamento Segurança no Trabalho com Espaço Confinado
+
+Definições;  reconhecimento,  avaliação  e  controle  de  riscos;  funcionamento  de  equipamentos  utilizados;
+
+procedimentos e utilização da Permissão de Entrada e Trabalho; e noções de resgate e primeiros socorros.
+
+Treinamento Especial
+
+Durante o desenvolvimento da obra, poderá ser necessária a realização de alguma atividade especial, e
+
+para tanto, deverá ser ministrado um treinamento diferenciado;
+
+Este treinamento deve ser feito antes da realização da atividade em questão; Instruções de segurança na
+
+operação de equipamentos deverão seguir orientação do fabricante.
+
+Treinamento Periódico (Reciclagem)
+
+Todos os trabalhadores deverão passar por treinamentos de reciclagem, pelo menos uma vezao ano.
+
+Os  treinamentos  específicos  a  cada  função  deverão  ser  realizados  durante  o  desenvolvimento  da  obra,
+
+preferencialmente ao início de cada fase da obra e sempre que necessário.
+
+Palestras de Segurança do Trabalho
+
+Todos os trabalhadores, cujas atividades requeiram um treinamento específico, tais como: atividades em
+
+locais confinados (reparo, instalação, manutenção, montagem, inspeção e outras), em locais elevados (risco
+
+de queda). O conteúdo programático deve ter como base nos procedimentos de segurança e operacionais, bem
+
+como a legislação em vigor.
+</div>
+<div class="page">
+43. PLANEJAMENTO  ANUAL  DO  PGR  (METAS,  PRIORIDADES  E  CRONOGRAMA  DE
+
+AÇÕES)
+
+METAS ESTABELECIDAS PARA ESTE PROGRAMA
+
+a.  Preservar a saúde e integridade física dos trabalhadores;
+b.  Proteger o meio ambiente e os recursos naturais;
+c.  Controlar os riscos provenientes dos processos de trabalho;
+d.  Cumprir o cronograma anual.
+
+METAS, PRIORIDADES E AVALIAÇÃO DE CONTROLE
+
+1º Meta: Evitar ocorrência de acidentes do trabalho.
+
+Prioridade: Orientação a todos colaboradores quanto aos riscos de acidentes;
+
+Prioridade: Inspeções de segurança para verificação das condições de trabalho;
+
+2º Meta: Monitoramentos ambientais.
+
+Prioridade: Identificação de todos os agentes de riscos existentes nas atividades;
+
+Prioridade: Monitoramento dos agentes de risco identificados;
+
+Prioridade: De acordo com os resultados obtidos implementar medidas de controle;
+
+Prioridade: Manter atualizado os registros ambientais através de monitoramento contínuo;
+
+3º Meta: Evitar a ocorrência de doenças ocupacionais;
+
+Prioridade: Identificação de todos os agentes de riscos existentes nas atividades;
+
+Prioridade: Exames médicos específicos por função de acordo com o PCMSO;
+
+Prioridade: De acordo com os resultados obtidos implementar medidas de controle;
+
+Observação:  Outras  metas  serão  definidas  a  partir  de  identificação  de  situações  que  vierem  a  ser
+
+levantadas no ambiente de trabalho durante a execução das atividades.
+
+CRONOGRAMA DE AÇÕES ANUAL DO PGR
+
+O  cronograma  com  ações  prevencionistas  tem  como  objetivo  ações  que  venham  eliminar  ou  amenizar
+
+condições de riscos de acidentes.
+
+De acordo com o planejamento anual, as metas e as prioridades da empresa, o cronograma de execução
+
+está definido a seguir:
+</div>
+<div class="page">
+{{BLOCK:cronograma}}45. BIBLIOGRAFIA
+
+PROGRAMA DE GERENCIAMENTO DE RISCOS
+
+
+Tavares, Moacir. Apostila do Senai - MG. s.n.t.
+
+ CURSO de Engenharia de Segurança do Trabalho - FUNDACENTRO.
+
+ SEGURANÇA e medicina do trabalho. 36.ed. São Paulo, Editora Atlas, 1997.
+
+(Manual de Legislação Atlas, 16)
+
+NR 18, portaria 3214 do MTE
+
+Norma  Regulamentadora  N.º  01  -  Disposições  Gerais  e  Gerenciamento  de  Riscos  Ocupacionais,  Portaria
+SEPRT n.º 6.730, de 09 de março de 2020
+</div>
+<div class="page">
+46. RESPONSÁVEL TÉCNICO
+
+O empregador é o responsável pela prestação das informações. O não-cumprimento das disposições legais e
+regulamentares  sobre  segurança  e  saúde  no  trabalho  acarretará  a  aplicação  das  penalidades  previstas  na
+legislação pertinente. Os casos omissos verificados no cumprimento das NR serão decididos pela Secretaria
+de Trabalho, ouvida a SIT.
+
+Este Programa de Gerenciamento de Riscos - PGR foi elaborado e aprovado por:
+
+Elaboração:
+
+{{RESP_NOME}}
+
+{{RESP_TITULO}}
+
+{{RESP_REGISTRO}}
+
+{{RESP_EXTRA}}
+
+Aprovado:
+
+Responsável pela empresa ou Preposto
+
+Responsável por estabelecer, implementar e assegurar o cumprimento do PGR
+
+<b>{{RAZAO_SOCIAL}}</b>
+
+Cidade, 12 de Janeiro de 2025.
+</div>
+<div class="page">
+ANEXO I – INVENTÁRIO DE RISCOS.
+
+ANEXO II – PLANO DE AÇÃO.
+
+ANEXO III - TÉCNICA DE AVALIAÇÃO DE RISCO
+
+ANEXO IV – MODELO DE COMUNICAÇÃO PRÉVIA.
+
+ANEXO V – MODELO DE FICHA DE EPI
+
+ANEXO VI – LISTA DE PRESENÇA PARA DIVULGAÇÃO DO PGR E PCMSO.
+
+ANEXO VII – LISTA DE PRESENÇA PARA CAPACITAÇÃO
+
+ANEXO VIII – IDENTIFICAÇÃO DO PROFISSIONAL ELABORADOR DO PGR.
+
+ANEXO IX – REGISTROS E INFORMAÇÕES RELATIVAS AO LEVANTAMENTO E MAPEAMENTO
+DOS  FATORES  PSICOSSOCIAIS  RELACIONADOS  AO  TRABALHO  COM  PARTICIPAÇÃO  DOS
+EMPREGADOS.
+
+ANEXO X – ANOTAÇÃO DE RESPONSABILIDADE TÉCNICA.
+</div>
+<div class="page">
+ANEXO I - INVENTÁRIO DE RISCOS
+</div>
+<div class="page">
+INVENTÁRIO DE RISCOS
+
+Setor  Administrativo
+
+Função  Assistente técnico
+
+Local
+
+Matriz
+
+DESCRIÇÃO DO AMBIENTE
+
+Canteiro  de  obras:  Estrutura  em  alvenaria  e/ou  container  projetado  para
+ocupação  humana  com  ventilação  natural  e  artificial,  iluminação  natural  e
+artificial.
+Frentes de serviço/obra: Ambiente a céu aberto, piso de terra, iluminação
+natural, ventilação natural e acessos pavimentados.
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DAS ATIVIDADES
+Planejam a execução do trabalho e supervisionam equipes de trabalhadores de
+construção  de  obras  de
+engenheiros  no
+desenvolvimento de projetos, no levantamento e tabulação de dados e na vistoria
+técnica. Estruturam o serviço de coleta de resíduos sólidos das obras, controlando
+os  procedimentos  de  preservação  do  meio  ambiente.  Realizam  trabalhos  de
+laboratório,  vendas  e  compras  de  materiais  e  equipamentos.  Padronizam
+procedimentos técnicos.
+
+infraestrutura.  Auxiliam
+
+  Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+  Ausência de
+o
+c
+i
+s
+í
+F
+
+Fator de
+Risco
+
+o
+c
+i
+m
+í
+u
+Q
+
+Ausência de
+Fator de
+Risco
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Controles
+Existentes
+
+Exposição  Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+</div>
+<div class="page">
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Queda de
+mesmo nível
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Análise de risco;
+Organização e
+limpeza;
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+</div>
+<div class="page">
+INVENTÁRIO DE RISCOS
+
+Setor
+
+SESMT
+
+Função
+
+Técnico de segurança do
+trabalho
+
+Local
+
+Matriz
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+Canteiro  de  obras:  Estrutura  em  alvenaria  e/ou  container  projetado  para
+ocupação  humana  com  ventilação  natural  e  artificial,  iluminação  natural  e
+artificial.
+Frentes de serviço/obra: Ambiente a céu aberto, piso de terra, iluminação
+natural, ventilação natural e acessos pavimentados.
+
+DESCRIÇÃO DAS ATIVIDADES
+Responsável  pelo  acompanhamento  das  atividades,  por  emitir  relatórios,
+estatísticas, controlar e arquivar documentos, atendimentos telefônicos e uso de
+computador, realizar inspeções nos locais de trabalho para verificar se as normas
+de saúde e segurança do trabalho está sendo efetivamente seguidas, controlar e
+distribuir EPI`s, realizar treinamentos, coordenar e auxiliar estagiários e outros.
+
+  Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+  Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+o
+c
+i
+s
+í
+F
+
+Radiação
+ultravioleta
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição  Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Queimaduras
+
+Raios solares
+
+Protetor solar
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+</div>
+<div class="page">
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Respirador PFF1
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Trabalho em
+Altura
+
+Traumas,
+fraturas ou
+óbito
+
+Atividades
+desenvolvidas
+sob andaimes
+
+Cinto de segurança
+tipo para-quedista e
+talabarte em Y
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente
+
+Qualitativo
+
+5 – Ocasional
+
+16 – Crítica
+
+80 - Alto
+</div>
+<div class="page">
+INVENTÁRIO DE RISCOS
+
+Setor  Operacional
+
+Função  Mecânico
+
+Local
+
+Matriz
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+Canteiro  de  obras:  Estrutura  em  alvenaria  e/ou  container  projetado  para
+ocupação  humana  com  ventilação  natural  e  artificial,  iluminação  natural  e
+artificial.
+Frentes de serviço/obra: Ambiente a céu aberto, piso de terra, iluminação
+natural, ventilação natural e acessos pavimentados.
+
+DESCRIÇÃO DAS ATIVIDADES
+Realizam a manutenção em componentes, equipamentos e máquinas industriais;
+planejam  atividades  de  manutenção;  avaliam  condições  de  funcionamento  e
+desempenho  de  componentes  de  máquinas  e  equipamentos.  Documentam
+informações  técnicas;  realizam  ações  de  qualidade  e  preservação  ambiental  e
+trabalham segundo normas de segurança.
+
+  Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+  Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição  Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+</div>
+<div class="page">
+o
+c
+i
+s
+í
+F
+
+Radiação
+ultravioleta
+
+Queimaduras
+
+Raios solares
+
+Protetor solar
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+  Vibração de
+o
+c
+i
+s
+í
+F
+
+mãos e
+braços
+
+Distúrbios
+osteomuscu-
+lares
+
+Equipamentos
+rotativos
+
+Pausas regulares
+
+Intermitente  A ser avaliada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Hidrocarbone
+-tos
+aromáticos
+
+Alergias e
+absorção
+cutânea
+
+Óleos e graxas no
+processo de
+manutenção
+
+Hidrocarbone
+-tos
+naftênicos
+
+Alergias e
+absorção
+cutânea
+
+Óleos e graxas no
+processo de
+manutenção
+
+Hidrocarbone
+-tos
+parafínicos
+
+Alergias e
+absorção
+cutânea
+
+Óleos e graxas no
+processo de
+manutenção
+
+Respirador PFF1
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Luva de látex ou
+creme protetor com
+resistência química
+grupo 3
+Luva de látex ou
+creme protetor com
+resistência química
+grupo 3
+Luva de látex ou
+creme protetor com
+resistência química
+grupo 3
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+</div>
+<div class="page">
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Postura
+inadequada
+
+Análise
+específica
+
+Queda de
+mesmo nível
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Análise de risco;
+Organização e
+limpeza;
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+</div>
+<div class="page">
+INVENTÁRIO DE RISCOS
+
+Setor  Operacional
+
+Função  Soldador
+
+Local
+
+Matriz
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+Canteiro  de  obras:  Estrutura  em  alvenaria  e/ou  container  projetado  para
+ocupação  humana  com  ventilação  natural  e  artificial,  iluminação  natural  e
+artificial.
+Frentes de serviço/obra: Ambiente a céu aberto, piso de terra, iluminação
+natural, ventilação natural e acessos pavimentados.
+
+DESCRIÇÃO DAS ATIVIDADES
+Confeccionam,  reparam  e  instalam  peças  e  elementos  diversos  em  chapas  de
+metal; fabricam ou reparam caldeiras, tanques, reservatórios e outros recipientes
+de chapas de aço; recortam, modelam e trabalham barras perfiladas de materiais
+ferrosos e não ferrosos para fabricar esquadrias, portas, grades, vitrais e peças
+similares.
+
+  Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+  Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição  Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+</div>
+<div class="page">
+o
+c
+i
+s
+í
+F
+
+Radiação
+ultravioleta
+
+Queimadura
+ocular
+
+Processo de
+soldagem
+
+  Vibração de
+o
+c
+i
+s
+í
+F
+
+mãos e
+braços
+
+Distúrbios
+osteomuscu-
+lares
+
+Equipamentos
+rotativos
+
+Mascara de solda
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Pausas regulares
+
+Intermitente  A ser avaliada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Fumos
+metálicos
+
+Pneumoco-
+nioses
+
+Processo de
+soldagem
+
+Respirador PFF1
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Respirador PFF1
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+</div>
+<div class="page">
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Queda de
+mesmo nível
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Análise de risco;
+Organização e
+limpeza;
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+INVENTÁRIO DE RISCOS
+
+Setor  Operacional
+
+Função  Eletricista
+
+Local
+
+Matriz
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+Canteiro  de  obras:  Estrutura  em  alvenaria  e/ou  container  projetado  para
+ocupação  humana  com  ventilação  natural  e  artificial,  iluminação  natural  e
+artificial.
+Frentes de serviço/obra: Ambiente a céu aberto, piso de terra, iluminação
+natural, ventilação natural e acessos pavimentados.
+
+DESCRIÇÃO DAS ATIVIDADES
+Planejam  serviços  de  manutenção  e  instalação  eletroeletrônica  e  realizam
+manutenções preventiva, preditiva e corretiva. Instalam sistemas e componentes
+eletroeletrônicos e realizam medições e testes. Elaboram documentação técnica
+e  trabalham  em  conformidade  com  normas  e  procedimentos  técnicos  e  de
+qualidade, segurança, higiene, saúde e preservação ambiental.
+
+  Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Controles
+Existentes
+
+Exposição  Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+</div>
+<div class="page">
+  Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Protetor auditivo
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Respirador PFF1
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Traumas,
+fraturas ou
+óbito
+
+Atividades
+desenvolvid
+as sob
+andaimes
+
+Cinto de
+segurança tipo
+para-quedista e
+talabarte em Y
+
+Intermitente
+
+Qualitativo
+
+5 – Ocasional
+
+16 – Crítica
+
+80 - Alto
+
+Trabalho em
+Altura
+</div>
+<div class="page">
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Traumas,
+fraturas ou
+óbito
+
+Atividades
+com energia
+elétrica
+
+Bloqueio de
+equipamentos e
+desenergizarão;
+Equipamentos e
+Ferramentas
+isolantes, Luva
+com resistência a
+eletricidade
+
+Intermitente
+
+Qualitativo
+
+5 – Ocasional
+
+8 – Grave
+
+40 - Médio
+
+Choque
+elétrico
+
+Setor  Operacional
+
+Função  Motorista
+
+Local
+
+Matriz
+
+Nº de empregados
+previstos na função
+Horário de
+trabalho
+
+01 Masculino
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+
+DESCRIÇÃO DAS ATIVIDADES
+
+INVENTÁRIO DE RISCOS
+</div>
+<div class="page">
+Canteiro  de  obras:  Estrutura  em  alvenaria  e/ou  container  projetado  para
+ocupação  humana  com  ventilação  natural  e  artificial,  iluminação  natural  e
+artificial.
+Frentes de serviço/obra: Ambiente a céu aberto, piso de terra, iluminação
+natural, ventilação natural e acessos pavimentados.
+
+Responsável por realizar os serviços de levar e trazer para obra, carregar material
+de  obra  dentro  da  mina,  realizar  check-list  de  veículos  diariamente.  Zelar
+transporte de pessoas de peças e material; exigir o uso de cinto de segurança;
+Programar manutenção dos veículos.
+
+  Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+  Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição  Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Vibração de
+corpo inteiro
+(AREN /
+VDVR)
+
+Distúrbios
+osteomuscu-
+lares
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Condução de
+veículos pesados
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Pausas regulares
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Respirador PFF1
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+o
+c
+i
+s
+í
+F
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+</div>
+<div class="page">
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Acidente de
+trânsito
+
+Traumas,
+fraturas ou
+óbito
+
+Condução
+veicular
+
+Orientações sobre
+direção defensiva
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente
+
+Qualitativo
+
+5 – Ocasional
+
+8 – Grave
+
+40 - Médio
+
+Setor  Operacional
+
+INVENTÁRIO DE RISCOS
+
+Nº de empregados
+previstos na função
+
+01 Masculino
+</div>
+<div class="page">
+Função  Pintor
+
+Local
+
+Matriz
+
+Horário de
+trabalho
+
+Segunda à Quinta de 07:00 às 17:00, Sexta de
+07:00 ás 16:00 (intervalo de 01:00 para refeição)
+
+DESCRIÇÃO DO AMBIENTE
+Canteiro  de  obras:  Estrutura  em  alvenaria  e/ou  container  projetado  para
+ocupação  humana  com  ventilação  natural  e  artificial,  iluminação  natural  e
+artificial.
+Frentes de serviço/obra: Ambiente a céu aberto, piso de terra, iluminação
+natural, ventilação natural e acessos pavimentados.
+
+DESCRIÇÃO DAS ATIVIDADES
+Pintam  as  superfícies  externas  e  internas  de  edifícios  e  outras  obras  civis,
+raspando-as, amassando-as e cobrindo-as com uma ou várias camadas de tinta;
+revestem  tetos,  paredes  e  outras  partes  de  edificações  com  papel  e  materiais
+plásticos e para tanto, entre outras atividades, preparam as superfícies a revestir,
+combinam materiais etc.
+
+  Perigo ou
+o
+p
+Fator de
+u
+r
+G
+Risco
+
+  Ruído (NR
+o
+c
+15 e NHO
+i
+s
+í
+01)
+F
+
+Lesões e
+Agravos
+
+Fontes e
+Circunstâncias
+(Causas)
+
+Perda
+auditiva
+
+Máquinas e
+equipamentos em
+funcionamento
+
+Controles
+Existentes
+
+Exposição  Quantificação
+
+Probabilidade
+/ Frequência
+
+Severidade /
+Gravidade
+
+Nível e
+Classificação
+do Risco
+
+Protetor auditivo
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Radiação
+ultravioleta
+
+Queimaduras
+
+Raios solares
+
+Protetor solar
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Poeira
+Mineral
+
+Pneumoco-
+nioses
+
+Areia, Cal,
+Cimento, Terra,
+Etc.
+
+Tolueno
+
+Pneumoco-
+nioses
+
+Processo de
+pintura
+
+Respirador PFF1
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Respirador PFF2(S)
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+o
+c
+i
+s
+í
+F
+
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+m
+í
+u
+Q
+</div>
+<div class="page">
+o
+c
+i
+m
+í
+u
+Q
+
+o
+c
+i
+g
+ó
+l
+o
+i
+B
+
+o
+c
+i
+m
+ô
+n
+o
+g
+r
+E
+
+s
+e
+t
+n
+e
+d
+i
+c
+A
+
+Xileno
+
+Pneumoco-
+nioses
+
+Processo de
+pintura
+
+Respirador PFF2(S)
+
+Intermitente  A ser realizada
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Ausência de
+Fator de
+Risco
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Postura
+inadequada
+
+Análise
+específica
+
+Desenvolvimento
+das atividades
+específicas da
+atribuição do
+cargo
+
+Pausas regulares;
+Orientação postural
+(Ginástica laboral)
+
+Trabalho em
+Altura
+
+Traumas,
+fraturas ou
+óbito
+
+Atividades
+desenvolvidas
+sob andaimes
+
+Cinto de segurança
+tipo para-quedista e
+talabarte em Y
+
+Intermitente
+
+Qualitativo
+
+8 – Provável
+
+2 – Baixo
+
+16 - Baixo
+
+Intermitente
+
+Qualitativo
+
+5 – Ocasional
+
+16 – Crítica
+
+80 - Alto
+</div>
+<div class="page">
+ANEXO II - PLANO DE AÇÃO
+
+Ação
+
+Meta
+
+Responsável
+(Setor)
+
+Prazo
+
+Treinamento sobre a importância e o uso correto de
+EPIs (conforme Anexo I)
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Treinamento sobre Ficha FDS (Ficha de Dados de
+Segurança)
+
+Conscientizar todos os trabalhadores
+que possuam atividades com
+manipulação de produtos químicos
+
+Treinamento sobre direção defensiva
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Ciclano - Dono do
+Posto (sócio 1)
+
+DD/MM/AAAA
+
+Treinamento de NR 35 (8 horas)
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Realizar o preenchimento da Ficha de EPI
+conforme entrega e substituição dos mesmos
+(conforme Anexo I)
+Divulgação do inventário de riscos e as medidas de
+prevenção do plano de ação do PGR (conforme
+Anexo VII)
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+</div>
+<div class="page">
+Conscientizar todos os trabalhadores
+
+Fulano – TST
+
+DD/MM/AAAA
+
+Resposta a curto prazo para analisar,
+monitorar,  gerenciar  e  mitigar  os
+fatores  psicossociais  relacionados  ao
+trabalho
+
+Divulgação do formulário de contribuição dos
+empregados quanto a percepção de riscos,
+implantação das medidas de prevenção (conforme
+Anexo VI)
+
+AGUARDA DEFINIÇÕES PSICOSSOCIAIS
+
+Otimização de processos
+Criação  de  procedimentos  operacionais  padrão
+(POPs) para rotinas
+
+Com base no mapeamento de fatores psicossociais,
+verificou-se que a empresa obteve índice ICQ 5,00
+em todas as questões avaliadas, classificando o
+ambiente como saudável. Diante desse resultado,
+não foram identificados riscos psicossociais que
+demandem a implementação de plano de ação
+específico neste momento.
+(Empresa com índice ICQ 5.00 para todas as
+respostas)
+</div>
+<div class="page"></div>
+<div class="page">
+ANEXO III - TÉCNICA DE AVALIAÇÃO DE RISCO
+
+Objetivo: Identificar os perigos e analisar os riscos das áreas, das tarefas (processos) e dos equipamentos na
+
+{{NOME_EMPRESA}}, incluindo as realizadas por terceiros.
+
+Aplicação: Toda a empresa.
+
+Reponsabilidade: Gerente de equipe; líderes de equipes; diretoria/ administração; engenheira de segurança
+
+do trabalho; técnicos de segurança do trabalho.
+
+Recursos  necessários:  Caneta  ou  lápis;  prancheta;  planilhas  (formulário  específico);  EPIs  pertinentes  ao
+
+local, à tarefa ou ao equipamento (quando necessário); máquina fotográfica; computador (Excel); impressora.
+
+Descrição das atividades:
+
+- Definir o que será avaliado: Área, Tarefa (Processo) e/ou Equipamento;
+
+- Agendar o evento com a equipe multidisciplinar que participará da avaliação;
+
+- Ir a campo munido do material necessário;
+
+- Reunir com a equipe multidisciplinar, fazer uma breve explanação do que está sendo feito, dos procedimentos
+
+adotados, de como serão conduzidos os trabalhos e os benefícios advindos da implantação de um Sistema de
+
+Gestão de SST, bem como, registrar a participação dos membros da equipe na Lista de presença;
+
+-  Anotar  e  registrar  através  de  fotos  os  perigos  significativos,  estejam  eles  presentes  na  área,  nas  tarefas
+
+(processo) e/ou nos equipamentos
+
+- Concluir o levantamento de campo comunicando à equipe que poderão ocorrer visitas adicionais ao local
+
+para  saneamento  de  dúvidas  ou  complementações  de  informações.  Também,  deixar  aberto  o  canal  de
+
+comunicação para que a equipe, caso se lembre ou identifique outros perigos, possa complementar as referidas
+
+informações;
+
+Matriz de Riscos:
+
+- A matriz de riscos deverá ser considerada para classificação e definição do nível de risco do agente nocivo.
+</div>
+<div class="page">
+MATRIZ DE
+RISCOS
+
+PESO
+
+PROBABILIDADE / FREQUÊNCIA
+
+2
+
+3
+
+5
+
+8
+
+13
+
+E
+D
+A
+D
+I
+V
+A
+R
+G
+
+/
+
+E
+D
+A
+D
+I
+R
+E
+V
+E
+S
+
+PESO
+
+REMOTA
+
+POUCO PROVÁVEL  OCASIONAL
+
+PROVÁVEL  FREQUENTE
+
+    32
+
+CATASTRÓFICA
+
+64
+
+    16
+
+CRÍTICA
+
+     8
+
+GRAVE
+
+     4
+
+MODERADA
+
+     2
+
+LEVE
+
+32
+
+16
+
+8
+
+4
+
+96
+
+48
+
+24
+
+12
+
+6
+
+160
+
+80
+
+40
+
+20
+
+10
+
+256
+
+128
+
+64
+
+32
+
+16
+
+416
+
+208
+
+104
+
+52
+
+26
+
+Obs.: As classificações dos riscos foram definidas e baseadas no histórico de atividades similares.
+
+NÍVEL DE
+RISCO
+
+MUITO ALTO
+(igual ou maior
+que 160)
+
+ALTO
+(80 a 128)
+
+MÉDIO
+(26 a 64)
+
+BAIXO
+(10 a 24)
+
+MUITO BAIXO
+(4 a 8)
+</div>
+<div class="page">
+SEVERIDADE / GRAVIDADE (CLASSIFICAÇÃO)
+
+Leve
+(Normal)
+
+Moderada
+(Tolerável)
+
+Grave
+(Moderado)
+
+Crítica
+(Substancial)
+
+Catastrófica
+(Intolerável)
+
+Remota
+Pouco
+provável
+
+Ocasional
+
+Não causa lesão ao trabalhador
+
+Pode causar lesão leve sem
+afastamento ao trabalho. Algum
+caso pode apresentar apenas um
+aspecto de desconhecido.
+Pode causar lesão física
+reversível ou doença
+ocupacional com incapacidade
+parcial temporária para o
+trabalho
+Pode causar lesão física grave,
+perda de membro ou doenças
+ocupacionais com incapacidade
+parcial permanente para o
+trabalho
+
+Podem causar lesão física
+grave, doenças ocupacionais
+severas causando incapacidade
+total permanente para o
+trabalho ou morte
+
+O agente é desprezível desnecessário a sua
+quantificação conforme literaturas usuais
+
+O agente identificado e avaliado está abaixo
+do nível de ação
+
+O agente identificado e avaliado está acima do
+nível de ação porém abaixo do limite de
+tolerância
+
+2
+
+4
+
+8
+
+O agente identificado e avaliado está acima do
+limite de tolerância
+
+16
+
+O agente identificado envolve exposição a
+cancerígenos, aparece nas situações aparentes
+de risco grave e eminente, há risco aparente de
+deficiência de oxigênio e quando o agente
+possui efeitos agudos todos LT e IDLH
+(concentração imediatamente perigosa à vida /
+saúde) e está acima do limite de tolerância
+
+32
+
+2
+
+3
+
+5
+
+8
+13
+
+PROBABILIDADE / FREQUÊNCIA (CLASSIFICAÇÃO)
+
+Menor que 20 horas / mês ou máximo 02 horas por mês
+
+Menor que 40 horas / mês ou máximo 1 vez por semana
+
+Entre  41  horas  / mês  a  140  horas  /  mês  ou  no  máximo  que  a  exposição  ao dia
+limitado a 4 por semana
+
+Provável  Maior que 140 horas / mês ou exposição diária ou mais de uma vez ao dia
+Frequente
+
+Nenhuma atividade poderá ser realizada nestas condições
+
+NÍVEL DE RISCO (AÇÕES A SEREM TOMADAS)
+
+Muito baixo  Nenhuma ação é requerida e nenhum registro documental precisa ser atendido
+
+Baixo
+
+Médio
+
+Alto
+
+Muito alto
+
+Nenhum controle adicional é necessário. Pode-se considerar uma solução mais econômica ou
+aperfeiçoamento  que  não  imponham  custos  extras.  A  monitoração  é  recomendável  para
+assegurar que os controles são mantidos
+Controle  adicional  é  necessário.  Recursos  deverão  ser  alocados  para  controlar  o  risco.  A
+monitoração é obrigatória para definir quais os controles que deverão ser mantidos
+O trabalho não deve ser iniciado até que o risco tenha sido reduzido ou neutralizado. Recursos
+consideráveis devem ser alocados para reduzir o risco. Quando o risco envolver trabalho em
+execução, ação urgente deve ser tomada. A monitoração é obrigatória para quantificar o risco
+evitando alcançar o nível de intolerável.
+O trabalho não deve ser iniciado nem continuar até que o risco tenha sido reduzido. Se não for
+possível reduzir o risco, nem com recursos ilimitados, o trabalho tem de permanecer proibido
+</div>
+<div class="page">
+ANEXO IV - MODELO DE COMUNICAÇÃO PREVIA
+</div>
+<div class="page"></div>
+<div class="page"></div>
+<div class="page"></div>
+<div class="page"></div>
+<div class="page"></div>
+<div class="page"></div>
+<div class="page">
+ANEXO V - MODELO DE FICHA DE EPI
+</div>
+<div class="page">
+PL da Silva Edificações ME (Azulpis)
+
+FICHA INDIVIDUAL  DE CONTROLE DE FORNECIMENTO DE EPI´S
+
+NOME:
+Recebi o(s) Equipamento(s) Individual abaixo discriminados para serem usados no exercício de minhas funções, de acordo com a portaria nº 3214 - NR-
+06, tendo sido devidamente treinado para usar os mesmo. Estou ciente de que o uso incorreto ou não uso, implicará em insurbodinação sujeita às sanções
+disciplinares conforme normas estabelecidas na CLT. A perda, destruição precoce, por mau uso ou falta de cuidado do EPI, fica a Empresa com o direito a
+efetuar o desconto em seu salário na forma estabelecida do art. 462 da CLT. Minhas assinaturas apostas ou rubrica no local indicado nesta ficha conforme
+minha concordância.
+
+FUNÇÃO:
+
+Data: _______/_______/__________
+
+_____________________________________________________
+Assinatura do Colaborador
+
+TIPO DE EPI
+
+CA
+
+QUANT.
+
+DATA
+
+ENTREGA
+
+DEVOLUÇÃO
+
+ASSINATURA
+</div>
+<div class="page">
+ANEXO VI - LISTA DE PRESENÇA PARA DIVULGAÇÃO DO PGR E PCMSO
+</div>
+<div class="page">
+LISTA DE PRESENÇA
+
+Instrutor (a):
+
+Evento: Divulgação de PGR (Programa de Condições e Meio Ambiente de Trabalho
+na  Industria  da  Construção)  e  PCMSO  (Programa  de  Controle  Médico  de  Saúde
+Ocupacional)
+Período:
+Entidade/Unidade: <b>{{RAZAO_SOCIAL}}</b>
+Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os programas de prevenção considerados como base de referência na área de saúde e
+segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 18 (PGR).
+Conteúdo: NR 1 – Disposições Gerais; NR 7 - Programa de Controle Médico de Saúde Ocupacional.
+Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
+atentem contra a honra e a dignidade humana.
+
+Assinatura do Instrutor (a):
+Local:
+
+Carga Horária:
+
+Nº
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+Nome
+
+Assinaturas Participantes
+
+                                  Horário:
+                                  Dia:
+</div>
+<div class="page">
+ANEXO VII – LISTA DE PRESENÇA PARA CAPACITAÇÃO
+</div>
+<div class="page">
+LISTA DE PRESENÇA
+
+Carga Horária:
+
+Nome do Instrutor (a):
+
+Evento:  Capacitação  e  Treinamento  dos  colaboradores  em  conformidade  com  a
+Norma Regulamentadora Nº 1 (item 1.7)
+Período:
+Entidade/Unidade:
+<b>{{RAZAO_SOCIAL}}</b>
+Objetivo: Apresentação da empresa e sua infraestrutura; Informações sobre hierarquia da empresa; Orientação sobre atividades laborais que irá executar e
+processos de trabalho que envolvem a atividade; orientações sobre procedimentos de trabalho com o foco na segurança, saúde, qualidade e preservação do
+meio ambiente; Orientação em serviço (supervisão e orientações ao trabalhador no decorrer de sua experiência profissional na empresa ou até que haja aptidão
+do mesmo para execução de suas atividades).
+Conteúdo: NR 1 – Disposições Gerais (item 1.7).
+Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
+atentem contra a honra e a dignidade humana.
+
+Assinatura do Instrutor (a):
+Local:
+
+Nº
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Nome
+
+CPF
+
+Assinaturas Participantes
+
+                                  Horário:
+                                  Dia:
+</div>
+<div class="page">
+ANEXO VIII - IDENTIFICAÇÃO DO PROFISSIONAL ELABORADOR DO PGR
+</div>
+<div class="page"></div>
+<div class="page">
+ANEXO  IX  -  REGISTROS  E  INFORMAÇÕES  RELATIVAS  AO  LEVANTAMENTO  E
+MAPEAMENTO  DOS  FATORES  PSICOSSOCIAIS  RELACIONADOS  AO  TRABALHO  COM
+PARTICIPAÇÃO DOS EMPREGADOS.
+
+Conforme  consta  na  Norma  Regulamentadora  Nº  1  (Disposições  Gerais),  as  organizações  devem  prestar
+informações de segurança e saúde no trabalho em formato digital, conforme modelo aprovado pela STRAB,
+ouvida a SIT.
+
+Os modelos aprovados pela STRAB devem considerar os princípios de simplificação e desburocratização.
+
+Os  documentos  previstos  nas  NR  podem  ser  emitidos  e  armazenados  em  meio  digital  com  certificado
+digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), normatizada por
+lei específica.
+
+Os  documentos  físicos,  assinados  manualmente,  inclusive  os  anteriores  à  vigência  desta  NR,  podem  ser
+arquivados em meio digital, pelo período correspondente exigido pela legislação própria, mediante processo
+de digitalização conforme disposto em Lei.
+
+O  processo  de  digitalização  deve  ser  realizado  de  forma  a  manter  a  integridade,  a  autenticidade  e,  se
+necessário, a confidencialidade do documento digital, com o emprego de certificado digital emitido no âmbito
+da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+
+Os empregadores que optarem pela guarda de documentos devem manter os originais conforme previsão em
+lei.
+
+O empregador deve garantir a preservação de todos os documentos nato digitais ou digitalizados por meio de
+procedimentos e tecnologias que permitam verificar, a qualquer tempo, sua validade jurídica em todo território
+nacional,  garantindo  permanentemente  sua  autenticidade,  integridade,  disponibilidade,  rastreabilidade,
+irretratabilidade, privacidade e interoperabilidade.
+
+O  empregador  deve  garantir  à  Inspeção  do  Trabalho  amplo  e  irrestrito  acesso  a  todos  os  documentos
+digitalizados ou nato digitais.
+
+Para os documentos que devem estar à disposição dos trabalhadores ou dos seus representantes, a organização
+deverá prover meios de acesso destes às informações, de modo a atender os objetivos da norma específica.
+</div>
+<div class="page">
+ANEXO  X  –  REGISTROS  E  INFORMAÇÕES  RELATIVAS  AO  LEVANTAMENTO  E
+MAPEAMENTO  DOS  FATORES  PSICOSSOCIAIS  RELACIONADOS  AO  TRABALHO  COM
+PARTICIPAÇÃO DOS EMPREGADOS.
+
+Foi  realizado  pesquisa  anônima  com  o  objetivo  de  entender  melhor  o  ambiente  de  trabalho  e  identificar
+possíveis fatores que possam afetar o bem-estar mental e emocional dos colaboradores.
+
+Através  deste  levantamento  /  mapeamento  foi  realizado  um  estudo  estatístico,  reconhecimento  de  riscos  e
+analise junto a empresa dos planos de ações pertinentes.
+
+O questionário apresentado aos colaboradores possui escala de pontuação entre os níveis:
+
+Escala de Respostas e Pontuação:
+
+Resposta
+
+Pontuação
+
+Sempre
+
+Frequentemente
+
+Às vezes
+
+Raramente
+
+Nunca
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Nesta escala de pontuação o Sempre possuirá peso de maior penosidade na percepção do colaborador e o
+Nunca possuirá peso de menor penosidade.
+
+Conforme apuração de respostas será definido o “Índice de Desempenho de Risco Psicossocial (IDRP)” para
+mapear a penosidade segundo a percepção dos colaboradores.
+</div>
+<div class="page">
+Cálculo do Índice de Desempenho de Risco Psicossocial – IDRP
+
+Para cada questão respondida calcula-se o percentual de respondentes em cada alternativa:
+
+Alternativa
+
+Fórmula
+
+% Sempre
+
+(nº de respostas "Sempre" ÷ N total) × 100
+
+% Frequentemente
+
+(nº de respostas "Frequentemente" ÷ N total) × 100
+
+% Às vezes
+
+% Raramente
+
+% Nunca
+
+(nº de respostas "Às vezes" ÷ N total) × 100
+
+(nº de respostas "Raramente" ÷ N total) × 100
+
+(nº de respostas "Nunca" ÷ N total) × 100
+
+Obs.: Nº total = Número total de respondentes válidos.
+
+Cálculo de Índice de Desempenho de Criticidade por Questão – ICQ
+
+Fundamentação:  Para  atribuir  um  valor  numérico  único  a  cada  questão,  utiliza-se  a  média  ponderada  das
+respostas, considerando o peso de penosidade de cada alternativa:
+
+Alternativa
+
+Sempre
+
+Frequentemente
+
+Às vezes
+
+Raramente
+
+Nunca
+
+Peso
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Fórmula do ICQ
+
+IDCQ = (Peso 5 x % de respostas sempre) + (Peso 4 x % de respostas frequentemente) + (Peso 3 x % de
+respostas às vezes) + (Peso 2 x % de respostas raramente) + (Peso 1 x % de respostas nunca) / 100
+
+O IDCQ varia de 1,00 (todos responderam sempre) a 5,00 (todos responderam nunca).
+</div>
+<div class="page">
+Faixas de classificação do ICQ
+
+ICQ
+
+Alternativas
+
+agrupadas
+
+Significado
+
+4,01 a 5,00
+
+Muito Baixo
+
+Ambiente saudável, manter e reforçar ações
+
+3,01 a 4,00
+
+Baixo
+
+Situação sob controle, manter boas práticas
+
+2,01 a 3,00
+
+Moderado
+
+Atenção pontual e medidas preventivas
+
+1,51 a 2,00
+
+1,00 a 1,50
+
+Alto
+
+Situação preocupante, ações corretivas imediatas
+
+Crítico
+
+Risco elevado e difuso, exige intervenção urgente
+
+AÇÕES PROPORCIONAIS POR NÍVEL DE RISCO
+
+NÍVEL
+
+Crítico
+
+Alto
+
+Moderado
+
+Baixo
+
+Muito Baixo
+
+AÇÕES (RECOMENDAÇÃO)
+
+Intervenção  sistêmica  imediata.  Auditoria  de  processos,
+apoio  psicológico  coletivo,  revisão  de  políticas  de  gestão,
+comunicação institucional de crise.
+
+Plano  de  ação  por  dimensão.  Capacitação  de  lideranças,
+revisão de carga e metas, implantação de canais de escuta,
+monitoramento mensal.
+
+Ações preventivas focalizadas nas dimensões com ICQ mais
+elevado. Rodas de conversa, pesquisas de clima, campanhas
+de bem-estar.
+
+Manutenção  e  reforço.  Reconhecimento  de  boas  práticas,
+comunicação positiva, avaliação semestral.
+
+Compartilhar  práticas
+monitoramento periódico, celebrar resultados.
+
+com  outras
+
+áreas,  manter
+
+Obs.:  As ações  citadas  acima devem  ser  consideradas como referência  proporcional  a  cada nível  de risco
+identificado pelo método, havendo oportunidade também para inclusão de ações não citadas anteriormente.
+</div>
+<div class="page">
+{{BLOCK:anexox}}
+</div>
+<div class="page">
+ ANEXO X - ANOTAÇÃO DE RESPONSABILIDADE TÉCNICA (PGR)
+</div>
+<div class="page">
+
+</div>
+<div class="page">
+
+</div>

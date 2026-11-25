@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerador de Documentos PGR / PCMSO</title>
+<link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo-chip"><img class="logo-img" src="assets/logo.png" alt="Logo"></span>
+    <div>
+      <h1>Grupo Performance Medicina e Segurança do Trabalho</h1>
+      <p>Gerador de Documentos · PGR (NR-01 / NR-18) · PGTR (NR-31) · PCMSO</p>
+    </div>
+  </div>
+  <div class="top-actions">
+    <button id="btnExportar" class="btn ghost" title="Exportar projeto como JSON">⬇ Exportar projeto</button>
+    <label class="btn ghost file-label" title="Importar projeto JSON">
+      ⬆ Importar projeto
+      <input type="file" id="fileImport" accept="application/json,.json" hidden>
+    </label>
+    <button id="btnLimpar" class="btn ghost danger">Limpar tudo</button>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-tab="modelo">1 · Tipo de documento</button>
+  <button class="tab" data-tab="empresa">2 · Empresa &amp; dados</button>
+  <button class="tab" data-tab="cargos">3 · Cargos, riscos e exames</button>
+  <button class="tab" data-tab="cronograma">4 · Cronograma</button>
+  <button class="tab" data-tab="anexo">5 · Anexo X (PGR)</button>
+  <button class="tab" data-tab="gerar">6 · Gerar documento</button>
+</nav>
+
+<main id="content">
+
+  <!-- ============ TAB 1: MODELO ============ -->
+  <section class="panel active" id="panel-modelo">
+    <h2>Escolha o tipo de documento</h2>
+    <p class="muted">Selecione o modelo de documento que será gerado. O texto correspondente do modelo será usado automaticamente.</p>
+    <div class="doc-grid">
+      <button class="doc-card" data-doc="pgr_nr01">
+        <span class="doc-badge">PGR</span>
+        <strong>PGR (NR-01)</strong>
+        <small>Programa de Gerenciamento de Riscos — Portaria SEPRT 6.730/2020</small>
+        <span class="doc-meta">Vigência: 2 anos · Cronograma: 24 meses</span>
+      </button>
+      <button class="doc-card" data-doc="pgr_nr18">
+        <span class="doc-badge">PGR</span>
+        <strong>PGR (NR-18)</strong>
+        <small>Programa de Gerenciamento de Riscos — Portaria SEPRT 3.733/2020</small>
+        <span class="doc-meta">Vigência: 2 anos · Cronograma: 24 meses · Anexo X com imagens</span>
+      </button>
+      <button class="doc-card" data-doc="pgtr_nr31">
+        <span class="doc-badge">PGTR</span>
+        <strong>PGTR (NR-31)</strong>
+        <small>Programa de Gerenciamento de Riscos no Trabalho Rural</small>
+        <span class="doc-meta">Vigência: 3 anos · Cronograma: 36 meses</span>
+      </button>
+      <button class="doc-card" data-doc="pcmso">
+        <span class="doc-badge">PCMSO</span>
+        <strong>PCMSO</strong>
+        <small>Programa de Controle Médico de Saúde Ocupacional</small>
+        <span class="doc-meta">Vigência: 1 ano · Cronograma: 12 meses</span>
+      </button>
+    </div>
+    <div id="modeloInfo" class="info-box" hidden></div>
+  </section>
+
+  <!-- ============ TAB 2: EMPRESA ============ -->
+  <section class="panel" id="panel-empresa">
+    <h2>Dados da empresa</h2>
+    <p class="muted">Preencha os dados da empresa cliente. Use o campo de CNPJ para puxar os dados cadastrais automaticamente — se a consulta não localizar tudo, preencha manualmente.</p>
+
+    <div class="lookup-row">
+      <div class="lookup-field">
+        <label for="lookupInput">CNPJ</label>
+        <input type="text" id="lookupInput" placeholder="00.000.000/0000-00" autocomplete="off">
+        <div id="lookupValid" class="lookup-valid"></div>
+      </div>
+      <button id="btnLookup" class="btn primary">🔎 Buscar</button>
+      <span id="lookupMsg" class="lookup-msg"></span>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Empresa cliente</h3>
+        <div class="form-grid">
+          <div class="fg"><label>Razão Social *</label><input id="razaoSocial" type="text"></div>
+          <div class="fg"><label>Nome Fantasia</label><input id="nomeFantasia" type="text"></div>
+          <div class="fg"><label>CNPJ</label><input id="cnpj" type="text"></div>
+          <div class="fg"><label>Inscrição Estadual</label><input id="inscEstadual" type="text"></div>
+          <div class="fg"><label>Unidade / Obra / Contrato</label><input id="unidade" type="text"></div>
+          <div class="fg"><label>Endereço</label><input id="endereco" type="text"></div>
+          <div class="fg"><label>Número</label><input id="numero" type="text"></div>
+          <div class="fg"><label>Complemento</label><input id="complemento" type="text"></div>
+          <div class="fg"><label>Bairro</label><input id="bairro" type="text"></div>
+          <div class="fg"><label>Cidade</label><input id="cidade" type="text"></div>
+          <div class="fg"><label>Estado / UF</label><input id="uf" type="text" maxlength="2"></div>
+          <div class="fg"><label>CEP</label><input id="cep" type="text"></div>
+          <div class="fg"><label>Responsável</label><input id="responsavel" type="text"></div>
+          <div class="fg"><label>Telefone</label><input id="telefone" type="text"></div>
+          <div class="fg"><label>E-mail</label><input id="email" type="text"></div>
+          <div class="fg"><label>Colaboradores — Masculino</label><input id="numMasc" type="number" min="0"></div>
+          <div class="fg"><label>Colaboradores — Feminino</label><input id="numFem" type="number" min="0"></div>
+          <div class="fg"><label>Horário de trabalho</label><input id="horario" type="text"></div>
+          <div class="fg"><label>Código da Atividade (CNAE)</label><input id="cnaeCodigo" type="text"></div>
+          <div class="fg"><label>Atividade Principal (CNAE)</label><input id="cnaeTexto" type="text"></div>
+          <div class="fg"><label>Grau de risco</label><input id="grauRisco" type="text"></div>
+        </div>
+        <div class="logo-box">
+          <div id="logoBox"></div>
+          <span id="logoMsg" class="lookup-msg"></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Responsável Técnico</h3>
+        <p class="muted">As opções mudam conforme o modelo selecionado na etapa 1. A opção “Preencher manualmente” abre campos para os dados do profissional.</p>
+        <div id="respTecWrap"></div>
+        <div class="form-grid">
+          <div class="fg"><label>Data de elaboração</label><input id="dataElaboracao" type="date"></div>
+          <div class="fg"><label>Data de assinatura</label><input id="dataAssinatura" type="date"></div>
+          <div class="fg"><label>Cidade da assinatura</label><input id="cidadeAssinatura" type="text"></div>
+        </div>
+        <h3 class="mt">Empresa elaboradora</h3>
+        <div class="info-box" id="elaboradoraInfo">
+          <div class="elab-grid">
+            <div><b>Razão Social:</b> Grupo Performance</div>
+            <div><b>Responsável:</b> Peterson da Silva Cassemiro</div>
+            <div><b>Endereço:</b> Praça Antônio Quirino da Silva, 28 - Centro</div>
+            <div><b>Cidade:</b> Itatiaiuçu / MG</div>
+            <div><b>Telefone:</b> (31) 3572-1818 / 3572-1221</div>
+            <div><b>Site:</b> www.performanceocupacional.com.br</div>
+          </div>
+          <p class="muted" style="margin-top:6px;">Dados fixos dos documentos originais — não são editáveis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TAB 3: CARGOS / RISCOS / EXAMES ============ -->
+  <section class="panel" id="panel-cargos">
+    <h2>Cargos, riscos e exames</h2>
+    <p class="muted">Envie o(s) arquivo(s) PDF com as informações do sistema (cargos, riscos ocupacionais e exames). O app faz a extração automática — confira o resultado e ajuste manualmente se necessário.</p>
+    <div class="upload-row">
+      <label class="btn primary file-label">
+        📄 Selecionar PDF(s)
+        <input type="file" id="pdfInput" accept="application/pdf,.pdf" multiple hidden>
+      </label>
+      <span id="pdfMsg" class="lookup-msg"></span>
+    </div>
+
+    <div class="cargos-toolbar">
+      <button id="btnAdicionarCargo" class="btn">+ Adicionar cargo</button>
+      <span class="muted" id="cargoCount"></span>
+    </div>
+
+    <div id="cargosList" class="cargos-list"></div>
+    <p class="muted" id="cargoEmpty" hidden>Nenhum cargo adicionado. Use o upload de PDF ou “Adicionar cargo” para começar.</p>
+  </section>
+
+  <!-- ============ TAB 4: CRONOGRAMA ============ -->
+  <section class="panel" id="panel-cronograma">
+    <h2>Cronograma de ações</h2>
+    <p class="muted">Os meses e anos são identificados automaticamente a partir da data de elaboração até o final da vigência do documento. Para cada ação, você pode deixar a marcação do previsto <strong>fixa</strong> (todos os meses) ou <strong>personalizar</strong> os meses marcados.</p>
+    <div class="lookup-row">
+      <div class="lookup-field small">
+        <label>Vigência (meses)</label>
+        <input id="vigenciaMeses" type="number" min="1" max="60">
+      </div>
+      <div class="lookup-field small">
+        <label>Data de elaboração</label>
+        <input id="cronoDataElab" type="date">
+      </div>
+      <span id="vigenciaInfo" class="lookup-msg"></span>
+    </div>
+
+    <div class="cargos-toolbar">
+      <button id="btnAdicionarAcao" class="btn">+ Adicionar ação</button>
+      <span class="muted" id="acaoCount"></span>
+    </div>
+
+    <div id="acoesList" class="acoes-list"></div>
+
+    <h3 class="mt">Pré-visualização do cronograma</h3>
+    <div class="crono-preview" id="cronoPreview"></div>
+  </section>
+
+  <!-- ============ TAB 5: ANEXO X ============ -->
+  <section class="panel" id="panel-anexo">
+    <h2>Anexo X — imagens do levantamento psicossocial</h2>
+    <p class="muted">Apenas para o PGR (NR-18). Envie as 10 imagens resultantes do levantamento psicossocial — elas serão inseridas no Anexo X do documento gerado.</p>
+    <div class="upload-row">
+      <label class="btn primary file-label">
+        🖼️ Selecionar imagens
+        <input type="file" id="anexoInput" accept="image/*" multiple hidden>
+      </label>
+      <span id="anexoMsg" class="lookup-msg"></span>
+    </div>
+    <div id="anexoGrid" class="anexo-grid"></div>
+    <p class="muted" id="anexoEmpty" hidden>Nenhuma imagem enviada.</p>
+  </section>
+
+  <!-- ============ TAB 6: GERAR ============ -->
+  <section class="panel" id="panel-gerar">
+    <h2>Gerar documento</h2>
+    <p class="muted">Revise o resumo abaixo e gerar o documento completo. Em seguida, use “Imprimir / Exportar PDF” para salvá-lo.</p>
+    <div class="card">
+      <h3>Resumo</h3>
+      <div id="resumo" class="resumo"></div>
+    </div>
+    <div class="card">
+      <h3>Histórico de revisões</h3>
+      <p class="muted">A capa do documento registra o histórico de revisões. A revisão original é a <b>Rev. 00</b> (elaboração). Toda alteração durante a vigência — como a inclusão de um novo cargo — adiciona uma nova revisão em sequência, com data e motivo. Os registros anteriores são preservados.</p>
+      <div id="revisoes" class="revisoes"></div>
+      <div class="form-grid" style="margin-top:14px">
+        <div class="fg">
+          <label>Data da alteração</label>
+          <input id="revData" type="date">
+        </div>
+        <div class="fg">
+          <label>Motivo da alteração</label>
+          <input id="revMotivo" type="text" placeholder="Ex.: Inclusão do cargo de Auxiliar de Almoxarifado">
+        </div>
+      </div>
+      <div class="gerar-actions">
+        <button id="btnAdicionarRev" class="btn">+ Adicionar revisão</button>
+      </div>
+    </div>
+    <div class="gerar-actions">
+      <button id="btnGerar" class="btn primary big">Gerar documento</button>
+      <button id="btnImprimir" class="btn big" disabled>🖨️ Imprimir / Exportar PDF</button>
+    </div>
+    <p class="muted">A exportação em PDF usa a função de impressão do navegador: clique em “Imprimir” e, na caixa de diálogo, escolha “Salvar como PDF”.</p>
+  </section>
+
+</main>
+
+<!-- CUSTOMIZATION MODAL -->
+<div class="modal-backdrop" id="modalBackdrop" hidden>
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="modalTitle">Personalizar ação</h3>
+      <button class="modal-close" id="modalClose">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-months" id="modalMonths"></div>
+      <div class="modal-style">
+        <label>Estilo de seleção:</label>
+        <label class="radio"><input type="radio" name="modalStyle" value="caixa" checked> Caixas</label>
+        <label class="radio"><input type="radio" name="modalStyle" value="circulo"> Círculos</label>
+      </div>
+      <div class="modal-legend">
+        <span><b id="modalMarkCount">0</b> meses selecionados</span>
+        <span class="muted">Os meses selecionados serão marcados na tabela do cronograma.</span>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn" id="modalCancel">Cancelar</button>
+      <button class="btn primary" id="modalConfirm">Confirmar</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="js/pdf.min.js"></script>
+<script src="templates.js?v=5"></script>
+<script src="app.js?v=5"></script>
+</body>
+</html>
