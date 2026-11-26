@@ -2,7 +2,7 @@
 
 <h1 class="cover-title">PGRTR</h1>
 
-<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS NO TRABALHO RURAL</p>
+<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS NO TRABALHO RURAL<br>(CONFORME PORTARIA SEPRT Nº 6.730, DE 9 DE MARÇO DE 2020)</p>
 
 <p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
 

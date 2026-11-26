@@ -3,7 +3,7 @@
 
 <h1 class="cover-title">PGR</h1>
 
-<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS<br>(Portaria SEPRT Nº 3.733, de 10 de fevereiro de 2020)</p>
+<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS</p>
 
 <p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
 
