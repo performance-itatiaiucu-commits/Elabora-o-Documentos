@@ -123,14 +123,11 @@ recomendados de exposição ocupacional chamados Valores Limites de Exposição:
 corporal ou perturbação funcional podendo causar morte, perda ou redução permanente ou temporária, da
 capacidade para o trabalho.
 <div class="def-sub">EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:</div>
-<div class="plist plist-sub">
-1. O acidente que acontece quando você está prestando serviços por ordem da empresa fora do local de
-trabalho;
+<div class="plist plist-sub">1. O acidente que acontece quando você está prestando serviços por ordem da empresa fora do local&nbsp;de&nbsp;trabalho;
 2. O acidente que acontece quando você estiver em viagem a serviço da empresa;
 3. O acidente que ocorre no trajeto entre a casa e o trabalho ou do trabalho para casa;
 4. Doença profissional (as doenças provocadas pelo tipo de trabalho);
-5. Doença do trabalho (as doenças causadas pelas condições do trabalho);
-</div>
+5. Doença do trabalho (as doenças causadas pelas condições do trabalho);</div>
 
 <b>ADICIONAL DE INSALUBRIDADE:</b> Adicional que deve ser pago ao trabalhador que trabalha em condições de
 insalubridade.
