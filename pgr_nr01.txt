@@ -292,8 +292,8 @@ c) Houver evidências de associação, por meio do controle médico da saúde, e
 </div>
 <div class="page"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b>
 
-A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
-fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.
+<div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
+fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
 
 O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
 biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
@@ -334,9 +334,9 @@ trabalho a que ele está submetido.
 Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
 modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
 
-A {{NOME_EMPRESA}} será responsável pela organização deste atendimento, devendo
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> será responsável pela organização deste atendimento, devendo
 contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo GRUPO
-PERFORMANCE OCUPACIONAL.
+PERFORMANCE OCUPACIONAL.</div>
 
 </div>
 <div class="page">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS
@@ -605,10 +605,10 @@ resultado das avaliações individuais e de grupos.
 
 Hierarquia de controle risco é a ordem que deverá ser seguida para definir o controle de um determinado risco.
 
-A {{NOME_EMPRESA}} realizou estudos para identificação da viabilidade técnica de
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> realizou estudos para identificação da viabilidade técnica de
 implementação das medidas de proteção de acordo com a hierarquia das medidas de proteção e definiu as
 medidas de proteção possíveis dentro de sua realidade, seguem abaixo definições da hierarquia das medidas
-de proteção:
+de proteção:</div>
 
 1) ELIMINAÇÃO: eliminar o risco
 
@@ -812,7 +812,7 @@ no seu uso correto, bem como manutenção e conservação.
 
 <b>18. ERGONÔMIA</b>
 
-A <b>{{RAZAO_SOCIAL}}</b> deve considerar as condições de trabalho nos termos
+<div class="doc-p">A <b>{{RAZAO_SOCIAL}}</b> deve considerar as condições de trabalho nos termos</div>
 
 da NR-17.
 </div>
@@ -921,7 +921,7 @@ respostas)
 
 Objetivo: Identificar os perigos e analisar os riscos das áreas, das tarefas (processos) e dos equipamentos na
 
-{{NOME_EMPRESA}}, incluindo as realizadas por terceiros.
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b>, incluindo as realizadas por terceiros.</div>
 
 Aplicação: Toda a empresa.
 
@@ -1312,7 +1312,7 @@ Responsável pela empresa ou Preposto
 
 Responsável por estabelecer, implementar e assegurar o cumprimento do PGR
 
-<b>{{RAZAO_SOCIAL}}</b>
+<div class="doc-p"><b>{{RAZAO_SOCIAL}}</b></div>
 
 {{CIDADE}}, {{DATA_ASSINATURA}}.
 
@@ -1518,7 +1518,7 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-Evento: Divulgação do PGR (Programa de Gerenciamento de Riscos) e PCMSO
+<div class="doc-p">Evento: Divulgação do PGR (Programa de Gerenciamento de Riscos) e PCMSO
 (Programa de Controle Médico de Saúde Ocupacional)
 Período:
 Entidade/Unidade:
@@ -1527,7 +1527,7 @@ Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os pr
 segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 1 (PGR).
 Conteúdo: NR 1 – Disposições Gerais; NR 7 - Programa de Controle Médico de Saúde Ocupacional.
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:
@@ -1562,7 +1562,7 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
+<div class="doc-p">Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
 Norma Regulamentadora Nº 1 (item 1.7)
 Período:
 Entidade/Unidade:
@@ -1573,7 +1573,7 @@ meio ambiente; Orientação em serviço (supervisão e orientações ao trabalha
 do mesmo para execução de suas atividades).
 Conteúdo: NR 1 – Disposições Gerais (item 1.7).
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:
@@ -1602,9 +1602,9 @@ ANEXO V – IDENTIFICAÇÃO DO PROFISSIONAL ELABORADOR DO PGR
 
 ANEXO VI – PROCEDIMENTOS EM CENÁRIOS DE EMERGÊNCIAS
 
-Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> será treinado na preparação para
+<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> será treinado na preparação para
 emergências, principalmente no tocante as atribuições dos transeuntes. Será observado no mínimo os seguintes
-procedimentos, conforme o Plano de Emergência.
+procedimentos, conforme o Plano de Emergência.</div>
 
 ACIONAMENTO INICIAL DE EMERGÊNCIA
 
@@ -1676,11 +1676,11 @@ Policia Civil
 <div class="page">ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A
 PERCEPÇÃO DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
 
-Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> pode contribuir com sua percepção
+<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> pode contribuir com sua percepção
 de riscos e/ou sugerir medidas de prevenção conforme seu conhecimento pessoal de modo que as informações
 serão analisadas pelo SESMT (Serviço Especializado em Engenharia de Segurança e em Medicina do
 Trabalho) ou na ausência do mesmo será analisado pela administração responsável pela empresa no
-estabelecimento.
+estabelecimento.</div>
 
 O formulário que estará disponível na empresa para contribuição de informações quanto a percepção de
 riscos e/ou medidas de prevenção, cujo qual deverá ser entregue ao SESMT ou administração da empresa no
@@ -1711,7 +1711,7 @@ PREVENÇÃO E FORMULÁRIO
 ANEXO VIII – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE
 PREVENÇÃO DO PLANO DE AÇÃO DO PGR.
 
-{{NOME_EMPRESA}}
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b></div>
 
 ___ / ____ / ______ - DDS – Diálogo Diário de Segurança
 

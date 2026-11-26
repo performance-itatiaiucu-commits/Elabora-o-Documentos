@@ -578,8 +578,8 @@ agentes nocivos provenientes do ambiente de trabalho ou atividade desenvolvida, 
 
 <b>13. FATORES PSICOSSOCIAIS NO TRABALHO</b>
 
-A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
-fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.
+<div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
+fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
 
 OS FATORES PSICOSSOCIAIS NO TRABALHO E A SUA INFLUÊNCIA PARA A SAÚDE
 OCUPACIONAL
@@ -1161,19 +1161,19 @@ Uso durante o atendimento
 
 <b>26. VIGILÂNCIA PASSIVA DA SAÚDE OCUPACIONAL</b>
 
-A {{NOME_EMPRESA}} além de estabelecer, implementar e assegurar o cumprimento
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> além de estabelecer, implementar e assegurar o cumprimento
 deste PCMSO (Programa de Controle Médico de Saúde Ocupacional) também concede aos seus empregados
 a oportunidade de comunicação com o superior imediato (superior hierárquico) para que possam ser relatados
 demandas da saúde ocupacional que possam ocorrer no desempenho das atividades e/ou no ambiente de
 trabalho, todos os relatos serão considerados e se necessário encaminhado o empregado para exame médico
 (independentemente dos exames previstos no admissional, periódico, mudança de riscos ocupacionais, retorno
-ao trabalho e Demissional).
+ao trabalho e Demissional).</div>
 
 <b>27. VIGILÂNCIA ATIVA DA SAÚDE OCUPACIONAL</b>
 
-A {{NOME_EMPRESA}} além de estabelecer, implementar e assegurar o cumprimento
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> além de estabelecer, implementar e assegurar o cumprimento
 deste PCMSO (Programa de Controle Médico de Saúde Ocupacional) também se responsabiliza pela
-vigilância ativa através de controles epidemiológicos e estatísticos.
+vigilância ativa através de controles epidemiológicos e estatísticos.</div>
 
 A avaliação do PCMSO se dará por meio de Relatório analítico e respectivas conclusões devem ser discutidas
 com a CIPA (Comissão Interna de Prevenção de Acidentes), ficando uma cópia do mesmo, anexada à ata de
@@ -1236,7 +1236,7 @@ Nome do Responsável pela empresa ou Preposto
 
 Responsável por estabelecer, implementar e assegurar o cumprimento do PCMSO
 
-{{NOME_EMPRESA}}
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b></div>
 
 {{CIDADE}}, {{DATA_ASSINATURA}}.
 
@@ -1309,7 +1309,7 @@ No final do preenchimento deve clicar no botão verde GERAR DOCUMENTO e selecion
 
 CASO A EMPRESA ESTEJA ELABORANDO O PRIMEIRO PCMSO, MANTER O TEXTO ABAIXO:
 
-A empresa {{NOME_EMPRESA}}) está em fase inicial de suas atividades, não sendo possível apresentar o Relatório Analítico do PCMSO
+<div class="doc-p">A empresa <b>{{NOME_EMPRESA}}</b>) está em fase inicial de suas atividades, não sendo possível apresentar o Relatório Analítico do PCMSO</div>
 
 conforme consta na Norma Regulamentadora Nº 7 pois não existe período para referência, após o período de 1 (um) ano será apresentado o Relatório Analítico
 
@@ -1318,7 +1318,7 @@ do PCMSO.
 CASO A EMPRESA NÃO ESTEJA ELABORANDO O PRIMEIRO PCMSO, MAS O SOC GERAR PROCESSAMENTO “SEM RESULTADO”, MANTER
 O TEXTO ABAIXO:
 
-O Relatório Analítico do PCMSO deverá ser anexado ao PCMSO ou disponibilizado separadamente, pois a empresa contratada {{NOME_EMPRESA}} não realizou exames médicos ocupacionais nas dependências da empresa PERFORMANCE SAÚDE E SEGURANÇA OCUPACIONAL LTDA
-durante o período de DD/MM/AAAA (início PCMSO anterior) a DD/MM/AAAA (final PCMSO anterior).
+<div class="doc-p">O Relatório Analítico do PCMSO deverá ser anexado ao PCMSO ou disponibilizado separadamente, pois a empresa contratada <b>{{NOME_EMPRESA}}</b> não realizou exames médicos ocupacionais nas dependências da empresa PERFORMANCE SAÚDE E SEGURANÇA OCUPACIONAL LTDA
+durante o período de DD/MM/AAAA (início PCMSO anterior) a DD/MM/AAAA (final PCMSO anterior).</div>
 
 </div>
