@@ -194,9 +194,8 @@ a empresa ou a organização exerce suas atividades em caráter temporário ou p
 
 <b>OBRA:</b> todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma.
 
-ORDEM DE SERVIÇO DE SEGURANÇA E SAÚDE NO TRABALHO: instruções por escrito quanto às precauções para evitar
-acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em procedimentos
-de trabalho e outras instruções de SST.
+<b>ORDEM DE SERVIÇO DE SEGURANÇA E SAÚDE NO TRABALHO:</b>
+instruções por escrito quanto às precauções para evitar acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em procedimentos de trabalho e outras instruções de SST.
 
 <b>ORGANIZAÇÃO:</b> pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e
 relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a
