@@ -292,7 +292,6 @@ c) Houver evidências de associação, por meio do controle médico da saúde, e
 </div>
 <div class="page"><div class="def-title def-title-gap"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b></div><div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
 fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
-
 O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
 biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
 psicossociais relacionados ao trabalho.
