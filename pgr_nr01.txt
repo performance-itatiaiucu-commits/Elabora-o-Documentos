@@ -122,8 +122,8 @@ recomendados de exposição ocupacional chamados Valores Limites de Exposição:
 <b>ACIDENTE DE TRABALHO:</b> Aquele que acontece no exercício do trabalho a serviço da empresa, provocando lesão
 corporal ou perturbação funcional podendo causar morte, perda ou redução permanente ou temporária, da
 capacidade para o trabalho.
-<b>EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:</b>
-<div class="plist">
+<div class="def-sub">EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:</div>
+<div class="plist plist-sub">
 1. O acidente que acontece quando você está prestando serviços por ordem da empresa fora do local de
 trabalho;
 2. O acidente que acontece quando você estiver em viagem a serviço da empresa;

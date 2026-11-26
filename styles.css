@@ -336,6 +336,10 @@ table.data input:focus, table.data select:focus { border-bottom-color: var(--azu
 .doc-print .phead-tbl .c-title, .doc-print .phead-tbl .c-pag { text-align: center; }
 .doc-print b { font-weight: 700; }
 .doc-print .plist { padding-left: 22px; text-indent: -22px; }
+/* continuação de uma definição (ex.: "EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:") */
+.doc-print .def-sub { margin: 0 0 2px 9mm; }
+/* lista que pertence a uma definição: recuada e com espaço antes do próximo item */
+.doc-print .plist-sub { margin: 0 0 18px 17mm; }
 .doc-print .page {
   width: 210mm; min-height: 297mm; padding: 9mm 11mm 10mm;
   margin: 0 auto; box-sizing: border-box;
