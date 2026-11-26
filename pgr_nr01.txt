@@ -100,8 +100,7 @@ A organização deve adotar as medidas necessárias para melhorar o desempenho e
 <b>AGENTE FÍSICO:</b> Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
 de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais,
 temperaturas extremas, radiações ionizantes, radiações não ionizantes.
-<b>OBSERVAÇÃO:</b> Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem
-agente físico para fins da NR-09.
+OBSERVAÇÃO: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem agente físico para fins da NR-09.
 
 <b>AGENTE QUÍMICO:</b> Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja
 produzida, utilizada ou gerada no processo de trabalho, que em função de sua natureza, concentração e
