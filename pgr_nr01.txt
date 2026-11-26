@@ -192,9 +192,8 @@ a empresa ou a organização exerce suas atividades em caráter temporário ou p
 
 <b>OIT:</b> Organização Internacional do Trabalho.
 
-<b>OBRA:</b>
+<b>OBRA:</b> todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma.
 
-todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma.
 ORDEM DE SERVIÇO DE SEGURANÇA E SAÚDE NO TRABALHO: instruções por escrito quanto às precauções para evitar
 acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em procedimentos
 de trabalho e outras instruções de SST.
