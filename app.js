@@ -176,7 +176,7 @@ let state = {
     horario:"", cnaeCodigo:"", cnaeTexto:"", grauRisco:"", unidade:"", logo:"",
   },
   docInfo: {
-    dataElaboracao:"", dataAssinatura:"", cidadeAssinatura:"",
+    dataElaboracao:"", cidadeAssinatura:"",
     respTec:"", respNome:"", respTitulo:"", respRegistro:"", respContato:"", respExtra:"",
   },
   elaboradora: {
@@ -286,7 +286,7 @@ function selectDoc(key) {
 
 /* ---------------- Tab 2: empresa ---------------- */
 const EMPRESA_FIELDS = ["razaoSocial","nomeFantasia","cnpj","inscEstadual","endereco","numero","complemento","bairro","cidade","uf","cep","responsavel","telefone","email","horario","cnaeCodigo","cnaeTexto","grauRisco","unidade"];
-const DOCINFO_FIELDS = ["dataElaboracao","dataAssinatura","cidadeAssinatura"];
+const DOCINFO_FIELDS = ["dataElaboracao","cidadeAssinatura"];
 const RESP_FIELDS = ["respNome","respTitulo","respRegistro","respContato","respExtra"];
 
 // ---------------- Responsável técnico (por modelo) ----------------
@@ -1359,7 +1359,7 @@ function adicionarRevisao() {
   toast("Revisão " + next + " adicionada à capa.", "ok");
 }
 
-$(document).on("click", "#btnAdicionarRev", adicionarRevisao);
+$("#btnAdicionarRev").addEventListener("click", adicionarRevisao);
 
 /* Número da revisão atual (a mais recente do histórico). Rev. 00 quando não
    houver revisões adicionadas; senão o maior número registrado. */
@@ -1413,7 +1413,7 @@ function gerarDocumento() {
     VIGENCIA_INICIO: vig.inicio,
     VIGENCIA_FINAL: vig.final,
     DATA_ELABORACAO: fmtDate(state.docInfo.dataElaboracao),
-    DATA_ASSINATURA: fmtDate(state.docInfo.dataAssinatura || state.docInfo.dataElaboracao),
+    DATA_ASSINATURA: fmtDate(state.docInfo.dataElaboracao),
     CIDADE: state.docInfo.cidadeAssinatura || state.empresa.cidade || "",
     UF: state.empresa.uf || "",
     ELABORADOR: rtec.nome || "",
@@ -1707,7 +1707,7 @@ $("#btnLimpar").addEventListener("click", () => {
   localStorage.removeItem(STORE_KEY);
   state = {
     doc: null, empresa: {razaoSocial:"",nomeFantasia:"",cnpj:"",inscEstadual:"",endereco:"",numero:"",complemento:"",bairro:"",cidade:"",uf:"",cep:"",responsavel:"",telefone:"",email:"",numMasc:0,numFem:0,horario:"",cnaeCodigo:"",cnaeTexto:"",grauRisco:"",unidade:""},
-    docInfo: {dataElaboracao:"",dataAssinatura:"",cidadeAssinatura:"",respTec:"",respNome:"",respTitulo:"",respRegistro:"",respContato:"",respExtra:""},
+    docInfo: {dataElaboracao:"",cidadeAssinatura:"",respTec:"",respNome:"",respTitulo:"",respRegistro:"",respContato:"",respExtra:""},
     elaboradora: {razaoSocial:"",cnpj:"",endereco:"",cidade:"",responsavel:"",telefone:"",email:""},
     cargos: [], acoes: [], anexos: [],
   };
