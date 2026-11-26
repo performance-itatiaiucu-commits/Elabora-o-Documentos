@@ -124,6 +124,7 @@ condições seguras de trabalho para todos os seus funcionários e meio ambiente
 
 8.  TERMOS E DEFINIÇÕES
 
+
 ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz

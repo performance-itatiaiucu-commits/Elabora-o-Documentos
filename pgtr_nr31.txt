@@ -129,6 +129,7 @@ A organização deve adotar as medidas necessárias para melhorar o desempenho e
 </div>
 <div class="page"><b>5. TERMOS E DEFINIÇÕES</b>
 
+
 ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz

@@ -147,6 +147,7 @@ riscos ocupacionais, conforme avaliação de riscos do Programa de Gerenciamento
 </div>
 <div class="page"><b>6. TERMOS E DEFINIÇÕES</b>
 
+
 ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
