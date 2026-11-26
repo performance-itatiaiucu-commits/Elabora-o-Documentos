@@ -145,10 +145,7 @@ riscos ocupacionais, conforme avaliação de riscos do Programa de Gerenciamento
 ✓ PGR – Programa de Gerenciamento de Riscos
 
 </div>
-<div class="page"><b>6. TERMOS E DEFINIÇÕES</b>
-
-
-ASO: Atestado de Saúde Ocupacional.
+<div class="page"><div class="def-title def-title-gap"><b>6. TERMOS E DEFINIÇÕES</b></div>ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
 de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais,

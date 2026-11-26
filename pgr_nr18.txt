@@ -122,10 +122,7 @@ entende que o cumprimento desta norma é parte conjunta das iniciativas da empre
 saúde e integridade física dos trabalhadores. Portanto, desenvolveu o PGR buscando a qualidade de vida e
 condições seguras de trabalho para todos os seus funcionários e meio ambiente.
 
-8.  TERMOS E DEFINIÇÕES
-
-
-ASO: Atestado de Saúde Ocupacional.
+<div class="def-title def-title-gap">8.  TERMOS E DEFINIÇÕES</div>ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
 de  causar  lesão  ou  agravo  à  saúde  do  trabalhador.  Exemplos:  ruído,  vibrações,  pressões  anormais,

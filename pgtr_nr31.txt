@@ -127,10 +127,7 @@ prevenção do plano de ação do PGR.
 A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
 
 </div>
-<div class="page"><b>5. TERMOS E DEFINIÇÕES</b>
-
-
-ASO: Atestado de Saúde Ocupacional.
+<div class="page"><div class="def-title def-title-gap"><b>5. TERMOS E DEFINIÇÕES</b></div>ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
 de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais,
