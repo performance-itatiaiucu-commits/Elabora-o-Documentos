@@ -391,79 +391,10 @@ no seu uso correto, bem como manutenção e conservação.
 <div class="doc-p">A <b>{{RAZAO_SOCIAL}}</b> deve considerar as condições de trabalho nos termos da NR-17.</div>
 </div>
 {{BLOCK:cargos}}
-<div class="page">20. PLANO DE AÇÃO
+<div class="page"><b>20. PLANO DE AÇÃO</b>
 
-Ação
-
-Meta
-
-Responsável (Setor)
-
-Prazo
-
-Treinamento sobre a importância e o uso correto de EPIs (conforme Anexo I)
-
-Conscientizar todos os trabalhadores
-
-Fulano – TST
-
-DD/MM/AAAA
-
-Treinamento sobre Ficha FDS (Ficha de Dados de Segurança)
-
-Conscientizar todos os trabalhadores que possuam atividades com manipulação de produtos químicos
-
-Treinamento sobre direção defensiva
-
-Conscientizar todos os trabalhadores
-
-Fulano – TST
-
-DD/MM/AAAA
-
-Ciclano - Dono do Posto (sócio 1)
-
-DD/MM/AAAA
-
-Treinamento de NR 35 (8 horas)
-
-Conscientizar todos os trabalhadores
-
-Fulano – TST
-
-DD/MM/AAAA
-
-Realizar o preenchimento da Ficha de EPI conforme entrega e substituição dos mesmos (conforme Anexo I) Divulgação do inventário de riscos e as medidas de prevenção do plano de ação do PGR (conforme Anexo VII)
-
-Conscientizar todos os trabalhadores
-
-Fulano – TST
-
-DD/MM/AAAA
-
-Conscientizar todos os trabalhadores
-
-Fulano – TST
-
-DD/MM/AAAA
-
-Conscientizar todos os trabalhadores
-
-Fulano – TST
-
-DD/MM/AAAA
-
-Resposta a curto prazo para analisar, monitorar, gerenciar e mitigar os fatores psicossociais relacionados ao trabalho
-
-Divulgação do formulário de contribuição dos empregados quanto a percepção de riscos, implantação das medidas de prevenção (conforme Anexo VI)
-
-AGUARDA DEFINIÇÕES PSICOSSOCIAIS
-
-Otimização de processos Criação de procedimentos operacionais padrão (POPs) para rotinas
-
-Com base no mapeamento de fatores psicossociais, verificou-se que a empresa obteve índice ICQ 5,00 em todas as questões avaliadas, classificando o ambiente como saudável. Diante desse resultado, não foram identificados riscos psicossociais que demandem a implementação de plano de ação específico neste momento. (Empresa com índice ICQ 5.00 para todas as respostas)
-</div>
-<div class="page">{{BLOCK:cronograma}}22. MATRIZ DE RISCO / TÉCNICA DE AVALIAÇÃO DE RISCO
+{{BLOCK:cronograma}}</div>
+<div class="page">22. MATRIZ DE RISCO / TÉCNICA DE AVALIAÇÃO DE RISCO
 
 Objetivo: Identificar os perigos e analisar os riscos das áreas, das tarefas (processos) e dos equipamentos na
 
