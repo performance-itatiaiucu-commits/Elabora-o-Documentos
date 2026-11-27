@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Preview · “GRUPO PERFORMANCE OCUPACIONAL” em negrito (item 9, PGR NR-01)</title>
+<title>Preview · Continuação do parágrafo do item 9 (PGR NR-01)</title>
 <style>/* ===== Gerador de Documentos PGR/PCMSO — Identidade Grupo Performance =====
    Design system: azul-marinho #1F386E + acentos ciano/verde/roxo (filete tricolor). */
 
@@ -686,21 +686,23 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 <body class="pv">
 <div class="pv-topbar">
   <div class="t1">Grupo Performance · Gerador de Documentos</div>
-  <h1>Item 9 · “GRUPO PERFORMANCE OCUPACIONAL” em negrito</h1>
+  <h1>Item 9 · parágrafo com o texto corrido (sem quebra forçada)</h1>
   <div class="t2">PGR (NR-01) · página 10 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
 </div>
 <div class="pv-wrap">
   <div class="pv-note">
     <span class="lbl">Alteração em pgr_nr01.txt (item 9)</span>
-    <code class="del">- … será disponibilizado pelo GRUPO PERFORMANCE OCUPACIONAL.</code><br>
-    <code class="add">+ … será disponibilizado pelo &lt;b&gt;GRUPO PERFORMANCE OCUPACIONAL&lt;/b&gt;.</code>
+    <code class="del">- … devendo ⏎ contratar … disponibilizado pelo ⏎ &lt;b&gt;GRUPO PERFORMANCE OCUPACIONAL&lt;/b&gt;.</code><br>
+    <code class="add">+ … devendo contratar … disponibilizado pelo &lt;b&gt;GRUPO PERFORMANCE OCUPACIONAL&lt;/b&gt;.</code>
     <div style="margin-top:8px;color:#64748B;font-size:12.5px">
-      O negrito fica dentro do parágrafo <code>.doc-p</code>, então a frase continua corrida e o nome da empresa no início do parágrafo segue em negrito também.
+      O parágrafo agora é uma única linha lógica no template. A página usa <code>white-space: pre-wrap</code>,
+      então cada quebra do arquivo virava uma linha fixa no documento; sem elas, o navegador quebra só quando
+      falta espaço.
     </div>
   </div>
   <div class="pv-grid">
     <div class="pv-col antes">
-      <h2>Antes</h2>
+      <h2>Antes (quebras forçadas)</h2>
       <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
@@ -749,7 +751,7 @@ modo imediato o atendimento preventivo e Plano de Ação para buscar como meta q
 
 <div class="doc-p">A <b>ITATIAIA AGROPECUÁRIA LTDA</b> será responsável pela organização deste atendimento, devendo
 contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo
-GRUPO PERFORMANCE OCUPACIONAL.</div>
+ GRUPO PERFORMANCE OCUPACIONAL.</div>
 
 <div class="pfoot">
     <div class="pfoot-row">
@@ -758,7 +760,7 @@ GRUPO PERFORMANCE OCUPACIONAL.</div>
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Trecho final em texto normal.</p>
+      <p class="pv-zoom">“devendo” e “pelo” terminavam a linha mesmo com espaço sobrando.</p>
     </div>
     <div class="pv-col depois">
       <h2>Depois (atual)</h2>
@@ -808,9 +810,7 @@ trabalho a que ele está submetido.
 Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
 modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
 
-<div class="doc-p">A <b>ITATIAIA AGROPECUÁRIA LTDA</b> será responsável pela organização deste atendimento, devendo
-contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo
-<b>GRUPO PERFORMANCE OCUPACIONAL</b>.</div>
+<div class="doc-p">A <b>ITATIAIA AGROPECUÁRIA LTDA</b> será responsável pela organização deste atendimento, devendo contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo <b>GRUPO PERFORMANCE OCUPACIONAL</b>.</div>
 
 <div class="pfoot">
     <div class="pfoot-row">
@@ -819,9 +819,9 @@ contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será d
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom"><b>GRUPO PERFORMANCE OCUPACIONAL</b> em negrito.</p>
+      <p class="pv-zoom">Texto corrido, justificado normalmente, com o negrito preservado.</p>
     </div>
   </div>
-  <p class="pv-legend">Coluna “antes” = a mesma página 10 gerada pelo app, com o negrito removido apenas desse trecho por JS, para a comparação.</p>
+  <p class="pv-legend">Coluna “antes” = a mesma página 10 com as quebras do template reintroduzidas por JS, apenas para a comparação.</p>
 </div>
 </body></html>
