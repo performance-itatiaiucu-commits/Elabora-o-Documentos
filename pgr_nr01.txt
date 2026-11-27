@@ -52,7 +52,6 @@
 
 </div>
 <div class="page"><b>3. INTRODUÇÃO “BASE LEGAL”</b>
-
 O PGR Programa de Gerenciamento de Riscos foi elaborado de acordo com os requisitos da Norma
 Regulamentadora (NR) 1, com redação dada pela Portaria SEPRT nº 6.730, de 09/03/2020, publicada no
 Diário Oficial da União de 12/03/2020.
@@ -69,7 +68,6 @@ O PGR pode ser atendido por “sistemas de gestão” desde que estes cumpram os
 Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos
 
 <b>4. ORGANIZAÇÃO</b>
-
 A organização deve:
 
 a) evitar os riscos ocupacionais que possam ser originados no trabalho;
@@ -241,7 +239,6 @@ doenças ocupacionais, bem como proteger a integridade e a capacidade de trabalh
 os empregados e outros sem vínculo de emprego.
 
 <b>6. LEVANTAMENTO PRELIMINAR DE PERIGOS</b>
-
 O Levantamento Preliminar de Perigos deve ser realizado considerando:
 
 a) Antes do início do funcionamento do estabelecimento ou novas instalações;
@@ -249,7 +246,6 @@ b) Para as atividades existentes; e
 c) Nas mudanças e introdução de novos processos ou atividades de trabalho.
 
 <b>7. IDENTIFICAÇÃO DE PERIGOS</b>
-
 Pode ser realizado junto ao “Levantamento Preliminar de Perigos” conforme item 1.5.4.2.1.2 da NR-1.
 
 Etapas da identificação de Perigos:
@@ -259,7 +255,6 @@ b) Identificação das fontes ou circunstâncias; e
 c) Indicação do grupo de trabalhadores sujeitos aos riscos.
 
 <b>8. AVALIAÇÃO DE RISCOS OCUPACIONAIS</b>
-
 A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seus
 estabelecimentos, de forma a manter informações para adoção de medidas de prevenção.
 
