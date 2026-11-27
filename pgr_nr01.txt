@@ -65,7 +65,7 @@ O PGR pode ser implementado por unidade operacional, setor ou atividade.
 
 O PGR pode ser atendido por “sistemas de gestão” desde que estes cumpram os requisitos legais.
 
-Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos
+<div class="doc-p"><b>Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos</b></div>
 
 <b>4. ORGANIZAÇÃO</b>
 A organização deve:<div class="list-indent">a) evitar os riscos ocupacionais que possam ser originados no trabalho;
