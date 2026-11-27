@@ -2,7 +2,7 @@
 
 <h1 class="cover-title">PGRTR</h1>
 
-<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS NO TRABALHO RURAL</p>
+<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS NO TRABALHO RURAL<br>(CONFORME PORTARIA SEPRT Nº 6.730, DE 9 DE MARÇO DE 2020)</p>
 
 <p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
 
@@ -96,9 +96,9 @@ O Programa de Gerenciamento de Riscos no Trabalho Rural (PGRTR) foi instituído 
 Regulamentadora Nº 31, publicada na Portaria MTP nº 4.371 de 28/12/2022, republicada no dia 03 de
 janeiro de 2022 Secretaria Especial de Previdência e Trabalho.
 
-A {{NOME_EMPRESA}}, entende que o PGRTR é parte conjunta das iniciativas de
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b>, entende que o PGRTR é parte conjunta das iniciativas de
 prevenção da saúde e integridade física dos trabalhadores que atuam nas atividades da Fazenda, devendo
-estar integrado com os demais programas de segurança da Fazenda e com as Normas Regulamentadoras.
+estar integrado com os demais programas de segurança da Fazenda e com as Normas Regulamentadoras.</div>
 
 <b>4. ORGANIZAÇÃO</b>
 
@@ -127,9 +127,7 @@ prevenção do plano de ação do PGR.
 A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
 
 </div>
-<div class="page"><b>5. TERMOS E DEFINIÇÕES</b>
-
-ASO: Atestado de Saúde Ocupacional.
+<div class="page"><div class="def-title def-title-gap"><b>5. TERMOS E DEFINIÇÕES</b></div>ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
 de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais,
@@ -497,8 +495,8 @@ f) critérios adotados para avaliação dos riscos e tomada de decisão.
 </div>
 <div class="page"><b>15. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b>
 
-A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
-fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.
+<div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
+fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
 
 O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
 biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
@@ -540,9 +538,9 @@ Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e
 modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não
 aconteça.
 
-A <b>{{RAZAO_SOCIAL}}</b> será responsável pela organização deste atendimento,
+<div class="doc-p">A <b>{{RAZAO_SOCIAL}}</b> será responsável pela organização deste atendimento,
 devendo contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo
-GRUPO PERFORMANCE OCUPACIONAL.
+GRUPO PERFORMANCE OCUPACIONAL.</div>
 
 </div>
 <div class="page">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS
@@ -1997,7 +1995,7 @@ trabalhador, nas atividades em terrenos acidentados.
 
 Objetivo: Identificar os perigos e analisar os riscos das áreas, das tarefas (processos) e dos equipamentos na
 
-{{NOME_EMPRESA}}, incluindo as realizadas por terceiros.
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b>, incluindo as realizadas por terceiros.</div>
 
 Aplicação: Toda a empresa.
 
@@ -2425,7 +2423,7 @@ Elaboração:
 
 Responsável por estabelecer, implementar e assegurar o cumprimento do PGRTR
 
-{{NOME_EMPRESA}}
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b></div>
 
 <b>54. TERMO DE COMPROMISSO</b>
 
@@ -4355,7 +4353,7 @@ ASSINATURA
 ANEXO VI – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO
 PLANO DE AÇÃO DO PGR.
 
-{{NOME_EMPRESA}}
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b></div>
 
 ___ / ____ / ______ - DDS – Diálogo Diário de Segurança
 
@@ -4383,7 +4381,7 @@ ASSINATURA
 ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO
 DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
 
-Todo trabalhador da {{NOME_EMPRESA}} pode contribuir com sua percepção
+<div class="doc-p">Todo trabalhador da <b>{{NOME_EMPRESA}}</b> pode contribuir com sua percepção</div>
 
 de riscos e/ou sugerir medidas de prevenção conforme seu conhecimento pessoal de modo que as
 informações serão analisadas pelo SESMT (Serviço Especializado em Engenharia de Segurança e em
@@ -4425,17 +4423,17 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-Evento: Divulgação do PGRTR (Programa de Gerenciamento de Riscos no
+<div class="doc-p">Evento: Divulgação do PGRTR (Programa de Gerenciamento de Riscos no
 Trabalho Rural) e PCMSO (Programa de Controle Médico de Saúde Ocupacional)
 Período:
 Entidade/Unidade:
-{{NOME_EMPRESA}}
+<b>{{NOME_EMPRESA}}</b>
 Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os programas de prevenção considerados como base de referência na área de saúde e
 segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 1 (PGR).
 Conteúdo: NR 1 – Disposições Gerais; NR 31 Segurança e saúde no trabalho na agricultura, pecuária silvicultura, exploração florestal e aquicultura; NR 7 -
 Programa de Controle Médico de Saúde Ocupacional.
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:
@@ -4469,18 +4467,18 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
+<div class="doc-p">Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
 Norma Regulamentadora Nº 1 (item 1.7)
 Período:
 Entidade/Unidade:
-{{NOME_EMPRESA}}
+<b>{{NOME_EMPRESA}}</b>
 Objetivo: Apresentação da empresa e sua infraestrutura; Informações sobre hierarquia da empresa; Orientação sobre atividades laborais que irá executar e
 processos de trabalho que envolvem a atividade; orientações sobre procedimentos de trabalho com o foco na segurança, saúde, qualidade e preservação do
 meio ambiente; Orientação em serviço (supervisão e orientações ao trabalhador no decorrer de sua experiência profissional na empresa ou até que haja
 aptidão do mesmo para execução de suas atividades).
 Conteúdo: NR 1 – Disposições Gerais (item 1.7).
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:
@@ -4526,7 +4524,7 @@ EMPREGADO/FUNÇÃO
 
 TELEFONES DE EMERGÊNCIA
 
-{{NOME_EMPRESA}}
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b></div>
 
 --
 

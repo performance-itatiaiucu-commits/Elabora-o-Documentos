@@ -3,7 +3,7 @@
 
 <h1 class="cover-title">PGR</h1>
 
-<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS<br>(Portaria SEPRT Nº 3.733, de 10 de fevereiro de 2020)</p>
+<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS</p>
 
 <p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
 
@@ -74,7 +74,7 @@
 </div>
 <div class="page">
 O Programa de Gerenciamento de Riscos – PGR tem por objetivo preservar a saúde e integridade física dos
-trabalhadores, bem como o patrimônio da {{NOME_EMPRESA}}., através
+trabalhadores, bem como o patrimônio da <b>{{NOME_EMPRESA}}</b>., através
 de ações que proporcionem melhorias nas condições dos ambientes, nos métodos e organização do trabalho.
 
     Atender às exigências contidas na NR-1, bem como os procedimentos da Contratante.
@@ -91,9 +91,9 @@ doenças ocupacionais.
 
 4.  POLÍTICA DE SEGURANÇA E SAÚDE OCUPACIONAL
 
-A {{NOME_EMPRESA}}., tem como política de saúde e segurança,
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b>., tem como política de saúde e segurança,
 atender com qualidade e segurança, oferecendo solução ao cliente quanto ao cumprimento de prazos e normas
-estabelecidas, mantendo o ZERO ACIDENTE.
+estabelecidas, mantendo o ZERO ACIDENTE.</div>
 
 5.  DESCRIÇÃO DE ATIVIDADES
 
@@ -117,14 +117,12 @@ responsável técnico da obra.
 </div>
 <div class="page">
 Com base na Norma Regulamentadora NR-18, Portaria SEPRT Nº 3.733, de 10 de fevereiro de 2020,
-que instituiu o PGR - Programa de Gerenciamento de Riscos, A {{NOME_EMPRESA}}
+que instituiu o PGR - Programa de Gerenciamento de Riscos, A <b>{{NOME_EMPRESA}}</b>
 entende que o cumprimento desta norma é parte conjunta das iniciativas da empresa visando a preservação da
 saúde e integridade física dos trabalhadores. Portanto, desenvolveu o PGR buscando a qualidade de vida e
 condições seguras de trabalho para todos os seus funcionários e meio ambiente.
 
-8.  TERMOS E DEFINIÇÕES
-
-ASO: Atestado de Saúde Ocupacional.
+<div class="def-title def-title-gap">8.  TERMOS E DEFINIÇÕES</div>ASO: Atestado de Saúde Ocupacional.
 
 Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
 de  causar  lesão  ou  agravo  à  saúde  do  trabalhador.  Exemplos:  ruído,  vibrações,  pressões  anormais,
@@ -660,7 +658,7 @@ trabalho a que ele está submetido.
 Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
 modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
 
-A  {{NOME_EMPRESA}} será responsável pela organização deste atendimento, devendo
+A  <b>{{NOME_EMPRESA}}</b> será responsável pela organização deste atendimento, devendo
 contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo GRUPO
 PERFORMANCE OCUPACIONAL.
 </div>
@@ -2487,7 +2485,7 @@ Os  recipientes  de  gases  para  solda  devem  ser  transportados  e  armazenad
 obedecendo-se as prescrições quanto ao transporte e armazenamento de produtos inflamáveis.
 </div>
 <div class="page">
-{{NOME_EMPRESA}}
+<b>{{NOME_EMPRESA}}</b>
 
 PGR(NR18)
 
@@ -3429,10 +3427,10 @@ Todos dispositivos de uso individual, destinados a proteger à saúde e a integr
 Ministério  do  Trabalho.  Somente  serão  adquiridos  de  fabricantes  idôneos  que  possuam  Certificado  de
 Aprovação (C. A.).
 
-Quando  não  for  viável  a  utilização  de  métodos  de  engenharia  ou  administrativos  para  o  controle  de
-riscos, será designado EPI, a ser fornecido pela {{NOME_EMPRESA}} para oferecer uma
+<div class="doc-p">Quando  não  for  viável  a  utilização  de  métodos  de  engenharia  ou  administrativos  para  o  controle  de
+riscos, será designado EPI, a ser fornecido pela <b>{{NOME_EMPRESA}}</b> para oferecer uma
 barreira eficaz entre a pessoa e os objetos, substâncias, processos, etc. potencialmente perigosos à saúde e/ou
-vida dos colaboradores objetivando eliminar, quando não for possível minimizar os acidentes de trabalho.
+vida dos colaboradores objetivando eliminar, quando não for possível minimizar os acidentes de trabalho.</div>
 
 A sua utilização será totalmente obrigatória e indiscutível por parte dos empregados.
 Será monitorado o uso e a eficácia de todos EPI’s e recomendado modificações onde julgar necessário.
@@ -6117,7 +6115,7 @@ Responsável pela empresa ou Preposto
 
 Responsável por estabelecer, implementar e assegurar o cumprimento do PGR
 
-<b>{{RAZAO_SOCIAL}}</b>
+<div class="doc-p"><b>{{RAZAO_SOCIAL}}</b></div>
 
 Cidade, 12 de Janeiro de 2025.
 </div>
@@ -8251,7 +8249,7 @@ ANEXO III - TÉCNICA DE AVALIAÇÃO DE RISCO
 
 Objetivo: Identificar os perigos e analisar os riscos das áreas, das tarefas (processos) e dos equipamentos na
 
-{{NOME_EMPRESA}}, incluindo as realizadas por terceiros.
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b>, incluindo as realizadas por terceiros.</div>
 
 Aplicação: Toda a empresa.
 
@@ -8611,7 +8609,7 @@ LISTA DE PRESENÇA
 
 Instrutor (a):
 
-Evento: Divulgação de PGR (Programa de Condições e Meio Ambiente de Trabalho
+<div class="doc-p">Evento: Divulgação de PGR (Programa de Condições e Meio Ambiente de Trabalho
 na  Industria  da  Construção)  e  PCMSO  (Programa  de  Controle  Médico  de  Saúde
 Ocupacional)
 Período:
@@ -8620,7 +8618,7 @@ Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os pr
 segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 18 (PGR).
 Conteúdo: NR 1 – Disposições Gerais; NR 7 - Programa de Controle Médico de Saúde Ocupacional.
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:
@@ -8657,7 +8655,7 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-Evento:  Capacitação  e  Treinamento  dos  colaboradores  em  conformidade  com  a
+<div class="doc-p">Evento:  Capacitação  e  Treinamento  dos  colaboradores  em  conformidade  com  a
 Norma Regulamentadora Nº 1 (item 1.7)
 Período:
 Entidade/Unidade:
@@ -8668,7 +8666,7 @@ meio ambiente; Orientação em serviço (supervisão e orientações ao trabalha
 do mesmo para execução de suas atividades).
 Conteúdo: NR 1 – Disposições Gerais (item 1.7).
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:

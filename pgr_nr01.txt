@@ -2,7 +2,7 @@
 
 <h1 class="cover-title">PGR</h1>
 
-<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS<br>(CONFORME PORTARIA SEPRT Nº 6.730, DE 9 DE MARÇO DE 2020)</p>
+<p class="cover-sub">PROGRAMA DE GERENCIAMENTO DE RISCOS</p>
 
 <p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
 
@@ -52,7 +52,6 @@
 
 </div>
 <div class="page"><b>3. INTRODUÇÃO “BASE LEGAL”</b>
-
 O PGR Programa de Gerenciamento de Riscos foi elaborado de acordo com os requisitos da Norma
 Regulamentadora (NR) 1, com redação dada pela Portaria SEPRT nº 6.730, de 09/03/2020, publicada no
 Diário Oficial da União de 12/03/2020.
@@ -69,10 +68,7 @@ O PGR pode ser atendido por “sistemas de gestão” desde que estes cumpram os
 Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos
 
 <b>4. ORGANIZAÇÃO</b>
-
-A organização deve:
-
-a) evitar os riscos ocupacionais que possam ser originados no trabalho;
+A organização deve:<div class="list-indent">a) evitar os riscos ocupacionais que possam ser originados no trabalho;
 
 b) identificar os perigos e possíveis lesões ou agravos à saúde;
 
@@ -82,29 +78,19 @@ d) classificar os riscos ocupacionais para determinar a necessidade de adoção 
 
 e) implementar medidas de prevenção, de acordo com a classificação de risco e na ordem de prioridade
 
-f) acompanhar o controle dos riscos ocupacionais.
-
-A organização deve adotar mecanismos para:
-
-a) consultar os trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas
+f) acompanhar o controle dos riscos ocupacionais.</div>A organização deve adotar mecanismos para:<div class="list-indent">a) consultar os trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas
 as manifestações da Comissão Interna de Prevenção de Acidentes - CIPA, quando houver; e
 
 b) comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de
-prevenção do plano de ação do PGR.
-
-A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
+prevenção do plano de ação do PGR.</div>A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
 
 </div>
-<div class="page"><b>5. TERMOS E DEFINIÇÕES</b>
-
-
-<b>ASO:</b> Atestado de Saúde Ocupacional.
+<div class="page"><div class="def-title def-title-gap"><b>5. TERMOS E DEFINIÇÕES</b></div><b>ASO:</b> Atestado de Saúde Ocupacional.
 
 <b>AGENTE FÍSICO:</b> Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
 de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais,
 temperaturas extremas, radiações ionizantes, radiações não ionizantes.
-<b>OBSERVAÇÃO:</b> Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem
-agente físico para fins da NR-09.
+OBSERVAÇÃO: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem agente físico para fins da NR-09.
 
 <b>AGENTE QUÍMICO:</b> Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja
 produzida, utilizada ou gerada no processo de trabalho, que em função de sua natureza, concentração e
@@ -122,15 +108,8 @@ recomendados de exposição ocupacional chamados Valores Limites de Exposição:
 <b>ACIDENTE DE TRABALHO:</b> Aquele que acontece no exercício do trabalho a serviço da empresa, provocando lesão
 corporal ou perturbação funcional podendo causar morte, perda ou redução permanente ou temporária, da
 capacidade para o trabalho.
-<b>EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:</b>
-<div class="plist">
-1. O acidente que acontece quando você está prestando serviços por ordem da empresa fora do local de
-trabalho;
-2. O acidente que acontece quando você estiver em viagem a serviço da empresa;
-3. O acidente que ocorre no trajeto entre a casa e o trabalho ou do trabalho para casa;
-4. Doença profissional (as doenças provocadas pelo tipo de trabalho);
-5. Doença do trabalho (as doenças causadas pelas condições do trabalho);
-</div>
+<div class="def-sub">EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:</div>
+<div class="plist-sub"><div class="plist-item">1. O acidente que acontece quando você está prestando serviços por ordem da empresa fora do local&nbsp;de&nbsp;trabalho;</div><div class="plist-item">2. O acidente que acontece quando você estiver em viagem a serviço da empresa;</div><div class="plist-item">3. O acidente que ocorre no trajeto entre a casa e o trabalho ou do trabalho para casa;</div><div class="plist-item">4. Doença profissional (as doenças provocadas pelo tipo de trabalho);</div><div class="plist-item">5. Doença do trabalho (as doenças causadas pelas condições do trabalho);</div></div>
 
 <b>ADICIONAL DE INSALUBRIDADE:</b> Adicional que deve ser pago ao trabalhador que trabalha em condições de
 insalubridade.
@@ -155,7 +134,7 @@ natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à
 bactéria Bacillus anthracis, vírus linfotrópico da célula T humana, príon agente de doença de Creutzfeldt-
 Jakob, fungo Coccidioides immitis.
 
-<b>CANTEIRO DE OBRA:</b> área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução à
+<b>CANTEIRO DE OBRA:</b> Área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução à
 construção, demolição ou reforma de uma obra.
 
 <b>CAT:</b> Comunicação de Acidente do Trabalho.
@@ -173,40 +152,37 @@ concepção de instrumentos, máquinas e dispositivos que possam ser utilizados 
 eficácia. A ergonomia tem por objetivo adaptar o trabalho ao homem, bem como melhorar as condições de
 trabalho e as relações homem-máquina. A Ergonomia pode ser construtiva, corretiva e cognitiva.
 
-<b>EMPREGADO:</b> a pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência
+<b>EMPREGADO:</b> A pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência
 deste e mediante salário.
 
-<b>EMPREGADOR:</b> a empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite,
+<b>EMPREGADOR:</b> A empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite,
 assalaria e dirige a prestação pessoal de serviços. Equiparam-se ao empregador as organizações, os
 profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins
 lucrativos, que admitam trabalhadores como empregados.
 
-<b>ESTABELECIMENTO:</b> local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros, onde
+<b>ESTABELECIMENTO:</b> Local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros, onde
 a empresa ou a organização exerce suas atividades em caráter temporário ou permanente.
 
 <b>EVENTO PERIGOSO:</b> Ocorrência ou acontecimento com o potencial de causar lesões ou agravos à saúde.
 
 <b>FUNDACENTRO:</b> Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho.
 
-<b>FRENTE DE TRABALHO:</b> área de trabalho móvel e temporária.
+<b>FRENTE DE TRABALHO:</b> Área de trabalho móvel e temporária.
 
 </div>
 <div class="page"><b>LTCAT:</b> Laudo Técnico das Condições Ambientais do Trabalho (previsto da Lei 8213/91).
 
-<b>LOCAL DE TRABALHO:</b> área onde são executados os trabalhos.
+<b>LOCAL DE TRABALHO:</b> Área onde são executados os trabalhos.
 
 <b>NR:</b> Norma Regulamentadora.
 
 <b>OIT:</b> Organização Internacional do Trabalho.
 
-<b>OBRA:</b>
+<b>OBRA:</b> Todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma.
 
-todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma.
-ORDEM DE SERVIÇO DE SEGURANÇA E SAÚDE NO TRABALHO: instruções por escrito quanto às precauções para evitar
-acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em procedimentos
-de trabalho e outras instruções de SST.
+<div class="def-title"><b>ORDEM DE SERVIÇO DE SEGURANÇA E SAÚDE NO TRABALHO:</b></div>Instruções por escrito quanto às precauções para evitar acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em procedimentos de trabalho e outras instruções de SST.
 
-<b>ORGANIZAÇÃO:</b> pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e
+<b>ORGANIZAÇÃO:</b> Pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e
 relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a
 empresa, a empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria,
 organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou
@@ -232,30 +208,29 @@ Portaria 3218/78, Lei 6514/77).
 causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros tem o potencial
 intrínseco de dar origem a lesões ou agravos à saúde.
 
-<b>PREVENÇÃO:</b> o conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da
+<b>PREVENÇÃO:</b> O conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da
 organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais.
 
 <b>RISCO:</b> Possibilidade real ou potencial capaz de causar lesão e ou morte, danos ou perdas patrimoniais,
 interrupção de processo de produção ou de afetar a comunidade ou o meio ambiente.
 
 </div>
-<div class="page"><b>RESPONSÁVEL TÉCNICO PELA CAPACITAÇÃO:</b> profissional legalmente habilitado ou trabalhador qualificado,
+<div class="page"><b>RESPONSÁVEL TÉCNICO PELA CAPACITAÇÃO:</b> Profissional legalmente habilitado ou trabalhador qualificado,
 conforme disposto em NR específica, responsável pela elaboração das capacitações e treinamentos.
 
 <b>RISCO OCUPACIONAL:</b> Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados por um evento
 perigoso, exposição a agente nocivo ou exigência da atividade de trabalho e da severidade dessa lesão ou
 agravo à saúde.
 
-<b>SETOR DE SERVIÇO:</b> a menor unidade administrativa ou operacional compreendida no mesmo estabelecimento.
+<b>SETOR DE SERVIÇO:</b> A menor unidade administrativa ou operacional compreendida no mesmo estabelecimento.
 
 <b>SEGURANÇA DO TRABALHO:</b> Conjuntos de medidas que são adotadas visando minimizar os acidentes de trabalho,
 doenças ocupacionais, bem como proteger a integridade e a capacidade de trabalho do trabalhador.
 
-<b>TRABALHADOR:</b> pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como
+<b>TRABALHADOR:</b> Pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como
 os empregados e outros sem vínculo de emprego.
 
 <b>6. LEVANTAMENTO PRELIMINAR DE PERIGOS</b>
-
 O Levantamento Preliminar de Perigos deve ser realizado considerando:
 
 a) Antes do início do funcionamento do estabelecimento ou novas instalações;
@@ -263,7 +238,6 @@ b) Para as atividades existentes; e
 c) Nas mudanças e introdução de novos processos ou atividades de trabalho.
 
 <b>7. IDENTIFICAÇÃO DE PERIGOS</b>
-
 Pode ser realizado junto ao “Levantamento Preliminar de Perigos” conforme item 1.5.4.2.1.2 da NR-1.
 
 Etapas da identificação de Perigos:
@@ -273,7 +247,6 @@ b) Identificação das fontes ou circunstâncias; e
 c) Indicação do grupo de trabalhadores sujeitos aos riscos.
 
 <b>8. AVALIAÇÃO DE RISCOS OCUPACIONAIS</b>
-
 A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seus
 estabelecimentos, de forma a manter informações para adoção de medidas de prevenção.
 
@@ -304,11 +277,8 @@ c) Houver evidências de associação, por meio do controle médico da saúde, e
 à saúde dos trabalhadores com os riscos e as situações de trabalho identificados.
 
 </div>
-<div class="page"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b>
-
-A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
-fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.
-
+<div class="page"><div class="def-title def-title-gap"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b></div><div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
+fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
 O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
 biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
 psicossociais relacionados ao trabalho.
@@ -348,9 +318,9 @@ trabalho a que ele está submetido.
 Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
 modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
 
-A {{NOME_EMPRESA}} será responsável pela organização deste atendimento, devendo
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> será responsável pela organização deste atendimento, devendo
 contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo GRUPO
-PERFORMANCE OCUPACIONAL.
+PERFORMANCE OCUPACIONAL.</div>
 
 </div>
 <div class="page">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS
@@ -619,10 +589,10 @@ resultado das avaliações individuais e de grupos.
 
 Hierarquia de controle risco é a ordem que deverá ser seguida para definir o controle de um determinado risco.
 
-A {{NOME_EMPRESA}} realizou estudos para identificação da viabilidade técnica de
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> realizou estudos para identificação da viabilidade técnica de
 implementação das medidas de proteção de acordo com a hierarquia das medidas de proteção e definiu as
 medidas de proteção possíveis dentro de sua realidade, seguem abaixo definições da hierarquia das medidas
-de proteção:
+de proteção:</div>
 
 1) ELIMINAÇÃO: eliminar o risco
 
@@ -826,7 +796,7 @@ no seu uso correto, bem como manutenção e conservação.
 
 <b>18. ERGONÔMIA</b>
 
-A <b>{{RAZAO_SOCIAL}}</b> deve considerar as condições de trabalho nos termos
+<div class="doc-p">A <b>{{RAZAO_SOCIAL}}</b> deve considerar as condições de trabalho nos termos</div>
 
 da NR-17.
 </div>
@@ -935,7 +905,7 @@ respostas)
 
 Objetivo: Identificar os perigos e analisar os riscos das áreas, das tarefas (processos) e dos equipamentos na
 
-{{NOME_EMPRESA}}, incluindo as realizadas por terceiros.
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b>, incluindo as realizadas por terceiros.</div>
 
 Aplicação: Toda a empresa.
 
@@ -1326,7 +1296,7 @@ Responsável pela empresa ou Preposto
 
 Responsável por estabelecer, implementar e assegurar o cumprimento do PGR
 
-<b>{{RAZAO_SOCIAL}}</b>
+<div class="doc-p"><b>{{RAZAO_SOCIAL}}</b></div>
 
 {{CIDADE}}, {{DATA_ASSINATURA}}.
 
@@ -1532,7 +1502,7 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-Evento: Divulgação do PGR (Programa de Gerenciamento de Riscos) e PCMSO
+<div class="doc-p">Evento: Divulgação do PGR (Programa de Gerenciamento de Riscos) e PCMSO
 (Programa de Controle Médico de Saúde Ocupacional)
 Período:
 Entidade/Unidade:
@@ -1541,7 +1511,7 @@ Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os pr
 segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 1 (PGR).
 Conteúdo: NR 1 – Disposições Gerais; NR 7 - Programa de Controle Médico de Saúde Ocupacional.
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:
@@ -1576,7 +1546,7 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
+<div class="doc-p">Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
 Norma Regulamentadora Nº 1 (item 1.7)
 Período:
 Entidade/Unidade:
@@ -1587,7 +1557,7 @@ meio ambiente; Orientação em serviço (supervisão e orientações ao trabalha
 do mesmo para execução de suas atividades).
 Conteúdo: NR 1 – Disposições Gerais (item 1.7).
 Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.
+atentem contra a honra e a dignidade humana.</div>
 
 Assinatura do Instrutor (a):
 Local:
@@ -1616,9 +1586,9 @@ ANEXO V – IDENTIFICAÇÃO DO PROFISSIONAL ELABORADOR DO PGR
 
 ANEXO VI – PROCEDIMENTOS EM CENÁRIOS DE EMERGÊNCIAS
 
-Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> será treinado na preparação para
+<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> será treinado na preparação para
 emergências, principalmente no tocante as atribuições dos transeuntes. Será observado no mínimo os seguintes
-procedimentos, conforme o Plano de Emergência.
+procedimentos, conforme o Plano de Emergência.</div>
 
 ACIONAMENTO INICIAL DE EMERGÊNCIA
 
@@ -1690,11 +1660,11 @@ Policia Civil
 <div class="page">ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A
 PERCEPÇÃO DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
 
-Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> pode contribuir com sua percepção
+<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> pode contribuir com sua percepção
 de riscos e/ou sugerir medidas de prevenção conforme seu conhecimento pessoal de modo que as informações
 serão analisadas pelo SESMT (Serviço Especializado em Engenharia de Segurança e em Medicina do
 Trabalho) ou na ausência do mesmo será analisado pela administração responsável pela empresa no
-estabelecimento.
+estabelecimento.</div>
 
 O formulário que estará disponível na empresa para contribuição de informações quanto a percepção de
 riscos e/ou medidas de prevenção, cujo qual deverá ser entregue ao SESMT ou administração da empresa no
@@ -1725,7 +1695,7 @@ PREVENÇÃO E FORMULÁRIO
 ANEXO VIII – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE
 PREVENÇÃO DO PLANO DE AÇÃO DO PGR.
 
-{{NOME_EMPRESA}}
+<div class="doc-p"><b>{{NOME_EMPRESA}}</b></div>
 
 ___ / ____ / ______ - DDS – Diálogo Diário de Segurança
 
