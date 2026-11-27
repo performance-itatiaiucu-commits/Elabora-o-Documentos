@@ -675,24 +675,27 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 .pv-frame .page { margin: 0 auto; box-shadow: 0 3px 14px rgba(0,0,0,.2); }
 .pv-zoom { font-size: 12px; color: var(--mut); margin: 8px 2px 0; }
 .pv-zoom b { color: var(--txt); }
+.pv-nogap .doc-p-gap { margin: 0 !important; }
+.pv-legend { font-size: 12px; color: var(--mut); margin: 18px 2px 0; max-width: 860px; }
+.pv-legend code { background:#fff; border:1px solid var(--borda); border-radius:4px; padding:1px 5px; }
 
 </style></head>
 <body class="pv">
 <div class="pv-topbar">
   <div class="t1">Grupo Performance · Gerador de Documentos</div>
-  <h1>Item 3 · INTRODUÇÃO “BASE LEGAL” — última frase em negrito</h1>
+  <h1>Item 3 · INTRODUÇÃO “BASE LEGAL” — frase em negrito + linha em branco antes do item 4</h1>
   <div class="t2">PGR (NR-01) · página 5 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
 </div>
 <div class="pv-wrap">
   <div class="pv-note">
-    <span class="lbl">Alteração em pgr_nr01.txt</span>
-    <code class="del">- Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos</code><br>
-    <code class="add">+ &lt;div class="doc-p"&gt;&lt;b&gt;Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos&lt;/b&gt;&lt;/div&gt;</code>
+    <span class="lbl">Alterações aplicadas (pgr_nr01.txt + styles.css)</span>
+    <code class="add">+ &lt;div class="doc-p doc-p-gap"&gt;&lt;b&gt;Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos&lt;/b&gt;&lt;/div&gt;</code><br>
+    <code class="add">+ .doc-print .doc-p-gap { margin: 0 0 1.32em; }  /* uma linha em branco */</code>
   </div>
-  <div class="pv-grid">
+<div class="pv-grid">
     <div class="pv-col antes">
-      <h2>Antes</h2>
-      <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+      <h2>Antes (sem a linha)</h2>
+      <div class="pv-frame"><div class="doc-print pv-nogap"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 5 / 27</td>
@@ -711,7 +714,7 @@ O PGR pode ser implementado por unidade operacional, setor ou atividade.
 
 O PGR pode ser atendido por “sistemas de gestão” desde que estes cumpram os requisitos legais.
 
-<div class="doc-p">Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos</div>
+<div class="doc-p doc-p-gap"><b>Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos</b></div>
 
 <b>4. ORGANIZAÇÃO</b>
 A organização deve:<div class="list-indent">a) evitar os riscos ocupacionais que possam ser originados no trabalho;
@@ -737,7 +740,7 @@ prevenção do plano de ação do PGR.</div>A organização deve adotar as medid
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Compare a última linha do texto: <b>sem negrito</b>.</p>
+      <p class="pv-zoom">Última frase do item 3 colada no título do item 4.</p>
     </div>
     <div class="pv-col depois">
       <h2>Depois (atual)</h2>
@@ -760,7 +763,7 @@ O PGR pode ser implementado por unidade operacional, setor ou atividade.
 
 O PGR pode ser atendido por “sistemas de gestão” desde que estes cumpram os requisitos legais.
 
-<div class="doc-p"><b>Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos</b></div>
+<div class="doc-p doc-p-gap"><b>Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos</b></div>
 
 <b>4. ORGANIZAÇÃO</b>
 A organização deve:<div class="list-indent">a) evitar os riscos ocupacionais que possam ser originados no trabalho;
@@ -786,8 +789,10 @@ prevenção do plano de ação do PGR.</div>A organização deve adotar as medid
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">A mesma frase agora em <b>negrito</b>, ocupando no máximo uma linha.</p>
+      <p class="pv-zoom">Uma <b>linha em branco</b> (margem de 1,32 em) entre a frase e <b>4. ORGANIZAÇÃO</b>.</p>
     </div>
   </div>
+  <p class="pv-legend">A coluna “antes” é a mesma página gerada pelo app, apenas com a regra <code>.doc-p-gap</code> desativada por CSS para a comparação.
+  A alteração vale só para essa transição no PGR (NR-01) — os títulos dos itens 6, 7 e 8 seguem sem linha extra, como ajustado antes.</p>
 </div>
 </body></html>
