@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Preview · Recuo das listas nos itens 6, 7 e 8 (PGR NR-01)</title>
+<title>Preview · Espaço antes das listas dos itens 6, 7 e 8 (PGR NR-01)</title>
 <style>/* ===== Gerador de Documentos PGR/PCMSO — Identidade Grupo Performance =====
    Design system: azul-marinho #1F386E + acentos ciano/verde/roxo (filete tricolor). */
 
@@ -684,18 +684,22 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 <body class="pv">
 <div class="pv-topbar">
   <div class="t1">Grupo Performance · Gerador de Documentos</div>
-  <h1>Recuo das listas “a), b), c)…” dos itens 6, 7 e 8</h1>
+  <h1>Espaço antes das listas dos itens 6, 7 e 8 — só uma linha em branco</h1>
   <div class="t2">PGR (NR-01) · página 9 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
 </div>
 <div class="pv-wrap">
   <div class="pv-note">
-    <span class="lbl">Alteração em pgr_nr01.txt (itens 6, 7 e 8)</span>
-    <code class="add">+ &lt;div class="list-indent"&gt;a) … b) … c) …&lt;/div&gt;</code>
-    <span style="color:#64748B">— o mesmo bloco já usado nas listas do item 4: recuo de 10 mm, com uma linha de respiro acima e abaixo.</span>
+    <span class="lbl">O que mudou</span>
+    <code class="del">- bloco recuado com margem de 1,32 em acima + quebra de linha no template (≈ 2 linhas de espaço)</code><br>
+    <code class="add">+ margem acima zerada + uma quebra de linha → exatamente 1 linha em branco antes da lista</code>
+    <div style="margin-top:8px;color:#64748B;font-size:12.5px">
+      O recuo de 10 mm foi mantido. O espaçamento acima agora vem só da linha em branco do template, porque a página usa
+      <code>white-space: pre-wrap</code>.
+    </div>
   </div>
   <div class="pv-grid">
     <div class="pv-col antes">
-      <h2>Antes</h2>
+      <h2>Antes (espaço grande)</h2>
       <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
@@ -767,7 +771,7 @@ c) Houver evidências de associação, por meio do controle médico da saúde, e
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Listas alinhadas à margem, sem recuo.</p>
+      <p class="pv-zoom">Margem do bloco + quebra de linha = espaço de ~2 linhas.</p>
     </div>
     <div class="pv-col depois">
       <h2>Depois (atual)</h2>
@@ -842,14 +846,10 @@ das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Listas recuadas em <b>10 mm</b>, como no item 4.</p>
+      <p class="pv-zoom">Uma única <b>linha em branco</b> entre o texto anterior e a lista.</p>
     </div>
   </div>
-  <div class="pv-legend">
-    Coluna “antes” = a mesma página 9 gerada pelo app, com os blocos <code>.list-indent</code> desfeitos por JS apenas para a comparação.
-    Itens 6 e 7 têm 1 lista cada; o item 8 tem 3 listas (5 blocos recuados no total).
-    No item 8, o texto “Para cada risco…” separa a 1ª da 2ª lista e o item <code>c)</code> estava solto em outro parágrafo — agora também está recuado,
-    e a quebra no meio de “agravos / à saúde” foi corrigida.
-  </div>
+  <p class="pv-legend">A coluna “antes” é a mesma página 9, com as margens de <code>.list-indent</code> restauradas por CSS apenas para a comparação.
+  Vale para as 5 listas dos itens 6, 7 e 8 (a do item 4 continua como estava).</p>
 </div>
 </body></html>
