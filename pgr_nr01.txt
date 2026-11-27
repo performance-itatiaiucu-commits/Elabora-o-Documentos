@@ -309,8 +309,8 @@ Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e
 modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
 
 <div class="doc-p">A <b>{{NOME_EMPRESA}}</b> será responsável pela organização deste atendimento, devendo
-contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo GRUPO
-PERFORMANCE OCUPACIONAL.</div>
+contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo
+<b>GRUPO PERFORMANCE OCUPACIONAL</b>.</div>
 
 </div>
 <div class="page">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS
