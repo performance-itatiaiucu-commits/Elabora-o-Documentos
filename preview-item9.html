@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Preview · Continuação do parágrafo do item 9 (PGR NR-01)</title>
+<title>Preview · Subtítulos do item 9 em negrito (PGR NR-01)</title>
 <style>/* ===== Gerador de Documentos PGR/PCMSO — Identidade Grupo Performance =====
    Design system: azul-marinho #1F386E + acentos ciano/verde/roxo (filete tricolor). */
 
@@ -350,6 +350,9 @@ table.data input:focus, table.data select:focus { border-bottom-color: var(--azu
 .doc-print .doc-p { margin: 0; }
 /* título de seção: uma linha em branco antes do primeiro verbete */
 .doc-print .def-title-gap { margin: 0 0 1.32em; }
+/* subtítulo em negrito dentro de uma seção: alinhado à esquerda, com uma linha em branco antes e depois */
+.doc-print .sub-title { margin: 1.32em 0; text-align: left; font-weight: 700; }
+.doc-print .page > .sub-title:first-child { margin-top: 0; }
 /* parágrafo seguido de um título de seção ou de uma lista: uma linha em branco entre eles */
 .doc-print .doc-p-gap { margin: 0 0 1.32em; }
 /* continuação de uma definição (ex.: "EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:") */
@@ -682,76 +685,138 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 .pv-legend { font-size: 12px; color: var(--mut); margin: 18px 2px 0; max-width: 860px; }
 .pv-legend code { background:#fff; border:1px solid var(--borda); border-radius:4px; padding:1px 5px; }
 
+.pv-cols { display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-start; }
+.pv-cols .pv-frame { background:#dfe4ea; border-radius:6px; padding:10px; }
 </style></head>
 <body class="pv">
 <div class="pv-topbar">
   <div class="t1">Grupo Performance · Gerador de Documentos</div>
-  <h1>Item 9 · parágrafo com o texto corrido (sem quebra forçada)</h1>
-  <div class="t2">PGR (NR-01) · página 10 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
+  <h1>Item 9 · cinco subtítulos em negrito</h1>
+  <div class="t2">PGR (NR-01) · páginas 11 e 12 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
 </div>
 <div class="pv-wrap">
   <div class="pv-note">
-    <span class="lbl">Alteração em pgr_nr01.txt (item 9)</span>
-    <code class="del">- … devendo ⏎ contratar … disponibilizado pelo ⏎ &lt;b&gt;GRUPO PERFORMANCE OCUPACIONAL&lt;/b&gt;.</code><br>
-    <code class="add">+ … devendo contratar … disponibilizado pelo &lt;b&gt;GRUPO PERFORMANCE OCUPACIONAL&lt;/b&gt;.</code>
+    <span class="lbl">Subtítulos que passaram a usar o bloco .sub-title (negrito 700, alinhados à esquerda)</span>
+    <code>FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</code><br>
+    <code>CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</code><br>
+    <code>IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</code><br>
+    <code>O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</code><br>
+    <code>LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</code>
     <div style="margin-top:8px;color:#64748B;font-size:12.5px">
-      O parágrafo agora é uma única linha lógica no template. A página usa <code>white-space: pre-wrap</code>,
-      então cada quebra do arquivo virava uma linha fixa no documento; sem elas, o navegador quebra só quando
-      falta espaço.
+      O último subtítulo também estava quebrado no meio pelo template e agora é uma linha lógica só
+      (quebra apenas se faltar espaço). Os dois títulos de seção de página própria mantêm o negrito.
     </div>
   </div>
-  <div class="pv-grid">
+  <div class="pv-cols">
     <div class="pv-col antes">
-      <h2>Antes (quebras forçadas)</h2>
+      <h2>Antes</h2>
       <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
-    <td class="c-pag">REV. 00<br>PÁGINA 10 / 27</td>
+    <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div class="def-title def-title-gap"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b></div><div class="doc-p">A empresa <b>ITATIAIA AGROPECUÁRIA LTDA</b> possui o compromisso com o gerenciamento dos
-fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
-O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
-biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
-psicossociais relacionados ao trabalho.
+  </tr></tbody></table></div><div>FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
 
-A organização considera as condições de trabalho, nos termos da NR-17, incluindo os fatores de risco
-psicossociais relacionados ao trabalho.
+A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
+promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
+e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
+o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
+afastamento e faltas ao trabalho.
 
-Sobre a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de fatores ergonômicos,
-incluindo os fatores de riscos psicossociais relacionados ao trabalho, a avaliação de risco considera as
-exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas.
+Em síntese, os fatores psicossociais podem ser tantos fatores de proteção como fatores de risco para a saúde e
+segurança no trabalho.
 
-Os agravos a saúde relacionados aos fatores psicossociais devem considerar os fatores de riscos e o ambiente
-ocupacional, existem situações e/ou atividades que são “estressantes” para algumas pessoas e “não
-estressantes” para outras, que fazem parte das atribuições e do desenvolvimento das atividades da empresa de
-forma regulamentada e positivada em lei, veja abaixo:
+Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
+um problema ou se adaptar a um ambiente.
 
-Um Líder retorna para casa desanimado pois precisou demitir determinado colaborador da sua empresa, por
-motivo justificável e regulamentado em lei (ou por liberdade de escolha da empresa), porém a atividade de
-sua atribuição lhe causou o sentimento de tristeza;
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
 
-O colaborador que foi desligado da empresa, neste mesmo exemplo, retorna para casa feliz, por ter um viés
-de visualizar que o término de seu contrato de trabalho como uma oportunidade para sua carreira e para novas
-rotas.
+<div>CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
 
-Importante: Os fatores psicossociais “relacionados ao
-trabalho”, conforme consta na Norma
-Regulamentadora Nº1 em seu item 1.5.3.1, especifica que existem outros aspectos relacionados ao tema
-“psicossocial” que estão fora do campo do trabalho, que não estão relacionados ao trabalho desenvolvido e,
-portanto, não estão incluídos no Gerenciamento de Riscos Ocupacionais (GRO).
+O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
+doença, seja por lesão ou acidente de trabalho.
 
-É importante identificar que na avaliação dos fatores de risco psicossociais relacionados ao trabalho, trata-se
-de considerar quais os fatores da atividade de trabalho são estressores, que podem levar à ocorrência de lesões
-ou agravos à saúde do trabalhador. Não se trata de verificar sintomas individuais ou sensação do que está
-ocorrendo no trabalhador, ou de medir algum sinal biológico, por exemplo, mas de verificar as condições de
-trabalho a que ele está submetido.
+A concepção de risco se vincula, neste caso, ao adoecimento em si.
 
-Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
-modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
+<div>IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
 
-<div class="doc-p">A <b>ITATIAIA AGROPECUÁRIA LTDA</b> será responsável pela organização deste atendimento, devendo
-contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo
- GRUPO PERFORMANCE OCUPACIONAL.</div>
+A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
+ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
+emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
+empresa.
+
+A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
+e o reconhecimento das conquistas dos colaboradores.
+
+<div>O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
+
+Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
+trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
+físico e social (OSHA, 2023).
+
+<div class="pfoot">
+    <div class="pfoot-row">
+      <div class="lg"><img src="assets/logo.png" alt="Grupo Performance"></div>
+      <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
+    </div>
+    <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
+  </div></div>
+<div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+    <td class="c-client"></td>
+    <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
+    <td class="c-pag">REV. 00<br>PÁGINA 12 / 27</td>
+    <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
+  </tr></tbody></table></div>Os fatores psicossociais são aqueles aspectos do ambiente de trabalho que influenciam o bem-estar
+psicológico, emocional e social dos colaboradores. Eles incluem tanto as características do próprio trabalho
+quanto as relações interpessoais e organizacionais. Podem ser divididos principalmente em três categorias:
+
+Ambientais: São aqueles relacionados ao ambiente de trabalho no geral. É o caso de situações de trabalho
+com ruído acima do comum, ferramentas inadequadas, máquinas que não funcionam, trabalho em altura ou
+em espaços confinados, falta de Equipamentos de Proteção Individual (EPI), entre outros.
+
+Atividades: Se relacionam diretamente com a execução do trabalho desenvolvido pelo colaborador, e no PGR
+podem aparecer junto com outros fatores. Envolvem temas como: pressão, sobrecarga, falta de autonomia,
+ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobre as funções que desempenha.
+
+Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
+com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
+e profissional, situações de assédio (inclusive do público externo).
+
+<div>LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
+
+Os fatores de risco psicossociais podem ser classificados em várias categorias:
+
+PERIGO (FATOR DE RISCO)
+
+Assédio de qualquer natureza no trabalho
+
+Má gestão de mudanças organizacionais
+
+Baixa clareza de papel / função
+
+Baixas recompensas e reconhecimento
+
+Falta de suporte / apoio no trabalho
+
+Baixo controle no trabalho / falta de autonomia
+
+Baixa justiça organizacional
+
+Eventos violentos ou traumáticos
+
+Baixa demanda no trabalho (subcarga)
+
+Excesso de demandas no trabalho (sobrecarga)
+
+Más relacionamentos no local de trabalho
+
+Trabalho em condições de difícil comunicação
+
+Trabalho remoto e isolado
+
+Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério
+do Trabalho, de Abril de 2025).
 
 <div class="pfoot">
     <div class="pfoot-row">
@@ -760,57 +825,117 @@ contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será d
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">“devendo” e “pelo” terminavam a linha mesmo com espaço sobrando.</p>
+      <p class="pv-zoom">Subtítulos em texto normal.</p>
     </div>
     <div class="pv-col depois">
       <h2>Depois (atual)</h2>
       <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
-    <td class="c-pag">REV. 00<br>PÁGINA 10 / 27</td>
+    <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div class="def-title def-title-gap"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b></div><div class="doc-p">A empresa <b>ITATIAIA AGROPECUÁRIA LTDA</b> possui o compromisso com o gerenciamento dos
-fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
-O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
-biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
-psicossociais relacionados ao trabalho.
+  </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
 
-A organização considera as condições de trabalho, nos termos da NR-17, incluindo os fatores de risco
-psicossociais relacionados ao trabalho.
+A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
+promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
+e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
+o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
+afastamento e faltas ao trabalho.
 
-Sobre a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de fatores ergonômicos,
-incluindo os fatores de riscos psicossociais relacionados ao trabalho, a avaliação de risco considera as
-exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas.
+Em síntese, os fatores psicossociais podem ser tantos fatores de proteção como fatores de risco para a saúde e
+segurança no trabalho.
 
-Os agravos a saúde relacionados aos fatores psicossociais devem considerar os fatores de riscos e o ambiente
-ocupacional, existem situações e/ou atividades que são “estressantes” para algumas pessoas e “não
-estressantes” para outras, que fazem parte das atribuições e do desenvolvimento das atividades da empresa de
-forma regulamentada e positivada em lei, veja abaixo:
+Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
+um problema ou se adaptar a um ambiente.
 
-Um Líder retorna para casa desanimado pois precisou demitir determinado colaborador da sua empresa, por
-motivo justificável e regulamentado em lei (ou por liberdade de escolha da empresa), porém a atividade de
-sua atribuição lhe causou o sentimento de tristeza;
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
 
-O colaborador que foi desligado da empresa, neste mesmo exemplo, retorna para casa feliz, por ter um viés
-de visualizar que o término de seu contrato de trabalho como uma oportunidade para sua carreira e para novas
-rotas.
+<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
 
-Importante: Os fatores psicossociais “relacionados ao
-trabalho”, conforme consta na Norma
-Regulamentadora Nº1 em seu item 1.5.3.1, especifica que existem outros aspectos relacionados ao tema
-“psicossocial” que estão fora do campo do trabalho, que não estão relacionados ao trabalho desenvolvido e,
-portanto, não estão incluídos no Gerenciamento de Riscos Ocupacionais (GRO).
+O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
+doença, seja por lesão ou acidente de trabalho.
 
-É importante identificar que na avaliação dos fatores de risco psicossociais relacionados ao trabalho, trata-se
-de considerar quais os fatores da atividade de trabalho são estressores, que podem levar à ocorrência de lesões
-ou agravos à saúde do trabalhador. Não se trata de verificar sintomas individuais ou sensação do que está
-ocorrendo no trabalhador, ou de medir algum sinal biológico, por exemplo, mas de verificar as condições de
-trabalho a que ele está submetido.
+A concepção de risco se vincula, neste caso, ao adoecimento em si.
 
-Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
-modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
+<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
 
-<div class="doc-p">A <b>ITATIAIA AGROPECUÁRIA LTDA</b> será responsável pela organização deste atendimento, devendo contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo <b>GRUPO PERFORMANCE OCUPACIONAL</b>.</div>
+A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
+ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
+emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
+empresa.
+
+A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
+e o reconhecimento das conquistas dos colaboradores.
+
+<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
+
+Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
+trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
+físico e social (OSHA, 2023).
+
+<div class="pfoot">
+    <div class="pfoot-row">
+      <div class="lg"><img src="assets/logo.png" alt="Grupo Performance"></div>
+      <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
+    </div>
+    <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
+  </div></div>
+<div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+    <td class="c-client"></td>
+    <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
+    <td class="c-pag">REV. 00<br>PÁGINA 12 / 27</td>
+    <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
+  </tr></tbody></table></div>Os fatores psicossociais são aqueles aspectos do ambiente de trabalho que influenciam o bem-estar
+psicológico, emocional e social dos colaboradores. Eles incluem tanto as características do próprio trabalho
+quanto as relações interpessoais e organizacionais. Podem ser divididos principalmente em três categorias:
+
+Ambientais: São aqueles relacionados ao ambiente de trabalho no geral. É o caso de situações de trabalho
+com ruído acima do comum, ferramentas inadequadas, máquinas que não funcionam, trabalho em altura ou
+em espaços confinados, falta de Equipamentos de Proteção Individual (EPI), entre outros.
+
+Atividades: Se relacionam diretamente com a execução do trabalho desenvolvido pelo colaborador, e no PGR
+podem aparecer junto com outros fatores. Envolvem temas como: pressão, sobrecarga, falta de autonomia,
+ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobre as funções que desempenha.
+
+Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
+com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
+e profissional, situações de assédio (inclusive do público externo).
+
+<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
+
+Os fatores de risco psicossociais podem ser classificados em várias categorias:
+
+PERIGO (FATOR DE RISCO)
+
+Assédio de qualquer natureza no trabalho
+
+Má gestão de mudanças organizacionais
+
+Baixa clareza de papel / função
+
+Baixas recompensas e reconhecimento
+
+Falta de suporte / apoio no trabalho
+
+Baixo controle no trabalho / falta de autonomia
+
+Baixa justiça organizacional
+
+Eventos violentos ou traumáticos
+
+Baixa demanda no trabalho (subcarga)
+
+Excesso de demandas no trabalho (sobrecarga)
+
+Más relacionamentos no local de trabalho
+
+Trabalho em condições de difícil comunicação
+
+Trabalho remoto e isolado
+
+Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério
+do Trabalho, de Abril de 2025).
 
 <div class="pfoot">
     <div class="pfoot-row">
@@ -819,9 +944,9 @@ modo imediato o atendimento preventivo e Plano de Ação para buscar como meta q
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Texto corrido, justificado normalmente, com o negrito preservado.</p>
+      <p class="pv-zoom">Subtítulos em <b>negrito</b>, com uma linha em branco antes e depois.</p>
     </div>
   </div>
-  <p class="pv-legend">Coluna “antes” = a mesma página 10 com as quebras do template reintroduzidas por JS, apenas para a comparação.</p>
+  <p class="pv-legend">Coluna “antes” = as mesmas páginas 11 e 12 com os blocos de subtítulo convertidos em texto normal por JS, apenas para comparação.</p>
 </div>
 </body></html>

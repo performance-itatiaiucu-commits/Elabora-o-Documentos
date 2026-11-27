@@ -346,6 +346,9 @@ table.data input:focus, table.data select:focus { border-bottom-color: var(--azu
 .doc-print .doc-p { margin: 0; }
 /* título de seção: uma linha em branco antes do primeiro verbete */
 .doc-print .def-title-gap { margin: 0 0 1.32em; }
+/* subtítulo em negrito dentro de uma seção: alinhado à esquerda, com uma linha em branco antes e depois */
+.doc-print .sub-title { margin: 1.32em 0; text-align: left; font-weight: 700; }
+.doc-print .page > .sub-title:first-child { margin-top: 0; }
 /* parágrafo seguido de um título de seção ou de uma lista: uma linha em branco entre eles */
 .doc-print .doc-p-gap { margin: 0 0 1.32em; }
 /* continuação de uma definição (ex.: "EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:") */
