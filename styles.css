@@ -629,6 +629,11 @@ table.data input:focus, table.data select:focus { border-bottom-color: var(--azu
   color: var(--azul); font-weight: 700;
 }
 .doc-print img.anexo-img { max-width: 100%; height: auto; margin: 6px 0; }
+/* tabela da listagem de fatores de risco psicossociais: uma coluna, linhas compactas */
+.doc-print table.pf-table { margin: 0 0 6px; }
+.doc-print table.pf-table td { padding: 3px 8px; }
+/* fonte da tabela */
+.doc-print .doc-fonte { font-size: 8.4pt; color: var(--mut); text-align: left; margin: 0 0 1.32em; }
 
 /* ---------- caixas de destaque (obs/validade) ---------- */
 .doc-print .obsbox {

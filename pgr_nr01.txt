@@ -352,38 +352,12 @@ ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobr
 
 Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
 com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
-e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>Os fatores de risco psicossociais podem ser classificados em várias categorias:
+e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div><div class="doc-p doc-p-gap">Os fatores de risco psicossociais podem ser classificados em várias categorias:</div>
+<table class="doc-table pf-table">
+<thead><tr><th>PERIGO (FATOR DE RISCO)</th></tr></thead>
+<tbody><tr><td>Assédio de qualquer natureza no trabalho</td></tr><tr><td>Má gestão de mudanças organizacionais</td></tr><tr><td>Baixa clareza de papel / função</td></tr><tr><td>Baixas recompensas e reconhecimento</td></tr><tr><td>Falta de suporte / apoio no trabalho</td></tr><tr><td>Baixo controle no trabalho / falta de autonomia</td></tr><tr><td>Baixa justiça organizacional</td></tr><tr><td>Eventos violentos ou traumáticos</td></tr><tr><td>Baixa demanda no trabalho (subcarga)</td></tr><tr><td>Excesso de demandas no trabalho (sobrecarga)</td></tr><tr><td>Más relacionamentos no local de trabalho</td></tr><tr><td>Trabalho em condições de difícil comunicação</td></tr><tr><td>Trabalho remoto e isolado</td></tr></tbody></table>
+<div class="doc-fonte">Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério do Trabalho, de Abril de 2025).</div>
 
-PERIGO (FATOR DE RISCO)
-
-Assédio de qualquer natureza no trabalho
-
-Má gestão de mudanças organizacionais
-
-Baixa clareza de papel / função
-
-Baixas recompensas e reconhecimento
-
-Falta de suporte / apoio no trabalho
-
-Baixo controle no trabalho / falta de autonomia
-
-Baixa justiça organizacional
-
-Eventos violentos ou traumáticos
-
-Baixa demanda no trabalho (subcarga)
-
-Excesso de demandas no trabalho (sobrecarga)
-
-Más relacionamentos no local de trabalho
-
-Trabalho em condições de difícil comunicação
-
-Trabalho remoto e isolado
-
-Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério
-do Trabalho, de Abril de 2025).
 
 </div>
 <div class="page">RESPONSABILIDADES DA EMPRESA:
