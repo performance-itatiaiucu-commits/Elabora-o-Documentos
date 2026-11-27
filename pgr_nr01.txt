@@ -68,9 +68,7 @@ O PGR pode ser atendido por “sistemas de gestão” desde que estes cumpram os
 Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos
 
 <b>4. ORGANIZAÇÃO</b>
-A organização deve:
-
-a) evitar os riscos ocupacionais que possam ser originados no trabalho;
+A organização deve:<div class="list-indent">a) evitar os riscos ocupacionais que possam ser originados no trabalho;
 
 b) identificar os perigos e possíveis lesões ou agravos à saúde;
 
@@ -80,17 +78,11 @@ d) classificar os riscos ocupacionais para determinar a necessidade de adoção 
 
 e) implementar medidas de prevenção, de acordo com a classificação de risco e na ordem de prioridade
 
-f) acompanhar o controle dos riscos ocupacionais.
-
-A organização deve adotar mecanismos para:
-
-a) consultar os trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas
+f) acompanhar o controle dos riscos ocupacionais.</div>A organização deve adotar mecanismos para:<div class="list-indent">a) consultar os trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas
 as manifestações da Comissão Interna de Prevenção de Acidentes - CIPA, quando houver; e
 
 b) comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de
-prevenção do plano de ação do PGR.
-
-A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
+prevenção do plano de ação do PGR.</div>A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
 
 </div>
 <div class="page"><div class="def-title def-title-gap"><b>5. TERMOS E DEFINIÇÕES</b></div><b>ASO:</b> Atestado de Saúde Ocupacional.
