@@ -395,19 +395,8 @@ Anônimo de Entrevista sobre Fatores Psicossociais em anexo” na gestão de ris
 empresa.
 
 </div>
-<div class="page"><div class="sub-title">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</div>Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:
-
-• Grupos de discussão, através de reuniões com pequenos grupos de colaboradores para discutir
-
-abertamente os fatores de risco percebidos;
-
-• Workshops interativos, com sessões de treinamento onde os trabalhadores aprendem sobre riscos
-psicossociais, recebem capacitação para gestão do estresse e melhoria de sua resiliência, e também o
-compartilhamento de suas experiências.
-
-• Pesquisas anônimas, através de questionários anônimos que permitem aos colaboradores expressar
-
-preocupações sem medo de retaliação.
+<div class="page"><div class="sub-title">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</div><div class="doc-p doc-p-gap">Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:</div>
+<div class="bullet-list"><div>• Grupos de discussão, através de reuniões com pequenos grupos de colaboradores para discutir abertamente os fatores de risco percebidos;</div><div>• Workshops interativos, com sessões de treinamento onde os trabalhadores aprendem sobre riscos psicossociais, recebem capacitação para gestão do estresse e melhoria de sua resiliência, e também o compartilhamento de suas experiências.</div><div>• Pesquisas anônimas, através de questionários anônimos que permitem aos colaboradores expressar preocupações sem medo de retaliação.</div></div>
 
 Aplicação de instrumentos de avaliação psicossocial:
 

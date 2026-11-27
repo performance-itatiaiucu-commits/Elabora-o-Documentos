@@ -340,6 +340,10 @@ table.data input:focus, table.data select:focus { border-bottom-color: var(--azu
 .doc-print .def-title { text-align: left; margin: 0; }
 /* listas (a, b, c...) recuadas dentro do texto */
 .doc-print .list-indent { margin: 1.32em 0 1.32em 10mm; }
+/* lista com marcadores: um item por linha, entre itens o mesmo respiro de 1 linha do texto */
+.doc-print .bullet-list { margin: 0 0 1.32em; padding-left: 10mm; }
+.doc-print .bullet-list > div { padding-left: 5mm; text-indent: -5mm; }
+.doc-print .bullet-list > div + div { margin-top: 1.32em; }
 /* lista recuada sem margem própria: o respiro de 1 linha vem do parágrafo .doc-p-gap que a introduz */
 .doc-print .list-flush { margin: 0 0 1.32em 10mm; }
 /* parágrafo que precisa de formatação no meio do texto (ex.: razão social em negrito) */
