@@ -360,8 +360,7 @@ e profissional, situações de assédio (inclusive do público externo).<div cla
 
 
 </div>
-<div class="page">RESPONSABILIDADES DA EMPRESA:
-
+<div class="page"><div class="sub-title">RESPONSABILIDADES DA EMPRESA:</div>
 É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os
 fatores psicossociais.
 
@@ -372,9 +371,7 @@ para os fatores psicossociais.
 
 Sendo assim, além das estratégias para minimizar os riscos psicossociais, é preciso focar em ações
 direcionadas à identificação, controle e monitoramento dos mesmos.
-
-IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:
-
+<div class="sub-title">IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:</div>
 Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
 
 Observações diretas (visita-técnica):
@@ -402,8 +399,7 @@ Anônimo de Entrevista sobre Fatores Psicossociais em anexo” na gestão de ris
 empresa.
 
 </div>
-<div class="page">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS
-OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:
+<div class="page"><div class="sub-title">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</div>
 
 Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:
 
@@ -430,8 +426,7 @@ Realizar a análise dos resultados levantados por meio das etapas anteriores e d
 ocupacional, como taxas de absenteísmo e relatório de incidentes a fim de mapear os riscos e estabelecer ações
 baseada em dados.
 
-QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO
-DOS RISCOS?
+<div class="sub-title">QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO DOS RISCOS?</div>
 
 Envolver os trabalhadores no processo de identificação dos riscos é crucial para garantir a precisão e a
 relevância das informações coletadas. Isso porque ao contrário dos riscos físicos, que são mais visíveis e
@@ -450,8 +445,7 @@ controle das ações, e o uso de raciocínios apropriados. Ainda, permite compre
 de não aparente, influencia gestos, esforços, posturas, deslocamentos e comunicações. (Guérin et al., 2001).
 
 </div>
-<div class="page">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:
-
+<div class="page"><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div>
 A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.
 
 Desenvolvimento e Plano de Ação
@@ -468,9 +462,7 @@ Identificação e descrição dos fatores de riscos;
 • Responsáveis, quem será responsável pela implementação da ação;
 • Recursos necessários, orçamento, tempo e outros recursos;
 • Cronograma, prazos para a execução das etapas do plano.
-
-COMUNICAÇÃO
-
+<div class="sub-title">COMUNICAÇÃO</div>
 A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
 
 • Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os
@@ -486,17 +478,13 @@ sobre os riscos psicossociais e a importância de um ambiente de trabalho saudá
 treinamentos para gestores e colaboradores sobre gestão de estresse, inteligência emocional e resolução
 de conflitos pode ser algo muito interessante e que trará ganhos muito além do ambiente
 organizacional.
-
-METODOLOGIA DE CONTROLE DOS RISCOS:
-
+<div class="sub-title">METODOLOGIA DE CONTROLE DOS RISCOS:</div>
 Além de promover mudanças organizacionais necessárias, é essencial implementar programas de apoio
 psicológico e investir em treinamento e capacitação para que os trabalhadores desenvolvem habilidades para
 lidar com o estresse e outras pressões, contribuindo para um ambiente mais inclusivo. Além disso, no contexto
 de ações de controle, é importante adotar práticas eficientes, como o aprimoramento do formato de
 armazenamento e gestão das informações levantadas.
-
-DOCUMENTAÇÃO E RELATÓRIOS
-
+<div class="sub-title">DOCUMENTAÇÃO E RELATÓRIOS:</div>
 A documentação para identificação das análises realizadas é fundamental para a gestão contínua.
 Recomenda-se:
 
@@ -507,9 +495,7 @@ medidas corretivas planejadas;
 • Relatórios periódicos, preparar relatórios que resumem os achados e as ações recomendadas, e
 
 compartilhe-os com a alta gestão e outras partes interessadas.
-
-MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:
-
+<div class="sub-title">MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:</div>
 A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam monitoradas
 e ajustadas conforme necessário, isso pode ser feito através de:
 
