@@ -424,22 +424,7 @@ controle das ações, e o uso de raciocínios apropriados. Ainda, permite compre
 de não aparente, influencia gestos, esforços, posturas, deslocamentos e comunicações. (Guérin et al., 2001).
 
 </div>
-<div class="page"><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div>A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.
-
-Desenvolvimento e Plano de Ação
-
-O desenvolvimento do plano de ação deve ser específico, mensurável, alcançável, relevante e com prazo
-definido.
-
-Cada plano de ação deve incluir:
-
-Identificação e descrição dos fatores de riscos;
-
-•
-• Objetivo da ação, o que se pretende alcançar com a intervenção;
-• Responsáveis, quem será responsável pela implementação da ação;
-• Recursos necessários, orçamento, tempo e outros recursos;
-• Cronograma, prazos para a execução das etapas do plano.<div class="sub-title">COMUNICAÇÃO</div>A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
+<div class="page"><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div><div class="doc-p doc-p-gap">A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.</div><div class="doc-p doc-p-gap">Desenvolvimento e Plano de Ação</div><div class="doc-p doc-p-gap">O desenvolvimento do plano de ação deve ser específico, mensurável, alcançável, relevante e com prazo definido.</div><div class="doc-p doc-p-gap">Cada plano de ação deve incluir:</div><div class="bullet-list"><div>• Identificação e descrição dos fatores de riscos;</div><div>• Objetivo da ação, o que se pretende alcançar com a intervenção;</div><div>• Responsáveis, quem será responsável pela implementação da ação;</div><div>• Recursos necessários, orçamento, tempo e outros recursos;</div><div>• Cronograma, prazos para a execução das etapas do plano.</div></div><div class="sub-title">COMUNICAÇÃO</div>A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
 
 • Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os
 colaboradores. Estimular um ambiente onde os trabalhadores se sintam valorizados e apoiados é
