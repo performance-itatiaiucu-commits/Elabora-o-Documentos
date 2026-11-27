@@ -698,19 +698,17 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 <div class="pv-wrap">
   <div class="pv-note">
     <span class="lbl">O que foi corrigido</span>
-    <code>1</code> Todo texto que quebrava no meio da frase &mdash; sobrando espaço na linha de cima &mdash; passou a
-    correr no mesmo parágrafo: a quebra agora só acontece quando a linha enche.<br>
+    <code>1</code> Todo texto que quebrava no meio da frase &mdash; deixando espaço sobrando na linha de cima &mdash; passou a
+    correr no mesmo parágrafo: a quebra agora só acontece quando a linha realmente enche.<br>
     <code>2</code> As pilhas de linhas em branco foram reduzidas a <b>exatamente 1 linha</b> em cada separação.<br>
-    <code>3</code> O texto não foi reescrito: conferência palavra por palavra (10.650 palavras) contra o documento anterior &mdash; idêntico.
-    <div style="margin-top:8px;color:#64748B;font-size:12.5px">
-      Tabelas, cabeçalho, rodapé, listas a)/b)/c), títulos e o quadro de cargos do Anexo I foram preservados na estrutura própria de cada um.
-    </div>
+    <code>3</code> O texto não foi reescrito: conferência palavra por palavra contra o documento anterior &mdash; mesmo conteúdo.<br>
+    <code>4</code> Listas a)/b)/c) padronizadas (um item por linha, sem linha em branco entre itens); quadro de cargos do Anexo I com uma função por linha.
   </div>
   <div class="pv-kpi">
-    <div><small>Quebras no meio da frase</small><b>284 &rarr; 0</b><span>no modelo (texto)</span></div>
-    <div><small>Linhas “picadas” no documento</small><b>261 &rarr; 0</b><span>no documento gerado</span></div>
-    <div><small>Linhas em branco</small><b>788 &rarr; 763</b><span>nunca 2 seguidas</span></div>
-    <div><small>Palavras</small><b>10.650</b><span>iguais antes e depois</span></div>
+    <div><small>Quebras no meio da frase</small><b>0</b><span>antes: em quase todo parágrafo</span></div>
+    <div><small>Linhas em branco</small><b>1 por separação</b><span>antes: até 3 seguidas</span></div>
+    <div><small>Palavras</small><b>idênticas</b><span>nada foi reescrito</span></div>
+    <div><small>Páginas</small><b>27</b><span>mesma numeração</span></div>
   </div>
   <div class="pv-cols">
   <div class="pv-col"><h2>Antes &middot; pág. 7 — 5. TERMOS E DEFINIÇÕES</h2>
@@ -1368,7 +1366,7 @@ Nenhum controle adicional é necessário. Pode-se considerar uma solução mais 
   </div></div></div></div>
   </div>
   <p class="pv-legend"><b>Como ler:</b> as duas colunas são páginas reais do documento gerado, com o mesmo conteúdo e a mesma
-  numeração &mdash; à esquerda como estava, à direita depois da normalização. Repare que o texto da direita ocupa menos linhas,
-  porque cada frase deixou de ser cortada ao meio, e que os intervalos entre blocos ficaram uniformes.</p>
+  numeração &mdash; à esquerda como estava, à direita depois da normalização. O texto da direita ocupa menos linhas porque
+  cada frase deixou de ser cortada ao meio, e os intervalos entre blocos ficaram uniformes.</p>
 </div>
 </body></html>

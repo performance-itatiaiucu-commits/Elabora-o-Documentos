@@ -162,9 +162,7 @@ b) comunicar aos trabalhadores sobre os riscos consolidados no inventário de ri
 <b>6. LEVANTAMENTO PRELIMINAR DE PERIGOS</b>
 <div class="doc-p doc-p-gap">O Levantamento Preliminar de Perigos deve ser realizado considerando:</div>
 <div class="list-flush">a) Antes do início do funcionamento do estabelecimento ou novas instalações;
-
 b) Para as atividades existentes; e
-
 c) Nas mudanças e introdução de novos processos ou atividades de trabalho.</div>
 
 <b>7. IDENTIFICAÇÃO DE PERIGOS</b>
@@ -172,9 +170,7 @@ Pode ser realizado junto ao “Levantamento Preliminar de Perigos” conforme it
 
 <div class="doc-p doc-p-gap">Etapas da identificação de Perigos:</div>
 <div class="list-flush">a) Descrição dos perigos e possíveis lesões ou agravos à saúde;
-
 b) Identificação das fontes ou circunstâncias; e
-
 c) Indicação do grupo de trabalhadores sujeitos aos riscos.</div>
 
 <b>8. AVALIAÇÃO DE RISCOS OCUPACIONAIS</b>
@@ -187,7 +183,6 @@ c) Quando houverem problemas nas medidas de prevenção;
 d) Na ocorrência de acidentes ou doenças relacionadas ao trabalho;
 e) Quando houver mudança nos requisitos legais aplicáveis.</div><div class="doc-p doc-p-gap">Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência. A organização deve adotar medidas de prevenção para eliminar, reduzir ou controlar os riscos sempre que:</div>
 <div class="list-flush">a) Exigências previstas em Normas Regulamentadoras e nos dispositivos legais determinarem;
-
 b) A classificação dos riscos ocupacionais assim determinar, conforme subitem que diz: Após a avaliação, os riscos ocupacionais devem ser classificados, observado para fins de identificar a necessidade de adoção de medidas de prevenção e elaboração do plano de ação.</div><div class="doc-p doc-p-gap">Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência.</div>
 <div class="list-flush">c) Houver evidências de associação, por meio do controle médico da saúde, entre as lesões e os agravos à saúde dos trabalhadores com os riscos e as situações de trabalho identificados.</div>
 </div>
@@ -311,7 +306,6 @@ Hierarquia de controle risco é a ordem que deverá ser seguida para definir o c
 
 <div class="doc-p doc-p-gap">O PGR deve conter, no mínimo, os seguintes documentos:</div>
 <div class="list-flush">a) inventário de riscos; e
-
 b) plano de ação.</div>
 Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da organização, respeitado o disposto nas demais Normas Regulamentadoras, datados e assinados. Os documentos integrantes do PGR devem estar sempre disponíveis aos trabalhadores interessados ou seus representantes e à Inspeção do Trabalho.
 
@@ -329,7 +323,6 @@ b) Caracterização das atividades;
 c) Descrição de perigos e de possíveis lesões ou agravos à saúde dos trabalhadores, com a identificação das fontes ou circunstâncias, descrição de riscos gerados pelos perigos, com a indicação dos grupos de trabalhadores sujeitos a esses riscos, e descrição de medidas de prevenção implementadas;
 d) Dados da análise preliminar ou do monitoramento das exposições a agentes físicos, químicos e biológicos e os resultados da avaliação de ergonomia nos termos da NR-17.
 e) Avaliação dos riscos, incluindo a classificação para fins de elaboração do plano de ação; e
-
 f) Critérios adotados para avaliação dos riscos e tomada de decisão. O inventário de riscos ocupacionais deve ser mantido atualizado. O histórico das atualizações deve ser mantido por um período mínimo de 20 (vinte) anos ou pelo período estabelecido em normatização específica.</div>
 
 <b>14. METODOLOGIA DO PLANO DE AÇÃO</b>
