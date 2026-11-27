@@ -585,9 +585,7 @@ no seu uso correto, bem como manutenção e conservação.
 
 <b>18. ERGONÔMIA</b>
 
-<div class="doc-p">A <b>{{RAZAO_SOCIAL}}</b> deve considerar as condições de trabalho nos termos</div>
-
-da NR-17.
+<div class="doc-p">A <b>{{RAZAO_SOCIAL}}</b> deve considerar as condições de trabalho nos termos da NR-17.</div>
 </div>
 {{BLOCK:cargos}}
 <div class="page">20. PLANO DE AÇÃO
