@@ -686,8 +686,8 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 .pv-legend { font-size: 12px; color: var(--mut); margin: 18px 2px 0; max-width: 860px; }
 .pv-legend code { background:#fff; border:1px solid var(--borda); border-radius:4px; padding:1px 5px; }
 
-/* recomposição do estado anterior, só para comparação: margem 1,32em + quebra de linha do template */
-.pv-duplo .sub-title::after { content: "\A"; white-space: pre-wrap; }
+/* recomposição do estado anterior, só para comparação: margem + quebras de linha do template */
+.pv-duplo .sub-title::before, .pv-duplo .sub-title::after { content: "\A"; white-space: pre-wrap; }
 
 .pv-cols { display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-start; }
 .pv-cols .pv-frame { background:#dfe4ea; border-radius:6px; padding:10px; }
@@ -695,17 +695,17 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 <body class="pv">
 <div class="pv-topbar">
   <div class="t1">Grupo Performance · Gerador de Documentos</div>
-  <h1>Item 9 · subtítulos com apenas uma linha em branco depois</h1>
+  <h1>Item 9 · uma única linha em branco após cada subtítulo</h1>
   <div class="t2">PGR (NR-01) · páginas 11 e 12 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
 </div>
 <div class="pv-wrap">
   <div class="pv-note">
-    <span class="lbl">Ajuste aplicado</span>
-    <code class="del">- margem de 1,32em do subtítulo + quebra de linha do template  ≈ 2 linhas em branco depois</code><br>
-    <code class="add">+ quebra de linha removida: fica só a margem de 1,32em  = 1 linha em branco</code>
+    <span class="lbl">Ajuste aplicado nos 5 subtítulos</span>
+    <code class="del">- margem de 1,32 em + quebra de linha do template (antes e depois)  ≈ 2 linhas em branco</code><br>
+    <code class="add">+ quebras removidas do template: fica só a margem de 1,32 em  = 1 linha em branco</code>
     <div style="margin-top:8px;color:#64748B;font-size:12.5px">
-      Mesma lógica já usada antes: a página tem <code>white-space: pre-wrap</code>, então cada quebra do template
-      vira uma linha real. O negrito e o alinhamento à esquerda continuam iguais.
+      Confirmação na página gerada: nenhum <code>\n</code> entre o subtítulo e o texto seguinte em nenhum dos 5 casos.
+      Negrito e alinhamento à esquerda mantidos; os demais parágrafos do item 9 não foram alterados.
     </div>
   </div>
   <div class="pv-cols">
@@ -716,8 +716,7 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
-A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
+  </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
 promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
 e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
 o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
@@ -729,22 +728,16 @@ segurança no trabalho.
 Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
 um problema ou se adaptar a um ambiente.
 
-Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
-<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
-O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
 doença, seja por lesão ou acidente de trabalho.
 
-A concepção de risco se vincula, neste caso, ao adoecimento em si.
-<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
-A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
+A concepção de risco se vincula, neste caso, ao adoecimento em si.<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
 ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
 emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
 empresa.
 
 A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
-e o reconhecimento das conquistas dos colaboradores.
-<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
-Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+e o reconhecimento das conquistas dos colaboradores.<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
 física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
 trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
 físico e social (OSHA, 2023).
@@ -775,9 +768,7 @@ ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobr
 
 Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
 com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
-e profissional, situações de assédio (inclusive do público externo).
-<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
-Os fatores de risco psicossociais podem ser classificados em várias categorias:
+e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>Os fatores de risco psicossociais podem ser classificados em várias categorias:
 
 PERIGO (FATOR DE RISCO)
 
@@ -817,7 +808,7 @@ do Trabalho, de Abril de 2025).
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Espaço grande entre o subtítulo e o texto.</p>
+      <p class="pv-zoom">Espaço grande entre cada subtítulo e o texto.</p>
     </div>
     <div class="pv-col depois">
       <h2>Depois (1 linha)</h2>
@@ -826,8 +817,7 @@ do Trabalho, de Abril de 2025).
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
-A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
+  </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
 promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
 e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
 o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
@@ -839,22 +829,16 @@ segurança no trabalho.
 Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
 um problema ou se adaptar a um ambiente.
 
-Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
-<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
-O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
 doença, seja por lesão ou acidente de trabalho.
 
-A concepção de risco se vincula, neste caso, ao adoecimento em si.
-<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
-A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
+A concepção de risco se vincula, neste caso, ao adoecimento em si.<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
 ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
 emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
 empresa.
 
 A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
-e o reconhecimento das conquistas dos colaboradores.
-<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
-Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+e o reconhecimento das conquistas dos colaboradores.<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
 física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
 trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
 físico e social (OSHA, 2023).
@@ -885,9 +869,7 @@ ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobr
 
 Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
 com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
-e profissional, situações de assédio (inclusive do público externo).
-<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
-Os fatores de risco psicossociais podem ser classificados em várias categorias:
+e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>Os fatores de risco psicossociais podem ser classificados em várias categorias:
 
 PERIGO (FATOR DE RISCO)
 
@@ -927,10 +909,9 @@ do Trabalho, de Abril de 2025).
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Uma única <b>linha em branco</b> depois de cada subtítulo.</p>
+      <p class="pv-zoom">Uma <b>linha em branco</b> depois de cada subtítulo.</p>
     </div>
   </div>
-  <p class="pv-legend">Coluna “antes” = a mesma página 11 com o espaço antigo recomposto por CSS, apenas para comparação.
-  Vale para os 5 subtítulos do item 9.</p>
+  <p class="pv-legend">Coluna “antes” = a mesma página 11 com as quebras antigas recompostas por CSS, apenas para comparação.</p>
 </div>
 </body></html>

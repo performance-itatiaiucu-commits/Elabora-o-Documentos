@@ -311,8 +311,7 @@ modo imediato o atendimento preventivo e Plano de Ação para buscar como meta q
 <div class="doc-p">A <b>{{NOME_EMPRESA}}</b> será responsável pela organização deste atendimento, devendo contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo <b>GRUPO PERFORMANCE OCUPACIONAL</b>.</div>
 
 </div>
-<div class="page"><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
-A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
+<div class="page"><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
 promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
 e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
 o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
@@ -324,22 +323,16 @@ segurança no trabalho.
 Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
 um problema ou se adaptar a um ambiente.
 
-Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
-<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
-O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
 doença, seja por lesão ou acidente de trabalho.
 
-A concepção de risco se vincula, neste caso, ao adoecimento em si.
-<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
-A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
+A concepção de risco se vincula, neste caso, ao adoecimento em si.<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
 ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
 emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
 empresa.
 
 A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
-e o reconhecimento das conquistas dos colaboradores.
-<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
-Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+e o reconhecimento das conquistas dos colaboradores.<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
 física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
 trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
 físico e social (OSHA, 2023).
@@ -359,9 +352,7 @@ ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobr
 
 Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
 com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
-e profissional, situações de assédio (inclusive do público externo).
-<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
-Os fatores de risco psicossociais podem ser classificados em várias categorias:
+e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>Os fatores de risco psicossociais podem ser classificados em várias categorias:
 
 PERIGO (FATOR DE RISCO)
 
