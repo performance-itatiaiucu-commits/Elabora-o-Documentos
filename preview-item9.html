@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Preview · Subtítulos do item 9 em negrito (PGR NR-01)</title>
+<title>Preview · Espaço após os subtítulos do item 9 (PGR NR-01)</title>
 <style>/* ===== Gerador de Documentos PGR/PCMSO — Identidade Grupo Performance =====
    Design system: azul-marinho #1F386E + acentos ciano/verde/roxo (filete tricolor). */
 
@@ -350,7 +350,8 @@ table.data input:focus, table.data select:focus { border-bottom-color: var(--azu
 .doc-print .doc-p { margin: 0; }
 /* título de seção: uma linha em branco antes do primeiro verbete */
 .doc-print .def-title-gap { margin: 0 0 1.32em; }
-/* subtítulo em negrito dentro de uma seção: alinhado à esquerda, com uma linha em branco antes e depois */
+/* subtítulo em negrito dentro de uma seção: alinhado à esquerda, com exatamente uma
+   linha em branco antes e depois (a quebra do template é removida para não somar com a margem) */
 .doc-print .sub-title { margin: 1.32em 0; text-align: left; font-weight: 700; }
 .doc-print .page > .sub-title:first-child { margin-top: 0; }
 /* parágrafo seguido de um título de seção ou de uma lista: uma linha em branco entre eles */
@@ -685,38 +686,37 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 .pv-legend { font-size: 12px; color: var(--mut); margin: 18px 2px 0; max-width: 860px; }
 .pv-legend code { background:#fff; border:1px solid var(--borda); border-radius:4px; padding:1px 5px; }
 
+/* recomposição do estado anterior, só para comparação: margem 1,32em + quebra de linha do template */
+.pv-duplo .sub-title::after { content: "\A"; white-space: pre-wrap; }
+
 .pv-cols { display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-start; }
 .pv-cols .pv-frame { background:#dfe4ea; border-radius:6px; padding:10px; }
 </style></head>
 <body class="pv">
 <div class="pv-topbar">
   <div class="t1">Grupo Performance · Gerador de Documentos</div>
-  <h1>Item 9 · cinco subtítulos em negrito</h1>
+  <h1>Item 9 · subtítulos com apenas uma linha em branco depois</h1>
   <div class="t2">PGR (NR-01) · páginas 11 e 12 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
 </div>
 <div class="pv-wrap">
   <div class="pv-note">
-    <span class="lbl">Subtítulos que passaram a usar o bloco .sub-title (negrito 700, alinhados à esquerda)</span>
-    <code>FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</code><br>
-    <code>CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</code><br>
-    <code>IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</code><br>
-    <code>O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</code><br>
-    <code>LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</code>
+    <span class="lbl">Ajuste aplicado</span>
+    <code class="del">- margem de 1,32em do subtítulo + quebra de linha do template  ≈ 2 linhas em branco depois</code><br>
+    <code class="add">+ quebra de linha removida: fica só a margem de 1,32em  = 1 linha em branco</code>
     <div style="margin-top:8px;color:#64748B;font-size:12.5px">
-      O último subtítulo também estava quebrado no meio pelo template e agora é uma linha lógica só
-      (quebra apenas se faltar espaço). Os dois títulos de seção de página própria mantêm o negrito.
+      Mesma lógica já usada antes: a página tem <code>white-space: pre-wrap</code>, então cada quebra do template
+      vira uma linha real. O negrito e o alinhamento à esquerda continuam iguais.
     </div>
   </div>
   <div class="pv-cols">
     <div class="pv-col antes">
-      <h2>Antes</h2>
-      <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+      <h2>Antes (≈ 2 linhas)</h2>
+      <div class="pv-frame"><div class="doc-print pv-duplo"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div>FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
-
+  </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
 A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
 promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
 e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
@@ -730,16 +730,12 @@ Existe a possibilidade de haver a disposição / propensão a reagir em um certo
 um problema ou se adaptar a um ambiente.
 
 Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
-
-<div>CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
-
+<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
 O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
 doença, seja por lesão ou acidente de trabalho.
 
 A concepção de risco se vincula, neste caso, ao adoecimento em si.
-
-<div>IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
-
+<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
 A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
 ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
 emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
@@ -747,9 +743,7 @@ empresa.
 
 A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
 e o reconhecimento das conquistas dos colaboradores.
-
-<div>O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
-
+<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
 Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
 física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
 trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
@@ -782,9 +776,7 @@ ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobr
 Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
 com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
 e profissional, situações de assédio (inclusive do público externo).
-
-<div>LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
-
+<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
 Os fatores de risco psicossociais podem ser classificados em várias categorias:
 
 PERIGO (FATOR DE RISCO)
@@ -825,17 +817,16 @@ do Trabalho, de Abril de 2025).
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Subtítulos em texto normal.</p>
+      <p class="pv-zoom">Espaço grande entre o subtítulo e o texto.</p>
     </div>
     <div class="pv-col depois">
-      <h2>Depois (atual)</h2>
+      <h2>Depois (1 linha)</h2>
       <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
   </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>
-
 A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
 promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
 e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
@@ -849,16 +840,12 @@ Existe a possibilidade de haver a disposição / propensão a reagir em um certo
 um problema ou se adaptar a um ambiente.
 
 Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.
-
 <div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>
-
 O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
 doença, seja por lesão ou acidente de trabalho.
 
 A concepção de risco se vincula, neste caso, ao adoecimento em si.
-
 <div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>
-
 A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
 ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
 emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
@@ -866,9 +853,7 @@ empresa.
 
 A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
 e o reconhecimento das conquistas dos colaboradores.
-
 <div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>
-
 Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
 física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
 trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
@@ -901,9 +886,7 @@ ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobr
 Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
 com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
 e profissional, situações de assédio (inclusive do público externo).
-
 <div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div>
-
 Os fatores de risco psicossociais podem ser classificados em várias categorias:
 
 PERIGO (FATOR DE RISCO)
@@ -944,9 +927,10 @@ do Trabalho, de Abril de 2025).
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
   </div></div></div></div>
-      <p class="pv-zoom">Subtítulos em <b>negrito</b>, com uma linha em branco antes e depois.</p>
+      <p class="pv-zoom">Uma única <b>linha em branco</b> depois de cada subtítulo.</p>
     </div>
   </div>
-  <p class="pv-legend">Coluna “antes” = as mesmas páginas 11 e 12 com os blocos de subtítulo convertidos em texto normal por JS, apenas para comparação.</p>
+  <p class="pv-legend">Coluna “antes” = a mesma página 11 com o espaço antigo recomposto por CSS, apenas para comparação.
+  Vale para os 5 subtítulos do item 9.</p>
 </div>
 </body></html>
