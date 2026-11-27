@@ -455,60 +455,25 @@ implementação das medidas de proteção de acordo com a hierarquia das medidas
 medidas de proteção possíveis dentro de sua realidade, seguem abaixo definições da hierarquia das medidas
 de proteção:</div>
 
-1) ELIMINAÇÃO: eliminar o risco
+<div class="doc-p doc-p-gap"><b>1) ELIMINAÇÃO: eliminar o risco</b></div>
+<div class="bullet-list"><div>Eliminar um produto químico que pode ser substituído por um menos agressivo;</div><div>Substituir uma máquina ruidosa por uma que gere menos ruído;</div></div>
+<div class="doc-p doc-p-gap">Exemplo prático: Deve-se avaliar de os equipamentos, produtos químicos ou processos são realmente necessários para o processo de trabalho, pois sempre que possível devemos substituir a fonte geradora do agente nocivo.</div>
 
-Eliminar um produto químico que pode ser substituído por um menos agressivo;
+<div class="doc-p doc-p-gap"><b>2) REDUÇÃO: reduzir o risco a níveis aceitáveis.</b></div>
+<div class="bullet-list"><div>Reduzir a exposição do trabalhador ao risco, através de rodízios;</div><div>Reduzir o número de máquinas em um determinado setor para diminuir o ruído;</div><div>Reduzir a quantidade de produto químico utilizado.</div></div>
+<div class="doc-p doc-p-gap">Exemplo prático: Em um processo utilizavam um produto corrosivo para limpar o verniz e tintas que ficavam impregnados nos cilindros das máquinas, porém, foi feito um teste e descobrimos que o produto misturado com água na proporção de 50% de água e 50% do produto fazia o mesmo efeito de limpeza e se tornava menos corrosivo, então foi padronizado essa diluição reduzindo o risco.</div>
 
-Substituir uma máquina ruidosa por uma que gere menos ruído;
+<div class="doc-p doc-p-gap"><b>3) ENGENHARIA: controlar os riscos através de projetos de engenharia.</b></div>
+<div class="bullet-list"><div>Colocar proteção nas partes móveis das máquina e equipamentos;</div><div>Enclausurar equipamentos;</div><div>Sistemas de ventilação.</div></div>
+<div class="doc-p doc-p-gap">Exemplo prático: Sempre que um processo for essencial para a empresa e o mesmo deverá ser mantido a engenharia deverá entrar em ação protegendo as pessoas.</div>
 
-Exemplo prático: Deve-se avaliar de os equipamentos, produtos químicos ou processos são realmente
-necessários para o processo de trabalho, pois sempre que possível devemos substituir a fonte geradora do
-agente nocivo.
+<div class="doc-p doc-p-gap"><b>4) ADMINISTRATIVO: administrar o risco</b></div>
+<div class="bullet-list"><div>Elaborar APR;</div><div>Elabora Permissão de Trabalho;</div><div>Treinamentos e conscientização;</div><div>Placas de advertência.</div></div>
+<div class="doc-p doc-p-gap">Exemplo prático: Esse item porque vai depender do comportamento humano, toda a identificação e conscientização deverá ocorrer através de treinamentos e divulgação.</div>
 
-2) REDUÇÃO: reduzir o risco a níveis aceitáveis.
-
-Reduzir a exposição do trabalhador ao risco, através de rodízios;
-
-Reduzir o número de máquinas em um determinado setor para diminuir o ruído;
-
-Reduzir a quantidade de produto químico utilizado.
-
-Exemplo prático: Em um processo utilizavam um produto corrosivo para limpar o verniz e tintas que ficavam
-impregnados nos cilindros das máquinas, porém, foi feito um teste e descobrimos que o produto misturado
-com água na proporção de 50% de água e 50% do produto fazia o mesmo efeito de limpeza e se tornava menos
-corrosivo, então foi padronizado essa diluição reduzindo o risco.
-
-3) ENGENHARIA: controlar os riscos através de projetos de engenharia.
-
-Colocar proteção nas partes móveis das máquina e equipamentos;
-
-Enclausurar equipamentos;
-
-Sistemas de ventilação.
-
-Exemplo prático: Sempre que um processo for essencial para a empresa e o mesmo deverá ser mantido a
-engenharia deverá entrar em ação protegendo as pessoas.
-
-4) ADMINISTRATIVO: administrar o risco
-
-Elaborar APR;
-
-Elabora Permissão de Trabalho;
-
-Treinamentos e conscientização;
-
-Placas de advertência.
-
-Exemplo prático: Esse item porque vai depender do comportamento humano, toda a identificação e
-conscientização deverá ocorrer através de treinamentos e divulgação.
-
-5) EPI: tornar obrigatório o uso do EPI
-
-Conforme quadro de distribuição de EPI’s.
-
-Exemplo prático: O fornecimento de EPI ocorre quando não existe controle do risco, através da minimização
-da exposição direta ao agente nocivo, sendo que indispensável treinamento sobre uso, guarda e conservação
-do uso de EPI’s.
+<div class="doc-p doc-p-gap"><b>5) EPI: tornar obrigatório o uso do EPI</b></div>
+<div class="bullet-list"><div>Conforme quadro de distribuição de EPI’s.</div></div>
+<div class="doc-p doc-p-gap">Exemplo prático: O fornecimento de EPI ocorre quando não existe controle do risco, através da minimização da exposição direta ao agente nocivo, sendo que indispensável treinamento sobre uso, guarda e conservação do uso de EPI’s.</div>
 
 <b>11. DOCUMENTAÇÃO</b>
 
