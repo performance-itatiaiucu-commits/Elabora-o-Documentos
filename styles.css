@@ -340,11 +340,13 @@ table.data input:focus, table.data select:focus { border-bottom-color: var(--azu
 .doc-print .def-title { text-align: left; margin: 0; }
 /* listas (a, b, c...) recuadas dentro do texto */
 .doc-print .list-indent { margin: 1.32em 0 1.32em 10mm; }
+/* lista recuada sem margem própria: o respiro de 1 linha vem do parágrafo .doc-p-gap que a introduz */
+.doc-print .list-flush { margin: 0 0 1.32em 10mm; }
 /* parágrafo que precisa de formatação no meio do texto (ex.: razão social em negrito) */
 .doc-print .doc-p { margin: 0; }
 /* título de seção: uma linha em branco antes do primeiro verbete */
 .doc-print .def-title-gap { margin: 0 0 1.32em; }
-/* parágrafo seguido de um título de seção: uma linha em branco entre eles */
+/* parágrafo seguido de um título de seção ou de uma lista: uma linha em branco entre eles */
 .doc-print .doc-p-gap { margin: 0 0 1.32em; }
 /* continuação de uma definição (ex.: "EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:") */
 .doc-print .def-sub { margin: 0 0 0 9mm; }
