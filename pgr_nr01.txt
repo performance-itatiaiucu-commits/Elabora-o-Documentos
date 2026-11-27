@@ -512,12 +512,9 @@ do uso de EPI’s.
 
 <b>11. DOCUMENTAÇÃO</b>
 
-O PGR deve conter, no mínimo, os seguintes documentos:
-
-a) inventário de riscos; e
-
-b) plano de ação.
-
+<div class="doc-p doc-p-gap">O PGR deve conter, no mínimo, os seguintes documentos:</div>
+<div class="list-flush">a) inventário de riscos; e
+b) plano de ação.</div>
 Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da organização, respeitado
 o disposto nas demais Normas Regulamentadoras, datados e assinados. Os documentos integrantes do PGR
 devem estar sempre disponíveis aos trabalhadores interessados ou seus representantes e à Inspeção do
@@ -525,21 +522,8 @@ Trabalho.
 
 <b>12. REVISÃO DA AVALIAÇÃO DE RISCOS (ITEM 1.5.4.4.6)</b>
 
-No PGR, a avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando
-
-da ocorrência das seguintes situações:
-
-• Após implementação das medidas de prevenção, para avaliação de riscos residuais;
-
-• Após inovações e modificações nas tecnologias, ambientes, processos, condições, procedimentos e
-
-Organização do trabalho que impliquem em novos riscos ou modifiquem os riscos existentes;
-
-• Quando identificadas inadequações, insuficiências ou ineficácias das medidas de prevenção;
-
-• Na ocorrência de acidentes ou doenças relacionadas ao trabalho;
-
-• Quando houver mudança nos requisitos legais aplicáveis.
+<div class="doc-p doc-p-gap">No PGR, a avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da ocorrência das seguintes situações:</div>
+<div class="bullet-list"><div>• Após implementação das medidas de prevenção, para avaliação de riscos residuais;</div><div>• Após inovações e modificações nas tecnologias, ambientes, processos, condições, procedimentos e Organização do trabalho que impliquem em novos riscos ou modifiquem os riscos existentes;</div><div>• Quando identificadas inadequações, insuficiências ou ineficácias das medidas de prevenção;</div><div>• Na ocorrência de acidentes ou doenças relacionadas ao trabalho;</div><div>• Quando houver mudança nos requisitos legais aplicáveis.</div></div>
 
 No caso de organizações que possuírem certificações em sistema de gestão de SST, o prazo poderá ser de até
 
@@ -548,30 +532,13 @@ No caso de organizações que possuírem certificações em sistema de gestão d
 </div>
 <div class="page"><b>13. METODOLOGIA DO INVENTÁRIO DE RISCOS OCUPACIONAIS</b>
 
-Os dados da identificação dos perigos e das avaliações dos riscos ocupacionais devem ser consolidados em
-
-um inventário de riscos ocupacionais. O Inventário de Riscos Ocupacionais deve contemplar, no mínimo, as
-
-seguintes informações:
-
-a) Caracterização dos processos e ambientes de trabalho;
+<div class="doc-p doc-p-gap">Os dados da identificação dos perigos e das avaliações dos riscos ocupacionais devem ser consolidados em um inventário de riscos ocupacionais. O Inventário de Riscos Ocupacionais deve contemplar, no mínimo, as seguintes informações:</div>
+<div class="list-flush">a) Caracterização dos processos e ambientes de trabalho;
 b) Caracterização das atividades;
-c) Descrição de perigos e de possíveis lesões ou agravos à saúde dos trabalhadores, com a identificação das
-
-fontes ou circunstâncias, descrição de riscos gerados pelos perigos, com a indicação dos grupos de
-
-trabalhadores sujeitos a esses riscos, e descrição de medidas de prevenção implementadas;
-
-d) Dados da análise preliminar ou do monitoramento das exposições a agentes físicos, químicos e biológicos
-
-e os resultados da avaliação de ergonomia nos termos da NR-17.
-
+c) Descrição de perigos e de possíveis lesões ou agravos à saúde dos trabalhadores, com a identificação das fontes ou circunstâncias, descrição de riscos gerados pelos perigos, com a indicação dos grupos de trabalhadores sujeitos a esses riscos, e descrição de medidas de prevenção implementadas;
+d) Dados da análise preliminar ou do monitoramento das exposições a agentes físicos, químicos e biológicos e os resultados da avaliação de ergonomia nos termos da NR-17.
 e) Avaliação dos riscos, incluindo a classificação para fins de elaboração do plano de ação; e
-f) Critérios adotados para avaliação dos riscos e tomada de decisão.
-
-O inventário de riscos ocupacionais deve ser mantido atualizado. O histórico das atualizações deve ser
-
-mantido por um período mínimo de 20 (vinte) anos ou pelo período estabelecido em normatização específica.
+f) Critérios adotados para avaliação dos riscos e tomada de decisão. O inventário de riscos ocupacionais deve ser mantido atualizado. O histórico das atualizações deve ser mantido por um período mínimo de 20 (vinte) anos ou pelo período estabelecido em normatização específica.</div>
 
 <b>14. METODOLOGIA DO PLANO DE AÇÃO</b>
 
@@ -582,16 +549,12 @@ identificar a necessidade de adoção de medidas de prevenção e elaboração d
 Para as medidas de prevenção deve ser definido cronograma, formas de acompanhamento e aferição de
 resultados.
 
-A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da
-ocorrência das seguintes situações:
-
-a) Após implementação das medidas de prevenção, para avaliação de riscos residuais;
-b) Após inovações e modificações nas tecnologias, ambientes, processos, condições, procedimentos e
-
-organização do trabalho que impliquem em novos riscos ou modifiquem os riscos existentes;
+<div class="doc-p doc-p-gap">A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da ocorrência das seguintes situações:</div>
+<div class="list-flush">a) Após implementação das medidas de prevenção, para avaliação de riscos residuais;
+b) Após inovações e modificações nas tecnologias, ambientes, processos, condições, procedimentos e organização do trabalho que impliquem em novos riscos ou modifiquem os riscos existentes;
 c) Quando identificadas inadequações, insuficiências ou ineficácias das medidas de prevenção;
 d) Na ocorrência de acidentes ou doenças relacionadas ao trabalho;
-e) Quando houver mudança nos requisitos legais aplicáveis.
+e) Quando houver mudança nos requisitos legais aplicáveis.</div>
 
 A implementação das medidas de prevenção e respectivos ajustes devem ser registrados.
 
