@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Preview · Subtítulos do item 9 em negrito (PGR NR-01)</title>
+<title>Preview · Espaço após os subtítulos do item 9 (PGR NR-01)</title>
 <style>/* ===== Gerador de Documentos PGR/PCMSO — Identidade Grupo Performance =====
    Design system: azul-marinho #1F386E + acentos ciano/verde/roxo (filete tricolor). */
 
@@ -691,40 +691,31 @@ body.pv { background: #eef1f5; margin: 0; padding: 0 0 70px; }
 .pv-legend { font-size: 12px; color: var(--mut); margin: 18px 2px 0; max-width: 860px; }
 .pv-legend code { background:#fff; border:1px solid var(--borda); border-radius:4px; padding:1px 5px; }
 
-.pv-sub-list { columns: 2; column-gap: 26px; font-size: 12.5px; color: #3a4a5c; }
-.pv-sub-list div { break-inside: avoid; margin: 0 0 7px; }
-.pv-sub-list b { color: var(--azul); }
+.pv-duplo .sub-title::after { content: "\A"; white-space: pre-wrap; }
+
+.pv-cols { display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-start; }
+.pv-cols .pv-frame { background:#dfe4ea; border-radius:6px; padding:10px; }
 </style></head>
 <body class="pv">
 <div class="pv-topbar">
   <div class="t1">Grupo Performance · Gerador de Documentos</div>
-  <h1>Item 9 · nove novos subtítulos em negrito (total de 14 no item)</h1>
-  <div class="t2">PGR (NR-01) · páginas 11 a 15 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
+  <h1>Item 9 · os 9 subtítulos com apenas 1 linha em branco</h1>
+  <div class="t2">PGR (NR-01) · páginas 13 a 15 de 27 · dados de exemplo: ITATIAIA AGROPECUÁRIA LTDA / Fazenda Itatiaiuçu</div>
 </div>
 <div class="pv-wrap">
   <div class="pv-note">
-    <span class="lbl">Subtítulos que passaram a usar o bloco .sub-title (negrito 700, alinhado à esquerda, 1 linha de respiro)</span>
-    <div class="pv-sub-list" style="margin-top:8px">
-      <div><b>RESPONSABILIDADES DA EMPRESA:</b></div>
-      <div><b>IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:</b></div>
-      <div><b>ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</b></div>
-      <div><b>QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO DOS RISCOS?</b></div>
-      <div><b>COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</b></div>
-      <div><b>COMUNICAÇÃO</b></div>
-      <div><b>METODOLOGIA DE CONTROLE DOS RISCOS:</b></div>
-      <div><b>DOCUMENTAÇÃO E RELATÓRIOS:</b></div>
-      <div><b>MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:</b></div>
-    </div>
-    <div style="margin-top:10px;color:#64748B;font-size:12.5px">
-      Os dois títulos que estavam quebrados no meio pelo template (“…RISCOS / OCUPACIONAIS…” e “…IDENTIFICAÇÃO / DOS RISCOS?”)
-      passaram a ser uma linha lógica só. “DOCUMENTAÇÃO E RELATÓRIOS” ganhou os dois-pontos, igual aos demais.
-      O conteúdo abaixo de cada subtítulo não foi alterado.
+    <span class="lbl">Ajuste aplicado</span>
+    <code class="del">- margem de 1,32 em + quebra(s) de linha do template  ≈ 2 a 3 linhas em branco</code><br>
+    <code class="add">+ quebras removidas antes e depois dos 14 subtítulos: fica só a margem  = 1 linha em branco</code>
+    <div style="margin-top:8px;color:#64748B;font-size:12.5px">
+      Verificação na página gerada pelo app: <b>14 de 14</b> subtítulos sem nenhum <code>\n</code> em volta.
+      Vale para os 9 indicados agora e também para os 5 do começo do item, para o item ficar uniforme.
     </div>
   </div>
-  <div class="pv-col depois" style="margin-top:24px">
-    <h2>Páginas 13 a 15 geradas (recorte)</h2>
-    <div style="background:#dfe4ea;border-radius:0 6px 6px 6px;padding:12px">
-      <div class="doc-print" style="transform:scale(.86);transform-origin:top left;width:116%"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+  <div class="pv-cols">
+    <div class="pv-col antes">
+      <h2>Antes (≈ 2–3 linhas)</h2>
+      <div class="pv-frame"><div class="doc-print pv-duplo"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
     <td class="c-client"></td>
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
@@ -781,8 +772,7 @@ ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobr
 
 Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
 com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
-e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div><div class="doc-p doc-p-gap">Os fatores de risco psicossociais podem ser classificados em várias categorias:</div>
-<table class="doc-table pf-table">
+e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div><div class="doc-p doc-p-gap">Os fatores de risco psicossociais podem ser classificados em várias categorias:</div><table class="doc-table pf-table">
 <thead><tr><th>PERIGO (FATOR DE RISCO)</th></tr></thead>
 <tbody><tr><td>Assédio de qualquer natureza no trabalho</td></tr><tr><td>Má gestão de mudanças organizacionais</td></tr><tr><td>Baixa clareza de papel / função</td></tr><tr><td>Baixas recompensas e reconhecimento</td></tr><tr><td>Falta de suporte / apoio no trabalho</td></tr><tr><td>Baixo controle no trabalho / falta de autonomia</td></tr><tr><td>Baixa justiça organizacional</td></tr><tr><td>Eventos violentos ou traumáticos</td></tr><tr><td>Baixa demanda no trabalho (subcarga)</td></tr><tr><td>Excesso de demandas no trabalho (sobrecarga)</td></tr><tr><td>Más relacionamentos no local de trabalho</td></tr><tr><td>Trabalho em condições de difícil comunicação</td></tr><tr><td>Trabalho remoto e isolado</td></tr></tbody></table>
 <div class="doc-fonte">Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério do Trabalho, de Abril de 2025).</div>
@@ -800,8 +790,7 @@ e profissional, situações de assédio (inclusive do público externo).<div cla
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 13 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div class="sub-title">RESPONSABILIDADES DA EMPRESA:</div>
-É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os
+  </tr></tbody></table></div><div class="sub-title">RESPONSABILIDADES DA EMPRESA:</div>É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os
 fatores psicossociais.
 
 É necessário implementar as medidas de controle, inclusive para os fatores psicossociais.
@@ -810,9 +799,7 @@ A empresa incentivará a participação ativa dos trabalhadores na identificaç�
 para os fatores psicossociais.
 
 Sendo assim, além das estratégias para minimizar os riscos psicossociais, é preciso focar em ações
-direcionadas à identificação, controle e monitoramento dos mesmos.
-<div class="sub-title">IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:</div>
-Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
+direcionadas à identificação, controle e monitoramento dos mesmos.<div class="sub-title">IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:</div>Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
 
 Observações diretas (visita-técnica):
 
@@ -850,9 +837,7 @@ empresa.
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 14 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div class="sub-title">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</div>
-
-Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:
+  </tr></tbody></table></div><div class="sub-title">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</div>Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:
 
 • Grupos de discussão, através de reuniões com pequenos grupos de colaboradores para discutir
 
@@ -875,11 +860,7 @@ Análise de dados e indicadores de saúde:
 
 Realizar a análise dos resultados levantados por meio das etapas anteriores e dos indicadores de saúde
 ocupacional, como taxas de absenteísmo e relatório de incidentes a fim de mapear os riscos e estabelecer ações
-baseada em dados.
-
-<div class="sub-title">QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO DOS RISCOS?</div>
-
-Envolver os trabalhadores no processo de identificação dos riscos é crucial para garantir a precisão e a
+baseada em dados.<div class="sub-title">QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO DOS RISCOS?</div>Envolver os trabalhadores no processo de identificação dos riscos é crucial para garantir a precisão e a
 relevância das informações coletadas. Isso porque ao contrário dos riscos físicos, que são mais visíveis e
 mensuráveis, os riscos psicossociais são mais subjetivos e variam conforme as percepções dos trabalhadores.
 
@@ -907,8 +888,7 @@ de não aparente, influencia gestos, esforços, posturas, deslocamentos e comuni
     <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
     <td class="c-pag">REV. 00<br>PÁGINA 15 / 27</td>
     <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
-  </tr></tbody></table></div><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div>
-A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.
+  </tr></tbody></table></div><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div>A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.
 
 Desenvolvimento e Plano de Ação
 
@@ -923,9 +903,7 @@ Identificação e descrição dos fatores de riscos;
 • Objetivo da ação, o que se pretende alcançar com a intervenção;
 • Responsáveis, quem será responsável pela implementação da ação;
 • Recursos necessários, orçamento, tempo e outros recursos;
-• Cronograma, prazos para a execução das etapas do plano.
-<div class="sub-title">COMUNICAÇÃO</div>
-A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
+• Cronograma, prazos para a execução das etapas do plano.<div class="sub-title">COMUNICAÇÃO</div>A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
 
 • Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os
 colaboradores. Estimular um ambiente onde os trabalhadores se sintam valorizados e apoiados é
@@ -939,15 +917,11 @@ sobre as ações implementadas e sugerir melhorias.
 sobre os riscos psicossociais e a importância de um ambiente de trabalho saudável. Oferecer
 treinamentos para gestores e colaboradores sobre gestão de estresse, inteligência emocional e resolução
 de conflitos pode ser algo muito interessante e que trará ganhos muito além do ambiente
-organizacional.
-<div class="sub-title">METODOLOGIA DE CONTROLE DOS RISCOS:</div>
-Além de promover mudanças organizacionais necessárias, é essencial implementar programas de apoio
+organizacional.<div class="sub-title">METODOLOGIA DE CONTROLE DOS RISCOS:</div>Além de promover mudanças organizacionais necessárias, é essencial implementar programas de apoio
 psicológico e investir em treinamento e capacitação para que os trabalhadores desenvolvem habilidades para
 lidar com o estresse e outras pressões, contribuindo para um ambiente mais inclusivo. Além disso, no contexto
 de ações de controle, é importante adotar práticas eficientes, como o aprimoramento do formato de
-armazenamento e gestão das informações levantadas.
-<div class="sub-title">DOCUMENTAÇÃO E RELATÓRIOS:</div>
-A documentação para identificação das análises realizadas é fundamental para a gestão contínua.
+armazenamento e gestão das informações levantadas.<div class="sub-title">DOCUMENTAÇÃO E RELATÓRIOS:</div>A documentação para identificação das análises realizadas é fundamental para a gestão contínua.
 Recomenda-se:
 
 • Registro detalhado, criar fichas de risco que documentem a natureza do risco, sua avaliação e as
@@ -956,9 +930,7 @@ medidas corretivas planejadas;
 
 • Relatórios periódicos, preparar relatórios que resumem os achados e as ações recomendadas, e
 
-compartilhe-os com a alta gestão e outras partes interessadas.
-<div class="sub-title">MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:</div>
-A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam monitoradas
+compartilhe-os com a alta gestão e outras partes interessadas.<div class="sub-title">MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:</div>A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam monitoradas
 e ajustadas conforme necessário, isso pode ser feito através de:
 
 Revisões periódicas, reavaliar os riscos e as estratégias de controle regularmente;
@@ -981,9 +953,253 @@ resultado das avaliações individuais e de grupos.
       <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
     </div>
     <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
-  </div></div></div>
+  </div></div></div></div>
+      <p class="pv-zoom">Espaço excessivo entre o subtítulo e o texto.</p>
+    </div>
+    <div class="pv-col depois">
+      <h2>Depois (1 linha)</h2>
+      <div class="pv-frame"><div class="doc-print"><div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+    <td class="c-client"></td>
+    <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
+    <td class="c-pag">REV. 00<br>PÁGINA 11 / 27</td>
+    <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
+  </tr></tbody></table></div><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
+promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
+e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
+o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
+afastamento e faltas ao trabalho.
+
+Em síntese, os fatores psicossociais podem ser tantos fatores de proteção como fatores de risco para a saúde e
+segurança no trabalho.
+
+Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
+um problema ou se adaptar a um ambiente.
+
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
+doença, seja por lesão ou acidente de trabalho.
+
+A concepção de risco se vincula, neste caso, ao adoecimento em si.<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
+ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
+emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
+empresa.
+
+A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
+e o reconhecimento das conquistas dos colaboradores.<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
+física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
+trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
+físico e social (OSHA, 2023).
+
+<div class="pfoot">
+    <div class="pfoot-row">
+      <div class="lg"><img src="assets/logo.png" alt="Grupo Performance"></div>
+      <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
+    </div>
+    <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
+  </div></div>
+<div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+    <td class="c-client"></td>
+    <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
+    <td class="c-pag">REV. 00<br>PÁGINA 12 / 27</td>
+    <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
+  </tr></tbody></table></div>Os fatores psicossociais são aqueles aspectos do ambiente de trabalho que influenciam o bem-estar
+psicológico, emocional e social dos colaboradores. Eles incluem tanto as características do próprio trabalho
+quanto as relações interpessoais e organizacionais. Podem ser divididos principalmente em três categorias:
+
+Ambientais: São aqueles relacionados ao ambiente de trabalho no geral. É o caso de situações de trabalho
+com ruído acima do comum, ferramentas inadequadas, máquinas que não funcionam, trabalho em altura ou
+em espaços confinados, falta de Equipamentos de Proteção Individual (EPI), entre outros.
+
+Atividades: Se relacionam diretamente com a execução do trabalho desenvolvido pelo colaborador, e no PGR
+podem aparecer junto com outros fatores. Envolvem temas como: pressão, sobrecarga, falta de autonomia,
+ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobre as funções que desempenha.
+
+Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
+com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
+e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div><div class="doc-p doc-p-gap">Os fatores de risco psicossociais podem ser classificados em várias categorias:</div><table class="doc-table pf-table">
+<thead><tr><th>PERIGO (FATOR DE RISCO)</th></tr></thead>
+<tbody><tr><td>Assédio de qualquer natureza no trabalho</td></tr><tr><td>Má gestão de mudanças organizacionais</td></tr><tr><td>Baixa clareza de papel / função</td></tr><tr><td>Baixas recompensas e reconhecimento</td></tr><tr><td>Falta de suporte / apoio no trabalho</td></tr><tr><td>Baixo controle no trabalho / falta de autonomia</td></tr><tr><td>Baixa justiça organizacional</td></tr><tr><td>Eventos violentos ou traumáticos</td></tr><tr><td>Baixa demanda no trabalho (subcarga)</td></tr><tr><td>Excesso de demandas no trabalho (sobrecarga)</td></tr><tr><td>Más relacionamentos no local de trabalho</td></tr><tr><td>Trabalho em condições de difícil comunicação</td></tr><tr><td>Trabalho remoto e isolado</td></tr></tbody></table>
+<div class="doc-fonte">Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério do Trabalho, de Abril de 2025).</div>
+
+
+<div class="pfoot">
+    <div class="pfoot-row">
+      <div class="lg"><img src="assets/logo.png" alt="Grupo Performance"></div>
+      <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
+    </div>
+    <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
+  </div></div>
+<div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+    <td class="c-client"></td>
+    <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
+    <td class="c-pag">REV. 00<br>PÁGINA 13 / 27</td>
+    <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
+  </tr></tbody></table></div><div class="sub-title">RESPONSABILIDADES DA EMPRESA:</div>É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os
+fatores psicossociais.
+
+É necessário implementar as medidas de controle, inclusive para os fatores psicossociais.
+
+A empresa incentivará a participação ativa dos trabalhadores na identificação e gestão dos riscos, inclusive
+para os fatores psicossociais.
+
+Sendo assim, além das estratégias para minimizar os riscos psicossociais, é preciso focar em ações
+direcionadas à identificação, controle e monitoramento dos mesmos.<div class="sub-title">IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:</div>Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
+
+Observações diretas (visita-técnica):
+
+Realizar a avaliação in loco do ambiente de trabalho para identificar fatores de risco visíveis e conhecer o
+ambiente laboral.
+
+Entrevistas diagnósticas:
+
+Essa etapa tem como objetivo conhecer o trabalho real executado pelo público avaliado a fim de acessar
+aspectos que possibilitam aprofundar na execução da atividade, escutando o trabalhador sobre suas percepções
+e experiências no ambiente de trabalho.
+
+Será aplicado Formulário Anônimo de Entrevista sobre Fatores Psicossociais considerando o
+dimensionamento da empresa.
+
+Conceitos sobre Pesquisa de Clima Organizacional e Pesquisa de Identificação dos Riscos Psicossociais:
+
+A Pesquisa de Clima Organizacional avalia aspectos gerais do ambiente de trabalho e satisfação dos
+colaboradores com diversos fatores organizacionais.
+
+A Pesquisa de Identificação dos Riscos Psicossociais foca em identificar fatores específicos de risco que
+afetam a saúde mental e emocional dos colaboradores, sendo esta formalizada através do “Formulário
+Anônimo de Entrevista sobre Fatores Psicossociais em anexo” na gestão de riscos ocupacionais (GRO) da
+empresa.
+
+<div class="pfoot">
+    <div class="pfoot-row">
+      <div class="lg"><img src="assets/logo.png" alt="Grupo Performance"></div>
+      <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
+    </div>
+    <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
+  </div></div>
+<div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+    <td class="c-client"></td>
+    <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
+    <td class="c-pag">REV. 00<br>PÁGINA 14 / 27</td>
+    <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
+  </tr></tbody></table></div><div class="sub-title">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</div>Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:
+
+• Grupos de discussão, através de reuniões com pequenos grupos de colaboradores para discutir
+
+abertamente os fatores de risco percebidos;
+
+• Workshops interativos, com sessões de treinamento onde os trabalhadores aprendem sobre riscos
+psicossociais, recebem capacitação para gestão do estresse e melhoria de sua resiliência, e também o
+compartilhamento de suas experiências.
+
+• Pesquisas anônimas, através de questionários anônimos que permitem aos colaboradores expressar
+
+preocupações sem medo de retaliação.
+
+Aplicação de instrumentos de avaliação psicossocial:
+
+Realizar aplicação do Inventário Psicossocial para mensurar quais são e a gravidade dos riscos psicossociais
+percebidos pelo trabalhador no contexto de trabalho.
+
+Análise de dados e indicadores de saúde:
+
+Realizar a análise dos resultados levantados por meio das etapas anteriores e dos indicadores de saúde
+ocupacional, como taxas de absenteísmo e relatório de incidentes a fim de mapear os riscos e estabelecer ações
+baseada em dados.<div class="sub-title">QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO DOS RISCOS?</div>Envolver os trabalhadores no processo de identificação dos riscos é crucial para garantir a precisão e a
+relevância das informações coletadas. Isso porque ao contrário dos riscos físicos, que são mais visíveis e
+mensuráveis, os riscos psicossociais são mais subjetivos e variam conforme as percepções dos trabalhadores.
+
+Cardoso (2015) enfatiza que, se o objetivo é investigar de que maneira o trabalho afeta a saúde dos
+trabalhadores, é essencial que se lhes conceda a oportunidade de expressar suas percepções acerca das suas
+vivências laborais. Escutar os trabalhadores atentamente possibilita que relatem como estão enfrentando as
+demandas impostas, bem como as respostas que conseguem ou não dar às tarefas e às dificuldades cotidianas,
+além de considerar como as organizações, por exemplo, proporcionam ou não condições para a realização das
+tarefas exigidas.
+
+Entender o trabalho real auxilia no conhecimento da diversidade de ações dos trabalhadores para manter a
+produção esperada, como a regulação de incidentes, a escolha de informações relevantes, a antecipação e
+controle das ações, e o uso de raciocínios apropriados. Ainda, permite compreender como a atividade, apesar
+de não aparente, influencia gestos, esforços, posturas, deslocamentos e comunicações. (Guérin et al., 2001).
+
+<div class="pfoot">
+    <div class="pfoot-row">
+      <div class="lg"><img src="assets/logo.png" alt="Grupo Performance"></div>
+      <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
+    </div>
+    <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
+  </div></div>
+<div class="page"><div class="phead"><table class="phead-tbl"><tbody><tr>
+    <td class="c-client"></td>
+    <td class="c-title"><div class="phead-doc">PGR (NR-01)</div><div class="phead-emp">ITATIAIA AGROPECUÁRIA LTDA</div><div class="phead-unit">Fazenda Itatiaiuçu</div></td>
+    <td class="c-pag">REV. 00<br>PÁGINA 15 / 27</td>
+    <td class="c-logo"><img src="assets/logo.png" class="phead-logo" alt="Logo"></td>
+  </tr></tbody></table></div><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div>A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.
+
+Desenvolvimento e Plano de Ação
+
+O desenvolvimento do plano de ação deve ser específico, mensurável, alcançável, relevante e com prazo
+definido.
+
+Cada plano de ação deve incluir:
+
+Identificação e descrição dos fatores de riscos;
+
+•
+• Objetivo da ação, o que se pretende alcançar com a intervenção;
+• Responsáveis, quem será responsável pela implementação da ação;
+• Recursos necessários, orçamento, tempo e outros recursos;
+• Cronograma, prazos para a execução das etapas do plano.<div class="sub-title">COMUNICAÇÃO</div>A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:
+
+• Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os
+colaboradores. Estimular um ambiente onde os trabalhadores se sintam valorizados e apoiados é
+crucial. Políticas de bem-estar e espaços de diálogo que funcionam podem fazer a diferença.
+
+• Feedback (Retorno) contínuo: Criar canais para que os colaboradores possam fornecer feedback
+
+sobre as ações implementadas e sugerir melhorias.
+
+• Campanhas de conscientização: Realizar treinamentos e campanhas para aumentar a conscientização
+sobre os riscos psicossociais e a importância de um ambiente de trabalho saudável. Oferecer
+treinamentos para gestores e colaboradores sobre gestão de estresse, inteligência emocional e resolução
+de conflitos pode ser algo muito interessante e que trará ganhos muito além do ambiente
+organizacional.<div class="sub-title">METODOLOGIA DE CONTROLE DOS RISCOS:</div>Além de promover mudanças organizacionais necessárias, é essencial implementar programas de apoio
+psicológico e investir em treinamento e capacitação para que os trabalhadores desenvolvem habilidades para
+lidar com o estresse e outras pressões, contribuindo para um ambiente mais inclusivo. Além disso, no contexto
+de ações de controle, é importante adotar práticas eficientes, como o aprimoramento do formato de
+armazenamento e gestão das informações levantadas.<div class="sub-title">DOCUMENTAÇÃO E RELATÓRIOS:</div>A documentação para identificação das análises realizadas é fundamental para a gestão contínua.
+Recomenda-se:
+
+• Registro detalhado, criar fichas de risco que documentem a natureza do risco, sua avaliação e as
+
+medidas corretivas planejadas;
+
+• Relatórios periódicos, preparar relatórios que resumem os achados e as ações recomendadas, e
+
+compartilhe-os com a alta gestão e outras partes interessadas.<div class="sub-title">MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:</div>A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam monitoradas
+e ajustadas conforme necessário, isso pode ser feito através de:
+
+Revisões periódicas, reavaliar os riscos e as estratégias de controle regularmente;
+
+Feedback (Retorno) dos trabalhadores, incentivar os trabalhadores a darem retorno constante sobre o ambiente
+de trabalho e as medidas implementadas;
+
+Ajustes conforme necessário, estar disposto a modificar políticas e práticas em resposta a novas informações
+ou mudanças no ambiente de trabalho;
+
+Avaliações contínuas, realizar de forma periódica a avaliação de risco psicossocial, através de instrumentos
+validados e normatizados para a mensuração de fatores psicossociais;
+
+Análise de dados, implementar a análise de dados, através dos indicadores de saúde e segurança com o
+resultado das avaliações individuais e de grupos.
+
+<div class="pfoot">
+    <div class="pfoot-row">
+      <div class="lg"><img src="assets/logo.png" alt="Grupo Performance"></div>
+      <div class="unidades"><div class="u"><b>ITATIAIUÇU / MG</b>(31) 3572-1818 / (31) 3572-1221<br>Praça Antônio Quirino da Silva, 28 – Centro</div><div class="u"><b>ITABIRA / MG</b>(31) 3840-1883 / (31) 99757-1883<br>Av. Daniel Jardim de Grisolia, 85, 1° Andar – Centro</div><div class="u"><b>SÃO JOSÉ DO RIO PRETO / SP</b>(17) 3218-8036 / (17) 3212-8149<br>Rua Ondina, 156 e 182 – Redentora</div></div>
+    </div>
+    <div class="site">WWW.PERFORMANCEOCUPACIONAL.COM.BR</div>
+  </div></div></div></div>
+      <p class="pv-zoom">Uma <b>linha em branco</b> após cada subtítulo.</p>
     </div>
   </div>
-  <p class="pv-legend">Páginas reais do documento gerado pelo app, reduzidas para caber na tela. O app ao vivo continua na porta 8000.</p>
+  <p class="pv-legend">Coluna “antes” = as mesmas páginas com o espaço antigo recomposto por CSS, apenas para comparação.</p>
 </div>
 </body></html>
