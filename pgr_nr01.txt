@@ -233,18 +233,18 @@ os empregados e outros sem vínculo de emprego.
 <b>6. LEVANTAMENTO PRELIMINAR DE PERIGOS</b>
 O Levantamento Preliminar de Perigos deve ser realizado considerando:
 
-a) Antes do início do funcionamento do estabelecimento ou novas instalações;
+<div class="list-indent">a) Antes do início do funcionamento do estabelecimento ou novas instalações;
 b) Para as atividades existentes; e
-c) Nas mudanças e introdução de novos processos ou atividades de trabalho.
+c) Nas mudanças e introdução de novos processos ou atividades de trabalho.</div>
 
 <b>7. IDENTIFICAÇÃO DE PERIGOS</b>
 Pode ser realizado junto ao “Levantamento Preliminar de Perigos” conforme item 1.5.4.2.1.2 da NR-1.
 
 Etapas da identificação de Perigos:
 
-a) Descrição dos perigos e possíveis lesões ou agravos à saúde;
+<div class="list-indent">a) Descrição dos perigos e possíveis lesões ou agravos à saúde;
 b) Identificação das fontes ou circunstâncias; e
-c) Indicação do grupo de trabalhadores sujeitos aos riscos.
+c) Indicação do grupo de trabalhadores sujeitos aos riscos.</div>
 
 <b>8. AVALIAÇÃO DE RISCOS OCUPACIONAIS</b>
 A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seus
@@ -253,28 +253,26 @@ estabelecimentos, de forma a manter informações para adoção de medidas de pr
 A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da
 ocorrência das seguintes situações:
 
-a) Após implementação das medidas de prevenção, para avaliação de riscos residuais;
+<div class="list-indent">a) Após implementação das medidas de prevenção, para avaliação de riscos residuais;
 b) Após alterações na empresa que impliquem em novos riscos ou modifiquem os existentes;
 c) Quando houverem problemas nas medidas de prevenção;
 d) Na ocorrência de acidentes ou doenças relacionadas ao trabalho;
-e) Quando houver mudança nos requisitos legais aplicáveis.
+e) Quando houver mudança nos requisitos legais aplicáveis.</div>
 
 Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade
 das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência. A organização deve
 adotar medidas de prevenção para eliminar, reduzir ou controlar os riscos sempre que:
 
-a) Exigências previstas em Normas Regulamentadoras e nos dispositivos legais determinarem;
+<div class="list-indent">a) Exigências previstas em Normas Regulamentadoras e nos dispositivos legais determinarem;
 
 b) A classificação dos riscos ocupacionais assim determinar, conforme subitem que diz: Após a
 avaliação, os riscos ocupacionais devem ser classificados, observado para fins de identificar a
-necessidade de adoção de medidas de prevenção e elaboração do plano de ação.
+necessidade de adoção de medidas de prevenção e elaboração do plano de ação.</div>
 
 Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade
 das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência.
 
-c) Houver evidências de associação, por meio do controle médico da saúde, entre as lesões e os agravos
-
-à saúde dos trabalhadores com os riscos e as situações de trabalho identificados.
+<div class="list-indent">c) Houver evidências de associação, por meio do controle médico da saúde, entre as lesões e os agravos à saúde dos trabalhadores com os riscos e as situações de trabalho identificados.</div>
 
 </div>
 <div class="page"><div class="def-title def-title-gap"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b></div><div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
