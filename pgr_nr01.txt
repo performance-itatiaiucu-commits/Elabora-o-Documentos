@@ -6,13 +6,10 @@
 
 <p class="cover-note">Este documento deverá ser arquivado e mantido por um período de 20 anos</p>
 
-<div class="cover-info">
-<div class="cover-empresa">{{NOME_EMPRESA}}<img class="cover-client" src="{{LOGO_IMG}}" alt="Logo do cliente"></div>
+<div class="cover-info"><div class="cover-empresa">{{NOME_EMPRESA}}<img class="cover-client" src="{{LOGO_IMG}}" alt="Logo do cliente"></div>
 <div class="cover-meta">UNIDADE: {{UNIDADE}}<br>ELABORAÇÃO: {{DATA_ELABORACAO}}<br>PRAZO PARA REVISÃO: {{VIGENCIA_FINAL}}</div>
 </div>
-
 <table class="cover-hist"><thead><tr><th>REV.</th><th>DATA</th><th>HISTÓRICO</th><th>ELABORADO</th></tr></thead><tbody>{{BLOCK:revisoes}}</tbody></table>
-
 </div>
 <div class="page"><h2 class="idx-title">ÍNDICE ANALÍTICO</h2>
 
@@ -43,21 +40,16 @@
 <tr><td class="idx-n">25.</td><td class="idx-t">DISPOSIÇÕES FINAIS</td><td class="idx-p">49</td></tr>
 <tr><td class="idx-n">26.</td><td class="idx-t">ANEXOS</td><td class="idx-p">50</td></tr>
 </tbody></table>
-
 </div>
 <div class="page">{{BLOCK:empresa}}
-
 </div>
 <div class="page">{{BLOCK:elaboradora}}{{BLOCK:elaboradoraTexto}}
-
 </div>
 <div class="page"><b>3. INTRODUÇÃO “BASE LEGAL”</b>
-O PGR Programa de Gerenciamento de Riscos foi elaborado de acordo com os requisitos da Norma
-Regulamentadora (NR) 1, com redação dada pela Portaria SEPRT nº 6.730, de 09/03/2020, publicada no
-Diário Oficial da União de 12/03/2020.
 
-A organização deve implementar, por estabelecimento, o gerenciamento de riscos ocupacionais em suas
-atividades.
+O PGR Programa de Gerenciamento de Riscos foi elaborado de acordo com os requisitos da Norma Regulamentadora (NR) 1, com redação dada pela Portaria SEPRT nº 6.730, de 09/03/2020, publicada no Diário Oficial da União de 12/03/2020.
+
+A organização deve implementar, por estabelecimento, o gerenciamento de riscos ocupacionais em suas atividades.
 
 O gerenciamento de riscos ocupacionais deve constituir um Programa de Gerenciamento de Riscos - PGR.
 
@@ -66,7 +58,6 @@ O PGR pode ser implementado por unidade operacional, setor ou atividade.
 O PGR pode ser atendido por “sistemas de gestão” desde que estes cumpram os requisitos legais.
 
 <div class="doc-p doc-p-gap"><b>Todos os requisitos da NR 01 foram cumpridos neste PGR - Programa de Gerenciamento de Riscos</b></div>
-
 <b>4. ORGANIZAÇÃO</b>
 A organização deve:<div class="list-indent">a) evitar os riscos ocupacionais que possam ser originados no trabalho;
 
@@ -78,97 +69,57 @@ d) classificar os riscos ocupacionais para determinar a necessidade de adoção 
 
 e) implementar medidas de prevenção, de acordo com a classificação de risco e na ordem de prioridade
 
-f) acompanhar o controle dos riscos ocupacionais.</div>A organização deve adotar mecanismos para:<div class="list-indent">a) consultar os trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas
-as manifestações da Comissão Interna de Prevenção de Acidentes - CIPA, quando houver; e
+f) acompanhar o controle dos riscos ocupacionais.</div>A organização deve adotar mecanismos para:<div class="list-indent">a) consultar os trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas as manifestações da Comissão Interna de Prevenção de Acidentes - CIPA, quando houver; e
 
-b) comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de
-prevenção do plano de ação do PGR.</div>A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
-
+b) comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de prevenção do plano de ação do PGR.</div>A organização deve adotar as medidas necessárias para melhorar o desempenho em SST.
 </div>
 <div class="page"><div class="def-title def-title-gap"><b>5. TERMOS E DEFINIÇÕES</b></div><b>ASO:</b> Atestado de Saúde Ocupacional.
 
-<b>AGENTE FÍSICO:</b> Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz
-de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais,
-temperaturas extremas, radiações ionizantes, radiações não ionizantes.
-OBSERVAÇÃO: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem agente físico para fins da NR-09.
+<b>AGENTE FÍSICO:</b> Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais, temperaturas extremas, radiações ionizantes, radiações não ionizantes. OBSERVAÇÃO: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem agente físico para fins da NR-09.
 
-<b>AGENTE QUÍMICO:</b> Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja
-produzida, utilizada ou gerada no processo de trabalho, que em função de sua natureza, concentração e
-exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: fumos de cádmio, poeira
-mineral contendo sílica cristalina, vapores de tolueno, névoas de ácido sulfúrico.
+<b>AGENTE QUÍMICO:</b> Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja produzida, utilizada ou gerada no processo de trabalho, que em função de sua natureza, concentração e exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: fumos de cádmio, poeira mineral contendo sílica cristalina, vapores de tolueno, névoas de ácido sulfúrico.
 
-<b>ACGIH:</b> Conferência (Norte) Americana de Higienistas Industriais Governamentais (American Conference
-of Governmental Industrial Hygienists), uma organização voluntária de profissionais em higiene industrial de
-instituições governamentais ou educacionais dos EUA. A ACGIH desenvolve e publica anualmente limites
-recomendados de exposição ocupacional chamados Valores Limites de Exposição: Threshold Limit Values
-(TLV 's) para centenas de substâncias químicas, agentes físicos, e inclui Índices de Exposição a agentes
+<b>ACGIH:</b> Conferência (Norte) Americana de Higienistas Industriais Governamentais (American Conference of Governmental Industrial Hygienists), uma organização voluntária de profissionais em higiene industrial de instituições governamentais ou educacionais dos EUA. A ACGIH desenvolve e publica anualmente limites recomendados de exposição ocupacional chamados Valores Limites de Exposição: Threshold Limit Values (TLV 's) para centenas de substâncias químicas, agentes físicos, e inclui Índices de Exposição a agentes
 
 <b>BIOLÓGICOS:</b> Biological Exposure Indices (BEI).
 
-<b>ACIDENTE DE TRABALHO:</b> Aquele que acontece no exercício do trabalho a serviço da empresa, provocando lesão
-corporal ou perturbação funcional podendo causar morte, perda ou redução permanente ou temporária, da
-capacidade para o trabalho.
+<b>ACIDENTE DE TRABALHO:</b> Aquele que acontece no exercício do trabalho a serviço da empresa, provocando lesão corporal ou perturbação funcional podendo causar morte, perda ou redução permanente ou temporária, da capacidade para o trabalho.
 <div class="def-sub">EQUIPARAM-SE AOS ACIDENTES DE TRABALHO:</div>
 <div class="plist-sub"><div class="plist-item">1. O acidente que acontece quando você está prestando serviços por ordem da empresa fora do local&nbsp;de&nbsp;trabalho;</div><div class="plist-item">2. O acidente que acontece quando você estiver em viagem a serviço da empresa;</div><div class="plist-item">3. O acidente que ocorre no trajeto entre a casa e o trabalho ou do trabalho para casa;</div><div class="plist-item">4. Doença profissional (as doenças provocadas pelo tipo de trabalho);</div><div class="plist-item">5. Doença do trabalho (as doenças causadas pelas condições do trabalho);</div></div>
 
-<b>ADICIONAL DE INSALUBRIDADE:</b> Adicional que deve ser pago ao trabalhador que trabalha em condições de
-insalubridade.
-O exercício de trabalho em condições de insalubridade assegura ao trabalhador a percepção de adicional
-incidente sobre o salário mínimo da região, equivalente à: 40% para insalubridade de grau máximo; 20% para
-insalubridade de grau médio; 10% para insalubridade grau mínimo. Obs.: Deve-se sempre consultar o LTCAT para que hajam as definições nos termos da lei.
+<b>ADICIONAL DE INSALUBRIDADE:</b> Adicional que deve ser pago ao trabalhador que trabalha em condições de insalubridade. O exercício de trabalho em condições de insalubridade assegura ao trabalhador a percepção de adicional incidente sobre o salário mínimo da região, equivalente à: 40% para insalubridade de grau máximo; 20% para insalubridade de grau médio; 10% para insalubridade grau mínimo. Obs.: Deve-se sempre consultar o LTCAT para que hajam as definições nos termos da lei.
 
-<b>ADICIONAL DE PERICULOSIDADE:</b> Adicional que deve ser pago ao trabalhador que trabalha em condições de
-periculosidade. O exercício de trabalho em condições de periculosidade assegura ao trabalhador a percepção
-de 30% sobre o salário, sem acréscimos resultantes de gratificações, prêmios ou participação nos lucros da
-empresa. Obs.: Deve-se sempre consultar o Laudo de Periculosidade para que hajam as definições nos termos da lei.
-
+<b>ADICIONAL DE PERICULOSIDADE:</b> Adicional que deve ser pago ao trabalhador que trabalha em condições de periculosidade. O exercício de trabalho em condições de periculosidade assegura ao trabalhador a percepção de 30% sobre o salário, sem acréscimos resultantes de gratificações, prêmios ou participação nos lucros da empresa. Obs.: Deve-se sempre consultar o Laudo de Periculosidade para que hajam as definições nos termos da lei.
 </div>
-<div class="page"><b>ART (CREA):</b> Anotação de Responsabilidade Técnica, segundo as normas vigentes no sistema
-CONFEA/CREA.
+<div class="page"><b>ART (CREA):</b> Anotação de Responsabilidade Técnica, segundo as normas vigentes no sistema CONFEA/CREA.
 
-<b>ART (ANÁLISE DE RISCO DA TAREFA):</b> Método para análise de risco de atividades com o foco na prevenção de
-acidentes.
+<b>ART (ANÁLISE DE RISCO DA TAREFA):</b> Método para análise de risco de atividades com o foco na prevenção de acidentes.
 
-<b>AGENTE BIOLÓGICO:</b> Microrganismos, parasitas ou materiais originados de organismos que, em função de sua
-natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à saúde do trabalhador. Exemplos:
-bactéria Bacillus anthracis, vírus linfotrópico da célula T humana, príon agente de doença de Creutzfeldt-
-Jakob, fungo Coccidioides immitis.
+<b>AGENTE BIOLÓGICO:</b> Microrganismos, parasitas ou materiais originados de organismos que, em função de sua natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à saúde do trabalhador. Exemplos: bactéria Bacillus anthracis, vírus linfotrópico da célula T humana, príon agente de doença de Creutzfeldt-Jakob, fungo Coccidioides immitis.
 
-<b>CANTEIRO DE OBRA:</b> Área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução à
-construção, demolição ou reforma de uma obra.
+<b>CANTEIRO DE OBRA:</b> Área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução à construção, demolição ou reforma de uma obra.
 
 <b>CAT:</b> Comunicação de Acidente do Trabalho.
 
 <b>DORT:</b> Distúrbio Osteomuscular Relacionado ao Trabalho.
 
-<b>EPI:</b> Equipamento de Proteção Individual (Qualquer dispositivo ou vestimenta usado pelo trabalhador para
-se proteger contra riscos ambientais. Exemplos: respiradores, máscaras, luvas, botas, óculos de proteção, etc.).
+<b>EPI:</b> Equipamento de Proteção Individual (Qualquer dispositivo ou vestimenta usado pelo trabalhador para se proteger contra riscos ambientais. Exemplos: respiradores, máscaras, luvas, botas, óculos de proteção, etc.).
 
-<b>EPC:</b> Equipamento de Proteção Coletiva (É todo dispositivo, sistema, ou meio, fixo ou móvel de abrangência
-coletiva, destinado a preservar a integridade física e a saúde dos trabalhadores, usuários e terceiros).
+<b>EPC:</b> Equipamento de Proteção Coletiva (É todo dispositivo, sistema, ou meio, fixo ou móvel de abrangência coletiva, destinado a preservar a integridade física e a saúde dos trabalhadores, usuários e terceiros).
 
-<b>ERGONOMIA:</b> Ergonomia é o conjunto de conhecimentos científicos relativos ao homem e necessários à
-concepção de instrumentos, máquinas e dispositivos que possam ser utilizados com o máximo de conforto e
-eficácia. A ergonomia tem por objetivo adaptar o trabalho ao homem, bem como melhorar as condições de
-trabalho e as relações homem-máquina. A Ergonomia pode ser construtiva, corretiva e cognitiva.
+<b>ERGONOMIA:</b> Ergonomia é o conjunto de conhecimentos científicos relativos ao homem e necessários à concepção de instrumentos, máquinas e dispositivos que possam ser utilizados com o máximo de conforto e eficácia. A ergonomia tem por objetivo adaptar o trabalho ao homem, bem como melhorar as condições de trabalho e as relações homem-máquina. A Ergonomia pode ser construtiva, corretiva e cognitiva.
 
-<b>EMPREGADO:</b> A pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência
-deste e mediante salário.
+<b>EMPREGADO:</b> A pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência deste e mediante salário.
 
-<b>EMPREGADOR:</b> A empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite,
-assalaria e dirige a prestação pessoal de serviços. Equiparam-se ao empregador as organizações, os
-profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins
-lucrativos, que admitam trabalhadores como empregados.
+<b>EMPREGADOR:</b> A empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviços. Equiparam-se ao empregador as organizações, os profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins lucrativos, que admitam trabalhadores como empregados.
 
-<b>ESTABELECIMENTO:</b> Local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros, onde
-a empresa ou a organização exerce suas atividades em caráter temporário ou permanente.
+<b>ESTABELECIMENTO:</b> Local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros, onde a empresa ou a organização exerce suas atividades em caráter temporário ou permanente.
 
 <b>EVENTO PERIGOSO:</b> Ocorrência ou acontecimento com o potencial de causar lesões ou agravos à saúde.
 
 <b>FUNDACENTRO:</b> Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho.
 
 <b>FRENTE DE TRABALHO:</b> Área de trabalho móvel e temporária.
-
 </div>
 <div class="page"><b>LTCAT:</b> Laudo Técnico das Condições Ambientais do Trabalho (previsto da Lei 8213/91).
 
@@ -182,58 +133,38 @@ a empresa ou a organização exerce suas atividades em caráter temporário ou p
 
 <div class="def-title"><b>ORDEM DE SERVIÇO DE SEGURANÇA E SAÚDE NO TRABALHO:</b></div>Instruções por escrito quanto às precauções para evitar acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar contemplada em procedimentos de trabalho e outras instruções de SST.
 
-<b>ORGANIZAÇÃO:</b> Pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e
-relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a
-empresa, a empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria,
-organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou
-privada.
+<b>ORGANIZAÇÃO:</b> Pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a empresa, a empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria, organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou privada.
 
-<b>PNEUMOCONIOSE:</b> Doença do pulmão, causada pela contaminação por algum tipo de mineral ou poeira. A
-pneumoconiose recebe diversas designações de acordo com o tipo de poeira causadora da doença. A asbestose,
-a silicose são os exemplos de pneumoconiose.
+<b>PNEUMOCONIOSE:</b> Doença do pulmão, causada pela contaminação por algum tipo de mineral ou poeira. A pneumoconiose recebe diversas designações de acordo com o tipo de poeira causadora da doença. A asbestose, a silicose são os exemplos de pneumoconiose.
 
-<b>PPP:</b> O Perfil Profissiográfico Previdenciário é um documento individual do funcionário que relata todo o
-seu histórico laboral na empresa, destinado a fornecer ao INSS informações relativas à efetiva exposição, por
-parte do funcionário, à agentes nocivos a saúde. Ele utiliza informações provenientes do LTCAT e do PCMSO,
-além de informações administrativas do RH da empresa. Foi criado para fornecer dados para a aposentadoria
-especial, mas será solicitado em todas as homologações de funcionários a partir de 1. de Julho.
+<b>PPP:</b> O Perfil Profissiográfico Previdenciário é um documento individual do funcionário que relata todo o seu histórico laboral na empresa, destinado a fornecer ao INSS informações relativas à efetiva exposição, por parte do funcionário, à agentes nocivos a saúde. Ele utiliza informações provenientes do LTCAT e do PCMSO, além de informações administrativas do RH da empresa. Foi criado para fornecer dados para a aposentadoria especial, mas será solicitado em todas as homologações de funcionários a partir de 1. de Julho.
 
-<b>PGR:</b> Programa de Gerenciamento de Riscos (previsto da Norma Regulamentadora Nº 1, Portaria 3218/78,
-Lei 6514/77).
+<b>PGR:</b> Programa de Gerenciamento de Riscos (previsto da Norma Regulamentadora Nº 1, Portaria 3218/78, Lei 6514/77).
 
-<b>PCMSO:</b> Programa de Controle Médico de Saúde Ocupacional (previsto da Norma Regulamentadora Nº 7,
-Portaria 3218/78, Lei 6514/77).
+<b>PCMSO:</b> Programa de Controle Médico de Saúde Ocupacional (previsto da Norma Regulamentadora Nº 7, Portaria 3218/78, Lei 6514/77).
 
-<b>PERIGO OU FATOR DE RISCO OCUPACIONAL/ PERIGO OU FONTE DE RISCO OCUPACIONAL:</b> Fonte com o potencial de
-causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros tem o potencial
-intrínseco de dar origem a lesões ou agravos à saúde.
+<b>PERIGO OU FATOR DE RISCO OCUPACIONAL/ PERIGO OU FONTE DE RISCO OCUPACIONAL:</b> Fonte com o potencial de causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros tem o potencial intrínseco de dar origem a lesões ou agravos à saúde.
 
-<b>PREVENÇÃO:</b> O conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da
-organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais.
+<b>PREVENÇÃO:</b> O conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais.
 
-<b>RISCO:</b> Possibilidade real ou potencial capaz de causar lesão e ou morte, danos ou perdas patrimoniais,
-interrupção de processo de produção ou de afetar a comunidade ou o meio ambiente.
-
+<b>RISCO:</b> Possibilidade real ou potencial capaz de causar lesão e ou morte, danos ou perdas patrimoniais, interrupção de processo de produção ou de afetar a comunidade ou o meio ambiente.
 </div>
-<div class="page"><b>RESPONSÁVEL TÉCNICO PELA CAPACITAÇÃO:</b> Profissional legalmente habilitado ou trabalhador qualificado,
-conforme disposto em NR específica, responsável pela elaboração das capacitações e treinamentos.
+<div class="page"><b>RESPONSÁVEL TÉCNICO PELA CAPACITAÇÃO:</b> Profissional legalmente habilitado ou trabalhador qualificado, conforme disposto em NR específica, responsável pela elaboração das capacitações e treinamentos.
 
-<b>RISCO OCUPACIONAL:</b> Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados por um evento
-perigoso, exposição a agente nocivo ou exigência da atividade de trabalho e da severidade dessa lesão ou
-agravo à saúde.
+<b>RISCO OCUPACIONAL:</b> Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados por um evento perigoso, exposição a agente nocivo ou exigência da atividade de trabalho e da severidade dessa lesão ou agravo à saúde.
 
 <b>SETOR DE SERVIÇO:</b> A menor unidade administrativa ou operacional compreendida no mesmo estabelecimento.
 
-<b>SEGURANÇA DO TRABALHO:</b> Conjuntos de medidas que são adotadas visando minimizar os acidentes de trabalho,
-doenças ocupacionais, bem como proteger a integridade e a capacidade de trabalho do trabalhador.
+<b>SEGURANÇA DO TRABALHO:</b> Conjuntos de medidas que são adotadas visando minimizar os acidentes de trabalho, doenças ocupacionais, bem como proteger a integridade e a capacidade de trabalho do trabalhador.
 
-<b>TRABALHADOR:</b> Pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como
-os empregados e outros sem vínculo de emprego.
+<b>TRABALHADOR:</b> Pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como os empregados e outros sem vínculo de emprego.
 
 <b>6. LEVANTAMENTO PRELIMINAR DE PERIGOS</b>
 <div class="doc-p doc-p-gap">O Levantamento Preliminar de Perigos deve ser realizado considerando:</div>
 <div class="list-flush">a) Antes do início do funcionamento do estabelecimento ou novas instalações;
+
 b) Para as atividades existentes; e
+
 c) Nas mudanças e introdução de novos processos ou atividades de trabalho.</div>
 
 <b>7. IDENTIFICAÇÃO DE PERIGOS</b>
@@ -241,259 +172,154 @@ Pode ser realizado junto ao “Levantamento Preliminar de Perigos” conforme it
 
 <div class="doc-p doc-p-gap">Etapas da identificação de Perigos:</div>
 <div class="list-flush">a) Descrição dos perigos e possíveis lesões ou agravos à saúde;
+
 b) Identificação das fontes ou circunstâncias; e
+
 c) Indicação do grupo de trabalhadores sujeitos aos riscos.</div>
 
 <b>8. AVALIAÇÃO DE RISCOS OCUPACIONAIS</b>
-A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seus
-estabelecimentos, de forma a manter informações para adoção de medidas de prevenção.
+A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seus estabelecimentos, de forma a manter informações para adoção de medidas de prevenção.
 
-<div class="doc-p doc-p-gap">A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da
-ocorrência das seguintes situações:</div>
+<div class="doc-p doc-p-gap">A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da ocorrência das seguintes situações:</div>
 <div class="list-flush">a) Após implementação das medidas de prevenção, para avaliação de riscos residuais;
 b) Após alterações na empresa que impliquem em novos riscos ou modifiquem os existentes;
 c) Quando houverem problemas nas medidas de prevenção;
 d) Na ocorrência de acidentes ou doenças relacionadas ao trabalho;
-e) Quando houver mudança nos requisitos legais aplicáveis.</div><div class="doc-p doc-p-gap">Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade
-das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência. A organização deve
-adotar medidas de prevenção para eliminar, reduzir ou controlar os riscos sempre que:</div>
+e) Quando houver mudança nos requisitos legais aplicáveis.</div><div class="doc-p doc-p-gap">Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência. A organização deve adotar medidas de prevenção para eliminar, reduzir ou controlar os riscos sempre que:</div>
 <div class="list-flush">a) Exigências previstas em Normas Regulamentadoras e nos dispositivos legais determinarem;
 
-b) A classificação dos riscos ocupacionais assim determinar, conforme subitem que diz: Após a
-avaliação, os riscos ocupacionais devem ser classificados, observado para fins de identificar a
-necessidade de adoção de medidas de prevenção e elaboração do plano de ação.</div><div class="doc-p doc-p-gap">Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade
-das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência.</div>
+b) A classificação dos riscos ocupacionais assim determinar, conforme subitem que diz: Após a avaliação, os riscos ocupacionais devem ser classificados, observado para fins de identificar a necessidade de adoção de medidas de prevenção e elaboração do plano de ação.</div><div class="doc-p doc-p-gap">Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade das possíveis lesões ou agravos à saúde com a probabilidade ou chance de sua ocorrência.</div>
 <div class="list-flush">c) Houver evidências de associação, por meio do controle médico da saúde, entre as lesões e os agravos à saúde dos trabalhadores com os riscos e as situações de trabalho identificados.</div>
-
 </div>
 
-<div class="page"><div class="def-title def-title-gap"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b></div><div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos
-fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
-O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos,
-biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco
-psicossociais relacionados ao trabalho.
+<div class="page"><div class="def-title def-title-gap"><b>9. GERENCIAMENTO DOS FATORES PSICOSSOCIAIS NO TRABALHO</b></div><div class="doc-p">A empresa <b>{{RAZAO_SOCIAL}}</b> possui o compromisso com o gerenciamento dos fatores psicossociais no trabalho e com a sua identificação e monitoramento no ambiente de trabalho.</div>
+O gerenciamento de riscos ocupacionais abrange os riscos que decorrem dos agentes físicos, químicos, biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco psicossociais relacionados ao trabalho.
 
-A organização considera as condições de trabalho, nos termos da NR-17, incluindo os fatores de risco
-psicossociais relacionados ao trabalho.
+A organização considera as condições de trabalho, nos termos da NR-17, incluindo os fatores de risco psicossociais relacionados ao trabalho.
 
-Sobre a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de fatores ergonômicos,
-incluindo os fatores de riscos psicossociais relacionados ao trabalho, a avaliação de risco considera as
-exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas.
+Sobre a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de fatores ergonômicos, incluindo os fatores de riscos psicossociais relacionados ao trabalho, a avaliação de risco considera as exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas.
 
-Os agravos a saúde relacionados aos fatores psicossociais devem considerar os fatores de riscos e o ambiente
-ocupacional, existem situações e/ou atividades que são “estressantes” para algumas pessoas e “não
-estressantes” para outras, que fazem parte das atribuições e do desenvolvimento das atividades da empresa de
-forma regulamentada e positivada em lei, veja abaixo:
+Os agravos a saúde relacionados aos fatores psicossociais devem considerar os fatores de riscos e o ambiente ocupacional, existem situações e/ou atividades que são “estressantes” para algumas pessoas e “não estressantes” para outras, que fazem parte das atribuições e do desenvolvimento das atividades da empresa de forma regulamentada e positivada em lei, veja abaixo:
 
-Um Líder retorna para casa desanimado pois precisou demitir determinado colaborador da sua empresa, por
-motivo justificável e regulamentado em lei (ou por liberdade de escolha da empresa), porém a atividade de
-sua atribuição lhe causou o sentimento de tristeza;
+Um Líder retorna para casa desanimado pois precisou demitir determinado colaborador da sua empresa, por motivo justificável e regulamentado em lei (ou por liberdade de escolha da empresa), porém a atividade de sua atribuição lhe causou o sentimento de tristeza;
 
-O colaborador que foi desligado da empresa, neste mesmo exemplo, retorna para casa feliz, por ter um viés
-de visualizar que o término de seu contrato de trabalho como uma oportunidade para sua carreira e para novas
-rotas.
+O colaborador que foi desligado da empresa, neste mesmo exemplo, retorna para casa feliz, por ter um viés de visualizar que o término de seu contrato de trabalho como uma oportunidade para sua carreira e para novas rotas.
 
-Importante: Os fatores psicossociais “relacionados ao
-trabalho”, conforme consta na Norma
-Regulamentadora Nº1 em seu item 1.5.3.1, especifica que existem outros aspectos relacionados ao tema
-“psicossocial” que estão fora do campo do trabalho, que não estão relacionados ao trabalho desenvolvido e,
-portanto, não estão incluídos no Gerenciamento de Riscos Ocupacionais (GRO).
+Importante: Os fatores psicossociais “relacionados ao trabalho”, conforme consta na Norma Regulamentadora Nº1 em seu item 1.5.3.1, especifica que existem outros aspectos relacionados ao tema “psicossocial” que estão fora do campo do trabalho, que não estão relacionados ao trabalho desenvolvido e, portanto, não estão incluídos no Gerenciamento de Riscos Ocupacionais (GRO).
 
-É importante identificar que na avaliação dos fatores de risco psicossociais relacionados ao trabalho, trata-se
-de considerar quais os fatores da atividade de trabalho são estressores, que podem levar à ocorrência de lesões
-ou agravos à saúde do trabalhador. Não se trata de verificar sintomas individuais ou sensação do que está
-ocorrendo no trabalhador, ou de medir algum sinal biológico, por exemplo, mas de verificar as condições de
-trabalho a que ele está submetido.
+É importante identificar que na avaliação dos fatores de risco psicossociais relacionados ao trabalho, trata-se de considerar quais os fatores da atividade de trabalho são estressores, que podem levar à ocorrência de lesões ou agravos à saúde do trabalhador. Não se trata de verificar sintomas individuais ou sensação do que está ocorrendo no trabalhador, ou de medir algum sinal biológico, por exemplo, mas de verificar as condições de trabalho a que ele está submetido.
 
-Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de
-modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
+Será implementado o “Plano de Prevenção e Enfrentamento ao Assédio Moral e Sexual” para que haja de modo imediato o atendimento preventivo e Plano de Ação para buscar como meta que o assédio não aconteça.
 
 <div class="doc-p">A <b>{{NOME_EMPRESA}}</b> será responsável pela organização deste atendimento, devendo contratar, autorizar, implantar e cumprir as diretrizes do mesmo no qual será disponibilizado pelo <b>GRUPO PERFORMANCE OCUPACIONAL</b>.</div>
-
 </div>
-<div class="page"><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e
-promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação
-e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar
-o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes,
-afastamento e faltas ao trabalho.
+<div class="page"><div class="sub-title">FATORES DE RISCO PSICOSSOCIAL NO TRABALHO – POSITIVOS E NEGATIVOS</div>A interação de elementos, pode ser positiva ou negativa, ou seja, quando positiva ela facilita o trabalho e promove o desenvolvimento de competências e habilidades profissionais, bem como altos níveis de satisfação e produtividade no trabalho. Mas quando interagem negativamente, os fatores psicossociais podem prejudicar o bem estar tanto do trabalhador, como de toda a organização, elevando muitas vezes o número de acidentes, afastamento e faltas ao trabalho.
 
-Em síntese, os fatores psicossociais podem ser tantos fatores de proteção como fatores de risco para a saúde e
-segurança no trabalho.
+Em síntese, os fatores psicossociais podem ser tantos fatores de proteção como fatores de risco para a saúde e segurança no trabalho.
 
-Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver
-um problema ou se adaptar a um ambiente.
+Existe a possibilidade de haver a disposição / propensão a reagir em um certo padrão, por exemplo ao resolver um problema ou se adaptar a um ambiente.
 
-Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou
-doença, seja por lesão ou acidente de trabalho.
+Esta propensão é, por sua vez condicionada por genéticas e experiências pessoais ou ambientes anteriores.<div class="sub-title">CONCEITOS DA ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT, 1984)</div>O dano a integridade física ou mental de um trabalhador (OIT, 1984), seja na forma de um transtorno ou doença, seja por lesão ou acidente de trabalho.
 
-A concepção de risco se vincula, neste caso, ao adoecimento em si.<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no
-ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas
-emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da
-empresa.
+A concepção de risco se vincula, neste caso, ao adoecimento em si.<div class="sub-title">IMPORTÂNCIA E O FORTALECIMENTO DA CULTURA ORGANIZACIONAL:</div>A gestão dos riscos psicossociais é um elemento-chave para promover a saúde mental e o bem-estar no ambiente de trabalho. Esses riscos, que incluem estresse, ansiedade, sobrecarga e outros problemas emocionais, afetam negativamente a produtividade, a qualidade e a vida dos trabalhadores e o desempenho da empresa.
 
-A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo
-e o reconhecimento das conquistas dos colaboradores.<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e
-física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no
-trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico,
-físico e social (OSHA, 2023).
-
+A empresa deverá promover um ambiente de trabalho positivo, incentivando a colaboração, o respeito mútuo e o reconhecimento das conquistas dos colaboradores.<div class="sub-title">O QUE SÃO RISCOS PSICOSSOCIAIS NO TRABALHO:</div>Os riscos psicossociais são aqueles fatores no ambiente de trabalho que podem prejudicar a saúde mental e física dos trabalhadores. Estes riscos estão associados à forma como o trabalho é organizado, as relações no trabalho, e as condições ambientais e organizacionais que podem gerar efeitos negativos a nível psicológico, físico e social (OSHA, 2023).
 </div>
-<div class="page">Os fatores psicossociais são aqueles aspectos do ambiente de trabalho que influenciam o bem-estar
-psicológico, emocional e social dos colaboradores. Eles incluem tanto as características do próprio trabalho
-quanto as relações interpessoais e organizacionais. Podem ser divididos principalmente em três categorias:
+<div class="page">Os fatores psicossociais são aqueles aspectos do ambiente de trabalho que influenciam o bem-estar psicológico, emocional e social dos colaboradores. Eles incluem tanto as características do próprio trabalho quanto as relações interpessoais e organizacionais. Podem ser divididos principalmente em três categorias:
 
-Ambientais: São aqueles relacionados ao ambiente de trabalho no geral. É o caso de situações de trabalho
-com ruído acima do comum, ferramentas inadequadas, máquinas que não funcionam, trabalho em altura ou
-em espaços confinados, falta de Equipamentos de Proteção Individual (EPI), entre outros.
+Ambientais: São aqueles relacionados ao ambiente de trabalho no geral. É o caso de situações de trabalho com ruído acima do comum, ferramentas inadequadas, máquinas que não funcionam, trabalho em altura ou em espaços confinados, falta de Equipamentos de Proteção Individual (EPI), entre outros.
 
-Atividades: Se relacionam diretamente com a execução do trabalho desenvolvido pelo colaborador, e no PGR
-podem aparecer junto com outros fatores. Envolvem temas como: pressão, sobrecarga, falta de autonomia,
-ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobre as funções que desempenha.
+Atividades: Se relacionam diretamente com a execução do trabalho desenvolvido pelo colaborador, e no PGR podem aparecer junto com outros fatores. Envolvem temas como: pressão, sobrecarga, falta de autonomia, ritmo acelerado, repetitividade, monotonia, falta de clareza do colaborador sobre as funções que desempenha.
 
-Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações
-com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal
-e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div><div class="doc-p doc-p-gap">Os fatores de risco psicossociais podem ser classificados em várias categorias:</div><table class="doc-table pf-table">
+Gestão: São aqueles que envolvem todas as relações no trabalho. Por exemplo: clima organizacional, relações com os colegas e gestores, comunicação, reconhecimento, segurança psicológica, equilíbrio entre vida pessoal e profissional, situações de assédio (inclusive do público externo).<div class="sub-title">LISTAGEM EXEMPLIFICATIVA DE FATORES DE RISCO PSICOSSOCIAIS RELACIONADOS AO TRABALHO QUE PODEM ACARRETAR AGRAVOS À SAÚDE DO TRABALHADOR:</div><div class="doc-p doc-p-gap">Os fatores de risco psicossociais podem ser classificados em várias categorias:</div><table class="doc-table pf-table">
 <thead><tr><th>PERIGO (FATOR DE RISCO)</th></tr></thead>
 <tbody><tr><td>Assédio de qualquer natureza no trabalho</td></tr><tr><td>Má gestão de mudanças organizacionais</td></tr><tr><td>Baixa clareza de papel / função</td></tr><tr><td>Baixas recompensas e reconhecimento</td></tr><tr><td>Falta de suporte / apoio no trabalho</td></tr><tr><td>Baixo controle no trabalho / falta de autonomia</td></tr><tr><td>Baixa justiça organizacional</td></tr><tr><td>Eventos violentos ou traumáticos</td></tr><tr><td>Baixa demanda no trabalho (subcarga)</td></tr><tr><td>Excesso de demandas no trabalho (sobrecarga)</td></tr><tr><td>Más relacionamentos no local de trabalho</td></tr><tr><td>Trabalho em condições de difícil comunicação</td></tr><tr><td>Trabalho remoto e isolado</td></tr></tbody></table>
 <div class="doc-fonte">Fonte: Guia de informações sobre os fatores psicossociais relacionados ao trabalho (Publicação do Ministério do Trabalho, de Abril de 2025).</div>
-
-
 </div>
-<div class="page"><div class="sub-title">RESPONSABILIDADES DA EMPRESA:</div>É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os
-fatores psicossociais.
+<div class="page"><div class="sub-title">RESPONSABILIDADES DA EMPRESA:</div>É obrigação do empregador identificar e monitorar todos os riscos presentes no trabalho, inclusive para os fatores psicossociais.
 
 É necessário implementar as medidas de controle, inclusive para os fatores psicossociais.
 
-A empresa incentivará a participação ativa dos trabalhadores na identificação e gestão dos riscos, inclusive
-para os fatores psicossociais.
+A empresa incentivará a participação ativa dos trabalhadores na identificação e gestão dos riscos, inclusive para os fatores psicossociais.
 
-Sendo assim, além das estratégias para minimizar os riscos psicossociais, é preciso focar em ações
-direcionadas à identificação, controle e monitoramento dos mesmos.<div class="sub-title">IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:</div>Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
+Sendo assim, além das estratégias para minimizar os riscos psicossociais, é preciso focar em ações direcionadas à identificação, controle e monitoramento dos mesmos.<div class="sub-title">IDENTIFICAÇÃO DOS FATORES PSICOSSOCIAIS:</div>Identificar os fatores de riscos psicossociais requer uma abordagem abrangente que inclua:
 
 Observações diretas (visita-técnica):
 
-Realizar a avaliação in loco do ambiente de trabalho para identificar fatores de risco visíveis e conhecer o
-ambiente laboral.
+Realizar a avaliação in loco do ambiente de trabalho para identificar fatores de risco visíveis e conhecer o ambiente laboral.
 
 Entrevistas diagnósticas:
 
-Essa etapa tem como objetivo conhecer o trabalho real executado pelo público avaliado a fim de acessar
-aspectos que possibilitam aprofundar na execução da atividade, escutando o trabalhador sobre suas percepções
-e experiências no ambiente de trabalho.
+Essa etapa tem como objetivo conhecer o trabalho real executado pelo público avaliado a fim de acessar aspectos que possibilitam aprofundar na execução da atividade, escutando o trabalhador sobre suas percepções e experiências no ambiente de trabalho.
 
-Será aplicado Formulário Anônimo de Entrevista sobre Fatores Psicossociais considerando o
-dimensionamento da empresa.
+Será aplicado Formulário Anônimo de Entrevista sobre Fatores Psicossociais considerando o dimensionamento da empresa.
 
 Conceitos sobre Pesquisa de Clima Organizacional e Pesquisa de Identificação dos Riscos Psicossociais:
 
-A Pesquisa de Clima Organizacional avalia aspectos gerais do ambiente de trabalho e satisfação dos
-colaboradores com diversos fatores organizacionais.
+A Pesquisa de Clima Organizacional avalia aspectos gerais do ambiente de trabalho e satisfação dos colaboradores com diversos fatores organizacionais.
 
-A Pesquisa de Identificação dos Riscos Psicossociais foca em identificar fatores específicos de risco que
-afetam a saúde mental e emocional dos colaboradores, sendo esta formalizada através do “Formulário
-Anônimo de Entrevista sobre Fatores Psicossociais em anexo” na gestão de riscos ocupacionais (GRO) da
-empresa.
-
+A Pesquisa de Identificação dos Riscos Psicossociais foca em identificar fatores específicos de risco que afetam a saúde mental e emocional dos colaboradores, sendo esta formalizada através do “Formulário Anônimo de Entrevista sobre Fatores Psicossociais em anexo” na gestão de riscos ocupacionais (GRO) da empresa.
 </div>
 <div class="page"><div class="sub-title">ESTRATÉGIAS PARA AMPLIAR OS RESULTADOS NA GESTÃO DOS RISCOS OCUPACIONAIS, PRINCIPALMENTE DOS FATORES PSICOSSOCIAIS NO TRABALHO:</div><div class="doc-p doc-p-gap">Podem ser utilizados também como estratégias para o diagnóstico dos trabalhadores o seguinte:</div>
 <div class="bullet-list"><div>• Grupos de discussão, através de reuniões com pequenos grupos de colaboradores para discutir abertamente os fatores de risco percebidos;</div><div>• Workshops interativos, com sessões de treinamento onde os trabalhadores aprendem sobre riscos psicossociais, recebem capacitação para gestão do estresse e melhoria de sua resiliência, e também o compartilhamento de suas experiências.</div><div>• Pesquisas anônimas, através de questionários anônimos que permitem aos colaboradores expressar preocupações sem medo de retaliação.</div></div>
-
 Aplicação de instrumentos de avaliação psicossocial:
 
-Realizar aplicação do Inventário Psicossocial para mensurar quais são e a gravidade dos riscos psicossociais
-percebidos pelo trabalhador no contexto de trabalho.
+Realizar aplicação do Inventário Psicossocial para mensurar quais são e a gravidade dos riscos psicossociais percebidos pelo trabalhador no contexto de trabalho.
 
 Análise de dados e indicadores de saúde:
 
-Realizar a análise dos resultados levantados por meio das etapas anteriores e dos indicadores de saúde
-ocupacional, como taxas de absenteísmo e relatório de incidentes a fim de mapear os riscos e estabelecer ações
-baseada em dados.<div class="sub-title">QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO DOS RISCOS?</div>Envolver os trabalhadores no processo de identificação dos riscos é crucial para garantir a precisão e a
-relevância das informações coletadas. Isso porque ao contrário dos riscos físicos, que são mais visíveis e
-mensuráveis, os riscos psicossociais são mais subjetivos e variam conforme as percepções dos trabalhadores.
+Realizar a análise dos resultados levantados por meio das etapas anteriores e dos indicadores de saúde ocupacional, como taxas de absenteísmo e relatório de incidentes a fim de mapear os riscos e estabelecer ações baseada em dados.<div class="sub-title">QUAL A IMPORTÂNCIA DO ENVOLVIMENTO DOS TRABALHADORES NA IDENTIFICAÇÃO DOS RISCOS?</div>Envolver os trabalhadores no processo de identificação dos riscos é crucial para garantir a precisão e a relevância das informações coletadas. Isso porque ao contrário dos riscos físicos, que são mais visíveis e mensuráveis, os riscos psicossociais são mais subjetivos e variam conforme as percepções dos trabalhadores.
 
-Cardoso (2015) enfatiza que, se o objetivo é investigar de que maneira o trabalho afeta a saúde dos
-trabalhadores, é essencial que se lhes conceda a oportunidade de expressar suas percepções acerca das suas
-vivências laborais. Escutar os trabalhadores atentamente possibilita que relatem como estão enfrentando as
-demandas impostas, bem como as respostas que conseguem ou não dar às tarefas e às dificuldades cotidianas,
-além de considerar como as organizações, por exemplo, proporcionam ou não condições para a realização das
-tarefas exigidas.
+Cardoso (2015) enfatiza que, se o objetivo é investigar de que maneira o trabalho afeta a saúde dos trabalhadores, é essencial que se lhes conceda a oportunidade de expressar suas percepções acerca das suas vivências laborais. Escutar os trabalhadores atentamente possibilita que relatem como estão enfrentando as demandas impostas, bem como as respostas que conseguem ou não dar às tarefas e às dificuldades cotidianas, além de considerar como as organizações, por exemplo, proporcionam ou não condições para a realização das tarefas exigidas.
 
-Entender o trabalho real auxilia no conhecimento da diversidade de ações dos trabalhadores para manter a
-produção esperada, como a regulação de incidentes, a escolha de informações relevantes, a antecipação e
-controle das ações, e o uso de raciocínios apropriados. Ainda, permite compreender como a atividade, apesar
-de não aparente, influencia gestos, esforços, posturas, deslocamentos e comunicações. (Guérin et al., 2001).
-
+Entender o trabalho real auxilia no conhecimento da diversidade de ações dos trabalhadores para manter a produção esperada, como a regulação de incidentes, a escolha de informações relevantes, a antecipação e controle das ações, e o uso de raciocínios apropriados. Ainda, permite compreender como a atividade, apesar de não aparente, influencia gestos, esforços, posturas, deslocamentos e comunicações. (Guérin et al., 2001).
 </div>
-<div class="page"><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div><div class="doc-p doc-p-gap">A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.</div><div class="doc-p doc-p-gap">Desenvolvimento e Plano de Ação</div><div class="doc-p doc-p-gap">O desenvolvimento do plano de ação deve ser específico, mensurável, alcançável, relevante e com prazo definido.</div><div class="doc-p doc-p-gap">Cada plano de ação deve incluir:</div><div class="bullet-list"><div>• Identificação e descrição dos fatores de riscos;</div><div>• Objetivo da ação, o que se pretende alcançar com a intervenção;</div><div>• Responsáveis, quem será responsável pela implementação da ação;</div><div>• Recursos necessários, orçamento, tempo e outros recursos;</div><div>• Cronograma, prazos para a execução das etapas do plano.</div></div><div class="sub-title">COMUNICAÇÃO</div><div class="doc-p doc-p-gap">A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:</div><div class="bullet-list"><div>• Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os colaboradores. Estimular um ambiente onde os trabalhadores se sintam valorizados e apoiados é crucial. Políticas de bem-estar e espaços de diálogo que funcionam podem fazer a diferença.</div><div>• Feedback (Retorno) contínuo: Criar canais para que os colaboradores possam fornecer feedback sobre as ações implementadas e sugerir melhorias.</div><div>• Campanhas de conscientização: Realizar treinamentos e campanhas para aumentar a conscientização sobre os riscos psicossociais e a importância de um ambiente de trabalho saudável. Oferecer treinamentos para gestores e colaboradores sobre gestão de estresse, inteligência emocional e resolução de conflitos pode ser algo muito interessante e que trará ganhos muito além do ambiente organizacional.</div></div><div class="sub-title">METODOLOGIA DE CONTROLE DOS RISCOS:</div>Além de promover mudanças organizacionais necessárias, é essencial implementar programas de apoio
-psicológico e investir em treinamento e capacitação para que os trabalhadores desenvolvem habilidades para
-lidar com o estresse e outras pressões, contribuindo para um ambiente mais inclusivo. Além disso, no contexto
-de ações de controle, é importante adotar práticas eficientes, como o aprimoramento do formato de
-armazenamento e gestão das informações levantadas.<div class="sub-title">DOCUMENTAÇÃO E RELATÓRIOS:</div><div class="doc-p doc-p-gap">A documentação para identificação das análises realizadas é fundamental para a gestão contínua. Recomenda-se:</div><div class="bullet-list"><div>• Registro detalhado, criar fichas de risco que documentem a natureza do risco, sua avaliação e as medidas corretivas planejadas;</div><div>• Relatórios periódicos, preparar relatórios que resumem os achados e as ações recomendadas, e compartilhe-os com a alta gestão e outras partes interessadas.</div></div><div class="sub-title">MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:</div>A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam monitoradas
-e ajustadas conforme necessário, isso pode ser feito através de:
+<div class="page"><div class="sub-title">COMO MINIMIZAR OS RISCOS PSICOSSOCIAIS:</div><div class="doc-p doc-p-gap">A partir da identificação, é possível de forma subsequente já traçar ações voltadas para a mitigação dos riscos.</div><div class="doc-p doc-p-gap">Desenvolvimento e Plano de Ação</div><div class="doc-p doc-p-gap">O desenvolvimento do plano de ação deve ser específico, mensurável, alcançável, relevante e com prazo definido.</div><div class="doc-p doc-p-gap">Cada plano de ação deve incluir:</div><div class="bullet-list"><div>• Identificação e descrição dos fatores de riscos;</div><div>• Objetivo da ação, o que se pretende alcançar com a intervenção;</div><div>• Responsáveis, quem será responsável pela implementação da ação;</div><div>• Recursos necessários, orçamento, tempo e outros recursos;</div><div>• Cronograma, prazos para a execução das etapas do plano.</div></div><div class="sub-title">COMUNICAÇÃO</div><div class="doc-p doc-p-gap">A comunicação eficaz é fundamental para o sucesso das ações corretivas, recomenda-se:</div><div class="bullet-list"><div>• Transparência: Compartilhar claramente os riscos identificados e as ações planejadas com todos os colaboradores. Estimular um ambiente onde os trabalhadores se sintam valorizados e apoiados é crucial. Políticas de bem-estar e espaços de diálogo que funcionam podem fazer a diferença.</div><div>• Feedback (Retorno) contínuo: Criar canais para que os colaboradores possam fornecer feedback sobre as ações implementadas e sugerir melhorias.</div><div>• Campanhas de conscientização: Realizar treinamentos e campanhas para aumentar a conscientização sobre os riscos psicossociais e a importância de um ambiente de trabalho saudável. Oferecer treinamentos para gestores e colaboradores sobre gestão de estresse, inteligência emocional e resolução de conflitos pode ser algo muito interessante e que trará ganhos muito além do ambiente organizacional.</div></div><div class="sub-title">METODOLOGIA DE CONTROLE DOS RISCOS:</div>Além de promover mudanças organizacionais necessárias, é essencial implementar programas de apoio psicológico e investir em treinamento e capacitação para que os trabalhadores desenvolvem habilidades para lidar com o estresse e outras pressões, contribuindo para um ambiente mais inclusivo. Além disso, no contexto de ações de controle, é importante adotar práticas eficientes, como o aprimoramento do formato de armazenamento e gestão das informações levantadas.<div class="sub-title">DOCUMENTAÇÃO E RELATÓRIOS:</div><div class="doc-p doc-p-gap">A documentação para identificação das análises realizadas é fundamental para a gestão contínua. Recomenda-se:</div><div class="bullet-list"><div>• Registro detalhado, criar fichas de risco que documentem a natureza do risco, sua avaliação e as medidas corretivas planejadas;</div><div>• Relatórios periódicos, preparar relatórios que resumem os achados e as ações recomendadas, e compartilhe-os com a alta gestão e outras partes interessadas.</div></div><div class="sub-title">MONITORAMENTO E REVISÃO DOS RISCOS PSICOSSOCIAIS:</div>A gestão de riscos psicossociais é um processo contínuo, é vital que as medidas de controle sejam monitoradas e ajustadas conforme necessário, isso pode ser feito através de:
 
 Revisões periódicas, reavaliar os riscos e as estratégias de controle regularmente;
 
-Feedback (Retorno) dos trabalhadores, incentivar os trabalhadores a darem retorno constante sobre o ambiente
-de trabalho e as medidas implementadas;
+Feedback (Retorno) dos trabalhadores, incentivar os trabalhadores a darem retorno constante sobre o ambiente de trabalho e as medidas implementadas;
 
-Ajustes conforme necessário, estar disposto a modificar políticas e práticas em resposta a novas informações
-ou mudanças no ambiente de trabalho;
+Ajustes conforme necessário, estar disposto a modificar políticas e práticas em resposta a novas informações ou mudanças no ambiente de trabalho;
 
-Avaliações contínuas, realizar de forma periódica a avaliação de risco psicossocial, através de instrumentos
-validados e normatizados para a mensuração de fatores psicossociais;
+Avaliações contínuas, realizar de forma periódica a avaliação de risco psicossocial, através de instrumentos validados e normatizados para a mensuração de fatores psicossociais;
 
-Análise de dados, implementar a análise de dados, através dos indicadores de saúde e segurança com o
-resultado das avaliações individuais e de grupos.
-
+Análise de dados, implementar a análise de dados, através dos indicadores de saúde e segurança com o resultado das avaliações individuais e de grupos.
 </div>
 <div class="page"><b>10. HIERARQUIA DE MEDIDAS DE PROTEÇÃO</b>
 
 Hierarquia de controle risco é a ordem que deverá ser seguida para definir o controle de um determinado risco.
 
-<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> realizou estudos para identificação da viabilidade técnica de
-implementação das medidas de proteção de acordo com a hierarquia das medidas de proteção e definiu as
-medidas de proteção possíveis dentro de sua realidade, seguem abaixo definições da hierarquia das medidas
-de proteção:</div>
+<div class="doc-p">A <b>{{NOME_EMPRESA}}</b> realizou estudos para identificação da viabilidade técnica de implementação das medidas de proteção de acordo com a hierarquia das medidas de proteção e definiu as medidas de proteção possíveis dentro de sua realidade, seguem abaixo definições da hierarquia das medidas de proteção:</div>
 
 <div class="doc-p doc-p-gap"><b>1) ELIMINAÇÃO: eliminar o risco</b></div>
 <div class="bullet-list"><div>Eliminar um produto químico que pode ser substituído por um menos agressivo;</div><div>Substituir uma máquina ruidosa por uma que gere menos ruído;</div></div>
 <div class="doc-p doc-p-gap">Exemplo prático: Deve-se avaliar de os equipamentos, produtos químicos ou processos são realmente necessários para o processo de trabalho, pois sempre que possível devemos substituir a fonte geradora do agente nocivo.</div>
-
 <div class="doc-p doc-p-gap"><b>2) REDUÇÃO: reduzir o risco a níveis aceitáveis.</b></div>
 <div class="bullet-list"><div>Reduzir a exposição do trabalhador ao risco, através de rodízios;</div><div>Reduzir o número de máquinas em um determinado setor para diminuir o ruído;</div><div>Reduzir a quantidade de produto químico utilizado.</div></div>
 <div class="doc-p doc-p-gap">Exemplo prático: Em um processo utilizavam um produto corrosivo para limpar o verniz e tintas que ficavam impregnados nos cilindros das máquinas, porém, foi feito um teste e descobrimos que o produto misturado com água na proporção de 50% de água e 50% do produto fazia o mesmo efeito de limpeza e se tornava menos corrosivo, então foi padronizado essa diluição reduzindo o risco.</div>
-
 <div class="doc-p doc-p-gap"><b>3) ENGENHARIA: controlar os riscos através de projetos de engenharia.</b></div>
 <div class="bullet-list"><div>Colocar proteção nas partes móveis das máquina e equipamentos;</div><div>Enclausurar equipamentos;</div><div>Sistemas de ventilação.</div></div>
 <div class="doc-p doc-p-gap">Exemplo prático: Sempre que um processo for essencial para a empresa e o mesmo deverá ser mantido a engenharia deverá entrar em ação protegendo as pessoas.</div>
-
 <div class="doc-p doc-p-gap"><b>4) ADMINISTRATIVO: administrar o risco</b></div>
 <div class="bullet-list"><div>Elaborar APR;</div><div>Elabora Permissão de Trabalho;</div><div>Treinamentos e conscientização;</div><div>Placas de advertência.</div></div>
 <div class="doc-p doc-p-gap">Exemplo prático: Esse item porque vai depender do comportamento humano, toda a identificação e conscientização deverá ocorrer através de treinamentos e divulgação.</div>
-
 <div class="doc-p doc-p-gap"><b>5) EPI: tornar obrigatório o uso do EPI</b></div>
 <div class="bullet-list"><div>Conforme quadro de distribuição de EPI’s.</div></div>
 <div class="doc-p doc-p-gap">Exemplo prático: O fornecimento de EPI ocorre quando não existe controle do risco, através da minimização da exposição direta ao agente nocivo, sendo que indispensável treinamento sobre uso, guarda e conservação do uso de EPI’s.</div>
-
 <b>11. DOCUMENTAÇÃO</b>
 
 <div class="doc-p doc-p-gap">O PGR deve conter, no mínimo, os seguintes documentos:</div>
 <div class="list-flush">a) inventário de riscos; e
+
 b) plano de ação.</div>
-Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da organização, respeitado
-o disposto nas demais Normas Regulamentadoras, datados e assinados. Os documentos integrantes do PGR
-devem estar sempre disponíveis aos trabalhadores interessados ou seus representantes e à Inspeção do
-Trabalho.
+Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da organização, respeitado o disposto nas demais Normas Regulamentadoras, datados e assinados. Os documentos integrantes do PGR devem estar sempre disponíveis aos trabalhadores interessados ou seus representantes e à Inspeção do Trabalho.
 
 <b>12. REVISÃO DA AVALIAÇÃO DE RISCOS (ITEM 1.5.4.4.6)</b>
 
 <div class="doc-p doc-p-gap">No PGR, a avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da ocorrência das seguintes situações:</div>
 <div class="bullet-list"><div>• Após implementação das medidas de prevenção, para avaliação de riscos residuais;</div><div>• Após inovações e modificações nas tecnologias, ambientes, processos, condições, procedimentos e Organização do trabalho que impliquem em novos riscos ou modifiquem os riscos existentes;</div><div>• Quando identificadas inadequações, insuficiências ou ineficácias das medidas de prevenção;</div><div>• Na ocorrência de acidentes ou doenças relacionadas ao trabalho;</div><div>• Quando houver mudança nos requisitos legais aplicáveis.</div></div>
-
-No caso de organizações que possuírem certificações em sistema de gestão de SST, o prazo poderá ser de até
-
-3 (três) anos.
-
+No caso de organizações que possuírem certificações em sistema de gestão de SST, o prazo poderá ser de até 3 (três) anos.
 </div>
 <div class="page"><b>13. METODOLOGIA DO INVENTÁRIO DE RISCOS OCUPACIONAIS</b>
 
@@ -503,16 +329,14 @@ b) Caracterização das atividades;
 c) Descrição de perigos e de possíveis lesões ou agravos à saúde dos trabalhadores, com a identificação das fontes ou circunstâncias, descrição de riscos gerados pelos perigos, com a indicação dos grupos de trabalhadores sujeitos a esses riscos, e descrição de medidas de prevenção implementadas;
 d) Dados da análise preliminar ou do monitoramento das exposições a agentes físicos, químicos e biológicos e os resultados da avaliação de ergonomia nos termos da NR-17.
 e) Avaliação dos riscos, incluindo a classificação para fins de elaboração do plano de ação; e
+
 f) Critérios adotados para avaliação dos riscos e tomada de decisão. O inventário de riscos ocupacionais deve ser mantido atualizado. O histórico das atualizações deve ser mantido por um período mínimo de 20 (vinte) anos ou pelo período estabelecido em normatização específica.</div>
 
 <b>14. METODOLOGIA DO PLANO DE AÇÃO</b>
 
-A organização deve elaborar plano de ação, indicando as medidas de prevenção a serem introduzidas,
-aprimoradas ou mantidas, e após a avaliação, os riscos ocupacionais devem ser classificados, para fins de
-identificar a necessidade de adoção de medidas de prevenção e elaboração do plano de ação.
+A organização deve elaborar plano de ação, indicando as medidas de prevenção a serem introduzidas, aprimoradas ou mantidas, e após a avaliação, os riscos ocupacionais devem ser classificados, para fins de identificar a necessidade de adoção de medidas de prevenção e elaboração do plano de ação.
 
-Para as medidas de prevenção deve ser definido cronograma, formas de acompanhamento e aferição de
-resultados.
+Para as medidas de prevenção deve ser definido cronograma, formas de acompanhamento e aferição de resultados.
 
 <div class="doc-p doc-p-gap">A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da ocorrência das seguintes situações:</div>
 <div class="list-flush">a) Após implementação das medidas de prevenção, para avaliação de riscos residuais;
@@ -523,25 +347,17 @@ e) Quando houver mudança nos requisitos legais aplicáveis.</div>
 
 A implementação das medidas de prevenção e respectivos ajustes devem ser registrados.
 
-As medidas de prevenção devem ser corrigidas quando os dados obtidos no acompanhamento indicarem
-ineficácia em seu desempenho.
-
+As medidas de prevenção devem ser corrigidas quando os dados obtidos no acompanhamento indicarem ineficácia em seu desempenho.
 </div>
 <div class="page"><b>15. INFORMAÇÕES SOBRE A PRESTAÇÃO DE SERVIÇOS EM ESTABELECIMENTOS EXTERNOS OU À SERVIÇOS DE CONTRATANTES</b>
 
-Para fins de prevenção de acidentes e doenças ocupacionais e em atendimento ao PGR (Programa de
-Gerenciamento de Riscos) e Norma Regulamentadora Nº 1, devem ser observadas as condutas abaixo quando
-houver prestação de serviços em estabelecimentos externos ou à serviço de empresas contratantes:
+Para fins de prevenção de acidentes e doenças ocupacionais e em atendimento ao PGR (Programa de Gerenciamento de Riscos) e Norma Regulamentadora Nº 1, devem ser observadas as condutas abaixo quando houver prestação de serviços em estabelecimentos externos ou à serviço de empresas contratantes:
 
 A contratante deve fornece informações sobre os riscos e medidas de prevenção aos seus contratados.
 
-As organizações contratadas devem fornecer ao contratante o inventário de riscos operacionais específicos de
-suas atividades que são realizados nas dependências da contratante ou local previamente convencionado em
-contrato.
+As organizações contratadas devem fornecer ao contratante o inventário de riscos operacionais específicos de suas atividades que são realizados nas dependências da contratante ou local previamente convencionado em contrato.
 
-O PGR da empresa contratante poderá incluir as medidas de prevenção para as empresas contratadas para
-prestação de serviços que atuem em suas dependências, visando a proteção de todos os trabalhadores expostos
-aos riscos ocupacionais.
+O PGR da empresa contratante poderá incluir as medidas de prevenção para as empresas contratadas para prestação de serviços que atuem em suas dependências, visando a proteção de todos os trabalhadores expostos aos riscos ocupacionais.
 
 <b>16. PCA – PROGRAMA DE CONSERVAÇÃO AUDITIVA</b>
 
@@ -553,9 +369,7 @@ O objetivo do Programa de Conservação Auditiva é definir parâmetros de contr
 
 dos trabalhadores expostos ao ruído.
 
-Todos os locais de trabalho onde haja a possibilidade de exposição dos indivíduos a alto nível de ruído, o
-agente físico será avaliado e os trabalhadores monitorados de tal forma que sejam obtidos dados e informações
-suficientes para identificar níveis de exposição que possam ser prejudiciais a saúde do trabalhador.
+Todos os locais de trabalho onde haja a possibilidade de exposição dos indivíduos a alto nível de ruído, o agente físico será avaliado e os trabalhadores monitorados de tal forma que sejam obtidos dados e informações suficientes para identificar níveis de exposição que possam ser prejudiciais a saúde do trabalhador.
 
 Os empregados deverão receber os Equipamentos de Proteção Auditiva gratuitamente, ser treinados no
 
@@ -567,17 +381,13 @@ requisitos propostos pela OSHA (Occupational Safety and health Administration).
 
 <b>17. PPR – PROGRAMA DE PROTEÇÃO RESPIRATÓRIA</b>
 
-A elaboração do Programa de Proteção Respiratória será necessária quando houver funcionários na
-empresa expostos a Aerodispersóides acima do nível de ação conforme Instrução Normativa nº 1 do Ministério
-do Trabalho e Emprego, publicada em 11/04/1994.
+A elaboração do Programa de Proteção Respiratória será necessária quando houver funcionários na empresa expostos a Aerodispersóides acima do nível de ação conforme Instrução Normativa nº 1 do Ministério do Trabalho e Emprego, publicada em 11/04/1994.
 
 O Programa de Proteção Respiratória define parâmetros a acompanhamento dos trabalhadores expostos
 
 a Aerodispersóides.
 
-Em todas as atividades e operações em que os empregados estejam expostos a gases, vapores, poeiras,
-fumos, névoas e neblinas em concentrações acima do nível de ação, é obrigatório o uso de proteção respiratória
-adequada, especificada em função do agente e da concentração do mesmo.
+Em todas as atividades e operações em que os empregados estejam expostos a gases, vapores, poeiras, fumos, névoas e neblinas em concentrações acima do nível de ação, é obrigatório o uso de proteção respiratória adequada, especificada em função do agente e da concentração do mesmo.
 
 Os empregados deverão receber os Equipamentos de Proteção Respiratória gratuitamente, ser treinados
 
@@ -594,13 +404,11 @@ Ação
 
 Meta
 
-Responsável
-(Setor)
+Responsável (Setor)
 
 Prazo
 
-Treinamento sobre a importância e o uso correto de
-EPIs (conforme Anexo I)
+Treinamento sobre a importância e o uso correto de EPIs (conforme Anexo I)
 
 Conscientizar todos os trabalhadores
 
@@ -608,12 +416,9 @@ Fulano – TST
 
 DD/MM/AAAA
 
-Treinamento sobre Ficha FDS (Ficha de Dados de
-Segurança)
+Treinamento sobre Ficha FDS (Ficha de Dados de Segurança)
 
-Conscientizar todos os trabalhadores
-que possuam atividades com
-manipulação de produtos químicos
+Conscientizar todos os trabalhadores que possuam atividades com manipulação de produtos químicos
 
 Treinamento sobre direção defensiva
 
@@ -623,8 +428,7 @@ Fulano – TST
 
 DD/MM/AAAA
 
-Ciclano - Dono do
-Posto (sócio 1)
+Ciclano - Dono do Posto (sócio 1)
 
 DD/MM/AAAA
 
@@ -636,12 +440,7 @@ Fulano – TST
 
 DD/MM/AAAA
 
-Realizar o preenchimento da Ficha de EPI
-conforme entrega e substituição dos mesmos
-(conforme Anexo I)
-Divulgação do inventário de riscos e as medidas de
-prevenção do plano de ação do PGR (conforme
-Anexo VII)
+Realizar o preenchimento da Ficha de EPI conforme entrega e substituição dos mesmos (conforme Anexo I) Divulgação do inventário de riscos e as medidas de prevenção do plano de ação do PGR (conforme Anexo VII)
 
 Conscientizar todos os trabalhadores
 
@@ -661,32 +460,15 @@ Fulano – TST
 
 DD/MM/AAAA
 
-Resposta a curto prazo para analisar,
-monitorar, gerenciar e mitigar os
-fatores psicossociais relacionados ao
-trabalho
+Resposta a curto prazo para analisar, monitorar, gerenciar e mitigar os fatores psicossociais relacionados ao trabalho
 
-Divulgação do formulário de contribuição dos
-empregados quanto a percepção de riscos,
-implantação das medidas de prevenção (conforme
-Anexo VI)
+Divulgação do formulário de contribuição dos empregados quanto a percepção de riscos, implantação das medidas de prevenção (conforme Anexo VI)
 
 AGUARDA DEFINIÇÕES PSICOSSOCIAIS
 
-Otimização de processos
-Criação de procedimentos operacionais padrão
-(POPs) para rotinas
+Otimização de processos Criação de procedimentos operacionais padrão (POPs) para rotinas
 
-Com base no mapeamento de fatores psicossociais,
-verificou-se que a empresa obteve índice ICQ 5,00
-em todas as questões avaliadas, classificando o
-ambiente como saudável. Diante desse resultado,
-não foram identificados riscos psicossociais que
-demandem a implementação de plano de ação
-específico neste momento.
-(Empresa com índice ICQ 5.00 para todas as
-respostas)
-
+Com base no mapeamento de fatores psicossociais, verificou-se que a empresa obteve índice ICQ 5,00 em todas as questões avaliadas, classificando o ambiente como saudável. Diante desse resultado, não foram identificados riscos psicossociais que demandem a implementação de plano de ação específico neste momento. (Empresa com índice ICQ 5.00 para todas as respostas)
 </div>
 <div class="page">{{BLOCK:cronograma}}22. MATRIZ DE RISCO / TÉCNICA DE AVALIAÇÃO DE RISCO
 
@@ -729,10 +511,8 @@ informações;
 Matriz de Riscos:
 
 - A matriz de riscos deverá ser considerada para classificação e definição do nível de risco do agente nocivo.
-
 </div>
-<div class="page">MATRIZ DE
-RISCOS
+<div class="page">MATRIZ DE RISCOS
 
 PESO
 
@@ -851,80 +631,45 @@ LEVE
 
 Obs.: As classificações dos riscos foram definidas e baseadas no histórico de atividades similares.
 
-NÍVEL DE
-RISCO
+NÍVEL DE RISCO
 
-MUITO ALTO
-(igual ou maior
-que 160)
+MUITO ALTO (igual ou maior que 160)
 
-ALTO
-(80 a 128)
+ALTO (80 a 128)
 
-MÉDIO
-(26 a 64)
+MÉDIO (26 a 64)
 
-BAIXO
-(10 a 24)
+BAIXO (10 a 24)
 
-MUITO BAIXO
-(4 a 8)
+MUITO BAIXO (4 a 8)
 
 SEVERIDADE / GRAVIDADE (CLASSIFICAÇÃO)
 
-Leve
-(Normal)
+Leve (Normal)
 
-Moderada
-(Tolerável)
+Moderada (Tolerável)
 
-Grave
-(Moderado)
+Grave (Moderado)
 
-Crítica
-(Substancial)
+Crítica (Substancial)
 
-Catastrófica
-(Intolerável)
+Catastrófica (Intolerável)
 
-Remota
-Pouco
-provável
+Remota Pouco provável
 
 Ocasional
 
 Não causa lesão ao trabalhador
 
-Pode causar lesão leve sem
-afastamento ao trabalho. Algum
-caso pode apresentar apenas um
-aspecto de desconhecido.
-Pode causar lesão física
-reversível ou doença
-ocupacional com incapacidade
-parcial temporária para o
-trabalho
-Pode causar lesão física grave,
-perda de membro ou doenças
-ocupacionais com incapacidade
-parcial permanente para o
-trabalho
+Pode causar lesão leve sem afastamento ao trabalho. Algum caso pode apresentar apenas um aspecto de desconhecido. Pode causar lesão física reversível ou doença ocupacional com incapacidade parcial temporária para o trabalho Pode causar lesão física grave, perda de membro ou doenças ocupacionais com incapacidade parcial permanente para o trabalho
 
-Podem causar lesão física
-grave, doenças ocupacionais
-severas causando incapacidade
-total permanente para o
-trabalho ou morte
+Podem causar lesão física grave, doenças ocupacionais severas causando incapacidade total permanente para o trabalho ou morte
 
-O agente é desprezível desnecessário a sua
-quantificação conforme literaturas usuais
+O agente é desprezível desnecessário a sua quantificação conforme literaturas usuais
 
-O agente identificado e avaliado está abaixo
-do nível de ação
+O agente identificado e avaliado está abaixo do nível de ação
 
-O agente identificado e avaliado está acima do
-nível de ação porém abaixo do limite de
-tolerância
+O agente identificado e avaliado está acima do nível de ação porém abaixo do limite de tolerância
 
 2
 
@@ -932,18 +677,11 @@ tolerância
 
 8
 
-O agente identificado e avaliado está acima do
-limite de tolerância
+O agente identificado e avaliado está acima do limite de tolerância
 
 16
 
-O agente identificado envolve exposição a
-cancerígenos, aparece nas situações aparentes
-de risco grave e eminente, há risco aparente de
-deficiência de oxigênio e quando o agente
-possui efeitos agudos todos LT e IDLH
-(concentração imediatamente perigosa à vida /
-saúde) e está acima do limite de tolerância
+O agente identificado envolve exposição a cancerígenos, aparece nas situações aparentes de risco grave e eminente, há risco aparente de deficiência de oxigênio e quando o agente possui efeitos agudos todos LT e IDLH (concentração imediatamente perigosa à vida / saúde) e está acima do limite de tolerância
 
 32
 
@@ -962,11 +700,9 @@ Menor que 20 horas / mês ou máximo 02 horas por mês
 
 Menor que 40 horas / mês ou máximo 1 vez por semana
 
-Entre 41 horas / mês a 140 horas / mês ou no máximo que a exposição ao dia
-limitado a 4 por semana
+Entre 41 horas / mês a 140 horas / mês ou no máximo que a exposição ao dia limitado a 4 por semana
 
-Provável Maior que 140 horas / mês ou exposição diária ou mais de uma vez ao dia
-Frequente
+Provável Maior que 140 horas / mês ou exposição diária ou mais de uma vez ao dia Frequente
 
 Nenhuma atividade poderá ser realizada nestas condições
 
@@ -982,18 +718,7 @@ Alto
 
 Muito alto
 
-Nenhum controle adicional é necessário. Pode-se considerar uma solução mais econômica ou
-aperfeiçoamento que não imponham custos extras. A monitoração é recomendável para
-assegurar que os controles são mantidos
-Controle adicional é necessário. Recursos deverão ser alocados para controlar o risco. A
-monitoração é obrigatória para definir quais os controles que deverão ser mantidos
-O trabalho não deve ser iniciado até que o risco tenha sido reduzido ou neutralizado. Recursos
-consideráveis devem ser alocados para reduzir o risco. Quando o risco envolver trabalho em
-execução, ação urgente deve ser tomada. A monitoração é obrigatória para quantificar o risco
-evitando alcançar o nível de intolerável.
-O trabalho não deve ser iniciado nem continuar até que o risco tenha sido reduzido. Se não for
-possível reduzir o risco, nem com recursos ilimitados, o trabalho tem de permanecer proibido
-
+Nenhum controle adicional é necessário. Pode-se considerar uma solução mais econômica ou aperfeiçoamento que não imponham custos extras. A monitoração é recomendável para assegurar que os controles são mantidos Controle adicional é necessário. Recursos deverão ser alocados para controlar o risco. A monitoração é obrigatória para definir quais os controles que deverão ser mantidos O trabalho não deve ser iniciado até que o risco tenha sido reduzido ou neutralizado. Recursos consideráveis devem ser alocados para reduzir o risco. Quando o risco envolver trabalho em execução, ação urgente deve ser tomada. A monitoração é obrigatória para quantificar o risco evitando alcançar o nível de intolerável. O trabalho não deve ser iniciado nem continuar até que o risco tenha sido reduzido. Se não for possível reduzir o risco, nem com recursos ilimitados, o trabalho tem de permanecer proibido
 </div>
 <div class="page"><b>23. RESPONSABILIDADES</b>
 
@@ -1005,16 +730,13 @@ Empregador / Responsável Legal
 
 Cumprir e fazer cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho;
 
-Informar aos trabalhadores, quanto aos riscos existentes no local de trabalho e medidas prevenção adotadas
-para eliminação de riscos;
+Informar aos trabalhadores, quanto aos riscos existentes no local de trabalho e medidas prevenção adotadas para eliminação de riscos;
 
 Elaborar ordens de serviço sobre segurança e saúde no trabalho, dando ciência aos trabalhadores;
 
-Permitir que representantes dos trabalhadores acompanhem a fiscalização dos preceitos legais e
-regulamentares sobre segurança e saúde no trabalho;
+Permitir que representantes dos trabalhadores acompanhem a fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho;
 
-Determinar procedimentos que devem ser adotados em caso de acidente ou doença relacionada ao trabalho,
-incluindo a análise de suas causas;
+Determinar procedimentos que devem ser adotados em caso de acidente ou doença relacionada ao trabalho, incluindo a análise de suas causas;
 
 Disponibilizar à Inspeção do Trabalho todas as informações relativas à segurança e saúde no trabalho;
 
@@ -1022,15 +744,13 @@ Implementar medidas de prevenção, ouvidos os trabalhadores, de acordo com a se
 
 <b>1. Eliminação dos fatores de risco;</b>
 
-2. Minimização e controle dos fatores de risco, com a adoção de medidas administrativas ou de organização
-do trabalho;
+2. Minimização e controle dos fatores de risco, com a adoção de medidas administrativas ou de organização do trabalho;
 
 <b>3. Adoção de medidas de proteção individual.</b>
 
 Empregado
 
-Cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho, inclusive as ordens de
-serviço expedidas pelo empregador;
+Cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho, inclusive as ordens de serviço expedidas pelo empregador;
 
 Submeter-se aos exames médicos previstos nas NR;
 
@@ -1040,32 +760,19 @@ Usar o equipamento de proteção individual fornecido pelo empregador.
 
 <b>24. DISPOSIÇÕES GERAIS DO GERENCIAMENTO DE RISCOS OCUPACIONAIS</b>
 
-Sempre que várias organizações realizem, simultaneamente, atividades no mesmo local de trabalho devem
-executar ações integradas para aplicar as medidas de prevenção, visando à proteção de todos os trabalhadores
-expostos aos riscos ocupacionais.
+Sempre que várias organizações realizem, simultaneamente, atividades no mesmo local de trabalho devem executar ações integradas para aplicar as medidas de prevenção, visando à proteção de todos os trabalhadores expostos aos riscos ocupacionais.
 
-Conforme o item 1.5.8.2 da NR-1, o PGR da empresa contratante poderá incluir as medidas de prevenção para
-as empresas contratadas para prestação de serviços que atuem em suas dependências ou local previamente
-convencionado em contrato ou referenciar os programas da contratadas. As organizações contratantes devem
-fornecer às contratadas informações sobre os riscos ocupacionais sob sua gestão e que possam impactar nas
-atividades das contratadas.
+Conforme o item 1.5.8.2 da NR-1, o PGR da empresa contratante poderá incluir as medidas de prevenção para as empresas contratadas para prestação de serviços que atuem em suas dependências ou local previamente convencionado em contrato ou referenciar os programas da contratadas. As organizações contratantes devem fornecer às contratadas informações sobre os riscos ocupacionais sob sua gestão e que possam impactar nas atividades das contratadas.
 
-Conforme o item 1.5.8.3 da NR-1, as organizações contratantes devem fornecer às contratadas informações
-sobre os riscos ocupacionais sob sua gestão e que possam impactar nas atividades das contratadas.
+Conforme o item 1.5.8.3 da NR-1, as organizações contratantes devem fornecer às contratadas informações sobre os riscos ocupacionais sob sua gestão e que possam impactar nas atividades das contratadas.
 
-Conforme o item 1.5.8.4 da NR-1, as organizações contratadas devem fornecer ao contratante o Inventário de
-Riscos Ocupacionais específicos de suas atividades que são realizadas nas dependências da contratante ou
-local previamente convencionado em contrato.
+Conforme o item 1.5.8.4 da NR-1, as organizações contratadas devem fornecer ao contratante o Inventário de Riscos Ocupacionais específicos de suas atividades que são realizadas nas dependências da contratante ou local previamente convencionado em contrato.
 
 <b>25. DISPOSIÇÕES FINAIS</b>
 
-O empregador é o responsável pela prestação das informações. O não-cumprimento das disposições legais e
-regulamentares sobre segurança e saúde no trabalho acarretará a aplicação das penalidades previstas na
-legislação pertinente. Os casos omissos verificados no cumprimento das NR serão decididos pela Secretaria
-de Trabalho, ouvida a SIT.
+O empregador é o responsável pela prestação das informações. O não-cumprimento das disposições legais e regulamentares sobre segurança e saúde no trabalho acarretará a aplicação das penalidades previstas na legislação pertinente. Os casos omissos verificados no cumprimento das NR serão decididos pela Secretaria de Trabalho, ouvida a SIT.
 
-A implantação do Programa de Gerenciamento de Riscos será de responsabilidade única e exclusiva do
-empregador, que deverá inclusive, atualizar o as informações pertinentes e anexá-las ao PGR.
+A implantação do Programa de Gerenciamento de Riscos será de responsabilidade única e exclusiva do empregador, que deverá inclusive, atualizar o as informações pertinentes e anexá-las ao PGR.
 
 Este Programa de Gerenciamento de Riscos – PGR foi elaborado e aprovado por:
 
@@ -1086,7 +793,6 @@ Responsável por estabelecer, implementar e assegurar o cumprimento do PGR
 <div class="doc-p"><b>{{RAZAO_SOCIAL}}</b></div>
 
 {{CIDADE}}, {{DATA_ASSINATURA}}.
-
 </div>
 <div class="page"><b>26. ANEXOS</b>
 
@@ -1102,17 +808,13 @@ ANEXO V – IDENTIFICAÇÃO DO PROFISSIONAL ELABORADOR DO PGR
 
 ANEXO VI – PROCEDIMENTOS EM CENÁRIOS DE EMERGÊNCIAS
 
-ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO
-DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
+ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
 
-ANEXO VIII – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO
-PLANO DE AÇÃO DO PGR.
+ANEXO VIII – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO PLANO DE AÇÃO DO PGR.
 
 ANEXO IX – PRESTAÇÃO DE INFORMAÇÕES DIGIAIS E DIGITALIZAÇÃO DE DOCUMENTOS
 
-ANEXO X – REGISTROS E INFORMAÇÕES RELATIVAS AO LEVANTAMENTO E MAPEAMENTO
-DOS FATORES PSICOSSOCIAIS RELACIONADOS AO TRABALHO COM PARTICIPAÇÃO DOS
-EMPREGADOS.
+ANEXO X – REGISTROS E INFORMAÇÕES RELATIVAS AO LEVANTAMENTO E MAPEAMENTO DOS FATORES PSICOSSOCIAIS RELACIONADOS AO TRABALHO COM PARTICIPAÇÃO DOS EMPREGADOS.
 
 ANEXO I – QUADRO DE DISTRIBUIÇÃO DE EPI
 
@@ -1140,12 +842,17 @@ B
 SETOR ADMINISTRATIVO
 
 Analista de logística
+
 Auxiliar administrativo
 
 Ajudante de motorista
+
 Ajudante geral
+
 Conferente de carga
+
 Encarregado operacional
+
 Motorista comum
 
 -
@@ -1252,19 +959,13 @@ PL da Silva Edificações ME (Azulpis)
 
 FICHA INDIVIDUAL DE CONTROLE DE FORNECIMENTO DE EPI´S
 
-NOME:
-Recebi o(s) Equipamento(s) Individual abaixo discriminados para serem usados no exercício de minhas funções, de acordo com a portaria nº 3214 - NR-
-06, tendo sido devidamente treinado para usar os mesmo. Estou ciente de que o uso incorreto ou não uso, implicará em insurbodinação sujeita às sanções
-disciplinares conforme normas estabelecidas na CLT. A perda, destruição precoce, por mau uso ou falta de cuidado do EPI, fica a Empresa com o direito a
-efetuar o desconto em seu salário na forma estabelecida do art. 462 da CLT. Minhas assinaturas apostas ou rubrica no local indicado nesta ficha conforme
-minha concordância.
+NOME: Recebi o(s) Equipamento(s) Individual abaixo discriminados para serem usados no exercício de minhas funções, de acordo com a portaria nº 3214 - NR- 06, tendo sido devidamente treinado para usar os mesmo. Estou ciente de que o uso incorreto ou não uso, implicará em insurbodinação sujeita às sanções disciplinares conforme normas estabelecidas na CLT. A perda, destruição precoce, por mau uso ou falta de cuidado do EPI, fica a Empresa com o direito a efetuar o desconto em seu salário na forma estabelecida do art. 462 da CLT. Minhas assinaturas apostas ou rubrica no local indicado nesta ficha conforme minha concordância.
 
 FUNÇÃO:
 
 Data: _______/_______/__________
 
-_____________________________________________________
-Assinatura do Colaborador
+_____________________________________________________ Assinatura do Colaborador
 
 TIPO DE EPI
 
@@ -1281,7 +982,6 @@ DEVOLUÇÃO
 ASSINATURA
 
 ANEXO III – LISTA DE PRESENÇA PARA DIVULGAÇÃO DO PGR E PCMSO
-
 </div>
 <div class="page">LISTA DE PRESENÇA
 
@@ -1289,19 +989,11 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-<div class="doc-p">Evento: Divulgação do PGR (Programa de Gerenciamento de Riscos) e PCMSO
-(Programa de Controle Médico de Saúde Ocupacional)
-Período:
-Entidade/Unidade:
+<div class="doc-p">Evento: Divulgação do PGR (Programa de Gerenciamento de Riscos) e PCMSO (Programa de Controle Médico de Saúde Ocupacional) Período: Entidade/Unidade:
 <b>{{RAZAO_SOCIAL}}</b>
-Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os programas de prevenção considerados como base de referência na área de saúde e
-segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 1 (PGR).
-Conteúdo: NR 1 – Disposições Gerais; NR 7 - Programa de Controle Médico de Saúde Ocupacional.
-Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.</div>
+Objetivo: Divulgar e instruir o cliente na aplicação e instrução sobre os programas de prevenção considerados como base de referência na área de saúde e segurança ocupacional previstos na Portaria 3.214/78 em suas Normas Regulamentadoras nº 7 (PCMSO) e nº 1 (PGR). Conteúdo: NR 1 – Disposições Gerais; NR 7 - Programa de Controle Médico de Saúde Ocupacional. Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que atentem contra a honra e a dignidade humana.</div>
 
-Assinatura do Instrutor (a):
-Local:
+Assinatura do Instrutor (a): Local:
 
 Nome
 
@@ -1309,21 +1001,11 @@ CPF
 
 Assinaturas Participantes
 
-Horário:
-Dia:
+Horário: Dia:
 
 Nº
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. 2. 3. 4. 5. 6. 7. 8. 9. 10.
 
 ANEXO IV – LISTA DE PRESENÇA PARA CAPACITAÇÃO
 
@@ -1333,21 +1015,11 @@ Carga Horária:
 
 Nome do Instrutor (a):
 
-<div class="doc-p">Evento: Capacitação e Treinamento dos colaboradores em conformidade com a
-Norma Regulamentadora Nº 1 (item 1.7)
-Período:
-Entidade/Unidade:
+<div class="doc-p">Evento: Capacitação e Treinamento dos colaboradores em conformidade com a Norma Regulamentadora Nº 1 (item 1.7) Período: Entidade/Unidade:
 <b>{{RAZAO_SOCIAL}}</b>
-Objetivo: Apresentação da empresa e sua infraestrutura; Informações sobre hierarquia da empresa; Orientação sobre atividades laborais que irá executar e
-processos de trabalho que envolvem a atividade; orientações sobre procedimentos de trabalho com o foco na segurança, saúde, qualidade e preservação do
-meio ambiente; Orientação em serviço (supervisão e orientações ao trabalhador no decorrer de sua experiência profissional na empresa ou até que haja aptidão
-do mesmo para execução de suas atividades).
-Conteúdo: NR 1 – Disposições Gerais (item 1.7).
-Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que
-atentem contra a honra e a dignidade humana.</div>
+Objetivo: Apresentação da empresa e sua infraestrutura; Informações sobre hierarquia da empresa; Orientação sobre atividades laborais que irá executar e processos de trabalho que envolvem a atividade; orientações sobre procedimentos de trabalho com o foco na segurança, saúde, qualidade e preservação do meio ambiente; Orientação em serviço (supervisão e orientações ao trabalhador no decorrer de sua experiência profissional na empresa ou até que haja aptidão do mesmo para execução de suas atividades). Conteúdo: NR 1 – Disposições Gerais (item 1.7). Fica o Instrutor obrigado a observar no curso deste evento, técnicas e ou métodos que não gerem implicações que possam ser consideradas como agressões que atentem contra a honra e a dignidade humana.</div>
 
-Assinatura do Instrutor (a):
-Local:
+Assinatura do Instrutor (a): Local:
 
 Nome
 
@@ -1355,58 +1027,39 @@ CPF
 
 Assinaturas Participantes
 
-Horário:
-Dia:
+Horário: Dia:
 
 Nº
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. 2. 3. 4. 5. 6. 7. 8.
 
 ANEXO V – IDENTIFICAÇÃO DO PROFISSIONAL ELABORADOR DO PGR
 
 ANEXO VI – PROCEDIMENTOS EM CENÁRIOS DE EMERGÊNCIAS
 
-<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> será treinado na preparação para
-emergências, principalmente no tocante as atribuições dos transeuntes. Será observado no mínimo os seguintes
-procedimentos, conforme o Plano de Emergência.</div>
+<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> será treinado na preparação para emergências, principalmente no tocante as atribuições dos transeuntes. Será observado no mínimo os seguintes procedimentos, conforme o Plano de Emergência.</div>
 
 ACIONAMENTO INICIAL DE EMERGÊNCIA
 
-O acionamento interno da situação de emergência se dará através dos recursos de comunicação, como:
-telefones fixos, celulares, via rádio e/ou pessoalmente, sendo ideal o meio que esteja mais acessível e de forma
-mais rápida possível.
-Para tanto, segue abaixo a relação atual dos telefones de emergência das unidades operacionais:
+O acionamento interno da situação de emergência se dará através dos recursos de comunicação, como: telefones fixos, celulares, via rádio e/ou pessoalmente, sendo ideal o meio que esteja mais acessível e de forma mais rápida possível. Para tanto, segue abaixo a relação atual dos telefones de emergência das unidades operacionais:
 
-CONTATO DA EMPRESA PARA EMERGÊNCIA:
-EMPREGADO/FUNÇÃO
-Nome do Responsável ou Preposto
+CONTATO DA EMPRESA PARA EMERGÊNCIA: EMPREGADO/FUNÇÃO Nome do Responsável ou Preposto
 
-TELEFONES DE EMERGÊNCIA
-(XX) XXXX-XXXX
+TELEFONES DE EMERGÊNCIA (XX) XXXX-XXXX
 
 HOSPITAIS E PRONTO ATENDIMENTO CONVENIADO PARA ATENDIMENTOS ÀS
 
 EMERGÊNCIAS
 
-Policlínica Municipal de Itatiaiuçu (24 horas)
-Av. José Francisco da Silva, 404 – Centro - Itatiaiuçu/MG
+Policlínica Municipal de Itatiaiuçu (24 horas) Av. José Francisco da Silva, 404 – Centro - Itatiaiuçu/MG
 
 (31) 3572-1255
 
-Hospital Manoel Gonçalves (24 horas)
-Av. Dr. Miguel Augusto Gonçalves, 1902 - Centro – Itaúna / MG
+Hospital Manoel Gonçalves (24 horas) Av. Dr. Miguel Augusto Gonçalves, 1902 - Centro – Itaúna / MG
 
 (37) 3249-5300
 
-Hospital João XXIII (24 horas)
-Av. Prof. Alfredo Balena, 400 – Centro – Belo Horizonte / MG
+Hospital João XXIII (24 horas) Av. Prof. Alfredo Balena, 400 – Centro – Belo Horizonte / MG
 
 (31) 3239-9200
 
@@ -1416,10 +1069,7 @@ Corpo de Bombeiros Militar
 
 CEMIG
 
-Prefeitura Municipal Itatiaiuçu
-Praça Antônio Quirino da Silva, 404 – Centro – Itatiaiuçu / MG
-FEAM (Fundação Estadual do Meio Ambiente)
-Rua Espirito Santo, 495 – Centro – Belo Horizonte / MG
+Prefeitura Municipal Itatiaiuçu Praça Antônio Quirino da Silva, 404 – Centro – Itatiaiuçu / MG FEAM (Fundação Estadual do Meio Ambiente) Rua Espirito Santo, 495 – Centro – Belo Horizonte / MG
 
 116 ou (99) 08003-10196
 
@@ -1442,20 +1092,12 @@ Policia Civil
 190
 
 197
-
 </div>
-<div class="page">ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A
-PERCEPÇÃO DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
+<div class="page">ANEXO VII – FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO DE RISCOS, IMPLANTAÇÃO DAS MEDIDAS DE PREVENÇÃO
 
-<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> pode contribuir com sua percepção
-de riscos e/ou sugerir medidas de prevenção conforme seu conhecimento pessoal de modo que as informações
-serão analisadas pelo SESMT (Serviço Especializado em Engenharia de Segurança e em Medicina do
-Trabalho) ou na ausência do mesmo será analisado pela administração responsável pela empresa no
-estabelecimento.</div>
+<div class="doc-p">Todo trabalhador da <b>{{RAZAO_SOCIAL}}</b> pode contribuir com sua percepção de riscos e/ou sugerir medidas de prevenção conforme seu conhecimento pessoal de modo que as informações serão analisadas pelo SESMT (Serviço Especializado em Engenharia de Segurança e em Medicina do Trabalho) ou na ausência do mesmo será analisado pela administração responsável pela empresa no estabelecimento.</div>
 
-O formulário que estará disponível na empresa para contribuição de informações quanto a percepção de
-riscos e/ou medidas de prevenção, cujo qual deverá ser entregue ao SESMT ou administração da empresa no
-estabelecimento.
+O formulário que estará disponível na empresa para contribuição de informações quanto a percepção de riscos e/ou medidas de prevenção, cujo qual deverá ser entregue ao SESMT ou administração da empresa no estabelecimento.
 
 FORMULÁRIO DE CONTRIBUIÇÃO DOS EMPREGADOS QUANTO A PERCEPÇÃO DE
 
@@ -1479,18 +1121,15 @@ IMPLANTAÇÃO DE MEDIDAS DE
 
 PREVENÇÃO E FORMULÁRIO
 
-ANEXO VIII – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE
-PREVENÇÃO DO PLANO DE AÇÃO DO PGR.
+ANEXO VIII – DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO PLANO DE AÇÃO DO PGR.
 
 <div class="doc-p"><b>{{NOME_EMPRESA}}</b></div>
 
 ___ / ____ / ______ - DDS – Diálogo Diário de Segurança
 
-DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO PLANO
-DE AÇÃO DO PGR (PROGRAMA DE GERENCIAMENTO DE RISCOS)
+DIVULGAÇÃO DO INVENTÁRIO DE RISCOS E AS MEDIDAS DE PREVENÇÃO DO PLANO DE AÇÃO DO PGR (PROGRAMA DE GERENCIAMENTO DE RISCOS)
 
-Comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de prevenção
-do plano de ação do PGR (Programa de Gerenciamento de Riscos).
+Comunicar aos trabalhadores sobre os riscos consolidados no inventário de riscos e as medidas de prevenção do plano de ação do PGR (Programa de Gerenciamento de Riscos).
 
 Palestrante:
 
@@ -1504,51 +1143,31 @@ RG / CPF
 
 ASSINATURA
 
-ANEXO IX – PRESTAÇÃO DE INFORMAÇÕES DIGIAIS E DIGITALIZAÇÃO DE
-DOCUMENTOS
+ANEXO IX – PRESTAÇÃO DE INFORMAÇÕES DIGIAIS E DIGITALIZAÇÃO DE DOCUMENTOS
 
-Conforme consta na Norma Regulamentadora Nº 1 (Disposições Gerais), as organizações devem prestar
-informações de segurança e saúde no trabalho em formato digital, conforme modelo aprovado pela STRAB,
-ouvida a SIT.
+Conforme consta na Norma Regulamentadora Nº 1 (Disposições Gerais), as organizações devem prestar informações de segurança e saúde no trabalho em formato digital, conforme modelo aprovado pela STRAB, ouvida a SIT.
 
 Os modelos aprovados pela STRAB devem considerar os princípios de simplificação e desburocratização.
 
-Os documentos previstos nas NR podem ser emitidos e armazenados em meio digital com certificado
-digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), normatizada por
-lei específica.
+Os documentos previstos nas NR podem ser emitidos e armazenados em meio digital com certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), normatizada por lei específica.
 
-Os documentos físicos, assinados manualmente, inclusive os anteriores à vigência desta NR, podem ser
-arquivados em meio digital, pelo período correspondente exigido pela legislação própria, mediante processo
-de digitalização conforme disposto em Lei.
+Os documentos físicos, assinados manualmente, inclusive os anteriores à vigência desta NR, podem ser arquivados em meio digital, pelo período correspondente exigido pela legislação própria, mediante processo de digitalização conforme disposto em Lei.
 
-O processo de digitalização deve ser realizado de forma a manter a integridade, a autenticidade e, se
-necessário, a confidencialidade do documento digital, com o emprego de certificado digital emitido no âmbito
-da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+O processo de digitalização deve ser realizado de forma a manter a integridade, a autenticidade e, se necessário, a confidencialidade do documento digital, com o emprego de certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
 
-Os empregadores que optarem pela guarda de documentos devem manter os originais conforme previsão em
-lei.
+Os empregadores que optarem pela guarda de documentos devem manter os originais conforme previsão em lei.
 
-O empregador deve garantir a preservação de todos os documentos nato digitais ou digitalizados por meio de
-procedimentos e tecnologias que permitam verificar, a qualquer tempo, sua validade jurídica em todo território
-nacional, garantindo permanentemente sua autenticidade, integridade, disponibilidade, rastreabilidade,
-irretratabilidade, privacidade e interoperabilidade.
+O empregador deve garantir a preservação de todos os documentos nato digitais ou digitalizados por meio de procedimentos e tecnologias que permitam verificar, a qualquer tempo, sua validade jurídica em todo território nacional, garantindo permanentemente sua autenticidade, integridade, disponibilidade, rastreabilidade, irretratabilidade, privacidade e interoperabilidade.
 
-O empregador deve garantir à Inspeção do Trabalho amplo e irrestrito acesso a todos os documentos
-digitalizados ou nato digitais.
+O empregador deve garantir à Inspeção do Trabalho amplo e irrestrito acesso a todos os documentos digitalizados ou nato digitais.
 
-Para os documentos que devem estar à disposição dos trabalhadores ou dos seus representantes, a organização
-deverá prover meios de acesso destes às informações, de modo a atender os objetivos da norma específica.
-
+Para os documentos que devem estar à disposição dos trabalhadores ou dos seus representantes, a organização deverá prover meios de acesso destes às informações, de modo a atender os objetivos da norma específica.
 </div>
-<div class="page">ANEXO X – REGISTROS E INFORMAÇÕES RELATIVAS AO LEVANTAMENTO E
-MAPEAMENTO DOS FATORES PSICOSSOCIAIS RELACIONADOS AO TRABALHO
-COM PARTICIPAÇÃO DOS EMPREGADOS.
+<div class="page">ANEXO X – REGISTROS E INFORMAÇÕES RELATIVAS AO LEVANTAMENTO E MAPEAMENTO DOS FATORES PSICOSSOCIAIS RELACIONADOS AO TRABALHO COM PARTICIPAÇÃO DOS EMPREGADOS.
 
-Foi realizado pesquisa anônima com o objetivo de entender melhor o ambiente de trabalho e identificar
-possíveis fatores que possam afetar o bem-estar mental e emocional dos colaboradores.
+Foi realizado pesquisa anônima com o objetivo de entender melhor o ambiente de trabalho e identificar possíveis fatores que possam afetar o bem-estar mental e emocional dos colaboradores.
 
-Através deste levantamento / mapeamento foi realizado um estudo estatístico, reconhecimento de riscos e
-analise junto a empresa dos planos de ações pertinentes.
+Através deste levantamento / mapeamento foi realizado um estudo estatístico, reconhecimento de riscos e analise junto a empresa dos planos de ações pertinentes.
 
 O questionário apresentado aos colaboradores possui escala de pontuação entre os níveis:
 
@@ -1578,11 +1197,9 @@ Nunca
 
 5
 
-Nesta escala de pontuação o Sempre possuirá peso de maior penosidade na percepção do colaborador e o
-Nunca possuirá peso de menor penosidade.
+Nesta escala de pontuação o Sempre possuirá peso de maior penosidade na percepção do colaborador e o Nunca possuirá peso de menor penosidade.
 
-Conforme apuração de respostas será definido o “Índice de Desempenho de Risco Psicossocial (IDRP)” para
-mapear a penosidade segundo a percepção dos colaboradores.
+Conforme apuração de respostas será definido o “Índice de Desempenho de Risco Psicossocial (IDRP)” para mapear a penosidade segundo a percepção dos colaboradores.
 
 Cálculo do Índice de Desempenho de Risco Psicossocial – IDRP
 
@@ -1616,8 +1233,7 @@ Obs.: Nº total = Número total de respondentes válidos.
 
 Cálculo de Índice de Desempenho de Criticidade por Questão – ICQ
 
-Fundamentação: Para atribuir um valor numérico único a cada questão, utiliza-se a média ponderada das
-respostas, considerando o peso de penosidade de cada alternativa:
+Fundamentação: Para atribuir um valor numérico único a cada questão, utiliza-se a média ponderada das respostas, considerando o peso de penosidade de cada alternativa:
 
 Alternativa
 
@@ -1645,8 +1261,7 @@ Peso
 
 Fórmula do ICQ
 
-IDCQ = (Peso 5 x % de respostas sempre) + (Peso 4 x % de respostas frequentemente) + (Peso 3 x % de
-respostas às vezes) + (Peso 2 x % de respostas raramente) + (Peso 1 x % de respostas nunca) / 100
+IDCQ = (Peso 5 x % de respostas sempre) + (Peso 4 x % de respostas frequentemente) + (Peso 3 x % de respostas às vezes) + (Peso 2 x % de respostas raramente) + (Peso 1 x % de respostas nunca) / 100
 
 O IDCQ varia de 1,00 (todos responderam sempre) a 5,00 (todos responderam nunca).
 
@@ -1706,33 +1321,22 @@ Muito Baixo
 
 AÇÕES (RECOMENDAÇÃO)
 
-Intervenção sistêmica imediata. Auditoria de processos,
-apoio psicológico coletivo, revisão de políticas de gestão,
-comunicação institucional de crise.
+Intervenção sistêmica imediata. Auditoria de processos, apoio psicológico coletivo, revisão de políticas de gestão, comunicação institucional de crise.
 
-Plano de ação por dimensão. Capacitação de lideranças,
-revisão de carga e metas, implantação de canais de escuta,
-monitoramento mensal.
+Plano de ação por dimensão. Capacitação de lideranças, revisão de carga e metas, implantação de canais de escuta, monitoramento mensal.
 
-Ações preventivas focalizadas nas dimensões com ICQ mais
-elevado. Rodas de conversa, pesquisas de clima, campanhas
-de bem-estar.
+Ações preventivas focalizadas nas dimensões com ICQ mais elevado. Rodas de conversa, pesquisas de clima, campanhas de bem-estar.
 
-Manutenção e reforço. Reconhecimento de boas práticas,
-comunicação positiva, avaliação semestral.
+Manutenção e reforço. Reconhecimento de boas práticas, comunicação positiva, avaliação semestral.
 
-Compartilhar práticas
-monitoramento periódico, celebrar resultados.
+Compartilhar práticas monitoramento periódico, celebrar resultados.
 
 com outras
 
 áreas, manter
 
-Obs.: As ações citadas acima devem ser consideradas como referência proporcional a cada nível de risco
-identificado pelo método, havendo oportunidade também para inclusão de ações não citadas anteriormente.
-
+Obs.: As ações citadas acima devem ser consideradas como referência proporcional a cada nível de risco identificado pelo método, havendo oportunidade também para inclusão de ações não citadas anteriormente.
 </div>
 
 INSERIR GRAFICO DOS FATORES PSICOSSOCIAIS
-
 
